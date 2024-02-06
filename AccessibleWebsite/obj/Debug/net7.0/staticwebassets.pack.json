@@ -1,0 +1,649 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AccessibleWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AccessibleWebsite.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\.DS_Store",
+      "PackagePath": "staticwebassets\\Gym\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\Source\\Magnific-Popup-master.zip",
+      "PackagePath": "staticwebassets\\Gym\\Source\\Magnific-Popup-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\Source\\OwlCarousel2-2.3.4.zip",
+      "PackagePath": "staticwebassets\\Gym\\Source\\OwlCarousel2-2.3.4.zip"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\Source\\SlickNav-master.zip",
+      "PackagePath": "staticwebassets\\Gym\\Source\\SlickNav-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\Source\\bootstrap-4.4.1-dist.zip",
+      "PackagePath": "staticwebassets\\Gym\\Source\\bootstrap-4.4.1-dist.zip"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\Source\\font-awesome-4.7.0.zip",
+      "PackagePath": "staticwebassets\\Gym\\Source\\font-awesome-4.7.0.zip"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\Source\\sass.zip",
+      "PackagePath": "staticwebassets\\Gym\\Source\\sass.zip"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\about-us.html",
+      "PackagePath": "staticwebassets\\Gym\\about-us.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\blog-details.html",
+      "PackagePath": "staticwebassets\\Gym\\blog-details.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\blog.html",
+      "PackagePath": "staticwebassets\\Gym\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\classes.html",
+      "PackagePath": "staticwebassets\\Gym\\classes.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\contact.html",
+      "PackagePath": "staticwebassets\\Gym\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Gym\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Gym\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\Gym\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Gym\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\Gym\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\css\\style.css",
+      "PackagePath": "staticwebassets\\Gym\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Gym\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\gallery.html",
+      "PackagePath": "staticwebassets\\Gym\\gallery.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\about-pic.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\about-pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\about-signature.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\about-signature.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\award.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\award.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\banner-person.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\banner-person.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\bd-1.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\bd-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\bd-2.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\bd-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-9.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-detail-hero.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-detail-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-posted.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-posted.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\breadcrumb\\classes-breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\breadcrumb\\classes-breadcrumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-1.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-2.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-3.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-4.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-5.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-6.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-7.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-8.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-9.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\footer-banner\\footer-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\footer-banner\\footer-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\footer-banner\\footer-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\footer-banner\\footer-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\footer-signup.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\footer-signup.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\icon-1.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\icon\\icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\icon-2.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\icon\\icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\icon-3.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\icon\\icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\location.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\icon\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\play.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\play.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\register-pic.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\register-pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-1.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\services\\service-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-2.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\services\\service-icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-3.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\services\\service-icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-4.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\services\\service-icon-4.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-pic.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\services\\service-pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\testimonial\\quote-left.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\testimonial\\quote-left.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\testimonial\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\testimonial\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\testimonial\\testimonial-bg.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\testimonial\\testimonial-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\about-trainer-1.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\trainer\\about-trainer-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\about-trainer-2.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\trainer\\about-trainer-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\about-trainer-3.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\trainer\\about-trainer-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-1.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\trainer\\trainer-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-2.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\trainer\\trainer-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-3.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\trainer\\trainer-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\index.html",
+      "PackagePath": "staticwebassets\\Gym\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Gym\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Gym\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Gym\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\Gym\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\js\\main.js",
+      "PackagePath": "staticwebassets\\Gym\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\Gym\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\Gym\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Gym\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\main.html",
+      "PackagePath": "staticwebassets\\Gym\\main.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\Gym\\readme.txt",
+      "PackagePath": "staticwebassets\\Gym\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\AccessibleWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AccessibleWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AccessibleWebsite.props",
+      "PackagePath": "build\\AccessibleWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AccessibleWebsite.props",
+      "PackagePath": "buildMultiTargeting\\AccessibleWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AccessibleWebsite.props",
+      "PackagePath": "buildTransitive\\AccessibleWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
