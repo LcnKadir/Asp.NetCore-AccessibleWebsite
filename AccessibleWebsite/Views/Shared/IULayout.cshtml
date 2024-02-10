@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+@await Html.PartialAsync("~/Views/LayoutPartial/_HeadPartial.cshtml")
+
+<body>
+
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    @await Html.PartialAsync("~/Views/LayoutPartial/_HeaderPartial.cshtml")
+
+    @await Html.PartialAsync("~/Views/LayoutPartial/_SectionPartial.cshtml")
+
+    @RenderBody()
+
+    @await Html.PartialAsync("~/Views/LayoutPartial/_FooterPartial.cshtml")
+
+    @await Html.PartialAsync("~/Views/LayoutPartial/_ScriptPartial.cshtml")
+</body>
+
+</html>

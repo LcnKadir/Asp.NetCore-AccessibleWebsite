@@ -46,6 +46,19 @@
           }
         }
       },
+      "FluentValidation/11.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1557,6 +1570,23 @@
         "runtime": {
           "bin/placeholder/CoreLayer.dll": {}
         }
+      },
+      "RepositoryLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CoreLayer": "1.0.0",
+          "Microsoft.AspNetCore.Identity": "2.1.39",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.15",
+          "Microsoft.EntityFrameworkCore": "7.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.15"
+        },
+        "compile": {
+          "bin/placeholder/RepositoryLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RepositoryLayer.dll": {}
+        }
       }
     }
   },
@@ -1597,6 +1627,31 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FluentValidation/11.9.0": {
+      "sha512": "VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "type": "package",
+      "path": "fluentvalidation/11.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -3845,17 +3900,24 @@
       "type": "project",
       "path": "../CoreLayer/CoreLayer.csproj",
       "msbuildProject": "../CoreLayer/CoreLayer.csproj"
+    },
+    "RepositoryLayer/1.0.0": {
+      "type": "project",
+      "path": "../RepositoryLayer/RepositoryLayer.csproj",
+      "msbuildProject": "../RepositoryLayer/RepositoryLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "CoreLayer >= 1.0.0",
+      "FluentValidation >= 11.9.0",
       "Microsoft.AspNetCore.Identity >= 2.1.39",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.15",
       "Microsoft.EntityFrameworkCore >= 7.0.15",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.15",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.15"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.15",
+      "RepositoryLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3864,11 +3926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\ServiceLayer\\ServiceLayer.csproj",
+      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
-      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\ServiceLayer\\ServiceLayer.csproj",
+      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\ServiceLayer\\ServiceLayer.csproj",
       "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\ServiceLayer\\obj\\",
+      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\ServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3885,8 +3947,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\CoreLayer\\CoreLayer.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\CoreLayer\\CoreLayer.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj"
+            },
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\RepositoryLayer\\RepositoryLayer.csproj"
             }
           }
         }
@@ -3901,6 +3966,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.9.0, )"
+          },
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",
             "version": "[2.1.39, )"

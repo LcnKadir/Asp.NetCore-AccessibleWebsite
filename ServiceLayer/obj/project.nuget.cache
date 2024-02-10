@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tLwl1TVyHm9iaQHDdmcpmfvupjqTWIGPMiS1udUIvlEjqXwfXLaWzoQePjfZahK/vJb/aWTtsoNyoY/xUjn8KQ==",
+  "dgSpecHash": "A7e+aoTu0vNb66D7ewFolmUnRjzjOpnTHaMNHW06W9BDPpk4l4jbOesKuwYcIBt5LZfM6KmKFwlclV0/Zioddg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\GymWebSite\\ServiceLayer\\ServiceLayer.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\kadir\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.1\\microsoft.aspnetcore.authentication.2.1.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.1\\microsoft.aspnetcore.authentication.abstractions.2.1.1.nupkg.sha512",

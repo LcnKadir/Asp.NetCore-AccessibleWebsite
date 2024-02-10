@@ -10,21 +10,21 @@ namespace RepositoryLayer.UnitOfWorks
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private DbContext _Context;
+       private AppDbContext _appDbContext;
+       
+		public UnitOfWork(AppDbContext appDbContext)
+		{
+			_appDbContext = appDbContext;
+		}
 
-        public UnitOfWork(DbContext context)
+		public void Commit()
         {
-            _Context = context;
-        }
-
-        public void Commit()
-        {
-            _Context.SaveChanges();
+			_appDbContext.SaveChanges();
         }
 
         public async Task CommitAsync()
         {
-            await _Context.SaveChangesAsync();
+            await _appDbContext.SaveChangesAsync();
         }
     }
 }

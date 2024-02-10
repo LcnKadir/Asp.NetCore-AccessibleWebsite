@@ -2,13 +2,20 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CoreLayer.Repositories
 {
-    public interface IAppUserRepository:IGenericRepository<AppUser>
+    public interface IAppUserRepository
     {
+        Task AddAsync(AppUser appUser);
+        void Update(AppUser appUser);
+        void Remove(AppUser appUser);
+        void RemoveRange(IQueryable<AppUser> entities);
+        Task<AppUser> GetByIdAsync(int id);
+        Task<IEnumerable<AppUser>> GetAllAsync();
 
     }
 }

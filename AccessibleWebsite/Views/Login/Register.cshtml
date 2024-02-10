@@ -1,0 +1,65 @@
+﻿@model UserRegisterViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RegistrationForm_v1 by Colorlib</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet" href="~/register/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="~/register/css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper" style="~/register/background-image: url('images/bg-registration-form-1.jpg');">
+        <div class="inner">
+            <div class="~/register/image-holder">
+                <img src="~/register/images/registration-form-1.jpg" alt="">
+            </div>
+            <form action="post" >
+                <h3>Üye Kayıt Sayfası</h3>
+                <div class="form-group">
+                    <input asp-for="Name" type="text" asp-controller="Login" asp-action="Register" placeholder="Adınız" class="form-control">
+                    <span asp-validation-for="Name"></span>
+
+                    <input asp-for="Surname" type="text" asp-controller="Login" asp-action="Register" placeholder="SoyAdınız" class="form-control">
+                    <span asp-validation-for="Surname"></span>
+                </div>
+                <div class="form-wrapper">
+                    <input asp-for="UserName" type="text" asp-controller="Login" asp-action="Register" placeholder="Kullanıcı Adınız" class="form-control">
+                    <span asp-validation-for="UserName"></span>
+                    <i class="zmdi zmdi-account"></i>
+                </div>
+                <div class="form-wrapper">
+                    <input asp-for="Email" type="text" asp-controller="Login" asp-action="Register" placeholder="Email Adresiniz" class="form-control">
+                    <span asp-validation-for="Email"></span>
+                    <i class="zmdi zmdi-email"></i>
+                </div>
+                <div class="form-wrapper">
+                    <input asp-for="Password" type="password" asp-controller="Login" asp-action="Register" placeholder="Şifreniz" class="form-control">
+                    <span asp-validation-for="Password"></span>
+                    <i class="zmdi zmdi-lock"></i>
+                </div>
+                <div class="form-wrapper">
+                    <input asp-for="ConfirmPassword" type="password" asp-controller="Login" asp-action="Register" placeholder="Şifre Tekrar" class="form-control">
+                    <span asp-validation-for="ConfirmPassword"></span>
+                    <i class="zmdi zmdi-lock"></i>
+                </div>
+                <button>
+                   Kayıt Ol
+                    <i class="zmdi zmdi-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
