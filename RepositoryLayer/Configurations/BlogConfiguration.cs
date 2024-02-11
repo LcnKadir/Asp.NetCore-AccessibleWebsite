@@ -15,9 +15,9 @@ namespace RepositoryLayer.Configurations
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
-            builder.Property(x => x.Description).IsRequired();
-            builder.Property(x => x.Title).IsRequired();
-            builder.Property(x=> x.Image).IsRequired();
+            builder.Property(x => x.Title).IsRequired().HasMaxLength(10);
+            builder.Property(x => x.Description).IsRequired().HasMaxLength(50);
+            builder.Ignore(x => x.Image);
 
 
             //Bloğun bir çok yorumu olabilir fakat, bloğun silinmesi halinde ait olduğu yorumlarda silinsin.

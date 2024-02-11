@@ -13,6 +13,8 @@ namespace CoreLayer.Models
         public string Image { get; set; }
         public string TrainerId { get; set; }
         public Trainer Trainer { get; set; }
+        public int AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
 
 
         public ICollection<Comment> Comments { get; set; }

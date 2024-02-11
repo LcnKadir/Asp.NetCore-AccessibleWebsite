@@ -126,7 +126,6 @@ namespace RepositoryLayer.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Age")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -207,6 +206,9 @@ namespace RepositoryLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
@@ -233,6 +235,8 @@ namespace RepositoryLayer.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
 
                     b.HasIndex("TrainerId1");
 
@@ -436,11 +440,19 @@ namespace RepositoryLayer.Migrations
 
             modelBuilder.Entity("CoreLayer.Models.Blog", b =>
                 {
+                    b.HasOne("CoreLayer.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("CoreLayer.Models.Trainer", "Trainer")
                         .WithMany("Blogs")
                         .HasForeignKey("TrainerId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("AppUser");
 
                     b.Navigation("Trainer");
                 });

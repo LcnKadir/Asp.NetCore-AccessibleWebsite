@@ -140,21 +140,26 @@
                         </div>
                         <div class="leave-comment">
                             <h3>Yorumlar</h3>
-                            
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <input type="text" placeholder="Name">
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <input type="text" placeholder="Email">
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <textarea placeholder="Messages"></textarea>
-                                        <button type="submit">Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
+                            @foreach (var item in Model.Comments)
+                            {
+                               @*  @if (User.Identity.IsAuthenticated)
+                                { *@
+                                    <form method="post" asp-controller="Blog" asp-action="AddComment">
+                                        @* <input type="text" name="BlogId" value="@Model.Id" /> *@
+                                        <input type="text" name="AppUserId" value="@ViewBag.AppuserId">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
+                                                <button type="submit">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                               @*  }
+                                else
+                                {
+                                    <h2>Lütfen Yorum Yapabilmek için kayıt olunuz...</h2>
+                                } *@
+                            }
                         </div>
                     </div>
                 </div>
