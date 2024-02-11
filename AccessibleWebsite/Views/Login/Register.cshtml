@@ -24,33 +24,33 @@
             <div class="~/register/image-holder">
                 <img src="~/register/images/registration-form-1.jpg" alt="">
             </div>
-            <form action="post" >
+            <form action="post" asp-action="Register" asp-controller="Login" >
                 <h3>Üye Kayıt Sayfası</h3>
                 <div class="form-group">
                     <input asp-for="Name" type="text" asp-controller="Login" asp-action="Register" placeholder="Adınız" class="form-control">
-                    <span asp-validation-for="Name"></span>
+                    <span asp-validation-for="Name" class="text-danger"></span>
 
                     <input asp-for="Surname" type="text" asp-controller="Login" asp-action="Register" placeholder="SoyAdınız" class="form-control">
-                    <span asp-validation-for="Surname"></span>
+                    <span asp-validation-for="Surname" class="text-danger"></span>
                 </div>
                 <div class="form-wrapper">
                     <input asp-for="UserName" type="text" asp-controller="Login" asp-action="Register" placeholder="Kullanıcı Adınız" class="form-control">
-                    <span asp-validation-for="UserName"></span>
+                    <span asp-validation-for="UserName" class="text-danger"></span>
                     <i class="zmdi zmdi-account"></i>
                 </div>
                 <div class="form-wrapper">
                     <input asp-for="Email" type="text" asp-controller="Login" asp-action="Register" placeholder="Email Adresiniz" class="form-control">
-                    <span asp-validation-for="Email"></span>
+                    <span asp-validation-for="Email" class="text-danger"></span>
                     <i class="zmdi zmdi-email"></i>
                 </div>
                 <div class="form-wrapper">
                     <input asp-for="Password" type="password" asp-controller="Login" asp-action="Register" placeholder="Şifreniz" class="form-control">
-                    <span asp-validation-for="Password"></span>
+                    <span asp-validation-for="Password" class="text-danger"></span>
                     <i class="zmdi zmdi-lock"></i>
                 </div>
                 <div class="form-wrapper">
                     <input asp-for="ConfirmPassword" type="password" asp-controller="Login" asp-action="Register" placeholder="Şifre Tekrar" class="form-control">
-                    <span asp-validation-for="ConfirmPassword"></span>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                     <i class="zmdi zmdi-lock"></i>
                 </div>
                 <button>
