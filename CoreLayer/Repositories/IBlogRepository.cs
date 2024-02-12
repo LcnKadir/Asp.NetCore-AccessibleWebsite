@@ -17,5 +17,8 @@ namespace CoreLayer.Repositories
         void RemoveRange(IQueryable<Blog> entities);
         Task<Blog> GetByIdAsync(int id);
         Task<IEnumerable<Blog>> GetAllAsync();
+        
+        public Task<Blog> GetBlogAsync(int id);
+        public Task<List<Blog>> GetBlogWtihTrainer(); 
     }
 }

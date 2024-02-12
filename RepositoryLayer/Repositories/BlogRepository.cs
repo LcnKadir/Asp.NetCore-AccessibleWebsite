@@ -31,6 +31,16 @@ namespace RepositoryLayer.Repositories
             return await _DbSet.ToListAsync();
         }
 
+        public async Task<Blog> GetBlogAsync(int id)
+        {
+            return await _context.Blogs.Include(x=> x.AppUser).Include(x=> x.Comments).Where(x=> x.Id == id).FirstOrDefaultAsync();
+        }
+
+        public async Task<List<Blog>> GetBlogWtihTrainer()
+        {
+            return await _context.Blogs.Include(x=> x.AppUser).Include(x=> x.CreateDate).ToListAsync();
+        }
+
         public async Task<Blog> GetByIdAsync(int id)
         {
             return await _DbSet.FindAsync(id);

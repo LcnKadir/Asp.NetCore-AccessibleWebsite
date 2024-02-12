@@ -22,6 +22,7 @@ namespace RepositoryLayer.Configurations
 
             //Bloğun bir çok yorumu olabilir fakat, bloğun silinmesi halinde ait olduğu yorumlarda silinsin.
             builder.HasMany(x=> x.Comments).WithOne(x=> x.Blog).HasForeignKey(x=>x.BlogId).OnDelete(DeleteBehavior.Cascade);
+
         }
     }
 }

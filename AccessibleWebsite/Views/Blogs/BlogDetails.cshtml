@@ -14,7 +14,7 @@
                 <div class="col-lg-12">
                     <div class="bd-hero-text">
                         <span>CAMERA</span>
-                        <h2>10 States At Risk of Rural Hospital<br /> Closures</h2>
+                        <h2><br /> Closures</h2>
                     </div>
                 </div>
             </div>
@@ -29,12 +29,14 @@
                     <div class="bd-text">
                         <div class="bd-title">
                             <p>
+                            
                                 Your clients would like to see optimal results for minimal work. For this reason, it can
                                 be difficult to convince them that a website redesign enhances SEO strategies. However,
                                 if you try to redesign a site without taking SEO into account, you are going to face
                                 bigger problems down the road.
                             </p>
                             <p>
+                                
                                 Start off by explaining to clients what will happen if you ignore SEO in your redesign.
                                 Explain to them how a website redesign enhances SEO strategies across the board. A
                                 redesign is essential and should be part of your client’s budget. There are a couple of
@@ -123,8 +125,9 @@
                                 </div>
                                 <div class="col-lg-9">
                                     <div class="ba-text">
-                                        <h5>Shane Lynch</h5>
+                                        <h5></h5>
                                         <p>
+                                      
                                             Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                                             voluptate velit esse cillum bore et dolore magna aliqua.
                                         </p>
@@ -139,28 +142,32 @@
                             </div>
                         </div>
                         <div class="leave-comment">
-                            <h3>Yorumlar</h3>
-                            @foreach (var item in Model.Comments)
+                            <h3>Yorumlar </h3>
+                            @if (Model != null)
                             {
-                               @*  @if (User.Identity.IsAuthenticated)
-                                { *@
-                                    <form method="post" asp-controller="Blog" asp-action="AddComment">
-                                        @* <input type="text" name="BlogId" value="@Model.Id" /> *@
-                                        <input type="text" name="AppUserId" value="@ViewBag.AppuserId">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
-                                                <button type="submit">Send Message</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                               @*  }
-                                else
-                                {
-                                    <h2>Lütfen Yorum Yapabilmek için kayıt olunuz...</h2>
-                                } *@
+                                @Model.Id
                             }
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <form method="post" asp-controller="Blogs" asp-action="AddComment">
+                                   
+                                    <input type="text" name="AppUserId" value="@ViewBag.AppuserId">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
+                                            <button type="submit">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            }
+                            else
+                            {
+                                <h2>Lütfen Yorum Yapabilmek için kayıt olunuz...</h2>
+                            }
+
                         </div>
+
+
                     </div>
                 </div>
             </div>

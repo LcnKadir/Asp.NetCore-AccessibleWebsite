@@ -16,11 +16,12 @@ namespace RepositoryLayer.Configurations
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
-            builder.Property(x=> x.CommentContant).IsRequired();
+            builder.Property(x=> x.CommentContent).IsRequired();
 
 
             //Kullanıcının bir çok yorumu olabilir. Kullanıcının silinmesi halinde ona ait yorumlarda silinsin.
-            builder.HasOne(x=> x.AppUser).WithMany(x=> x.Comments).HasForeignKey(x=>x.AppUserId).OnDelete(DeleteBehavior.Cascade);
+            builder.HasOne(x=> x.AppUser).WithMany(x=> x.Comments).HasForeignKey(x=>x.AppUserId).OnDelete(DeleteBehavior.NoAction);
+
         }
     }
 }

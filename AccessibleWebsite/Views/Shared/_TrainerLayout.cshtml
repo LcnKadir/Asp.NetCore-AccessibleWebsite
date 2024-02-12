@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+@await Html.PartialAsync("~/Views/TrainerPartial/_HeadPartial.cshtml")
+
+<body>
+    <div class="mx-auto bg-grey-400">
+        <div class="min-h-screen flex flex-col">
+
+            @await Html.PartialAsync("~/Views/TrainerPartial/_HeaderPartial.cshtml")
+
+            <div class="flex flex-1">
+
+                @await Html.PartialAsync("~/Views/TrainerPartial/_SideBarPartial.cshtml")
+               
+                <main class="bg-white-300 flex-1 p-3 overflow-hidden">
+                    @RenderBody()
+                </main>
+
+            </div>
+
+            @await Html.PartialAsync("~/Views/TrainerPartial/_FooterPartial.cshtml")
+
+        </div>
+    </div>
+    <script src="~/Trainer/./main.js"></script>
+</body>
+
+</html>

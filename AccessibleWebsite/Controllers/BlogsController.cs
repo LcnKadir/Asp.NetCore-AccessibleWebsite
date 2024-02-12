@@ -8,35 +8,51 @@ using Microsoft.Identity.Client;
 namespace AccessibleWebsite.Controllers
 {
     [AllowAnonymous]
-    public class BlogController : Controller
+    public class BlogsController : Controller
     {
         private readonly ICommentService _commentService;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IBlogService _blogService;
 
-        public BlogController(ICommentService commentService, UserManager<AppUser> userManager)
+        public BlogsController(ICommentService commentService, UserManager<AppUser> userManager, IBlogService blogService)
         {
             _commentService = commentService;
             _userManager = userManager;
+            _blogService = blogService;
         }
 
-        public IActionResult Index()
+        //Blogların Ana Sayfası.
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _blogService.GetBlogWtihTrainer());
         }
 
 
         [HttpGet]
         public async Task<ActionResult> BlogDetails(int id)
         {
+            var blog = await _blogService.GetBlogAsync(id);
+            ViewBag.BlogId = id;
             if (User.Identity.IsAuthenticated)
             {
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
                 ViewBag.AppUserId = user.Id;
             }
-            ViewBag.BlogId = id;
-            return View();
+          
+            return View(blog);
         }
 
-     
-    }
+
+		[Authorize]
+		[HttpPost]
+		public async Task<IActionResult> AddComment(Comment comment)
+		{
+			comment.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+			await _commentService.AddAsync(comment);
+
+			return RedirectToAction(nameof(Index));
+		}
+
+
+	}
 }
