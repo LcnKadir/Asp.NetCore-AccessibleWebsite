@@ -1,0 +1,55 @@
+﻿@model List<Blog>
+@{
+    ViewData["Title"] = "ListBlogs";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+
+
+<table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+    <thead>
+        <tr>
+            <th>
+                Başlık
+            </th>
+            <th>
+                Oluşturulma Tarihi
+            </th>
+            <th>
+                Bloğa Git
+            </th>
+            <th>
+                Düzenle
+            </th>
+            <th>
+                Sil
+            </th>
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+
+
+        <tr>
+            <td>
+                @item.Title
+            </td>
+            <td>
+                @item.CreateDate.ToString("dd-MMMM-yyyy")
+            </td>
+            <td>
+                <a href="/Blogs/BlogsDetails/@item.Id" class="btn btn-outline-info">Sitede Gör</a>
+            </td>
+            <td>
+                <a href="/Trainer/Blog/EditBlog/@item.Id" class="btn btn-outline-info">Düzenle</a>
+            </td>
+            <td>
+                <a href="/Trainer/Blog/DeleteBlog/@item.Id" class="btn btn-outline-danger">Sil</a>
+            </td>
+        </tr>
+    }
+
+</table>
+<a href="/Nutritionist/Blog/AddBlog/" class="btn btn-outline-success">Yeni Blog Ekle</a>
+

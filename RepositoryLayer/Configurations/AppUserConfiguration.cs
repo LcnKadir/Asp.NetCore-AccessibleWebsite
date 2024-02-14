@@ -17,6 +17,9 @@ namespace RepositoryLayer.Configurations
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.Name).IsRequired().HasMaxLength(25);
 
+
+            //Trainer'ın silinmesi halinde ona ait tüm bloglar silinecek.
+            builder.HasMany(u => u.Blogs).WithOne(b => b.AppUser).HasForeignKey(b => b.TrainerId).OnDelete(DeleteBehavior.Cascade); 
         }
     }
 }

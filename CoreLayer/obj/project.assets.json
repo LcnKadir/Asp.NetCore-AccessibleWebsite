@@ -3842,11 +3842,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj",
+      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Asp.NetCore-BootcampProject-main\\CoreLayer\\obj\\",
+      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",

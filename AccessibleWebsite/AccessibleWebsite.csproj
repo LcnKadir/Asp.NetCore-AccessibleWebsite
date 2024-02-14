@@ -19,7 +19,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.12" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,11 +28,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Trainer\Data\" />
     <Folder Include="Areas\Trainer\Models\" />
     <Folder Include="wwwroot\login-form\Trainer\.git\objects\info\" />
     <Folder Include="wwwroot\login-form\Trainer\.git\objects\pack\" />
     <Folder Include="wwwroot\login-form\Trainer\.git\refs\tags\" />
+    <Folder Include="wwwroot\blogsimage\" />
     <Folder Include="wwwroot\Trainer\.git\objects\info\" />
     <Folder Include="wwwroot\Trainer\.git\objects\pack\" />
     <Folder Include="wwwroot\Trainer\.git\refs\tags\" />

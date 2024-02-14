@@ -12,12 +12,12 @@ namespace RepositoryLayer.Repositories
 {
     public class BlogRepository : IBlogRepository
     {
-		protected readonly AppDbContext _context;
+        protected readonly AppDbContext _context;
         private readonly DbSet<Blog> _DbSet;
 
         public BlogRepository(AppDbContext context)
         {
-			_context = context;
+            _context = context;
             _DbSet = context.Set<Blog>();
         }
 
@@ -33,13 +33,19 @@ namespace RepositoryLayer.Repositories
 
         public async Task<Blog> GetBlogAsync(int id)
         {
-            return await _context.Blogs.Include(x=> x.AppUser).Include(x=> x.Comments).Where(x=> x.Id == id).FirstOrDefaultAsync();
+            return await _context.Blogs.Include(x => x.AppUser).Include(x => x.Comments).Where(x => x.AppUserId == id).FirstOrDefaultAsync();
         }
 
-        public async Task<List<Blog>> GetBlogWtihTrainer()
+        public async Task<List<Blog>> GetBlogForTrainer(int id)
         {
-            return await _context.Blogs.Include(x=> x.AppUser).Include(x=> x.CreateDate).ToListAsync();
+            return await _context.Blogs.Include(x => x.AppUser).Where(x => x.TrainerId == id).ToListAsync();
         }
+
+        public async Task<List<Blog>> GetBlogWithTrainer()
+        {
+            return await _context.Blogs.Include(X => X.AppUser).OrderByDescending(x => x.CreateDate).ToListAsync();
+        }
+
 
         public async Task<Blog> GetByIdAsync(int id)
         {

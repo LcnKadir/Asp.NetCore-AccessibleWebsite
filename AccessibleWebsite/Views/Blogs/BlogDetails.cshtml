@@ -142,16 +142,19 @@
                             </div>
                         </div>
                         <div class="leave-comment">
+                            
                             <h3>Yorumlar </h3>
                             @if (Model != null)
                             {
-                                @Model.Id
+                               
                             }
                             @if (User.Identity.IsAuthenticated)
                             {
+                                @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+
                                 <form method="post" asp-controller="Blogs" asp-action="AddComment">
-                                   
-                                    <input type="text" name="AppUserId" value="@ViewBag.AppuserId">
+
+                                    <input type="text" name="AppUserId" value="@appUser.GetUserId(User)">
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>

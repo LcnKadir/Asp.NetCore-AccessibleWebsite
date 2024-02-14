@@ -17,12 +17,13 @@ namespace RepositoryLayer.Configurations
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.Title).IsRequired().HasMaxLength(10);
             builder.Property(x => x.Description).IsRequired().HasMaxLength(50);
-            builder.Ignore(x => x.Image);
+            builder.Ignore(x => x.ImageUrl);
+            builder.Ignore(x => x.CoverImageUrl);
 
 
-            //Bloğun bir çok yorumu olabilir fakat, bloğun silinmesi halinde ait olduğu yorumlarda silinsin.
-            builder.HasMany(x=> x.Comments).WithOne(x=> x.Blog).HasForeignKey(x=>x.BlogId).OnDelete(DeleteBehavior.Cascade);
+           
+            builder.HasMany(x=> x.Comments).WithOne(x=> x.Blog).HasForeignKey(x=>x.BlogId).OnDelete(DeleteBehavior.Cascade); //Bloğun bir çok yorumu olabilir fakat, bloğun silinmesi halinde ait olduğu yorumlarda silinsin.
 
-        }
+		}
     }
 }

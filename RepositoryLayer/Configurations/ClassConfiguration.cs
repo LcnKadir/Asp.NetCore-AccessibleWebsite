@@ -17,8 +17,8 @@ namespace RepositoryLayer.Configurations
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.Name).IsRequired();
             
-            //Bir Trainer, bir çok ders açabilir.
-            builder.HasOne(x=> x.Trainer).WithMany(x=> x.Classes).HasForeignKey(x=> x.TrainerId).OnDelete(DeleteBehavior.Cascade);
-        }
+           
+            builder.HasOne(x=> x.AppUser).WithMany(x=> x.Classes).HasForeignKey(x=> x.TrainerId).OnDelete(DeleteBehavior.Cascade);  //Bir Trainer, bir çok ders açabilir.
+		}
     }
 }

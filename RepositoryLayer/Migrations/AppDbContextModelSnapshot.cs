@@ -49,41 +49,6 @@ namespace RepositoryLayer.Migrations
                     b.ToTable("Abouts");
                 });
 
-            modelBuilder.Entity("CoreLayer.Models.AccessibleUser", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Age")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Surname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("UpdateDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("AccessibleUsers");
-                });
-
             modelBuilder.Entity("CoreLayer.Models.AppRole", b =>
                 {
                     b.Property<int>("Id")
@@ -128,8 +93,14 @@ namespace RepositoryLayer.Migrations
                     b.Property<string>("Age")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Branch")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -174,9 +145,15 @@ namespace RepositoryLayer.Migrations
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool?>("Status")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("TrainerId")
+                        .HasColumnType("int");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
@@ -209,6 +186,10 @@ namespace RepositoryLayer.Migrations
                     b.Property<int>("AppUserId")
                         .HasColumnType("int");
 
+                    b.Property<string>("CoverImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
@@ -217,16 +198,44 @@ namespace RepositoryLayer.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("DescriptionThree")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DescriptionTwo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageTwo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LoginDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LoginDescriptionTwo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LoginTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
 
-                    b.Property<string>("TrainerId")
+                    b.Property<string>("TitleTwo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TrainerId1")
+                    b.Property<int>("TrainerId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdateDate")
@@ -234,9 +243,7 @@ namespace RepositoryLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AppUserId");
-
-                    b.HasIndex("TrainerId1");
+                    b.HasIndex("TrainerId");
 
                     b.ToTable("Blogs");
                 });
@@ -300,37 +307,6 @@ namespace RepositoryLayer.Migrations
                     b.HasIndex("BlogId");
 
                     b.ToTable("Comments");
-                });
-
-            modelBuilder.Entity("CoreLayer.Models.Trainer", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Surname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("UpdateDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Trainers");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -439,31 +415,23 @@ namespace RepositoryLayer.Migrations
             modelBuilder.Entity("CoreLayer.Models.Blog", b =>
                 {
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
-                        .WithMany()
-                        .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("CoreLayer.Models.Trainer", "Trainer")
                         .WithMany("Blogs")
-                        .HasForeignKey("TrainerId1")
+                        .HasForeignKey("TrainerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("AppUser");
-
-                    b.Navigation("Trainer");
                 });
 
             modelBuilder.Entity("CoreLayer.Models.Class", b =>
                 {
-                    b.HasOne("CoreLayer.Models.Trainer", "Trainer")
+                    b.HasOne("CoreLayer.Models.AppUser", "AppUser")
                         .WithMany("Classes")
                         .HasForeignKey("TrainerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Trainer");
+                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("CoreLayer.Models.Comment", b =>
@@ -471,7 +439,7 @@ namespace RepositoryLayer.Migrations
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
                         .WithMany("Comments")
                         .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("CoreLayer.Models.Blog", "Blog")
@@ -538,19 +506,16 @@ namespace RepositoryLayer.Migrations
 
             modelBuilder.Entity("CoreLayer.Models.AppUser", b =>
                 {
+                    b.Navigation("Blogs");
+
+                    b.Navigation("Classes");
+
                     b.Navigation("Comments");
                 });
 
             modelBuilder.Entity("CoreLayer.Models.Blog", b =>
                 {
                     b.Navigation("Comments");
-                });
-
-            modelBuilder.Entity("CoreLayer.Models.Trainer", b =>
-                {
-                    b.Navigation("Blogs");
-
-                    b.Navigation("Classes");
                 });
 #pragma warning restore 612, 618
         }

@@ -19,9 +19,9 @@ namespace RepositoryLayer.Configurations
             builder.Property(x=> x.CommentContent).IsRequired();
 
 
-            //Kullanıcının bir çok yorumu olabilir. Kullanıcının silinmesi halinde ona ait yorumlarda silinsin.
-            builder.HasOne(x=> x.AppUser).WithMany(x=> x.Comments).HasForeignKey(x=>x.AppUserId).OnDelete(DeleteBehavior.NoAction);
+            
+            builder.HasOne(x=> x.AppUser).WithMany(x=> x.Comments).HasForeignKey(x=>x.AppUserId).OnDelete(DeleteBehavior.NoAction);//Kullanıcının bir çok yorumu olabilir. Kullanıcının silinmesi halinde ona ait yorumlarda silinsin.
 
-        }
+		}
     }
 }

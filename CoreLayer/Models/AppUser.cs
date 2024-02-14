@@ -13,10 +13,18 @@ namespace CoreLayer.Models
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
+        public bool? Status {  get; set; } //Kullanıcı erişilebilir sayfaya geçmesi durumunda, hesabı true olacak.
         public string? Gender { get; set; }
         public string? Age { get; set; }
 
+        //Trainerlar ile User tek bir tabloda birleştirildi.
+        public int? TrainerId { get; set; }
+        public string? Branch { get; set; } //Kullanıcı kayıt olduğunda branch alanı otomatik; "normal" olarak doldurulacak. Trainer için doldurulması zorunlu olacak.
+        public string? Description { get; set; }
 
+
+        public ICollection<Class> Classes { get; set; }
+        public ICollection<Blog> Blogs { get; set; }
         public ICollection<Comment> Comments { get; set; }
 
     }

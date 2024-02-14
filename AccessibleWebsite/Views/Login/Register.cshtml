@@ -7,59 +7,55 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>RegistrationForm_v1 by Colorlib</title>
+    <title>Üye Kayıt Sayfası</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- MATERIAL DESIGN ICONIC FONT -->
     <link rel="stylesheet" href="~/register/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
-
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="~/register/css/style.css">
 </head>
-
 <body>
-
     <div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
         <div class="inner">
-            <div class="~/register/image-holder">
+            <div class="image-holder">
                 <img src="~/register/images/registration-form-1.jpg" alt="">
             </div>
-            <form action="" method="post">
+            <form asp-controller="Login" asp-action="Register" method="post">
                 <h3>Üye Kayıt Sayfası</h3>
                 <div class="form-group">
-                    <input asp-for="Name" type="text" asp-controller="Login" asp-action="Register" placeholder="Adınız" class="form-control">
+                    <input asp-for="Name" type="text" placeholder="Adınız" class="form-control">
                     <span asp-validation-for="Name" class="text-danger"></span>
 
-                    <input asp-for="Surname" type="text" asp-controller="Login" asp-action="Register" placeholder="SoyAdınız" class="form-control">
+                    <input asp-for="Surname" type="text" placeholder="SoyAdınız" class="form-control">
                     <span asp-validation-for="Surname" class="text-danger"></span>
                 </div>
                 <div class="form-wrapper">
-                    <input asp-for="UserName" type="text" asp-controller="Login" asp-action="Register" placeholder="Kullanıcı Adınız" class="form-control">
+                    <input asp-for="UserName" type="text" placeholder="Kullanıcı Adınız" class="form-control">
                     <span asp-validation-for="UserName" class="text-danger"></span>
                     <i class="zmdi zmdi-account"></i>
                 </div>
                 <div class="form-wrapper">
-                    <input asp-for="Email" type="text" asp-controller="Login" asp-action="Register" placeholder="Email Adresiniz" class="form-control">
+                    <input asp-for="Email" type="text" placeholder="Email Adresiniz" class="form-control">
                     <span asp-validation-for="Email" class="text-danger"></span>
                     <i class="zmdi zmdi-email"></i>
                 </div>
                 <div class="form-wrapper">
-                    <input asp-for="Password" type="password" asp-controller="Login" asp-action="Register" placeholder="Şifreniz" class="form-control">
+                    <input asp-for="Password" type="password" placeholder="Şifreniz" class="form-control">
                     <span asp-validation-for="Password" class="text-danger"></span>
                     <i class="zmdi zmdi-lock"></i>
                 </div>
                 <div class="form-wrapper">
-                    <input asp-for="ConfirmPassword" type="password" asp-controller="Login" asp-action="Register" placeholder="Şifre Tekrar" class="form-control">
+                    <input asp-for="ConfirmPassword" type="password" placeholder="Şifre Tekrar" class="form-control">
                     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                     <i class="zmdi zmdi-lock"></i>
                 </div>
-                <button>
-                   Kayıt Ol
-                    <i class="zmdi zmdi-arrow-right"></i>
-                </button>
+                <div class="form-group">
+                    <input asp-for="Branch" type="hidden" placeholder="Branch" class="form-control">@* //Kullanıcı Branch null olacak. Böylelikle, TrainerId atanması gerçekleşmeyecek.*@
+                </div>
+                <button type="submit">Kayıt Ol</button>
             </form>
+
         </div>
     </div>
-
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 </html>

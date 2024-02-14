@@ -19,8 +19,6 @@ namespace RepositoryLayer
         }
 
         public DbSet<AppUser> AppUsers { get; set; }
-        public DbSet<AccessibleUser> AccessibleUsers { get; set; }
-        public DbSet<Trainer> Trainers { get; set; }
         public DbSet<Class> Classes { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<About> Abouts { get; set; }

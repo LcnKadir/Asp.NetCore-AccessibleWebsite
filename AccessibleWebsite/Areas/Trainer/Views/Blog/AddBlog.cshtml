@@ -1,0 +1,115 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "AddBlog";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<form></form>
+<section class="blog-details-hero set-bg" data-setbg="@Model.CoverImage">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="bd-hero-text">
+                    <h2>@Model.LoginTitle</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog-details spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="bd-text">
+                    <div class="bd-title">
+                        <p>
+                            @Model.LoginDescription
+                        </p>
+                        <p>
+                            @Model.LoginDescriptionTwo
+                        </p>
+                    </div>
+                    <div class="bd-pic">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="img/blog/bd-1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="img/blog/bd-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bd-more-text">
+                        <div class="bm-item">
+                            <h4>@Model.Title</h4>
+                            <p>
+                                @Model.Description
+                            </p>
+                        </div>
+                        <div class="bm-item">
+                            <h4>@Model.TitleTwo</h4>
+                            <p>
+                                @Model.DescriptionTwo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bd-quote">
+                        <samp>"</samp>
+                        <p>
+                            “We need to stop interrupting what people are interested in and be what people are
+                            interested in.”
+                        </p>
+                        <div class="quote-author">
+                            <h5>Steven Jobs</h5>
+                            <span>CEO-DeerCreative</span>
+                        </div>
+                    </div>
+                    <div class="bd-last-para">
+                        <p>
+                            @Model.DescriptionThree
+                        </p>
+                    </div>
+                    <div class="tag-share">
+                        <div class="tags">
+                            <a href="#">Spor</a>
+                            <a href="#">Sağlıklı Yaşam</a>
+                            <a href="#">Hareket</a>
+                        </div>
+                        <div class="social-share">
+                            <span>Paylaş:</span>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="blog-author">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="ba-pic">
+                                    <img src="img/blog/blog-posted.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="ba-text">
+                                    <h5>@Model.AppUser.TrainerId .Name </h5>
+                                    <p>
+                                        @Model.AppUser.Description
+                                    </p>
+                                    <div class="bt-social">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

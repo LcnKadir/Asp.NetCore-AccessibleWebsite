@@ -39,9 +39,14 @@ namespace ServiceLayer.Services
             return await _repository.GetBlogAsync(id);
         }
 
-        public async Task<List<Blog>> GetBlogWtihTrainer()
+        public async Task<List<Blog>> GetBlogForTrainer(int id)
+        { 
+            return await _repository.GetBlogForTrainer(id);
+        }
+
+        public async Task<List<Blog>> GetBlogWithTrainer()
         {
-            return await _repository.GetBlogWtihTrainer();
+            return await _repository.GetBlogWithTrainer();
         }
 
         public async Task<Blog> GetByIdAsync(int id)

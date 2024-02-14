@@ -24,7 +24,7 @@ namespace AccessibleWebsite.Controllers
         //Blogların Ana Sayfası.
         public async Task<IActionResult> Index()
         {
-            return View(await _blogService.GetBlogWtihTrainer());
+            return View(await _blogService.GetBlogWithTrainer());
         }
 
 
@@ -32,27 +32,20 @@ namespace AccessibleWebsite.Controllers
         public async Task<ActionResult> BlogDetails(int id)
         {
             var blog = await _blogService.GetBlogAsync(id);
-            ViewBag.BlogId = id;
-            if (User.Identity.IsAuthenticated)
-            {
-                var user = await _userManager.FindByNameAsync(User.Identity.Name);
-                ViewBag.AppUserId = user.Id;
-            }
-          
             return View(blog);
         }
 
 
-		[Authorize]
-		[HttpPost]
-		public async Task<IActionResult> AddComment(Comment comment)
-		{
-			comment.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
-			await _commentService.AddAsync(comment);
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> AddComment(Comment comment)
+        {
+            comment.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            await _commentService.AddAsync(comment);
 
-			return RedirectToAction(nameof(Index));
-		}
+            return RedirectToAction(nameof(Index));
+        }
 
 
-	}
+    }
 }

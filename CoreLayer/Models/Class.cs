@@ -10,7 +10,7 @@ namespace CoreLayer.Models
     {
         public string Name { get; set; }
         public int TrainerId { get; set; }
-        public Trainer Trainer { get; set; }
+        public AppUser AppUser { get; set; }
 
     }
 }

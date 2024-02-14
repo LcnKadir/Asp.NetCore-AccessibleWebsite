@@ -22,10 +22,6 @@ builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbC
 
 builder.Services.AddScoped<IAppUserRepository, AppUserRepository>();
 builder.Services.AddScoped<IAppUserService, AppUserService>();
-builder.Services.AddScoped<IAccessibleUserRepository, AccessibleUserRepository>();
-builder.Services.AddScoped<IAccessibleUserService, AccessibleUserService>();
-builder.Services.AddScoped<ITrainerRepository, TrainerRepository>();
-builder.Services.AddScoped<ITrainerService, TrainerService>();
 builder.Services.AddScoped<IBlogRepository, BlogRepository>();
 builder.Services.AddScoped<IBlogService, BlogService>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
