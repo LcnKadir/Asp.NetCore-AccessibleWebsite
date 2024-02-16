@@ -1,6 +1,7 @@
 ﻿using AccessibleWebsite.Controllers;
 using CoreLayer.Models;
 using CoreLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata;
@@ -8,6 +9,7 @@ using System.Reflection.Metadata;
 namespace AccessibleWebsite.Areas.Trainer.Controllers
 {
     [Area("Trainer")]
+    [AllowAnonymous]
     public class BlogController : Controller
     {
         private readonly IBlogService _blogService;

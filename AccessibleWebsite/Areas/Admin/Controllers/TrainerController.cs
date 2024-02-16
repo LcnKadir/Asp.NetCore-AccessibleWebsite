@@ -1,11 +1,13 @@
 ﻿using AccessibleWebsite.Models;
 using CoreLayer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [AllowAnonymous]
     public class TrainerController : Controller
     {
         

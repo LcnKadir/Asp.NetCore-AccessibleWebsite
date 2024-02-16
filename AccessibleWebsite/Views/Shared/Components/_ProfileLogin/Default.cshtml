@@ -1,20 +1,82 @@
 ﻿@model AppUser
 
+<style>
+    /* Temel stil */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: initial;
+    }
+
+    /* Dropdown içeriği */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        text-align: center;
+    }
+
+        /* Dropdown içeriği seçenekleri */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+            /* Dropdown içeriği seçenekleri üzerine gelindiğinde */
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+
+    /* Dropdown tetikleyici stil */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Ikon stil */
+    .icon {
+        padding: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+</style>
 
 @if (User.Identity.IsAuthenticated)
 {
-    if (Model.Id == Model.Id)
+    @if (Model.Branch! == null && Model.TrainerId ! == null)
     {
         <li>
-            <a href="/Member/MemberDashboard/Index">
+            <a href="/Trainer/Dashboard/Index">
                 <i class="bi bi-person-fill"></i>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                     <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                 </svg>
             </a>
         </li>
+     
+        @* Trainer'ların giriş yapması halinde kendi Dashboard sayfalarına yönlendirilecekler. *@
+
+    }
+
+    @if (Model.Branch == null  && Model.TrainerId == null)
+    {
+        <li>
+            <a href="/Member/Dashboard/Index">
+                <i class="bi bi-person-fill"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg>
+            </a>
+        </li>
+        @* Kullanıcılar giriş yapmaları halinde kendi Dashboard sayfalarına yönlendirilecekler. *@
     }
 }
+
 else
 {
     <li class="smoothScroll dropdown ml-auto">
@@ -37,3 +99,4 @@ else
         }
     </style>
 }
+

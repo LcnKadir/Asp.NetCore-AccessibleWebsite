@@ -38,7 +38,7 @@ namespace RepositoryLayer.Repositories
 
         public async Task<List<Blog>> GetBlogForTrainer(int id)
         {
-            return await _context.Blogs.Include(x => x.AppUser).Where(x => x.TrainerId == id).ToListAsync();
+            return await _context.Blogs.Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
         }
 
         public async Task<List<Blog>> GetBlogWithTrainer()
