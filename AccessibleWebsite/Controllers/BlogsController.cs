@@ -29,9 +29,9 @@ namespace AccessibleWebsite.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult> BlogDetails(int id)
+        public async Task<ActionResult> BlogDetails()
         {
-            var blog = await _blogService.GetBlogAsync(id);
+            var blog = await _blogService.GetBlogAsync();
             return View(blog);
         }
 
@@ -42,7 +42,6 @@ namespace AccessibleWebsite.Controllers
         {
             comment.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             await _commentService.AddAsync(comment);
-
             return RedirectToAction(nameof(Index));
         }
 

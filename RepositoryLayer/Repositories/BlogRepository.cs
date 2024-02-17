@@ -31,9 +31,9 @@ namespace RepositoryLayer.Repositories
             return await _DbSet.ToListAsync();
         }
 
-        public async Task<Blog> GetBlogAsync(int id)
+        public async Task<Blog> GetBlogAsync()
         {
-            return await _context.Blogs.Include(x => x.AppUser).Include(x => x.Comments).Where(x => x.AppUserId == id).FirstOrDefaultAsync();
+            return await _context.Blogs.Include(x => x.AppUser).FirstOrDefaultAsync();
         }
 
         public async Task<List<Blog>> GetBlogForTrainer(int id)
@@ -50,6 +50,11 @@ namespace RepositoryLayer.Repositories
         public async Task<Blog> GetByIdAsync(int id)
         {
             return await _DbSet.FindAsync(id);
+        }
+
+        public async Task<List<Blog>> GetLastBlogAsync(int id)
+        {
+           return await _context.Blogs.OrderByDescending(x=> x.Id).Take(3).ToListAsync();
         }
 
         public void Remove(Blog blog)

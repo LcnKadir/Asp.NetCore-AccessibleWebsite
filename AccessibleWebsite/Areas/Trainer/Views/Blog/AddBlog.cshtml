@@ -9,10 +9,10 @@
     <div class="row justify-content-center">
         <div class="col-lg-10 offset-lg-1">
             <body>
-                <form method="post" asp-controller="Blog" asp-action="AddBlog">
+                <form method="post" asp-controller="Blog" asp-action="AddBlog" enctype="multipart/form-data">
                     <section class="blog-details-hero set-bg" data-setbg="">
                         @Html.Label("Kapak Resmi Ekleyin")
-                        <input type="file" asp-for="CoverImage" class="form-control" />
+                        <input type="file" asp-for="CoverImageUrl" class="form-control" />
                         <div class="container">
                             <br />
                             <br />
@@ -45,11 +45,11 @@
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     @Html.Label(" Resmi Ekleyin")
-                                                    <input type="file" asp-for="Image" class="form-control" />
+                                                    <input type="file" asp-for="ImageUrl" class="form-control" />
                                                 </div>
                                                 <div class="col-lg-6">
                                                     @Html.Label(" Resmi Ekleyin")
-                                                    <input type="file" asp-for="ImageTwo" class="form-control" />
+                                                    <input type="file" asp-for="ImageUrlTwo" class="form-control" />
                                                 </div>
                                             </div>
                                         </div>

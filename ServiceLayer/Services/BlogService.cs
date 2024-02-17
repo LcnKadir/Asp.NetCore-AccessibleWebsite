@@ -34,9 +34,9 @@ namespace ServiceLayer.Services
             return await _repository.GetAllAsync();
         }
 
-        public async Task<Blog> GetBlogAsync(int id)
+        public async Task<Blog> GetBlogAsync()
         {
-            return await _repository.GetBlogAsync(id);
+            return await _repository.GetBlogAsync();
         }
 
         public async Task<List<Blog>> GetBlogForTrainer(int id)
@@ -52,6 +52,11 @@ namespace ServiceLayer.Services
         public async Task<Blog> GetByIdAsync(int id)
         {
             return await _repository.GetByIdAsync(id);
+        }
+
+        public async Task<List<Blog>> GetLastBlogAsync(int id)
+        {
+            return await _repository.GetLastBlogAsync(id);
         }
 
         public async Task RemoveAsync(Blog blog)

@@ -1,19 +1,17 @@
 ﻿@model Blog
-
 @{
     ViewData["Title"] = "BlogDetails";
     Layout = "~/Views/Shared/IULayout.cshtml";
 }
 
-
 <body>
     <!-- Blog Details Hero Section Begin -->
-    <section class="blog-details-hero set-bg" data-setbg="@Model.CoverImage">
+    <section id="Blog" class="blog-details-hero set-bg" data-setbg="/BlogImages/@Model.CoverImage">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="bd-hero-text">
-                        <h2><br /> @Model.LoginTitle</h2>
+                        <h2><br />@Model.LoginTitle</h2>
                     </div>
                 </div>
             </div>
@@ -37,10 +35,10 @@
                         <div class="bd-pic">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <img src="img/blog/bd-1.jpg" alt="">
+                                    <img src="/BlogImages/@Model.Image" alt="">
                                 </div>
                                 <div class="col-lg-6">
-                                    <img src="img/blog/bd-2.jpg" alt="">
+                                    <img src="/BlogImages/@Model.ImageTwo" alt="">
                                 </div>
                             </div>
                         </div>
@@ -64,7 +62,7 @@
                         <div class="bd-quote">
                             <samp>"</samp>
                             <p>
-                                “İnsanlar zorlukların üstesinden gelmekten korkutan şey inanç eksikliğidir ve ben hep kendime inandım.”
+                                “İnsanları zorluklarla karşılaşmaktan korkutan şey inanç eksikliği ve ben hep kendime inandım.”
                             </p>
                             <div class="quote-author">
                                 <h5>-Muhammed Ali</h5>
@@ -74,12 +72,12 @@
                         </div>
                         <div class="tag-share">
                             <div class="tags">
-                                <a href="#">Camera</a>
+                                <a href="#">Sağlık</a>
                                 <a href="#">Photography</a>
                                 <a href="#">Tips</a>
                             </div>
                             <div class="social-share">
-                                <span>Share:</span>
+                                <span>Paylaş:</span>
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-google-plus"></i></a>
@@ -89,18 +87,12 @@
                         </div>
                         <div class="blog-author">
                             <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="ba-pic">
-                                        <img src="img/blog/blog-posted.jpg" alt="">
-                                    </div>
-                                </div>
                                 <div class="col-lg-9">
                                     <div class="ba-text">
-                                        <h5></h5>
+                                        <h5>@Model.AppUser.Name @Model.AppUser.Surname</h5>
+                                        <h5>@Model.AppUserId</h5>
                                         <p>
-
-                                            Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                            voluptate velit esse cillum bore et dolore magna aliqua.
+                                            @Model.AppUser.Description
                                         </p>
                                         <div class="bt-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -112,78 +104,56 @@
                                 </div>
                             </div>
                         </div>
+                        <hr />
+                        <div class="blog-author">
+                            <h3>Yorumlar</h3>
+                            @foreach (var item in Model.Comments)
+                            {
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="ba-pic">
+                                            <img src="img/blog/blog-posted.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <div class="ba-text">
+                                            <h5>@item.AppUser.Name @item.AppUser.Surname</h5>
+                                            <h5>@(((DateTime)item.CreateDate).ToString("dd-MMM-yyyy"))</h5>
+                                            <p>@item.CommentContent</p>,
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
                         <div class="leave-comment">
 
-                            <h3>Yorumlar </h3>
                             @if (User.Identity.IsAuthenticated)
                             {
                                 @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
                                 <form method="post" asp-controller="Blogs" asp-action="AddComment">
 
-                                    <input type="text" name="AppUserId" value="@appUser.GetUserId(User)">
+                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                    <input type="hidden" name="BlogId" value="@Model.Id">
+
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
-                                            <button type="submit">Send Message</button>
+                                            <button type="submit">Yorum Yap</button>
                                         </div>
                                     </div>
                                 </form>
                             }
                             else
                             {
-                                <h2>Lütfen Yorum Yapabilmek için kayıt olunuz...</h2>
+                                <h3>Lütfen Yorum Yapabilmek için kayıt olunuz...:)</h3>
                             }
-
                         </div>
-
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Blog Details Section End -->
-    <!-- Latest Blog Section Begin -->
-    <section class="latest-blog-section recommend spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Recommended</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="single-blog-item">
-                        <img src="img/blog/blog-1.jpg" alt="">
-                        <div class="blog-widget">
-                            <div class="bw-date">February 17, 2019</div>
-                            <a href="#" class="tag">#Gym</a>
-                        </div>
-                        <h4><a href="#">10 States At Risk of Rural Hospital Closures</a></h4>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-blog-item">
-                        <img src="img/blog/blog-2.jpg" alt="">
-                        <div class="blog-widget">
-                            <div class="bw-date">February 17, 2019</div>
-                            <a href="#" class="tag">#Sport</a>
-                        </div>
-                        <h4><a href="#">Diver who helped save Thai soccer team</a></h4>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-blog-item">
-                        <img src="img/blog/blog-3.jpg" alt="">
-                        <div class="blog-widget">
-                            <div class="bw-date">February 17, 2019</div>
-                            <a href="#" class="tag">#Body</a>
-                        </div>
-                        <h4><a href="#">Man gets life in prison for stabbing</a></h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @await Component.InvokeAsync("_LastBlogs")
 </body>

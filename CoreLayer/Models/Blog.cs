@@ -15,14 +15,15 @@ namespace CoreLayer.Models
         public string TitleTwo { get; set; }
         public string LoginDescription { get; set; }
         public string LoginDescriptionTwo { get; set; }
-        public string? Description { get; set; }
+        public string Description { get; set; }
         public string DescriptionTwo { get; set; }
         public string DescriptionThree { get; set; }
         public string Image { get; set; }
         public string ImageTwo { get; set; }
-        public IFormFile? ImageUrl { get; set; }
+        public IFormFile ImageUrl { get; set; } 
+        public IFormFile ImageUrlTwo { get; set; }
         public string CoverImage { get; set; }
-        public IFormFile? CoverImageUrl { get; set; }
+        public IFormFile CoverImageUrl { get; set; }
 
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }

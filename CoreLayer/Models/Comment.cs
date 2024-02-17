@@ -9,7 +9,6 @@ namespace CoreLayer.Models
     public class Comment : BaseEntity
     {
         public string CommentContent { get; set; }
-
         public int BlogId { get; set; }
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }

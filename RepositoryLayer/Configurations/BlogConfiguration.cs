@@ -18,7 +18,8 @@ namespace RepositoryLayer.Configurations
             builder.Property(x => x.Title).IsRequired().HasMaxLength(10);
             builder.Property(x => x.Description).IsRequired().HasMaxLength(50);
             builder.Ignore(x => x.ImageUrl);
-            builder.Ignore(x => x.CoverImageUrl);
+            builder.Ignore(x => x.CoverImageUrl); 
+            builder.Ignore(x => x.ImageUrlTwo);
 
 
            //builder.HasMany(x=> x.A).WithMany(x=> x.)
