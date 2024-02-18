@@ -1,0 +1,68 @@
+﻿@model Class
+@{
+    ViewData["Title"] = "EditClass";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+<style>
+    .form-control {
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+</style>
+
+<div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 justify-center">
+    <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
+        <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">
+            Ders Düzenleme Sayfası
+        </div>
+        <form method="post" asp-controller="Classes" asp-action="AddClass" enctype="multipart/form-data">
+            <div class="p-3">
+                <input type="hidden" asp-for="AppUserId" value="@ViewBag.Id " />
+                <table class="table-responsive w-full rounded">
+                    <thead>
+                        <tr>
+                            <th class="border w-1/4 px-4 py-2 text-center">Ders Adı</th>
+                            <th class="border w-1/6 px-4 py-2 text-center">Görsel</th>
+                            <th class="border w-1/6 px-4 py-2 text-center">Bitiş Saati</th>
+                            <th class="border w-1/7 px-4 py-2 text-center">Başlangıç Saati</th>
+                            <th class="border w-1/7 px-4 py-2 text-center"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="text" asp-for="Name" class="form-control" />
+                            </td>
+                            <td>
+                                <input type="file" asp-for="ImageUrl" class="form-control" />
+                            </td>
+                            <td>
+                                <input type="text" asp-for="StartClass" class="form-control datetimepicker" />
+                            </td>
+                            <td>
+                                <input type="text" asp-for="FinishClass" class="form-control datetimepicker" />
+                            </td>
+                            <td class="border px-4 py-2 flex justify-center">
+                                <input type="hidden" asp-for="AppUserId" class="form-control" value="@ViewBag.userId" />
+                                <button class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                    Paylaş
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</div>
+
+

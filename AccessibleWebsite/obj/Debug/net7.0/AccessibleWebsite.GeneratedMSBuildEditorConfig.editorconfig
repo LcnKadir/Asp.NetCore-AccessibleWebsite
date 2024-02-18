@@ -24,8 +24,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xCbG9nXEFkZEJsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (2)/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Trainer/Views/Blog/EditBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xCbG9nXEVkaXRCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (2)/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Trainer/Views/Blog/ListBlogs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xCbG9nXExpc3RCbG9ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (2)/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Trainer/Views/Classes/AddClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xDbGFzc2VzXEFkZENsYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (2)/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Trainer/Views/Classes/EditClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xDbGFzc2VzXEVkaXRDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (2)/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Trainer/Views/Classes/ListClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xDbGFzc2VzXExpc3RDbGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (2)/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Trainer/Views/Dashboard/Index.cshtml]

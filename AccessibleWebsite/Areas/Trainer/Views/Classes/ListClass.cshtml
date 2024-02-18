@@ -1,0 +1,78 @@
+﻿@model List<Class>
+@{
+    ViewData["Title"] = "ListClass";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+<style>
+    .form-control {
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+</style>
+
+<div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 justify-center">
+
+    <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
+        <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">
+            Ders Sayfası
+        </div>
+        <div class="p-3">
+
+            <table class="table-responsive w-full rounded">
+                <thead>
+                    <tr>
+                        <th class="border w-1/4 px-4 py-2 text-center">Ders Adı</th>
+                        <th class="border w-1/4 px-4 py-2 text-center">Bitiş Saati</th>
+                        <th class="border w-1/4 px-4 py-2 text-center">Başlangıç Saati</th>
+                        <th class="border w-1/7 px-4 py-2 text-center">Düzenle</th>
+                        <th class="border w-1/7 px-4 py-2 text-center">Sitede Gör</th>
+                        <th class="border w-1/7 px-4 py-2 text-center">Sil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="form-control datetimepicker">
+                                @item.Name
+                            </td>
+                            <td class="form-control datetimepicker">
+                                @item.StartClass
+                            </td>
+                            <td class="form-control datetimepicker">
+                                @item.FinishClass
+                            </td>
+                            <td class="form-control datetimepicker" >
+                                <a href="/Trainer/Classes/EditClass/@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                    Düzenle
+                                </a>
+                            </td>
+                            <td class="form-control datetimepicker" >
+                                <a href="/Trainer/Classes/ClassDetails/@item.Id" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
+                                  Git
+                                </a>
+                            </td>
+                            <td class="form-control datetimepicker" >
+                                <a href="/Trainer/Classes/DeleteClass/@item.Id" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-800 rounded">
+                                    Sil
+                                </a>
+                            </td>
+                        </tr>              
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
