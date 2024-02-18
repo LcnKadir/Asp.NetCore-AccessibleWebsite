@@ -21,9 +21,9 @@ namespace RepositoryLayer.Configurations
             builder.Ignore(x => x.CoverImageUrl); 
             builder.Ignore(x => x.ImageUrlTwo);
 
-
-           //builder.HasMany(x=> x.A).WithMany(x=> x.)
-            builder.HasMany(x=> x.Comments).WithOne(x=> x.Blog).HasForeignKey(x=>x.BlogId).OnDelete(DeleteBehavior.Cascade); //Bloğun bir çok yorumu olabilir fakat, bloğun silinmesi halinde ait olduğu yorumlarda silinsin.
+            
+            //Bloğun bir çok yorumu olabilir fakat, bloğun silinmesi halinde ait olduğu yorumlarda silinsin.
+            builder.HasMany(x=> x.Comments).WithOne(x=> x.Blog).HasForeignKey(x=>x.BlogId).OnDelete(DeleteBehavior.Cascade); 
 
 		}
     }

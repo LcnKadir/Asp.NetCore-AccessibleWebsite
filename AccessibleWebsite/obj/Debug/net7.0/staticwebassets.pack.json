@@ -357,6 +357,10 @@
       "PackagePath": "staticwebassets\\Gym\\img\\trainer\\about-trainer-3.jpg"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\classpt.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\trainer\\classpt.jpg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-1.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\trainer\\trainer-1.jpg"
     },
