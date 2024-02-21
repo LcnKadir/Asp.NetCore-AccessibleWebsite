@@ -109,6 +109,10 @@
       "PackagePath": "staticwebassets\\Gym\\about-us.html"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\abouttrainer.jpg",
+      "PackagePath": "staticwebassets\\Gym\\abouttrainer.jpg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\blog-details.html",
       "PackagePath": "staticwebassets\\Gym\\blog-details.html"
     },

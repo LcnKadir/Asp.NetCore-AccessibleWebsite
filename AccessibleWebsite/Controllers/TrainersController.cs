@@ -18,5 +18,6 @@ namespace AccessibleWebsite.Controllers
             var values = await _userService.GetTrainers();
             return View(values);
         }
+
     }
 }

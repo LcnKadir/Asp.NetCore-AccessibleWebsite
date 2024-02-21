@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wa58RGGadfYSp5uzHR11NGb57+HmACcPWGvu1nnt9bs=",
+  "Hash": "8NadcyWLZ14z5wq7myOMBJ3k2JePRnNgBwSwu1Y8y9Y=",
   "Source": "AccessibleWebsite",
   "BasePath": "_content/AccessibleWebsite",
   "Mode": "Default",
@@ -406,6 +406,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Gym\\.DS_Store"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\abouttrainer.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "Gym/abouttrainer.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Gym\\abouttrainer.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\about-us.html",

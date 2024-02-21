@@ -52,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Masaüstü/DENEME/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Masaüstü/DENEME/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/Blogs/BlogDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQmxvZ0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -146,6 +150,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/kadir/OneDrive/Masaüstü/DENEME/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/Trainers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Masaüstü/DENEME/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/Trainers/TrainerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lcnNcVHJhaW5lckRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kadir/OneDrive/Masaüstü/DENEME/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/_ViewImports.cshtml]

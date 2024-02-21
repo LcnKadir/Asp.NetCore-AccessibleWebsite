@@ -20,7 +20,7 @@ namespace CoreLayer.Models
 
         //Trainerlar ile User tek bir tabloda birleştirildi.
         public int? TrainerId { get; set; }
-        public string? Branch { get; set; } //Kullanıcı kayıt olduğunda branch alanı otomatik; "normal" olarak doldurulacak. Trainer için doldurulması zorunlu olacak.
+        public string? Branch { get; set; } //Kullanıcı kayıt olduğunda branch alanı otomatik; "null" olarak doldurulacak. Trainer için doldurulması zorunlu olacak.
         public string? Description { get; set; }
 
 
