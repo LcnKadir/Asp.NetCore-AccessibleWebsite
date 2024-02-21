@@ -39,6 +39,11 @@ namespace ServiceLayer.Services
             return await _repository.GetByIdAsync(id);
         }
 
+        public async Task<List<AppUser>> GetTrainers()
+        {
+            return await _repository.GetTrainers();
+        }
+
         public async Task RemoveAsync(AppUser appUser)
         {
             _repository.Remove(appUser);

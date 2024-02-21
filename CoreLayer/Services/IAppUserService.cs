@@ -17,6 +17,6 @@ namespace CoreLayer.Services
         Task<IEnumerable<AppUser>> GetAllAsync();
 
 
-
+        public Task<List<AppUser>> GetTrainers();
     }
 }

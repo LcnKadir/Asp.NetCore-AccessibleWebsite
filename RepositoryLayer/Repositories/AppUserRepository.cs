@@ -36,6 +36,11 @@ namespace RepositoryLayer.Repositories
             return await _DbSet.FindAsync(id);
         }
 
+        public async  Task<List<AppUser>> GetTrainers()
+        {
+            return await _context.AppUsers.Include(x => x.Classes).Where(u => u.TrainerId != null).ToListAsync();
+        }
+
         public void Remove(AppUser appUser)
         {
             _DbSet.Remove(appUser);

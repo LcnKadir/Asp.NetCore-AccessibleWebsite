@@ -9,6 +9,7 @@
       "AccessibleWebsite/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "9.0.0",
+          "CoreLayer": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.1.39",
           "Microsoft.EntityFrameworkCore": "7.0.15",
           "Microsoft.EntityFrameworkCore.Design": "7.0.15",
