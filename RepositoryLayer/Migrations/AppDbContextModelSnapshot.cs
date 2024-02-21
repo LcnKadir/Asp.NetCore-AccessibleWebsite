@@ -104,7 +104,6 @@ namespace RepositoryLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -319,6 +318,40 @@ namespace RepositoryLayer.Migrations
                     b.ToTable("Comments");
                 });
 
+            modelBuilder.Entity("CoreLayer.Models.Message", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ClassId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("MessageContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
+
+                    b.HasIndex("ClassId");
+
+                    b.ToTable("Messages");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
                     b.Property<int>("Id")
@@ -438,7 +471,7 @@ namespace RepositoryLayer.Migrations
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
                         .WithMany("Classes")
                         .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("AppUser");
@@ -461,6 +494,25 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("AppUser");
 
                     b.Navigation("Blog");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.Message", b =>
+                {
+                    b.HasOne("CoreLayer.Models.AppUser", "AppUser")
+                        .WithOne("Messages")
+                        .HasForeignKey("CoreLayer.Models.Message", "AppUserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("CoreLayer.Models.Class", "Class")
+                        .WithMany("Messages")
+                        .HasForeignKey("ClassId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Class");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -521,11 +573,19 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("Classes");
 
                     b.Navigation("Comments");
+
+                    b.Navigation("Messages")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("CoreLayer.Models.Blog", b =>
                 {
                     b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.Class", b =>
+                {
+                    b.Navigation("Messages");
                 });
 #pragma warning restore 612, 618
         }

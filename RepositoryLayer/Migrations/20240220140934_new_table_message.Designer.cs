@@ -12,8 +12,8 @@ using RepositoryLayer;
 namespace RepositoryLayer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240216184731_corelayer_blog")]
-    partial class corelayer_blog
+    [Migration("20240220140934_new_table_message")]
+    partial class new_table_message
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -256,22 +256,35 @@ namespace RepositoryLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FinishClass")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TrainerId")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("StartClass")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("UpdateDate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TrainerId");
+                    b.HasIndex("AppUserId");
 
                     b.ToTable("Classes");
                 });
@@ -307,6 +320,40 @@ namespace RepositoryLayer.Migrations
                     b.HasIndex("BlogId");
 
                     b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.Message", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ClassId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("MessageContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
+
+                    b.HasIndex("ClassId");
+
+                    b.ToTable("Messages");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -427,8 +474,8 @@ namespace RepositoryLayer.Migrations
                 {
                     b.HasOne("CoreLayer.Models.AppUser", "AppUser")
                         .WithMany("Classes")
-                        .HasForeignKey("TrainerId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("AppUser");
@@ -451,6 +498,25 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("AppUser");
 
                     b.Navigation("Blog");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.Message", b =>
+                {
+                    b.HasOne("CoreLayer.Models.AppUser", "AppUser")
+                        .WithOne("Messages")
+                        .HasForeignKey("CoreLayer.Models.Message", "AppUserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("CoreLayer.Models.Class", "Class")
+                        .WithMany("Messages")
+                        .HasForeignKey("ClassId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Class");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -511,11 +577,19 @@ namespace RepositoryLayer.Migrations
                     b.Navigation("Classes");
 
                     b.Navigation("Comments");
+
+                    b.Navigation("Messages")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("CoreLayer.Models.Blog", b =>
                 {
                     b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("CoreLayer.Models.Class", b =>
+                {
+                    b.Navigation("Messages");
                 });
 #pragma warning restore 612, 618
         }

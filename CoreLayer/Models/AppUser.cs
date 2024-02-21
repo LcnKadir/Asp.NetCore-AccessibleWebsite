@@ -13,7 +13,7 @@ namespace CoreLayer.Models
 
         public string Name { get; set; }
         public string Surname { get; set; }
-        public string Email { get; set; }
+        public string? Email { get; set; }
         public bool? Status {  get; set; } //Kullanıcı erişilebilir sayfaya geçmesi durumunda, hesabı true olacak.
         public string? Gender { get; set; }
         public string? Age { get; set; }
@@ -27,6 +27,7 @@ namespace CoreLayer.Models
         public ICollection<Class> Classes { get; set; }
         public ICollection<Blog> Blogs { get; set; }
         public ICollection<Comment> Comments { get; set; }
+        public Message Messages { get; set; }
 
     }
 }

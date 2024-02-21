@@ -1,4 +1,4 @@
-﻿
+﻿@model Class
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/IULayout.cshtml";
@@ -19,8 +19,8 @@
         </div>
     </div>
 </section>
-<!-- Breadcrumb Section End -->
-<!-- Register Section Begin -->
+
+@* Kullanıcı, ders kaydı açan Trainer'a katılım için mesaj iletecek. *@
 <section class="register-section classes-page spad">
     <div class="container">
         <div class="classes-page-text">
@@ -31,27 +31,36 @@
                             <h2>Ders Kaydı</h2>
                             <p>Katılmak İçin Eğitmene Mesaj At!</p>
                         </div>
-                        <form action="#" class="register-form">
+
+                        @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+
+                        <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
                             <div class="row">
+
                                 <div class="col-lg-6">
-                                    <label for="name">Antrenör</label>
-                                    <input type="text" id="name">
-                                </div>
-                                <div class="col-lg-6">
-                                    <label for="email">Ders</label>
-                                    <input type="text" id="email">
-                                </div>
-                                <div class="col-lg-6">
-                                    <label for="last-name">Tarih</label>
-                                    <input type="text" id="last-name">
-                                </div>
-                                <div class="col-lg-6">
-                                    <label for="mobile">Açıklama</label>
-                                    <input type="text" id="mobile">
+                                    <select asp-for="AppUser.TrainerId" asp-items="@ViewBag.GetTrainer">
+                                        <option>--Trainer Seçiniz--</option>
+                                    </select>
+
+                                    <select asp-items="@ViewBag.classes">
+                                        <option>--Ders Seçiniz--</option>
+                                    </select>
+
+                                    <input type="text" name="AppUserId" value="@appUser.GetUserId(User)">
+                                    <input type="text" name="classId" value="@Model.Id">
+
                                 </div>
                             </div>
-                            <button type="submit" class="register-btn">Mesajı At</button>
+                            }
+                            <button type="submit" class="register-btn">Kaydol</button>
                         </form>
+
+
+                        else
+                        {
+                        <p>Ders kaydı için lütfen giriş yapınız...</p>
+                        }
+
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -63,8 +72,8 @@
         </div>
     </div>
 </section>
-<!-- Register Section End -->
-<!-- Classes Section Begin -->
+
+
 <section class="classes-section classes-page spad">
     <div class="container">
         <div class="row">
@@ -83,7 +92,7 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
 </section>
 <!-- Classes Section End -->
 <!-- Classes Timetable Section Begin -->
@@ -295,5 +304,3 @@
     </div>
 </section>
 <!-- Trainer Table Schedule Section End -->
-
-

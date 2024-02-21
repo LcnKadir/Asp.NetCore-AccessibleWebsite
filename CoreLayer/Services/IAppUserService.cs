@@ -16,5 +16,7 @@ namespace CoreLayer.Services
         Task<AppUser> GetByIdAsync(int id);
         Task<IEnumerable<AppUser>> GetAllAsync();
 
+
+
     }
 }

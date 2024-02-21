@@ -46,6 +46,11 @@ namespace RepositoryLayer.Repositories
             return await _context.Classes.Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
         }
 
+        public async Task<IEnumerable<Class>> GetClassIdAsync(int id)
+        {
+            return await _context.Classes.Include(x => x.AppUser).Include(x => x.Messages).Where(x=> x.Id == id).ToListAsync();
+        }
+
         public async Task<List<Class>> GetClassWithTrainer()
         {
             return await _context.Classes.Include(X => X.AppUser).OrderByDescending(x => x.CreateDate).ToListAsync();

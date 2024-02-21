@@ -23,6 +23,7 @@ namespace RepositoryLayer
         public DbSet<Comment> Comments { get; set; }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Message > Messages { get; set; }
 
 
         //Configuration ile eklediğimiz tüm Assembly'lerimizi EfCore'a bildirdik.

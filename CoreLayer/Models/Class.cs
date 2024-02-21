@@ -18,6 +18,7 @@ namespace CoreLayer.Models
         public DateTime FinishClass { get; set; }
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
+        public ICollection<Message> Messages { get; set; }
 
     }
 }

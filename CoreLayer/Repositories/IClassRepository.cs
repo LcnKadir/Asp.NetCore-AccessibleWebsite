@@ -20,5 +20,7 @@ namespace CoreLayer.Repositories
         public Task<Class> GetClassAsync();
         public Task<List<Class>> GetClassWithTrainer();
         public Task<List<Class>> GetClassForTrainer(int id);
+        Task<IEnumerable<Class>> GetClassIdAsync(int id);
+
     }
 }

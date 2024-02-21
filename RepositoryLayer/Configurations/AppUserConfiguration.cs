@@ -20,7 +20,8 @@ namespace RepositoryLayer.Configurations
 
             //Trainer'ın silinmesi halinde ona ait tüm bloglar silinecek.
             builder.HasMany(u => u.Blogs).WithOne(b => b.AppUser).HasForeignKey(b => b.AppUserId).OnDelete(DeleteBehavior.Cascade);
-           
+
+
         }
     }
 }

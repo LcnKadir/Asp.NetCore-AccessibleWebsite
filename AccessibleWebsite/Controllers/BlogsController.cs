@@ -29,20 +29,20 @@ namespace AccessibleWebsite.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult> BlogDetails()
+        public async Task<ActionResult> BlogDetails(int id)
         {
-            var blog = await _blogService.GetBlogAsync();
+            var blog = await _blogService.GetDetailsBlogAsync(id);
             return View(blog);
         }
 
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> AddComment(Comment comment)
+        public async Task<IActionResult> AddComment(Comment comment, int blogId )
         {
             comment.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             await _commentService.AddAsync(comment);
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("BlogDetails", "Blogs", new { id = blogId });
         }
 
 

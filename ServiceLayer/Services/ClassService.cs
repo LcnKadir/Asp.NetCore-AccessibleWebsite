@@ -46,7 +46,13 @@ namespace ServiceLayer.Services
 
         public async Task<List<Class>> GetClassForTrainer(int id)
         {
+            
             return await _classRepository.GetClassForTrainer(id);
+        }
+
+        public async Task<IEnumerable<Class>> GetClassIdAsync(int id)
+        {
+            return await _classRepository.GetClassIdAsync(id);
         }
 
         public async Task<List<Class>> GetClassWithTrainer()

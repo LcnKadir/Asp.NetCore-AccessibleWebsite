@@ -5,31 +5,35 @@
 namespace RepositoryLayer.Migrations
 {
     /// <inheritdoc />
-    public partial class new_tab : Migration
+    public partial class Appuser_table : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<string>(
-                name: "Branch",
+                name: "Email",
                 table: "AspNetUsers",
-                type: "nvarchar(max)",
+                type: "nvarchar(256)",
+                maxLength: 256,
                 nullable: true,
                 oldClrType: typeof(string),
-                oldType: "nvarchar(max)");
+                oldType: "nvarchar(256)",
+                oldMaxLength: 256);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<string>(
-                name: "Branch",
+                name: "Email",
                 table: "AspNetUsers",
-                type: "nvarchar(max)",
+                type: "nvarchar(256)",
+                maxLength: 256,
                 nullable: false,
                 defaultValue: "",
                 oldClrType: typeof(string),
-                oldType: "nvarchar(max)",
+                oldType: "nvarchar(256)",
+                oldMaxLength: 256,
                 oldNullable: true);
         }
     }

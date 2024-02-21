@@ -19,7 +19,7 @@ namespace RepositoryLayer.Configurations
             builder.Property(x=> x.CommentContent).IsRequired();
 
 
-            //Kullanıcının bir çok yorumu olabilir ve Model'in Id'sidir.
+            //Kullanıcının bir çok yorumu olabilir.
             builder.HasOne(x=> x.AppUser).WithMany(x=> x.Comments).HasForeignKey(x=>x.AppUserId).OnDelete(DeleteBehavior.NoAction);
 
 		}

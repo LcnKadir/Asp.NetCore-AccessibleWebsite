@@ -1,1611 +1,1619 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AccessibleWebsite.bundle.scp.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AccessibleWebsite.bundle.scp.css",
       "PackagePath": "staticwebassets\\AccessibleWebsite.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\1801d9e1-136c-4d55-9f69-0c084baf2f1b.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\1801d9e1-136c-4d55-9f69-0c084baf2f1b.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\1801d9e1-136c-4d55-9f69-0c084baf2f1b.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\1f44cf4a-e8e5-44a6-8e3a-3539e4b22188.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\1f44cf4a-e8e5-44a6-8e3a-3539e4b22188.png",
       "PackagePath": "staticwebassets\\BlogImages\\1f44cf4a-e8e5-44a6-8e3a-3539e4b22188.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\31c4ae71-1ec9-4158-a0e8-cb36a2adcdbf.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\31c4ae71-1ec9-4158-a0e8-cb36a2adcdbf.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\31c4ae71-1ec9-4158-a0e8-cb36a2adcdbf.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\35016ca4-bae8-4af2-af82-5aa04cbd1206.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\35016ca4-bae8-4af2-af82-5aa04cbd1206.png",
       "PackagePath": "staticwebassets\\BlogImages\\35016ca4-bae8-4af2-af82-5aa04cbd1206.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\38fbd0ce-a806-4ee0-a812-ab9e7214acf7.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\38fbd0ce-a806-4ee0-a812-ab9e7214acf7.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\38fbd0ce-a806-4ee0-a812-ab9e7214acf7.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\74af2265-5cb1-4714-9550-9bed379e5f5c.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\74af2265-5cb1-4714-9550-9bed379e5f5c.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\74af2265-5cb1-4714-9550-9bed379e5f5c.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\847b86cb-c671-49a3-a118-ae85445cb2ab.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\847b86cb-c671-49a3-a118-ae85445cb2ab.png",
       "PackagePath": "staticwebassets\\BlogImages\\847b86cb-c671-49a3-a118-ae85445cb2ab.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\a04b18eb-ff5f-444b-9259-c55a66b4d497.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\a04b18eb-ff5f-444b-9259-c55a66b4d497.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\a04b18eb-ff5f-444b-9259-c55a66b4d497.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\b6a61267-66ab-4cf3-8f9a-fbdafa273d59.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\b6a61267-66ab-4cf3-8f9a-fbdafa273d59.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\b6a61267-66ab-4cf3-8f9a-fbdafa273d59.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\c7a002ea-1192-4162-8e4e-a3a6507fa712.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\c7a002ea-1192-4162-8e4e-a3a6507fa712.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\c7a002ea-1192-4162-8e4e-a3a6507fa712.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\ca08c5cf-fa4e-464c-bcb7-b14cb3d01d3c.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\ca08c5cf-fa4e-464c-bcb7-b14cb3d01d3c.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\ca08c5cf-fa4e-464c-bcb7-b14cb3d01d3c.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\d1d80ddb-f04c-40dd-845d-03899f78fb94.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\d1d80ddb-f04c-40dd-845d-03899f78fb94.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\d1d80ddb-f04c-40dd-845d-03899f78fb94.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\3209755f-8ea3-432b-a5d3-504e99136ffa.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\3209755f-8ea3-432b-a5d3-504e99136ffa.jpg",
       "PackagePath": "staticwebassets\\ClassImage\\3209755f-8ea3-432b-a5d3-504e99136ffa.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\51fa6f0f-6b4c-4630-8c85-2dc15c1eb644.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\51fa6f0f-6b4c-4630-8c85-2dc15c1eb644.jpg",
       "PackagePath": "staticwebassets\\ClassImage\\51fa6f0f-6b4c-4630-8c85-2dc15c1eb644.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\700479d7-e901-417a-a081-8769d22a5555.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\700479d7-e901-417a-a081-8769d22a5555.jpg",
       "PackagePath": "staticwebassets\\ClassImage\\700479d7-e901-417a-a081-8769d22a5555.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\910ba2ed-0e71-42f4-bb7e-ba284a0e6ae9.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\76b7feb2-7e4d-49e9-a15a-923a7f5467b6.jpg",
+      "PackagePath": "staticwebassets\\ClassImage\\76b7feb2-7e4d-49e9-a15a-923a7f5467b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\910ba2ed-0e71-42f4-bb7e-ba284a0e6ae9.jpg",
       "PackagePath": "staticwebassets\\ClassImage\\910ba2ed-0e71-42f4-bb7e-ba284a0e6ae9.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\eb5826b5-4791-47a0-bf08-bae7e3050645.jpg",
+      "PackagePath": "staticwebassets\\ClassImage\\eb5826b5-4791-47a0-bf08-bae7e3050645.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\.DS_Store",
       "PackagePath": "staticwebassets\\Gym\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\Magnific-Popup-master.zip",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\Magnific-Popup-master.zip",
       "PackagePath": "staticwebassets\\Gym\\Source\\Magnific-Popup-master.zip"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\OwlCarousel2-2.3.4.zip",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\OwlCarousel2-2.3.4.zip",
       "PackagePath": "staticwebassets\\Gym\\Source\\OwlCarousel2-2.3.4.zip"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\SlickNav-master.zip",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\SlickNav-master.zip",
       "PackagePath": "staticwebassets\\Gym\\Source\\SlickNav-master.zip"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\bootstrap-4.4.1-dist.zip",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\bootstrap-4.4.1-dist.zip",
       "PackagePath": "staticwebassets\\Gym\\Source\\bootstrap-4.4.1-dist.zip"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\font-awesome-4.7.0.zip",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\font-awesome-4.7.0.zip",
       "PackagePath": "staticwebassets\\Gym\\Source\\font-awesome-4.7.0.zip"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\sass.zip",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\Source\\sass.zip",
       "PackagePath": "staticwebassets\\Gym\\Source\\sass.zip"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\about-us.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\about-us.html",
       "PackagePath": "staticwebassets\\Gym\\about-us.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\blog-details.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\blog-details.html",
       "PackagePath": "staticwebassets\\Gym\\blog-details.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\blog.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\blog.html",
       "PackagePath": "staticwebassets\\Gym\\blog.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\classes.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\classes.html",
       "PackagePath": "staticwebassets\\Gym\\classes.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\contact.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\contact.html",
       "PackagePath": "staticwebassets\\Gym\\contact.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Gym\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\Gym\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\magnific-popup.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\Gym\\css\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\owl.carousel.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\Gym\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\slicknav.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\slicknav.min.css",
       "PackagePath": "staticwebassets\\Gym\\css\\slicknav.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\style.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\css\\style.css",
       "PackagePath": "staticwebassets\\Gym\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Gym\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Gym\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\gallery.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\gallery.html",
       "PackagePath": "staticwebassets\\Gym\\gallery.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\about-pic.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\about-pic.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\about-pic.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\about-signature.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\about-signature.png",
       "PackagePath": "staticwebassets\\Gym\\img\\about-signature.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\award.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\award.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\award.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\banner-bg.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\banner-bg.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\banner-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\banner-person.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\banner-person.png",
       "PackagePath": "staticwebassets\\Gym\\img\\banner-person.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\bd-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\bd-1.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\bd-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\bd-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\bd-2.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\bd-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-1.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-2.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-3.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-4.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-4.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-4.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-5.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-5.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-5.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-6.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-6.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-6.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-7.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-7.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-7.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-8.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-8.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-8.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-9.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-9.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-9.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-detail-hero.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-detail-hero.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-detail-hero.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-posted.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\blog\\blog-posted.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\blog\\blog-posted.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\breadcrumb\\classes-breadcrumb.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\breadcrumb\\classes-breadcrumb.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\breadcrumb\\classes-breadcrumb.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-1.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-2.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-3.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-4.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-4.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-4.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-5.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-5.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-5.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-6.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-6.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-6.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-7.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-7.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-7.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-8.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-8.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-8.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-9.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\classes\\classes-9.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\classes\\classes-9.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\footer-banner\\footer-banner-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\footer-banner\\footer-banner-1.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\footer-banner\\footer-banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\footer-banner\\footer-banner-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\footer-banner\\footer-banner-2.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\footer-banner\\footer-banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\footer-signup.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\footer-signup.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\footer-signup.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-1.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-2.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-3.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-4.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-4.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-4.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-5.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-5.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-5.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-6.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-6.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-6.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-7.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\gallery\\gallery-7.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\gallery\\gallery-7.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\hero-bg.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\hero-bg.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\hero-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\icon-1.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\icon-1.png",
       "PackagePath": "staticwebassets\\Gym\\img\\icon\\icon-1.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\icon-2.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\icon-2.png",
       "PackagePath": "staticwebassets\\Gym\\img\\icon\\icon-2.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\icon-3.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\icon-3.png",
       "PackagePath": "staticwebassets\\Gym\\img\\icon\\icon-3.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\location.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\icon\\location.png",
       "PackagePath": "staticwebassets\\Gym\\img\\icon\\location.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\logo.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\logo.png",
       "PackagePath": "staticwebassets\\Gym\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\play.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\play.png",
       "PackagePath": "staticwebassets\\Gym\\img\\play.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\register-pic.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\register-pic.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\register-pic.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-1.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-1.png",
       "PackagePath": "staticwebassets\\Gym\\img\\services\\service-icon-1.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-2.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-2.png",
       "PackagePath": "staticwebassets\\Gym\\img\\services\\service-icon-2.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-3.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-3.png",
       "PackagePath": "staticwebassets\\Gym\\img\\services\\service-icon-3.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-4.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-icon-4.png",
       "PackagePath": "staticwebassets\\Gym\\img\\services\\service-icon-4.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-pic.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\services\\service-pic.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\services\\service-pic.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\testimonial\\quote-left.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\testimonial\\quote-left.png",
       "PackagePath": "staticwebassets\\Gym\\img\\testimonial\\quote-left.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\testimonial\\testimonial-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\testimonial\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\testimonial\\testimonial-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\testimonial\\testimonial-bg.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\testimonial\\testimonial-bg.png",
       "PackagePath": "staticwebassets\\Gym\\img\\testimonial\\testimonial-bg.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\about-trainer-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\about-trainer-1.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\trainer\\about-trainer-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\about-trainer-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\about-trainer-2.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\trainer\\about-trainer-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\about-trainer-3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\about-trainer-3.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\trainer\\about-trainer-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\classpt.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\classpt.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\trainer\\classpt.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-1.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\trainer\\trainer-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-2.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-2.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\trainer\\trainer-2.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-3.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\trainer\\trainer-3.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\trainer\\trainer-3.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\index.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\index.html",
       "PackagePath": "staticwebassets\\Gym\\index.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Gym\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\jquery-3.3.1.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\jquery-3.3.1.min.js",
       "PackagePath": "staticwebassets\\Gym\\js\\jquery-3.3.1.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\jquery.magnific-popup.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\Gym\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\jquery.slicknav.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\jquery.slicknav.js",
       "PackagePath": "staticwebassets\\Gym\\js\\jquery.slicknav.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\main.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\main.js",
       "PackagePath": "staticwebassets\\Gym\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\masonry.pkgd.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\masonry.pkgd.min.js",
       "PackagePath": "staticwebassets\\Gym\\js\\masonry.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\mixitup.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\mixitup.min.js",
       "PackagePath": "staticwebassets\\Gym\\js\\mixitup.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\Gym\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\main.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\main.html",
       "PackagePath": "staticwebassets\\Gym\\main.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\readme.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\readme.txt",
       "PackagePath": "staticwebassets\\Gym\\readme.txt"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\.gitattributes",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\.gitattributes",
       "PackagePath": "staticwebassets\\Trainer\\.gitattributes"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\.gitignore",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\.gitignore",
       "PackagePath": "staticwebassets\\Trainer\\.gitignore"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\404.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\404.html",
       "PackagePath": "staticwebassets\\Trainer\\404.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\CODE_OF_CONDUCT.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\CODE_OF_CONDUCT.md",
       "PackagePath": "staticwebassets\\Trainer\\CODE_OF_CONDUCT.md"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\CONTRIBUTING.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\CONTRIBUTING.md",
       "PackagePath": "staticwebassets\\Trainer\\CONTRIBUTING.md"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\LICENSE",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\LICENSE",
       "PackagePath": "staticwebassets\\Trainer"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\README.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\README.md",
       "PackagePath": "staticwebassets\\Trainer\\README.md"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\buttons.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\buttons.html",
       "PackagePath": "staticwebassets\\Trainer\\buttons.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\all.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\all.css",
       "PackagePath": "staticwebassets\\Trainer\\dist\\all.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\dashboard.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\dashboard.png",
       "PackagePath": "staticwebassets\\Trainer\\dist\\images\\dashboard.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\login-new.jpeg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\login-new.jpeg",
       "PackagePath": "staticwebassets\\Trainer\\dist\\images\\login-new.jpeg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\login.jpeg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\login.jpeg",
       "PackagePath": "staticwebassets\\Trainer\\dist\\images\\login.jpeg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\login.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\login.png",
       "PackagePath": "staticwebassets\\Trainer\\dist\\images\\login.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\styles.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\styles.css",
       "PackagePath": "staticwebassets\\Trainer\\dist\\styles.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\forms.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\forms.html",
       "PackagePath": "staticwebassets\\Trainer\\forms.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\index.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\index.html",
       "PackagePath": "staticwebassets\\Trainer\\index.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\index.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\index.js",
       "PackagePath": "staticwebassets\\Trainer\\index.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\login.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\login.html",
       "PackagePath": "staticwebassets\\Trainer\\login.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\main.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\main.js",
       "PackagePath": "staticwebassets\\Trainer\\main.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\modals.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\modals.html",
       "PackagePath": "staticwebassets\\Trainer\\modals.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\package-lock.json",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\package-lock.json",
       "PackagePath": "staticwebassets\\Trainer\\package-lock.json"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\package.json",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\package.json",
       "PackagePath": "staticwebassets\\Trainer\\package.json"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\postcss.config.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\postcss.config.js",
       "PackagePath": "staticwebassets\\Trainer\\postcss.config.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\register.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\register.html",
       "PackagePath": "staticwebassets\\Trainer\\register.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\src\\chart.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\src\\chart.js",
       "PackagePath": "staticwebassets\\Trainer\\src\\chart.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\src\\graph.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\src\\graph.js",
       "PackagePath": "staticwebassets\\Trainer\\src\\graph.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\src\\jquery-3.3.1.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\src\\jquery-3.3.1.min.js",
       "PackagePath": "staticwebassets\\Trainer\\src\\jquery-3.3.1.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\src\\styles.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\src\\styles.css",
       "PackagePath": "staticwebassets\\Trainer\\src\\styles.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\tables.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\tables.html",
       "PackagePath": "staticwebassets\\Trainer\\tables.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\tailwind.config.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\tailwind.config.js",
       "PackagePath": "staticwebassets\\Trainer\\tailwind.config.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\theme.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\theme.js",
       "PackagePath": "staticwebassets\\Trainer\\theme.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\ui.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\ui.html",
       "PackagePath": "staticwebassets\\Trainer\\ui.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webpack.config.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\webpack.config.js",
       "PackagePath": "staticwebassets\\Trainer\\webpack.config.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\.DS_Store",
       "PackagePath": "staticwebassets\\login-form\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\.gitattributes",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\.gitattributes",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\.gitattributes"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\.gitignore",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\.gitignore",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\.gitignore"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\404.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\404.html",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\404.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\CODE_OF_CONDUCT.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\CODE_OF_CONDUCT.md",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\CODE_OF_CONDUCT.md"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\CONTRIBUTING.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\CONTRIBUTING.md",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\CONTRIBUTING.md"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\LICENSE",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\LICENSE",
       "PackagePath": "staticwebassets\\login-form\\Trainer"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\README.md",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\README.md",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\README.md"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\buttons.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\buttons.html",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\buttons.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\all.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\all.css",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\dist\\all.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\images\\dashboard.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\images\\dashboard.png",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\dist\\images\\dashboard.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\images\\login-new.jpeg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\images\\login-new.jpeg",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\dist\\images\\login-new.jpeg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\images\\login.jpeg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\images\\login.jpeg",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\dist\\images\\login.jpeg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\images\\login.png",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\images\\login.png",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\dist\\images\\login.png"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\styles.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\dist\\styles.css",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\dist\\styles.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\forms.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\forms.html",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\forms.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\index.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\index.html",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\index.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\index.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\index.js",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\index.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\login.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\login.html",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\login.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\main.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\main.js",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\main.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\modals.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\modals.html",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\modals.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\package-lock.json",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\package-lock.json",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\package-lock.json"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\package.json",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\package.json",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\package.json"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\postcss.config.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\postcss.config.js",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\postcss.config.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\register.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\register.html",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\register.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\src\\chart.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\src\\chart.js",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\src\\chart.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\src\\graph.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\src\\graph.js",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\src\\graph.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\src\\jquery-3.3.1.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\src\\jquery-3.3.1.min.js",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\src\\jquery-3.3.1.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\src\\styles.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\src\\styles.css",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\src\\styles.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\tables.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\tables.html",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\tables.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\tailwind.config.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\tailwind.config.js",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\tailwind.config.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\theme.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\theme.js",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\theme.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\ui.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\ui.html",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\ui.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webpack.config.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\Trainer\\webpack.config.js",
       "PackagePath": "staticwebassets\\login-form\\Trainer\\webpack.config.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\.DS_Store",
       "PackagePath": "staticwebassets\\login-form\\css\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\.DS_Store",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\_media.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\_media.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\_media.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\.DS_Store",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\mixins\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_border-radius.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_border-radius.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\mixins\\_border-radius.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_reset-text.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_reset-text.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\mixins\\_reset-text.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_screen-reader.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\mixins\\_screen-reader.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_text-hide.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_text-hide.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\mixins\\_text-hide.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_visibility.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_visibility.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\mixins\\_visibility.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\utilities\\_stretched-link.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\utilities\\_stretched-link.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\style.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\css\\style.css",
       "PackagePath": "staticwebassets\\login-form\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\fonts\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\fonts\\.DS_Store",
       "PackagePath": "staticwebassets\\login-form\\fonts\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\images\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\images\\.DS_Store",
       "PackagePath": "staticwebassets\\login-form\\images\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\images\\bg.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\images\\bg.jpg",
       "PackagePath": "staticwebassets\\login-form\\images\\bg.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\index.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\index.html",
       "PackagePath": "staticwebassets\\login-form\\index.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\.DS_Store",
       "PackagePath": "staticwebassets\\login-form\\js\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\login-form\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\jquery.min.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\login-form\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\main.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\main.js",
       "PackagePath": "staticwebassets\\login-form\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\popper.js",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\js\\popper.js",
       "PackagePath": "staticwebassets\\login-form\\js\\popper.js"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\main.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\main.html",
       "PackagePath": "staticwebassets\\login-form\\main.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\.DS_Store",
       "PackagePath": "staticwebassets\\login-form\\scss\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\.DS_Store",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\.DS_Store",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_alert.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_alert.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_badge.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_badge.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_breadcrumb.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_button-group.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_button-group.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_buttons.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_buttons.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_card.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_card.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_carousel.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_carousel.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_close.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_close.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_code.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_code.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_code.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_custom-forms.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_custom-forms.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_custom-forms.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_dropdown.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_dropdown.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_forms.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_forms.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_functions.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_functions.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_grid.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_grid.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_images.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_images.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_input-group.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_input-group.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_jumbotron.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_jumbotron.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_jumbotron.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_list-group.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_list-group.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_media.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_media.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_media.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_mixins.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_mixins.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_modal.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_modal.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_nav.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_nav.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_navbar.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_navbar.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_pagination.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_pagination.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_popover.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_popover.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_print.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_print.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_print.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_progress.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_progress.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_reboot.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_reboot.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_root.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_root.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_spinners.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_spinners.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_tables.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_tables.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_toasts.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_toasts.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_tooltip.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_tooltip.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_transitions.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_transitions.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_transitions.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_type.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_type.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_utilities.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_utilities.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_variables.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_variables.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\bootstrap-grid.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\bootstrap.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\bootstrap.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_alert.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_background-variant.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_background-variant.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_badge.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_caret.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_float.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_float.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_forms.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_grid-framework.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_grid-framework.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_grid.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_hover.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_hover.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_hover.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_image.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_lists.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_nav-divider.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_nav-divider.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_resize.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_size.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_size.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_size.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_table-row.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_table-row.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_text-hide.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_text-hide.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_transition.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\mixins\\_visibility.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\mixins\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_align.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_align.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_align.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_background.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_background.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_background.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_borders.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_borders.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_borders.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_clearfix.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_display.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_display.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_display.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_embed.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_embed.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_embed.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_flex.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_flex.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_flex.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_float.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_float.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_overflow.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_overflow.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_position.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_position.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_position.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_screenreaders.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_screenreaders.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_shadows.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_shadows.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_sizing.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_sizing.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_spacing.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_spacing.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_stretched-link.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_text.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_text.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_text.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\utilities\\_visibility.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\utilities\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\vendor\\_rfs.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\style.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\login-form\\scss\\style.scss",
       "PackagePath": "staticwebassets\\login-form\\scss\\style.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\css\\style.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\css\\style.css",
       "PackagePath": "staticwebassets\\register\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\css\\style.css.map",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\css\\style.css.map",
       "PackagePath": "staticwebassets\\register\\css\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\css\\style.scss",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\css\\style.scss",
       "PackagePath": "staticwebassets\\register\\css\\style.scss"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css",
       "PackagePath": "staticwebassets\\register\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css",
       "PackagePath": "staticwebassets\\register\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot",
       "PackagePath": "staticwebassets\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg",
       "PackagePath": "staticwebassets\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf",
       "PackagePath": "staticwebassets\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff",
       "PackagePath": "staticwebassets\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2",
       "PackagePath": "staticwebassets\\register\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\poppins\\Poppins-Regular.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\poppins\\Poppins-Regular.ttf",
       "PackagePath": "staticwebassets\\register\\fonts\\poppins\\Poppins-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\fonts\\poppins\\Poppins-SemiBold.ttf",
       "PackagePath": "staticwebassets\\register\\fonts\\poppins\\Poppins-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\images\\bg-registration-form-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\images\\bg-registration-form-1.jpg",
       "PackagePath": "staticwebassets\\register\\images\\bg-registration-form-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\images\\boxer.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\images\\boxer.jpg",
       "PackagePath": "staticwebassets\\register\\images\\boxer.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\images\\registration-form-1.jpg",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\images\\registration-form-1.jpg",
       "PackagePath": "staticwebassets\\register\\images\\registration-form-1.jpg"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\index.html",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\index.html",
       "PackagePath": "staticwebassets\\register\\index.html"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\readme.txt",
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\readme.txt",
       "PackagePath": "staticwebassets\\register\\readme.txt"
     },
     {

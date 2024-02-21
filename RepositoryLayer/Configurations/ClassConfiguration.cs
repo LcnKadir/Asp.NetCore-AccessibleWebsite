@@ -20,7 +20,8 @@ namespace RepositoryLayer.Configurations
             builder.Ignore(x => x.ImageUrl);
 
             //Bir Trainer, bir çok ders açabilir.
-            builder.HasOne(x=> x.AppUser).WithMany(x=> x.Classes).HasForeignKey(x=> x.AppUserId).OnDelete(DeleteBehavior.Cascade);  
+            builder.HasOne(x=> x.AppUser).WithMany(x=> x.Classes).HasForeignKey(x=> x.AppUserId).OnDelete(DeleteBehavior.Restrict);  
+
 		}
     }
 }
