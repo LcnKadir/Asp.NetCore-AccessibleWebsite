@@ -25,23 +25,20 @@ namespace AccessibleWebsite.Controllers
             _messageService = messageService;
         }
 
-        public async Task<IActionResult> Index(int id) //Trainer'ları ve dersleri listeliyoruz.
+        [HttpGet]
+        public async Task<IActionResult> Index()
         {
-            var clas = await _classService.GetClassIdAsync(id);
-
-            var trainer = await _appUserService.GetAllAsync();
             var classes = await _classService.GetAllAsync();
-
-            ViewBag.GetTrainer = new SelectList(trainer, "TrainerId", "Name");
-            ViewBag.classes = new SelectList(classes, "Id", "Name");
-
-            return View(clas);
+            var days = await _classService.GetAllAsync();
+            ViewBag.Classes = classes;
+            ViewBag.Days = days;
+            return View();
         }
 
+
         [HttpPost]
-        public async Task<IActionResult> RegisterClass(Message msg, int clasId)
+        public async Task<IActionResult> RegisterClass(Message msg, List<int> clasId)
         {
-            msg.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             await _messageService.AddAsync(msg);
             return RedirectToAction("Index", "Classes", new { id = clasId });
         }

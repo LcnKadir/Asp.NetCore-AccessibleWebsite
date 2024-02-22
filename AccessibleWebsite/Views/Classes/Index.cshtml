@@ -32,40 +32,51 @@
                             <p>Katılmak İçin Eğitmene Mesaj At!</p>
                         </div>
 
-                        @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                           
+                                
+                                @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
-                        <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
-                            <div class="row">
-
-                                <div class="col-lg-6">
-                                    <select asp-for="AppUser.TrainerId" asp-items="@ViewBag.GetTrainer">
-                                        <option>--Trainer Seçiniz--</option>
-                                    </select>
-
-                                    <select asp-items="@ViewBag.classes">
-                                        <option>--Ders Seçiniz--</option>
-                                    </select>
-
-                                    <input type="text" name="AppUserId" value="@appUser.GetUserId(User)">
-                                    <input type="text" name="classId" value="@Model.Id">
-
-                                </div>
-                            </div>
+                                <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <select name="ClassId">
+                                                <option disabled selected>Choose a class</option>
+                                                @foreach (var item in ViewBag.Classes)
+                                                {
+                                                    <option value="@item.Id">@item.Name</option>
+                                                }
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <select name="Day">
+                                                <option disabled selected>Choose a day</option>
+                                                @foreach (var day in ViewBag.Days)
+                                                {
+                                                    <option value="@day.Id">@day.Day</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                    <button type="submit" class="register-btn">Kaydol</button>
+                                </form>
                             }
-                            <button type="submit" class="register-btn">Kaydol</button>
-                        </form>
-
-
+                           
+                        }
                         else
                         {
-                        <p>Ders kaydı için lütfen giriş yapınız...</p>
+                            <div class="section-title">
+                                <p>Ders kaydı için lütfen giriş yapınız.</p>
+                            </div>
                         }
 
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="register-pic" style="text-align: right; margin-top: 10px; margin-right: 10px;">
-                        <img src="/Gym/img/trainer/classpt.jpg" alt="" style="max-width: 100%; height: auto;">
+                        <img src="~/Gym/img/trainer/classpt.jpg" alt="" style="max-width: 100%; height: auto;">
                     </div>
                 </div>
             </div>

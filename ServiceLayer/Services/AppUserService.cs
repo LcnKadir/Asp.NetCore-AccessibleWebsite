@@ -39,6 +39,11 @@ namespace ServiceLayer.Services
             return await _repository.GetByIdAsync(id);
         }
 
+        public Task<Blog> GetTrainerAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<List<AppUser>> GetTrainers()
         {
             return await _repository.GetTrainers();

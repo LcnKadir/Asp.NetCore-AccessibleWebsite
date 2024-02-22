@@ -16,7 +16,7 @@ namespace RepositoryLayer.Configurations
 
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
-            builder.Property(x => x.MessageContent).IsRequired();
+
 
             //Kullanıcı sadece haftalık derslerden birine katılabilecek.
             builder.HasOne(c => c.AppUser).WithOne(u => u.Messages).HasForeignKey<Message>(c => c.AppUserId).OnDelete(DeleteBehavior.NoAction);

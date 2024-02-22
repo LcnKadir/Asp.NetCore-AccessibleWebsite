@@ -14,6 +14,7 @@ namespace CoreLayer.Models
         public string Name { get; set; }
         public string Surname { get; set; }
         public string? Email { get; set; }
+        //public string? ImageUrl { get; set; }
         public bool? Status {  get; set; } //Kullanıcı erişilebilir sayfaya geçmesi durumunda, hesabı true olacak.
         public string? Gender { get; set; }
         public string? Age { get; set; }
