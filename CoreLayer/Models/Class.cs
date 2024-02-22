@@ -10,7 +10,7 @@ namespace CoreLayer.Models
     public class Class : BaseEntity
     {
         public string Name { get; set; }
-        public string? Description { get; set; }
+        public string? Description { get; set; }//SİL
 
         public bool AddStatus { get; set; } //Kullanıcı haftalık bir derse katılma hakkına sahip olacak. Derse katılmak istediğini bildirdiği zaman, eklenme durumu true dönecek.
         public string? Day { get; set; }

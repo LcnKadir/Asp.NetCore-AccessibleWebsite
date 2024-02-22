@@ -40,6 +40,7 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
                 await clas.ImageUrl.CopyToAsync(stream);
                 clas.Image = imagename;
             }
+
             await _classService.AddAsync(clas);
             return RedirectToAction(nameof(ListClass));
         }

@@ -30,9 +30,10 @@
                     <thead>
                         <tr>
                             <th class="border w-1/4 px-4 py-2 text-center">Ders Adı</th>
+                            <th class="border w-1/4 px-4 py-2 text-center">Ders Günü</th>
                             <th class="border w-1/6 px-4 py-2 text-center">Görsel</th>
-                            <th class="border w-1/6 px-4 py-2 text-center">Bitiş Saati</th>
                             <th class="border w-1/7 px-4 py-2 text-center">Başlangıç Saati</th>
+                            <th class="border w-1/6 px-4 py-2 text-center">Bitiş Saati</th>
                             <th class="border w-1/7 px-4 py-2 text-center"></th>
                         </tr>
                     </thead>
@@ -42,7 +43,10 @@
                                 <input type="text" asp-for="Name" class="form-control" />
                             </td>
                             <td>
-                            <input type="file" asp-for="ImageUrl" class="form-control" />
+                                <input type="text" asp-for="Day" class="form-control" />
+                            </td>
+                            <td>
+                                <input type="file" asp-for="ImageUrl" class="form-control" />
                             </td>
                             <td>
                                 <input type="text" asp-for="StartClass" class="form-control datetimepicker" />

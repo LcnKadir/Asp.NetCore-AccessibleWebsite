@@ -1,4 +1,4 @@
-﻿@model Class
+﻿@model List<Class>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/IULayout.cshtml";
@@ -20,7 +20,7 @@
     </div>
 </section>
 
-@* Kullanıcı, ders kaydı açan Trainer'a katılım için mesaj iletecek. *@
+@* Kullanıcı, kayıt açan Trainer'a  derse katılım için istek iletecek. *@
 <section class="register-section classes-page spad">
     <div class="container">
         <div class="classes-page-text">
@@ -31,27 +31,31 @@
                             <h2>Ders Kaydı</h2>
                             <p>Katılmak İçin Eğitmene Mesaj At!</p>
                         </div>
-
+                        <br />
                         @if (User.Identity.IsAuthenticated)
                         {
-                           
-                                
-                                @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
-                                <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <select name="ClassId">
-                                                <option disabled selected>Choose a class</option>
+                            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+
+                            <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <!-- İlk dropdown listesi -->
+                                        <div class="form-group">
+                                            <select name="ClassId" class="form-control">
+                                                <option disabled selected>Lütfen Ders Seçiniz</option>
                                                 @foreach (var item in ViewBag.Classes)
                                                 {
                                                     <option value="@item.Id">@item.Name</option>
                                                 }
                                             </select>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <select name="Day">
-                                                <option disabled selected>Choose a day</option>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!-- İkinci dropdown listesi -->
+                                        <div class="form-group">
+                                            <select name="Day" class="form-control">
+                                                <option disabled selected>Lütfen Gün Seçiniz</option>
                                                 @foreach (var day in ViewBag.Days)
                                                 {
                                                     <option value="@day.Id">@day.Day</option>
@@ -59,11 +63,15 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
-                                    <button type="submit" class="register-btn">Kaydol</button>
-                                </form>
-                            }
-                           
+                                </div>
+
+                                <br>
+                                <br>
+                                <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                <br>
+                                <button type="submit" class="register-btn">Kaydol</button>
+                            </form>
+
                         }
                         else
                         {
@@ -83,235 +91,26 @@
         </div>
     </div>
 </section>
-
-
 <section class="classes-section classes-page spad">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2>GRUP DERSLERİ</h2>
-                </div>
-            </div>
+        <div class="section-title">
+            <h2>DERSLER</h2>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-class-item set-bg" data-setbg="img/classes/classes-1.jpg">
-                    <div class="si-text">
-                        <h4>Yoga</h4>
-                        <span><i class="fa fa-user"></i> Ryan Knight</span>
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-class-item set-bg" data-setbg="/ClassImage/@item.Image">
+                        <div class="si-text">
+                            <h4>@item.Name</h4>
+                            <span><i class="fa fa"></i>@item.Day | @(((DateTime)item.StartClass).ToString(" HH:mm"))-@(((DateTime)item.FinishClass).ToString("HH:mm"))</span>
+                            <br>
+                            <span><i class="fa fa-user"></i>@item.AppUser.Name @item.AppUser.Surname</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-</section>
-<!-- Classes Section End -->
-<!-- Classes Timetable Section Begin -->
-<section class="classes-timetable spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2>Class Timetable</h2>
-                </div>
-                <div class="nav-controls">
-                    <ul>
-                        <li class="active" data-tsfilter="all">All Class</li>
-                        <li data-tsfilter="gym">Gym</li>
-                        <li data-tsfilter="crossfit">Crossfit</li>
-                        <li data-tsfilter="cardio">Cardio</li>
-                        <li data-tsfilter="body">Body</li>
-                        <li data-tsfilter="yoga">Yoga</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="schedule-table">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Monday</th>
-                                <th>Tuesday</th>
-                                <th>Wednesday</th>
-                                <th>Thursday</th>
-                                <th>Friday</th>
-                                <th>Saturday</th>
-                                <th>Sunday</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="workout-time">10.00</td>
-                                <td class="hover-bg ts-item" data-tsmeta="gym">
-                                    <h6>Gym</h6>
-                                    <span>10.00 - 11.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="yoga">
-                                    <h6>Yoga</h6>
-                                    <span>10.00 - 12.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="body">
-                                    <h6>Body</h6>
-                                    <span>10.00 - 12.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="cardio">
-                                    <h6>Cardio</h6>
-                                    <span>10.00 - 11.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="workout-time">14.00</td>
-                                <td></td>
-                                <td class="hover-bg ts-item">
-                                    <h6>Running</h6>
-                                    <span>14.00 - 16.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item">
-                                    <h6>Box</h6>
-                                    <span>14.00 - 15.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="gym">
-                                    <h6>Gym</h6>
-                                    <span>14.00 - 16.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td class="workout-time">16.00</td>
-                                <td class="hover-bg ts-item" data-tsmeta="cardio">
-                                    <h6>Cardio</h6>
-                                    <span>16.00 - 18.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="gym">
-                                    <h6>Gym</h6>
-                                    <span>16.00 - 19.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="yoga">
-                                    <h6>Yoga</h6>
-                                    <span>16.00 - 18.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="gym">
-                                    <h6>Gym</h6>
-                                    <span>16.00 - 20.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="workout-time">18.00</td>
-                                <td class="hover-bg ts-item">
-                                    <h6>Box</h6>
-                                    <span>18.00 - 22.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td class="hover-bg ts-item" data-tsmeta="body">
-                                    <h6>Body</h6>
-                                    <span>18.00 - 20.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="crossfit">
-                                    <h6>Crossfit</h6>
-                                    <span>18.00 - 21.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="cardio">
-                                    <h6>Cardio</h6>
-                                    <span>18.00 - 22.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td class="workout-time">20.00</td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="gym">
-                                    <h6>Gym</h6>
-                                    <span>20.00 - 12.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td class="hover-bg ts-item" data-tsmeta="body">
-                                    <h6>Body</h6>
-                                    <span>20.00 - 21.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="cardio">
-                                    <h6>Cardio</h6>
-                                    <span>20.00 - 22.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                                <td></td>
-                                <td class="hover-bg ts-item" data-tsmeta="crossfit">
-                                    <h6>Crossfit</h6>
-                                    <span>20.00 - 21.00</span>
-                                    <div class="trainer-name">
-                                        John Smith
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </section>
-<!-- Trainer Table Schedule Section End -->

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fBjiHqegUC23Y5w9N6I5nl/eCDS+vdGJlbQEJI8OCF4=",
+  "Hash": "rIn3xWwOIhINsfelCHWDn+GS8joZmWIiUWEKK2j5Niw=",
   "Source": "AccessibleWebsite",
   "BasePath": "_content/AccessibleWebsite",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AccessibleWebsite.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\01b5d6c4-286c-44b7-b69f-7e43f043eca2.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "BlogImages/01b5d6c4-286c-44b7-b69f-7e43f043eca2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BlogImages\\01b5d6c4-286c-44b7-b69f-7e43f043eca2.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\1801d9e1-136c-4d55-9f69-0c084baf2f1b.jpg",
@@ -153,6 +170,23 @@
       "OriginalItemSpec": "wwwroot\\BlogImages\\74af2265-5cb1-4714-9550-9bed379e5f5c.jpg"
     },
     {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\8089d2a7-2bed-4b01-b1df-088e6ac97d45.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "BlogImages/8089d2a7-2bed-4b01-b1df-088e6ac97d45.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BlogImages\\8089d2a7-2bed-4b01-b1df-088e6ac97d45.jpg"
+    },
+    {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\847b86cb-c671-49a3-a118-ae85445cb2ab.png",
       "SourceId": "AccessibleWebsite",
       "SourceType": "Discovered",
@@ -185,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\BlogImages\\a04b18eb-ff5f-444b-9259-c55a66b4d497.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\b27bba0d-7593-4001-add8-6244e76a3c06.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "BlogImages/b27bba0d-7593-4001-add8-6244e76a3c06.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BlogImages\\b27bba0d-7593-4001-add8-6244e76a3c06.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\b6a61267-66ab-4cf3-8f9a-fbdafa273d59.jpg",
@@ -372,6 +423,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ClassImage\\910ba2ed-0e71-42f4-bb7e-ba284a0e6ae9.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\eb0beb22-39f0-4e55-836b-5d3c208242e4.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "ClassImage/eb0beb22-39f0-4e55-836b-5d3c208242e4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ClassImage\\eb0beb22-39f0-4e55-836b-5d3c208242e4.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\eb5826b5-4791-47a0-bf08-bae7e3050645.jpg",

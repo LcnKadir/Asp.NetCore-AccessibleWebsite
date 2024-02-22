@@ -12,27 +12,26 @@ namespace AccessibleWebsite.Controllers
     [AllowAnonymous]
     public class ClassesController : Controller
     {
-        private readonly UserManager<AppUser> _userManager;
         private readonly IClassService _classService;
-        private readonly IAppUserService _appUserService;
         private readonly IMessageService _messageService;
 
-        public ClassesController(UserManager<AppUser> userManager, IClassService classService, IAppUserService appUserService, IMessageService messageService)
+        public ClassesController(IClassService classService, IMessageService messageService)
         {
-            _userManager = userManager;
             _classService = classService;
-            _appUserService = appUserService;
             _messageService = messageService;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+            var getclass = await _classService.GetClassWithTrainer(); //Derslerin sayfada listelenmesi.
+
             var classes = await _classService.GetAllAsync();
             var days = await _classService.GetAllAsync();
             ViewBag.Classes = classes;
             ViewBag.Days = days;
-            return View();
+
+            return View(getclass);
         }
 
 
@@ -43,5 +42,6 @@ namespace AccessibleWebsite.Controllers
             return RedirectToAction("Index", "Classes", new { id = clasId });
         }
 
+        
     }
 }
