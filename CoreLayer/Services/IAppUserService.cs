@@ -18,6 +18,5 @@ namespace CoreLayer.Services
 
 
         public Task<List<AppUser>> GetTrainers();
-        public Task<Blog> GetTrainerAsync(int id);
     }
 }

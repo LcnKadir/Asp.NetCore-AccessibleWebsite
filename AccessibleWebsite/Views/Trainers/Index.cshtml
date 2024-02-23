@@ -3,8 +3,6 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/IULayout.cshtml";
 }
-
-
 <section class="trainer-section about-trainer spad">
     <div class="container">
         <div class="row">
@@ -21,13 +19,18 @@
                     <div class="single-trainer-item">
                         <img src="img/trainer/about-trainer-1.jpg" alt="">
                         <div class="trainer-text">
-
-
-                            <h5>@item.Name @item.Surname</h5>
-                            <span>@item.Branch</span>
-                            <p>
-                                @item.Description
-                            </p>
+                            @if (item.TrainerId != null)
+                            {
+                                <h5>@item.Name @item.Surname</h5>
+                                <span>@item.Branch</span>
+                                <p>
+                                    @item.Description
+                                </p>
+                            }
+                            else
+                            {
+                                <p>Henüz Trainer Eklendi.</p>
+                            }
                             <div class="trainer-social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
@@ -35,12 +38,10 @@
                                 <a href="#"><i class="fa fa-pinterest"></i></a>
                                 <hr>
                                 <br>
-                                <a href="/Trainers/TrainerDetails/@item.TrainerId" class="primary-btn membership-btn">İletişime Geç</a>
+                                <a href="/Trainers/GetTraining/@item.Id" class="primary-btn membership-btn">İletişime Geç</a>
                             </div>
                         </div>
-                        
                     </div>
-                 
                 </div>
             }
         </div>

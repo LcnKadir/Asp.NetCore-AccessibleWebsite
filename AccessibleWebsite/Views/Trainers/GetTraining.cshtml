@@ -1,0 +1,58 @@
+﻿@model AppUser
+@{
+    ViewData["Title"] = "GetTraining";
+    Layout = "~/Views/Shared/IULayout.cshtml";
+}
+<style>
+    .trainer-name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+</style>
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="row">
+
+                    <div class="col-lg-12 text-center" style="margin-top: 20px; margin-bottom: 20px;">
+                        <img src="~/Gym/img/trainer/about-trainer-1.jpg" alt="" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 10px;">
+                        <p class="trainer-name">@Model.Id</p>
+                        <p class="trainer-name">@Model.Name @Model.Surname</p>
+                        <p class="trainer-name">@Model.Branch</p>
+                    </div>
+
+                    <div class="contact-form">
+                        <form method="post" asp-controller="Trainers" asp-action="AddTraining">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+
+                                <input type="text" name="AppUserId" value="@appUser.GetUserId(User)">
+
+                                <div class="col-lg-12">
+                                    <textarea name="Description" placeholder="Antrenör'ün sizi daha iyi tanıması için kendinizden kısaca bahsedin..:)'"></textarea>
+                                    <button class="col-lg-12 text-center" type="submit" style="margin-top: 20px; margin-bottom: 40px;">Gönder</button>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="section-title">
+                                    <p>Antrenör ile çalışmak için lütfen giriş yapınız.</p>
+                                </div>
+                            }
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+

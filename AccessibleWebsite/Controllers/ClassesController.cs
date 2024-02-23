@@ -34,7 +34,7 @@ namespace AccessibleWebsite.Controllers
             return View(getclass);
         }
 
-
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> RegisterClass(Message msg, List<int> clasId)
         {

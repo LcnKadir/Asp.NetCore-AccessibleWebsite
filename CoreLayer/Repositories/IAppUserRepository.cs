@@ -20,6 +20,5 @@ namespace CoreLayer.Repositories
 
 
         public Task<List<AppUser>> GetTrainers();
-        public Task<Blog> GetTrainerAsync(int id);
     }
 }

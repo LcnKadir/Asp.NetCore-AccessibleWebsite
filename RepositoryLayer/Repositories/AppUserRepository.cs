@@ -1,5 +1,6 @@
 ﻿using CoreLayer.Models;
 using CoreLayer.Repositories;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,10 +15,12 @@ namespace RepositoryLayer.Repositories
     {
         protected readonly AppDbContext _context;
         private readonly DbSet<AppUser> _DbSet;
+        private readonly UserManager<AppUser> _userManager;
 
-        public AppUserRepository(AppDbContext context)
+        public AppUserRepository(AppDbContext context, UserManager<AppUser> userManager)
         {
-			_context = context;
+            _userManager = userManager;
+            _context = context;
             _DbSet = context.Set<AppUser>();
         }
 
@@ -36,14 +39,10 @@ namespace RepositoryLayer.Repositories
             return await _DbSet.FindAsync(id);
         }
 
-        public async Task<Blog> GetTrainerAsync(int id)
-        {
-            return await _context.Blogs.Include(x => x.AppUser).Include(x => x.Comments).Where(x => x.Id == id).FirstOrDefaultAsync();
-        }
+        public async Task<List<AppUser>> GetTrainers()
 
-        public async  Task<List<AppUser>> GetTrainers()
         {
-            return await _context.AppUsers.Include(x => x.Classes).Where(u => u.TrainerId != null).ToListAsync();
+            return await _userManager.Users.Where(x => x.Id == x.TrainerId).ToListAsync();
         }
 
         public void Remove(AppUser appUser)
