@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\BlogImages\\1f44cf4a-e8e5-44a6-8e3a-3539e4b22188.png"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\2f54a0b0-966a-490b-8636-ea78fb146240.png",
+      "PackagePath": "staticwebassets\\BlogImages\\2f54a0b0-966a-490b-8636-ea78fb146240.png"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\31c4ae71-1ec9-4158-a0e8-cb36a2adcdbf.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\31c4ae71-1ec9-4158-a0e8-cb36a2adcdbf.jpg"
     },
@@ -41,6 +45,10 @@
       "PackagePath": "staticwebassets\\BlogImages\\847b86cb-c671-49a3-a118-ae85445cb2ab.png"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\9b40e583-6eeb-4716-87c9-579f5a04f028.jpg",
+      "PackagePath": "staticwebassets\\BlogImages\\9b40e583-6eeb-4716-87c9-579f5a04f028.jpg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\a04b18eb-ff5f-444b-9259-c55a66b4d497.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\a04b18eb-ff5f-444b-9259-c55a66b4d497.jpg"
     },
@@ -51,6 +59,10 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\b6a61267-66ab-4cf3-8f9a-fbdafa273d59.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\b6a61267-66ab-4cf3-8f9a-fbdafa273d59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\c3d92ed9-fb55-42af-a335-6d1bea109647.jpeg",
+      "PackagePath": "staticwebassets\\BlogImages\\c3d92ed9-fb55-42af-a335-6d1bea109647.jpeg"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\c7a002ea-1192-4162-8e4e-a3a6507fa712.jpg",
@@ -211,6 +223,14 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\about-signature.png",
       "PackagePath": "staticwebassets\\Gym\\img\\about-signature.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\acesloggo.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\acesloggo.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\aceslogo.jpg",
+      "PackagePath": "staticwebassets\\Gym\\img\\aceslogo.jpg"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Gym\\img\\award.jpg",

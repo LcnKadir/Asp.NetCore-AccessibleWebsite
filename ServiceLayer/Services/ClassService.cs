@@ -60,6 +60,11 @@ namespace ServiceLayer.Services
             return await _classRepository.GetClassWithTrainer();
         }
 
+        public async Task<List<Class>> GetLastClasses(int id)
+        {
+            return await _classRepository.GetLastClasses(id);
+        }
+
         public async Task RemoveAsync(Class clas)
         {
             _classRepository.Remove(clas);

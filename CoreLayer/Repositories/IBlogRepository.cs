@@ -19,9 +19,9 @@ namespace CoreLayer.Repositories
         Task<IEnumerable<Blog>> GetAllAsync();
         
 
-        public Task<Blog> GetDetailsBlogAsync(int id); 
-        public Task<List<Blog>> GetBlogWithTrainer();
-        public Task<List<Blog>> GetBlogForTrainer(int id);
-        public Task<List<Blog>> GetLastBlogAsync(int id); 
+        Task<Blog> GetDetailsBlogAsync(int id); 
+        Task<List<Blog>> GetBlogWithTrainer();
+        Task<List<Blog>> GetBlogForTrainer(int id);
+        Task<List<Blog>> GetLastBlogAsync(int id); 
     }
 }

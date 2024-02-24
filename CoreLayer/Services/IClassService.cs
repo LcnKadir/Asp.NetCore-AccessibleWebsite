@@ -15,10 +15,10 @@ namespace CoreLayer.Services
         Task<Class> GetByIdAsync(int id);
         Task<IEnumerable<Class>> GetAllAsync();
 
-        public Task<Class> GetClassAsync();
-        public Task<List<Class>> GetClassWithTrainer();
-        public Task<List<Class>> GetClassForTrainer(int id);
-
+        Task<Class> GetClassAsync();
+        Task<List<Class>> GetClassWithTrainer();
+        Task<List<Class>> GetClassForTrainer(int id);
         Task<IEnumerable<Class>> GetClassIdAsync(int id);
+        Task<List<Class>> GetLastClasses(int id);
     }
 }

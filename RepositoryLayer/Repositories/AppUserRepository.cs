@@ -39,6 +39,11 @@ namespace RepositoryLayer.Repositories
             return await _DbSet.FindAsync(id);
         }
 
+        public async Task<List<AppUser>> GetLastTrainersAsync(int id)
+        {
+            return await _context.AppUsers.OrderByDescending(x => x.Id).Take(3).ToListAsync();
+        }
+
         public async Task<List<AppUser>> GetTrainers()
 
         {

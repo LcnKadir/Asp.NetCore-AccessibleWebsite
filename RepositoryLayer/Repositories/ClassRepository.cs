@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -54,6 +55,11 @@ namespace RepositoryLayer.Repositories
         public async Task<List<Class>> GetClassWithTrainer()
         {
             return await _context.Classes.Include(X => X.AppUser).OrderByDescending(x => x.CreateDate).ToListAsync();
+        }
+
+        public async Task<List<Class>> GetLastClasses(int id)
+        {
+            return await _context.Classes.Include(x=> x.AppUser).OrderByDescending(x => x.Id).Take(12).ToListAsync();
         }
 
         public void Remove(Class clas)

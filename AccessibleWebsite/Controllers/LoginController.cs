@@ -10,7 +10,7 @@ namespace AccessibleWebsite.Controllers
     [AllowAnonymous]
     public class LoginController : Controller
     {
-        //Kullanıcının kayıt olma ve giriş yapma işlemleri, tek bir controller'da birleştirildi.
+        //Kullanıcının kayıt olma, giriş yapma ve çıkış yapma işlemleri tek bir controller'da birleştirildi.
 
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
@@ -65,8 +65,6 @@ namespace AccessibleWebsite.Controllers
             return View(ap);
         }
 
-
-
         [HttpGet]
         public IActionResult SignIn()
         {
@@ -94,6 +92,10 @@ namespace AccessibleWebsite.Controllers
             }
             return View();
         }
-
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction(nameof(DefaultController.Index), "Default"); 
+        }
     }
 }

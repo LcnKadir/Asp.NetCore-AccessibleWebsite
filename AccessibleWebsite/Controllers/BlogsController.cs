@@ -7,17 +7,14 @@ using Microsoft.Identity.Client;
 
 namespace AccessibleWebsite.Controllers
 {
-    [AllowAnonymous]
     public class BlogsController : Controller
     {
         private readonly ICommentService _commentService;
-        private readonly UserManager<AppUser> _userManager;
         private readonly IBlogService _blogService;
 
-        public BlogsController(ICommentService commentService, UserManager<AppUser> userManager, IBlogService blogService)
+        public BlogsController(ICommentService commentService, IBlogService blogService)
         {
             _commentService = commentService;
-            _userManager = userManager;
             _blogService = blogService;
         }
 

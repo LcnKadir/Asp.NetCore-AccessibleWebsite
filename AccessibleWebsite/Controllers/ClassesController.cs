@@ -9,7 +9,6 @@ using ServiceLayer.Services;
 
 namespace AccessibleWebsite.Controllers
 {
-    [AllowAnonymous]
     public class ClassesController : Controller
     {
         private readonly IClassService _classService;
@@ -36,7 +35,7 @@ namespace AccessibleWebsite.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> RegisterClass(Message msg, List<int> clasId)
+        public async Task<IActionResult> RegisterClass(Message msg, List<int> clasId) //Ders kaydı.
         {
             await _messageService.AddAsync(msg);
             return RedirectToAction("Index", "Classes", new { id = clasId });

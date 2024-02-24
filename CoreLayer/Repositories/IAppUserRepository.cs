@@ -18,7 +18,7 @@ namespace CoreLayer.Repositories
         Task<IEnumerable<AppUser>> GetAllAsync();
 
 
-
         public Task<List<AppUser>> GetTrainers();
+        public Task<List<AppUser>> GetLastTrainersAsync(int id);
     }
 }

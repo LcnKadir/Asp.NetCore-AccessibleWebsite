@@ -10,6 +10,6 @@ namespace CoreLayer.Services
     public interface ITrainingService
     {
         Task<Training> AddTrainingAsync(Training training);
-        public Task<Training> GetTrainerForTraining(int id);
+        Task<Training> GetTrainerForTraining(int id);
     }
 }

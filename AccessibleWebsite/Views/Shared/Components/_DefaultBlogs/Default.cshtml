@@ -1,0 +1,27 @@
+﻿@model List<Blog>
+
+<section class="latest-blog-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Son Bloglar</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-item">
+                        <img src="/BlogImages/@item.CoverImage" alt="">
+                        <div class="blog-widget">
+                            <a href="#" class="tag">#Gym</a>
+                        </div>
+                        <h4><a href="#">@item.LoginTitle</a></h4>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

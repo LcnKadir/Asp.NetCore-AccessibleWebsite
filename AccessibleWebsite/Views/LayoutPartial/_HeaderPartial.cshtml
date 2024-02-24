@@ -1,8 +1,8 @@
 ﻿<header class="header-section">
     <div class="container">
-        <div class="logo">
+        <div class="logo" style="position: absolute; top: 10px; left: 150px;">
             <a href="~/Gym/./index.html">
-                <img src="~/Gym/img/logo.png" alt="">
+                <img src="~/Gym/img/acesloggo.png" alt="" style="width: 100px; height: auto;">
             </a>
         </div>
         <div class="nav-menu">
@@ -16,8 +16,27 @@
                     <li><a href="./contact.html">İletişim</a></li>
                 </ul>
             </nav>
-            <a href="#" class="primary-btn signup-btn">Erişilebilir Kıl</a>
+
+            <a href="#" class="primary-btn signup-btn" style="margin-right: 30px;">Erişilebilir Kıl</a>
+
+            <nav class="mainmenu mobile-menu">
+                <ul>
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <li class="active"><a href="/login">Giriş Yap</a></li>
+                    }
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a asp-controller="" asp-action="" >Profilim</a></li>
+                    }
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a href="/logout">Çıkış Yap</a></li>
+                    }
+                </ul>
+            </nav>
         </div>
-        <div id="mobile-menu-wrap"></div>
     </div>
+    <div id="mobile-menu-wrap"></div>
+
 </header>

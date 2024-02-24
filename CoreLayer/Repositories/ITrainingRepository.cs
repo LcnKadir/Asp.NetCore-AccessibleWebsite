@@ -11,6 +11,7 @@ namespace CoreLayer.Repositories
     {
         Task AddTrainingAsync(Training training);
 
-        public Task<Training> GetTrainerForTraining(int id);
+        Task<Training> GetTrainerForTraining(int id);
+
     }
 }

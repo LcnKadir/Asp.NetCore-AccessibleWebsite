@@ -17,6 +17,8 @@ namespace CoreLayer.Services
         Task<IEnumerable<AppUser>> GetAllAsync();
 
 
-        public Task<List<AppUser>> GetTrainers();
+        Task<List<AppUser>> GetTrainers();
+        Task<List<AppUser>> GetLastTrainersAsync(int id);
+
     }
 }
