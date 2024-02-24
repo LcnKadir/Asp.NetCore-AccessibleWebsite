@@ -68,6 +68,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/ConfirmMail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlybU1haWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/DefaultPartial/_AboutService.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFBhcnRpYWxcX0Fib3V0U2VydmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -187,7 +195,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-13gzpolq8r

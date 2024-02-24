@@ -906,6 +906,7 @@ C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\Acce
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\FluentValidation.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Humanizer.dll
+C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\MailKit.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -954,7 +955,9 @@ C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\Acce
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\MimeKit.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\NETCore.MailKit.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\NuGet.Common.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\NuGet.Configuration.dll
@@ -965,6 +968,7 @@ C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\Acce
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\NuGet.ProjectModel.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\NuGet.Protocol.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\BouncyCastle.Crypto.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\System.Composition.AttributedModel.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\System.Composition.Convention.dll
@@ -1152,9 +1156,7 @@ C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\Acce
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\scopedcss\bundle\AccessibleWebsite.styles.css
-C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\scopedcss\projectbundle\AccessibleWebsite.bundle.scp.css
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.csproj.CopyComplete
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.dll
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\refint\AccessibleWebsite.dll

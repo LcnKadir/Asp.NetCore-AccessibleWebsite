@@ -1,7 +1,7 @@
 ﻿<header class="header-section">
     <div class="container">
         <div class="logo" style="position: absolute; top: 10px; left: 150px;">
-            <a href="~/Gym/./index.html">
+            <a href="/Default/Index/">
                 <img src="~/Gym/img/acesloggo.png" alt="" style="width: 100px; height: auto;">
             </a>
         </div>
@@ -11,9 +11,9 @@
                     <li class="active"><a href="/Default/Index/">Ana Sayfa</a></li>
                     <li><a href="/Classes/Index/">Dersler</a></li>
                     <li><a href="/Blogs/Index/">Bloglar</a></li>
-                    <li><a href="/Trainer/Index/">Antrenörler</a></li>
+                    <li><a href="/Trainers/Index/">Antrenörler</a></li>
                     <li><a href="/About/Index/">Hakkımızda</a></li>
-                    <li><a href="./contact.html">İletişim</a></li>
+                    <li><a href="/Contact/Index/">İletişim</a></li>
                 </ul>
             </nav>
 
@@ -27,7 +27,7 @@
                     }
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li><a asp-controller="" asp-action="" >Profilim</a></li>
+                        <li><a asp-controller="" asp-action="">Profilim</a></li>
                     }
                     @if (User.Identity.IsAuthenticated)
                     {
@@ -38,5 +38,4 @@
         </div>
     </div>
     <div id="mobile-menu-wrap"></div>
-
 </header>

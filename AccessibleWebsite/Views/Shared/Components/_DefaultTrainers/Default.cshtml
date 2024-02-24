@@ -10,11 +10,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6">
-                @foreach (var item in Model)
+            @foreach (var item in Model)
+            {
+                @if (item.Branch != null)
                 {
-                    @if (item.Branch != null)
-                    {
+                    <div class="col-lg-4 col-md-6">
                         <div class="single-trainer-item">
                             <img src="~/Gym/img/trainer/trainer-1.jpg" alt="">
                             <div class="trainer-text">
@@ -31,11 +31,10 @@
                                     <a href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                             </div>
-
                         </div>
-                    }
+                    </div>
                 }
-            </div>
+            }
         </div>
     </div>
 </section>

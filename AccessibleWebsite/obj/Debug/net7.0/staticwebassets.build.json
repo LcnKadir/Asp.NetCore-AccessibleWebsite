@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yuBgoV31NgGGAXPo/WG/jRlx8oP0NRrTSSy2NejWazM=",
+  "Hash": "lFb7qxyOKsMpieXs1bGSPG/ZozuGKMOz4uo2lmGduI4=",
   "Source": "AccessibleWebsite",
   "BasePath": "_content/AccessibleWebsite",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AccessibleWebsite.styles.css",
-      "SourceId": "AccessibleWebsite",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/AccessibleWebsite",
-      "RelativePath": "AccessibleWebsite.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AccessibleWebsite.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AccessibleWebsite.bundle.scp.css",
-      "SourceId": "AccessibleWebsite",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/AccessibleWebsite",
-      "RelativePath": "AccessibleWebsite.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AccessibleWebsite.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\01b5d6c4-286c-44b7-b69f-7e43f043eca2.jpg",
       "SourceId": "AccessibleWebsite",
@@ -389,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ClassImage\\51fa6f0f-6b4c-4630-8c85-2dc15c1eb644.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\636e3365-a46f-49c6-8311-d31a6c31d9ad.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "ClassImage/636e3365-a46f-49c6-8311-d31a6c31d9ad.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ClassImage\\636e3365-a46f-49c6-8311-d31a6c31d9ad.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\700479d7-e901-417a-a081-8769d22a5555.jpg",

@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AccessibleWebsite.bundle.scp.css",
-      "PackagePath": "staticwebassets\\AccessibleWebsite.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\01b5d6c4-286c-44b7-b69f-7e43f043eca2.jpg",
       "PackagePath": "staticwebassets\\BlogImages\\01b5d6c4-286c-44b7-b69f-7e43f043eca2.jpg"
     },
@@ -83,6 +79,10 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\51fa6f0f-6b4c-4630-8c85-2dc15c1eb644.jpg",
       "PackagePath": "staticwebassets\\ClassImage\\51fa6f0f-6b4c-4630-8c85-2dc15c1eb644.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\636e3365-a46f-49c6-8311-d31a6c31d9ad.jpg",
+      "PackagePath": "staticwebassets\\ClassImage\\636e3365-a46f-49c6-8311-d31a6c31d9ad.jpg"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\ClassImage\\700479d7-e901-417a-a081-8769d22a5555.jpg",

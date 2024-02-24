@@ -10,5 +10,6 @@
         public string ConfirmPassword { get; set; }
         public string Branch { get; set; }
         public int TrainerId { get; set; }
+        public int ConfirmCode { get; set; }
     }
 }

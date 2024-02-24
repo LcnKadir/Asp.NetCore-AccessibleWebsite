@@ -18,6 +18,7 @@ namespace CoreLayer.Models
         public bool? Status {  get; set; } //Kullanıcı erişilebilir sayfaya geçmesi durumunda, hesabı true olacak.
         public string? Gender { get; set; }
         public string? Age { get; set; }
+        public int ConfirmCode { get; set; }
 
         //Trainerlar ile User tek bir tabloda birleştirildi.
         public int? TrainerId { get; set; }
