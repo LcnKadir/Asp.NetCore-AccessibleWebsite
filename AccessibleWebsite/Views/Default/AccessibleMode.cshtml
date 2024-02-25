@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "AccessibleMode";
+    Layout = "~/Views/Shared/IULayout.cshtml";
+}
+
+@await Html.PartialAsync("~/Views/AccessiblePartial/_AccessAboutPartial.cshtml")
+
+@await Html.PartialAsync("~/Views/AccessiblePartial/_AccessServicePartial.cshtml")
+
+@await Component.InvokeAsync("_AccessibleClasses")
+
+@await Component.InvokeAsync("_AccessibleTrainers")
+
+@await Html.PartialAsync("~/Views/AccessiblePartial/_AccessBannerPartial.cshtml")
+
+@await Html.PartialAsync("~/Views/AccessiblePartial/_AccessTestimonialPartial.cshtml")
+
+@await Component.InvokeAsync("_AccessibleBlogs")
+
+@await Html.PartialAsync("~/Views/AccessiblePartial/_AccessFooterPartial.cshtml")
+

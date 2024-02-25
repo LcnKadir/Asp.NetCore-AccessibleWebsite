@@ -10,5 +10,10 @@ namespace AccessibleWebsite.Controllers
         {
             return View();
         }
+
+        public IActionResult AccessibleMode() //Erişilebilir mod sayfası.
+        {
+            return View();
+        }
     }
 }
