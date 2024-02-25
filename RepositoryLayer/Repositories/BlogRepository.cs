@@ -40,7 +40,7 @@ namespace RepositoryLayer.Repositories
 
         public async Task<List<Blog>> GetBlogWithTrainer()
         {
-            return await _context.Blogs.Include(X => X.AppUser).OrderByDescending(x => x.CreateDate).ToListAsync();
+            return await _context.Blogs.Include(X => X.AppUser).Include(x=> x.Category).OrderByDescending(x => x.CreateDate).ToListAsync();
         }
 
 

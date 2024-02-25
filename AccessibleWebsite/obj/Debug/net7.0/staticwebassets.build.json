@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9U1elS60inR+kwZY/nGV1S4bmZ0X/aF8YuiamXvNOfo=",
+  "Hash": "zlEDCoBkF4HdCwsgoKwWNlCZX0DOAULEPeOzSjJLMFE=",
   "Source": "AccessibleWebsite",
   "BasePath": "_content/AccessibleWebsite",
   "Mode": "Default",
@@ -561,6 +561,23 @@
       "OriginalItemSpec": "wwwroot\\BlogImages\\882fe737-25c5-4594-bfbb-9b275172404b.jpg"
     },
     {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\930a09d7-e2a6-41f2-819c-89e7f91c488d.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "BlogImages/930a09d7-e2a6-41f2-819c-89e7f91c488d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BlogImages\\930a09d7-e2a6-41f2-819c-89e7f91c488d.jpg"
+    },
+    {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\9b40e583-6eeb-4716-87c9-579f5a04f028.jpg",
       "SourceId": "AccessibleWebsite",
       "SourceType": "Discovered",
@@ -663,6 +680,23 @@
       "OriginalItemSpec": "wwwroot\\BlogImages\\b6dfc6a6-1dad-422a-9af3-f80a5afdfc0d.jpg"
     },
     {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\b862fbb0-dd89-4272-9bfe-ceb2f79db3b8.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "BlogImages/b862fbb0-dd89-4272-9bfe-ceb2f79db3b8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BlogImages\\b862fbb0-dd89-4272-9bfe-ceb2f79db3b8.jpg"
+    },
+    {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\c1eaf0b3-44af-4bfc-969d-c1cd3b98d266.jpg",
       "SourceId": "AccessibleWebsite",
       "SourceType": "Discovered",
@@ -763,6 +797,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\BlogImages\\ca93c326-8523-4440-bfa7-dda01e73a088.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\cdf4618b-3471-4cc3-9a29-b06d779075ea.jpeg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "BlogImages/cdf4618b-3471-4cc3-9a29-b06d779075ea.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BlogImages\\cdf4618b-3471-4cc3-9a29-b06d779075ea.jpeg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\BlogImages\\ce33eaa8-65e4-46e6-9bbf-805f1ec4af52.jpg",

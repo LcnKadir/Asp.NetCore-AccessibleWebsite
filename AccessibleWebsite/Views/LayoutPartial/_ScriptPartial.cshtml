@@ -6,3 +6,11 @@
 <script src="~/Gym/js/owl.carousel.min.js"></script>
 <script src="~/Gym/js/main.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function filterBlogs(category) {
+        $('.blog-item').hide(); // Tüm blogları gizle
+        $(`.blog-item${category}`).show(); // Seçilen kategoriye ait blogları göster
+    }
+</script>

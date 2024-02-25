@@ -22,47 +22,56 @@
     </section>
     <div class="row">
         <div class="col-lg-12">
-            @foreach (var item in Model)
-            {
-                <ul class="gallery-controls">
-                    
-                    <li> class="active" data-filter=".all">Tüm Bloglar</li>
 
-                    @if (item.Title == "Powerlifter")
-                    {
-                        <li> data-filter=".fitness">PowerLifter</li>
-                    }
-                    @if (item.Title == "CrossFit")
-                    {
-                    <li data-filter=".coaching">CrossFit</li>
-                    }
-                    <li data-filter=".event">Yoga</li>
-                    <li data-filter=".event">Plates</li>
-                    <li data-filter=".other">Boks</li>
-                </ul>
-            }
+            <ul class="gallery-controls">
+
+                <li class="active" data-filter="">Tüm Bloglar</li>
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <li data-filter=".category-@(category.Id)">@category.Name</li>
+
+                }
+            </ul>
+
         </div>
     </div>
 
     <section class="blog-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-blog-item">
-                        @foreach (var item in Model)
-                        {
-                            <img src="@item.CoverImage" alt="">
-                            <div class="blog-widget">
-                                <div class="bw-date">@item.CreateDate</div>
-                                <a href="#" class="tag">#Gym</a>
-                            </div>
-                            <h4><a href="/Blogs/BlogDetails/@item.Id">@item.LoginTitle</a></h4>
-                        }
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-4 col-md-6 single-blog-item category-@(item.Category.Id)">
+                        <img src="/BlogImages/@item.CoverImage" alt="">
+                        <div class="blog-widget">
+                            <div class="bw-date">@item.CreateDate</div>
+                            <a href="/Blogs/@item.CategoryId" class="tag">#@item.Category.Name</a>
+                        </div>
+                        <h4><a href="/Blogs/BlogDetails/@item.Id">@item.LoginTitle</a></h4>
                     </div>
-                </div>
+                }
             </div>
         </div>
     </section>
 
 </body>
-
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.gallery-controls li').on('click', function () {
+                var filter = $(this).data('filter');
+                if (filter === '') {
+                    $('.single-blog-item').show(); // Tüm blogları göster
+                    $('.gallery-controls li').removeClass('active'); // Tüm kategori başlıklarını pasif yap
+                    $(this).addClass('active'); // Seçilen kategori başlığını aktif yap
+                } else {
+                    $('.single-blog-item').hide();
+                    $(filter).show();
+                    $('.gallery-controls li').removeClass('active'); // Tüm kategori başlıklarını pasif yap
+                    $(this).addClass('active'); // Seçilen kategori başlığını aktif yap
+                }
+            });
+        });
+    </script>
+}

@@ -11,17 +11,26 @@ namespace AccessibleWebsite.Controllers
     {
         private readonly ICommentService _commentService;
         private readonly IBlogService _blogService;
+        private readonly ICategoryService _categoryService;
 
-        public BlogsController(ICommentService commentService, IBlogService blogService)
+        public BlogsController(ICommentService commentService, IBlogService blogService, ICategoryService categoryService)
         {
             _commentService = commentService;
             _blogService = blogService;
+            _categoryService = categoryService;
         }
+
 
         //Blogların Ana Sayfası.
         public async Task<IActionResult> Index()
         {
-            return View(await _blogService.GetBlogWithTrainer());
+            var value = await _blogService.GetBlogWithTrainer();
+
+            var categories = await _categoryService.GetAllAsync();
+            ViewBag.Categories = categories;
+
+            return View(value);
+
         }
 
 
@@ -35,7 +44,7 @@ namespace AccessibleWebsite.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> AddComment(Comment comment, int blogId )
+        public async Task<IActionResult> AddComment(Comment comment, int blogId)
         {
             comment.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             await _commentService.AddAsync(comment);
