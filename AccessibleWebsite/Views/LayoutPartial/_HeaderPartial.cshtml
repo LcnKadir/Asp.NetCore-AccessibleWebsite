@@ -17,11 +17,26 @@
                 </ul>
             </nav>
 
-            <a href="/Default/AccessibleMode/" class="primary-btn signup-btn" style="margin-right: 30px;">Erişilebilir Mod</a>
+         @*    @if (User.Identity.IsAuthenticated)
+            {
+                @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                var user = await appUser.FindByNameAsync(User.Identity.Name);
 
+                if (user.Status == true)
+                {
+                    <p>Erişilebilir Mod Açık</p>
+                }
+                else
+                {
+                    <p>Erişilebilir Mod Kapalı</p>
+                }
+                <a asp-area="Accessible" asp-controller="Default" asp-action="AccessibleMode" id="accessibleModeButton" class="primary-btn signup-btn" style="margin-right: 30px;">Erişilebilir Mod</a>
+
+            }
+ *@
             <nav class="mainmenu mobile-menu">
                 <ul>
-                    
+
                     @if (!User.Identity.IsAuthenticated)
                     {
                         <li><a asp-area="" asp-controller="Login" asp-action="SignIn">Giriş Yap</a></li>
@@ -33,7 +48,7 @@
                         var user = await appUser.FindByNameAsync(User.Identity.Name);
                         if (user.Branch == null && user.TrainerId == null)
                         {
-                            <li><a asp-area="" asp-controller="" asp-action="">Profilim</a></li>
+                            <li><a asp-area="Member" asp-controller="Dashboard" asp-action="Index">Profilim</a></li>
                             <li><a asp-area="" asp-controller="Login" asp-action="Logout">Çıkış Yap</a></li>
                         }
                     }

@@ -31,7 +31,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Accessible\Data\" />
+    <Folder Include="Areas\Accessible\Models\" />
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Member\Data\" />
     <Folder Include="Areas\Trainer\Data\" />
     <Folder Include="Areas\Trainer\Models\" />
     <Folder Include="wwwroot\login-form\Trainer\.git\objects\info\" />
