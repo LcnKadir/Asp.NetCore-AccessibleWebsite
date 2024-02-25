@@ -22,35 +22,47 @@
     </section>
     <div class="row">
         <div class="col-lg-12">
-            <ul class="gallery-controls">
-                <li class="active" data-filter=".all">Tüm Bloglar</li>
-                <li data-filter=".fitness">PowerLifter</li>
-                <li data-filter=".coaching">CrossFit</li>
-                <li data-filter=".event">Yoga</li>
-                <li data-filter=".other">other</li>
-            </ul>
+            @foreach (var item in Model)
+            {
+                <ul class="gallery-controls">
+                    
+                    <li> class="active" data-filter=".all">Tüm Bloglar</li>
+
+                    @if (item.Title == "Powerlifter")
+                    {
+                        <li> data-filter=".fitness">PowerLifter</li>
+                    }
+                    @if (item.Title == "CrossFit")
+                    {
+                    <li data-filter=".coaching">CrossFit</li>
+                    }
+                    <li data-filter=".event">Yoga</li>
+                    <li data-filter=".event">Plates</li>
+                    <li data-filter=".other">Boks</li>
+                </ul>
+            }
         </div>
     </div>
-    
-        <section class="blog-section spad">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-item">
-                            @foreach (var item in Model)
-                            {
-                                <img src="@item.CoverImage" alt="">
-                                <div class="blog-widget">
-                                    <div class="bw-date">@item.CreateDate</div>
-                                    <a href="#" class="tag">#Gym</a>
-                                </div>
-                                <h4><a href="/Blogs/BlogDetails/@item.Id">@item.LoginTitle</a></h4>
-                            }
-                        </div>
+
+    <section class="blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-item">
+                        @foreach (var item in Model)
+                        {
+                            <img src="@item.CoverImage" alt="">
+                            <div class="blog-widget">
+                                <div class="bw-date">@item.CreateDate</div>
+                                <a href="#" class="tag">#Gym</a>
+                            </div>
+                            <h4><a href="/Blogs/BlogDetails/@item.Id">@item.LoginTitle</a></h4>
+                        }
                     </div>
                 </div>
             </div>
-        </section>
-   
+        </div>
+    </section>
+
 </body>
 

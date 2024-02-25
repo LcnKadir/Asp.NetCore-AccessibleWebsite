@@ -73,8 +73,20 @@
                                                     @Html.Label("Metin  Ekleyin")
                                                     <input type="text" asp-for="DescriptionThree" class="form-control" />
                                                 </p>
-                                            </div>
-                                        </div>
+                                                <br />
+                                                <div class="container">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-lg-6">
+                                                            <div class="bm-item text-center">
+                                                                <select asp-for="CategoryId" class="form-control" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+                                                                    <option value="">----------- Branşı Seçin ------------</option>
+                                                                </select>
+                                                                <span asp-validation-for="CategoryId" class="text-danger"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                          </div>
                                         <input type="hidden" asp-for="AppUserId" value="@ViewBag.userId" />
                                     </div>
                                 </div>

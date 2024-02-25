@@ -15,9 +15,11 @@
             <tr>
                 <th>Başlık</th>
                 <th>Oluşturulma Tarihi</th>
+                <th>Kategori</th>
                 <th>Bloğa Git</th>
                 <th>Düzenle</th>
                 <th>Sil</th>
+               
             </tr>
         </thead>
         @foreach (var item in Model)
@@ -25,6 +27,7 @@
             <tr>
                 <td> @item.Title </td>
                 <td> @item.CreateDate.ToString("dd-MMMM-yyyy")</td>
+                <td> @item.Category.Name</td>
                 <td>
                     <a href="/Blogs/BlogDetails/@item.Id" class="btn btn-outline-info">Sitede Gör</a>
                 </td>

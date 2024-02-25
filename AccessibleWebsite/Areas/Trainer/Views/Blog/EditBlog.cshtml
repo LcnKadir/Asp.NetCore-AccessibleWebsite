@@ -8,7 +8,7 @@
     <div class="row justify-content-center">
         <div class="col-lg-10 offset-lg-1">
             <body>
-                <form method="post" asp-controller="Blog" asp-action="AddBlog" enctype="multipart/form-data">
+                <form method="post" asp-controller="Blog" enctype="multipart/form-data">
                     <section class="blog-details-hero set-bg" data-setbg="">
                         @Html.Label("Kapak Resmi Ekleyin")
                         <input type="file" asp-for="CoverImageUrl" class="form-control" />
@@ -73,15 +73,28 @@
                                                     <input type="text" asp-for="DescriptionThree" class="form-control" />
                                                 </p>
                                             </div>
+                                            </p>
+                                            <br />
+                                            <div class="container">
+                                                <div class="row justify-content-center">
+                                                    <div class="col-lg-6">
+                                                        <div class="bm-item text-center">
+                                                            <select asp-for="CategoryId" class="form-control" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+                                                                <option value="">----------- Branşı Seçin ------------</option>
+                                                            </select>
+                                                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <input type="hidden" asp-for="AppUserId" value="@ViewBag.userId" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <hr>
                         <div class="container">
-                            <input type="hidden" asp-for="AppUserId" value="@ViewBag.userId " />
+                            <input type="text" asp-for="AppUserId" value="@ViewBag.userId " />
                             <div class="row justify-content-center">
                                 <button class="btn btn-primary">Paylaş</button>
                             </div>

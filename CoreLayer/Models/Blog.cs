@@ -25,8 +25,11 @@ namespace CoreLayer.Models
         public string CoverImage { get; set; }
         public IFormFile CoverImageUrl { get; set; }
 
+        public int? CategoryId { get; set; }
+        public Category Category { get; set; }
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
         public ICollection<Comment> Comments { get; set; }
+      
     }
 }

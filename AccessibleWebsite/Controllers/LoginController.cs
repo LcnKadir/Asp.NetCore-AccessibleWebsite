@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Razor.Hosting;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MimeKit;
 using Org.BouncyCastle.Crypto.Macs;
-using RepositoryLayer.Migrations;
 
 namespace AccessibleWebsite.Controllers
 {
@@ -103,16 +102,16 @@ namespace AccessibleWebsite.Controllers
         [HttpPost]
         public async Task<IActionResult> SignIn(UserSignInViewModel user)
         {
-            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            //var values = await _userManager.FindByNameAsync(User.Identity.Name);
 
             if (ModelState.IsValid)
             {
                 var result = await _signInManager.PasswordSignInAsync(user.UserName, user.Password, true, true); // ilk "true" ile kullanıcı sistemde hatırlanacak, ikinci "t" ile de şifre beş defa yanlış girildiği taktirde kullanıcı bloklanacak.
 
-                if (values.EmailConfirmed == false || values.EmailConfirmed == null)
-                {
-                    return RedirectToAction("Index", "ConfirmMail");
-                }
+                //if (values.EmailConfirmed == false || values.EmailConfirmed == null)
+                //{
+                //    return RedirectToAction("Index", "ConfirmMail");
+                //}
 
                 if (result.Succeeded)
                 {
