@@ -2,6 +2,7 @@ using CoreLayer.Models;
 using CoreLayer.Repositories;
 using CoreLayer.Services;
 using CoreLayer.UnitOfWorks;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
@@ -47,6 +48,9 @@ builder.Services.AddDbContext<AppDbContext>(x =>
 	});
 
 });
+
+
+
 builder.Services.AddMvc(config =>
 {
     var policy = new AuthorizationPolicyBuilder()

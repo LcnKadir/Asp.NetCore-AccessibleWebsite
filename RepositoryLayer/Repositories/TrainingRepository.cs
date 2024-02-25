@@ -11,7 +11,7 @@ namespace RepositoryLayer.Repositories
 {
     public class TrainingRepository : ITrainingRepository
     {
-        protected readonly AppDbContext _context;
+        private readonly AppDbContext _context;
         private readonly DbSet<Training> _DbSet;
 
         public TrainingRepository(AppDbContext context)

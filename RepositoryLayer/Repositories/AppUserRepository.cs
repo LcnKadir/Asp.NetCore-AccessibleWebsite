@@ -13,7 +13,7 @@ namespace RepositoryLayer.Repositories
 {
     public class AppUserRepository : IAppUserRepository
     {
-        protected readonly AppDbContext _context;
+        private readonly AppDbContext _context;
         private readonly DbSet<AppUser> _DbSet;
         private readonly UserManager<AppUser> _userManager;
 

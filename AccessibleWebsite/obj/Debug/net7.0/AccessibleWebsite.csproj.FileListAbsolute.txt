@@ -1163,3 +1163,6 @@ C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\Acce
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.pdb
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\ref\AccessibleWebsite.dll
+C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.MvcApplicationPartsAssemblyInfo.cs

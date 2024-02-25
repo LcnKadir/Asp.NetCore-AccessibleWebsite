@@ -13,7 +13,7 @@ namespace RepositoryLayer.Repositories
 {
     public class BlogRepository : IBlogRepository
     {
-        protected readonly AppDbContext _context;
+        private readonly AppDbContext _context;
         private readonly DbSet<Blog> _DbSet;
 
         public BlogRepository(AppDbContext context)

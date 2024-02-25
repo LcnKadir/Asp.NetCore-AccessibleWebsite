@@ -13,7 +13,7 @@ namespace RepositoryLayer.Repositories
 {
     public class ClassRepository : IClassRepository
     {
-        protected readonly AppDbContext _context;
+        private readonly AppDbContext _context;
         private readonly DbSet<Class> _DbSet;
 
         public ClassRepository(AppDbContext context)

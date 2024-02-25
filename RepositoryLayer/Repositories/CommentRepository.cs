@@ -11,7 +11,7 @@ namespace RepositoryLayer.Repositories
 {
     public class CommentRepository : ICommentRepository
     {
-        protected readonly AppDbContext _context;
+        private readonly AppDbContext _context;
         private readonly DbSet<Comment> _DbSet;
 
         public CommentRepository(AppDbContext context)

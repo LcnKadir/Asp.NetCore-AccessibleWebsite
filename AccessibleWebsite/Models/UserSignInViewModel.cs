@@ -1,8 +1,14 @@
-﻿namespace AccessibleWebsite.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AccessibleWebsite.Models
 {
 	public class UserSignInViewModel
 	{
-		public string UserName { get; set; }
-		public string Password { get; set; }
-	}
+        [Required(ErrorMessage = "Kullanıcı adı boş geçilemez")]
+        public string UserName { get; set; }
+
+        [Required(ErrorMessage = "Şifre boş geçilemez")]
+        public string Password { get; set; }
+
+    }
 }

@@ -1,4 +1,5 @@
-﻿<header class="header-section">
+﻿@model AppUser
+<header class="header-section">
     <div class="container">
         <div class="logo" style="position: absolute; top: 10px; left: 150px;">
             <a href="/Default/Index/">
@@ -23,16 +24,28 @@
                 <ul>
                     @if (!User.Identity.IsAuthenticated)
                     {
-                        <li class="active"><a href="/login">Giriş Yap</a></li>
+                        <li><a asp-area="" asp-controller="Login" asp-action="SignIn">Giriş Yap</a></li>
+                    }
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+
+                        <li><a asp-area="" asp-controller="" asp-action="">Profilim</a></li>
                     }
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li><a asp-controller="" asp-action="">Profilim</a></li>
+                        if(Model.TrainerId != null && Model.Branch != null)
+                        {
+                            //Verilen değerler null değilse, Trainer profiline yönlendirilecek. 
+                            <li><a asp-area="Trainer" asp-controller="Dashboard" asp-action="Index">Profilim</a></li>
+                        }
                     }
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li><a href="/logout">Çıkış Yap</a></li>
+                    
+                        <li><a asp-area="" asp-controller="Login" asp-action="SignIn">Çıkış Yap</a></li>
                     }
+
                 </ul>
             </nav>
         </div>

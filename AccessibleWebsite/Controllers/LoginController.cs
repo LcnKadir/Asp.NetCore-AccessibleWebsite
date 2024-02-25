@@ -54,9 +54,9 @@ namespace AccessibleWebsite.Controllers
 
                 if (result.Succeeded)
                 {
-                    if (ap.Branch != null)
+                    if (ap.Branch != null)  // Eğer Branch "null" değilse, TrainerId ataması yap.
                     {
-                        appUser.TrainerId = appUser.Id;  // Eğer Branch "null" değilse, TrainerId ataması yap.
+                        appUser.TrainerId = appUser.Id; //TrainerId ile AppUserId eşittir.
                         await _userManager.UpdateAsync(appUser);
                     }
                     MimeMessage mimeMessage = new MimeMessage();
@@ -93,28 +93,22 @@ namespace AccessibleWebsite.Controllers
         }
 
         [HttpGet]
-        public IActionResult SignIn()
+        public async Task<IActionResult> SignIn()
         {
             return View();
-
         }
 
         [HttpPost]
         public async Task<IActionResult> SignIn(UserSignInViewModel user)
         {
-            //var values = await _userManager.FindByNameAsync(User.Identity.Name);
 
             if (ModelState.IsValid)
             {
                 var result = await _signInManager.PasswordSignInAsync(user.UserName, user.Password, true, true); // ilk "true" ile kullanıcı sistemde hatırlanacak, ikinci "t" ile de şifre beş defa yanlış girildiği taktirde kullanıcı bloklanacak.
 
-                //if (values.EmailConfirmed == false || values.EmailConfirmed == null)
-                //{
-                //    return RedirectToAction("Index", "ConfirmMail");
-                //}
-
                 if (result.Succeeded)
                 {
+
                     return RedirectToAction("Index", "Default");
                 }
 

@@ -11,7 +11,7 @@ namespace RepositoryLayer.Repositories
 {
     public class CategoryRepository : ICategoryRepository
     {
-        protected readonly AppDbContext _context;
+        private readonly AppDbContext _context;
         private readonly DbSet<Category> _DbSet;
 
         public CategoryRepository(AppDbContext context)

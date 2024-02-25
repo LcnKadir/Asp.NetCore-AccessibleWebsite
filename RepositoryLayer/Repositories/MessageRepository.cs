@@ -11,7 +11,7 @@ namespace RepositoryLayer.Repositories
 {
     public class MessageRepository : IMessageRepository
     {
-        protected readonly AppDbContext _context;
+        private readonly AppDbContext _context;
         private readonly DbSet<Message> _DbSet;
 
         public MessageRepository(AppDbContext context)
