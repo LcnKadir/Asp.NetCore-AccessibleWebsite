@@ -1,5 +1,4 @@
-﻿@model AppUser
-<header class="header-section">
+﻿<header class="header-section">
     <div class="container">
         <div class="logo" style="position: absolute; top: 10px; left: 150px;">
             <a href="/Default/Index/">
@@ -22,6 +21,7 @@
 
             <nav class="mainmenu mobile-menu">
                 <ul>
+                    
                     @if (!User.Identity.IsAuthenticated)
                     {
                         <li><a asp-area="" asp-controller="Login" asp-action="SignIn">Giriş Yap</a></li>
@@ -29,21 +29,26 @@
 
                     @if (User.Identity.IsAuthenticated)
                     {
-
-                        <li><a asp-area="" asp-controller="" asp-action="">Profilim</a></li>
-                    }
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        if(Model.TrainerId != null && Model.Branch != null)
+                        @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                        var user = await appUser.FindByNameAsync(User.Identity.Name);
+                        if (user.Branch == null && user.TrainerId == null)
                         {
-                            //Verilen değerler null değilse, Trainer profiline yönlendirilecek. 
-                            <li><a asp-area="Trainer" asp-controller="Dashboard" asp-action="Index">Profilim</a></li>
+                            <li><a asp-area="" asp-controller="" asp-action="">Profilim</a></li>
+                            <li><a asp-area="" asp-controller="Login" asp-action="Logout">Çıkış Yap</a></li>
                         }
                     }
+
                     @if (User.Identity.IsAuthenticated)
                     {
-                    
-                        <li><a asp-area="" asp-controller="Login" asp-action="SignIn">Çıkış Yap</a></li>
+                        @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                        var user = await appUser.FindByNameAsync(User.Identity.Name);
+
+                        if (user.TrainerId != null && user.Branch != null)
+                        {
+
+                            <li><a asp-area="Trainer" asp-controller="Dashboard" asp-action="Index">Profilim</a></li>
+                            <li><a asp-area="" asp-controller="Login" asp-action="Logout">Çıkış Yap</a></li>
+                        }
                     }
 
                 </ul>

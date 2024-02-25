@@ -124,7 +124,7 @@ namespace AccessibleWebsite.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction(nameof(DefaultController.Index), "Default");
+            return RedirectToAction("Index", "Default");
         }
     }
 }

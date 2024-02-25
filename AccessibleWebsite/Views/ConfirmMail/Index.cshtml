@@ -4,6 +4,8 @@
 }
 
 
+
+
 @if (User.Identity.IsAuthenticated)
 {
     @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
@@ -20,16 +22,43 @@
     else
     {
         <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <style>
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+                background-image: url('background.jpg'); /* Arka plan resmi */
+                background-size: cover;
+                background-position: center;
+            }
+
+            .btn-primary {
+                background-color: orange;
+                border-color: orange;
+            }
+
+            .email-input {
+                margin-bottom: 20px;
+            }
+
+            .footer-text {
+                margin-top: 20px;
+                font-size: 18px;
+                color: white;
+            }
+        </style>
         <div class="container">
-            <br />
-            <br />
-            <h2>@user.Email</h2>
+            <h2>Lütfen mail adresinize gelen doğrulama kodunu girin:</h2>
+            <div class="email-input">
+                <label for="confirmationCode">Doğrulama Kodu:</label>
+                <input type="text" class="form-control" id="confirmationCode" asp-for="ConfrimCode" />
+            </div>
             <form method="post">
-                <label>Mailinize Gelen Doğrulama Kodunu Giriniz</label>
-                <input type="text" class="form-control" asp-for="ConfrimCode" />
-                <br />
-                <button class="btn btn-primary">Hesap Aktivasyonunu Tamamla</button>
+                <button type="submit" class="btn btn-primary">Hesabı Aktifleştir</button>
             </form>
+            <p class="footer-text">Sağlıkla kalın!</p>
         </div>
     }
 }

@@ -111,6 +111,7 @@
                             <h3>Yorumlar</h3>
                             @foreach (var item in Model.Comments)
                             {
+
                                 <div class="row">
                                     <div class="col-lg-3">
                                         <div class="ba-pic">
@@ -133,20 +134,29 @@
 
                             @if (User.Identity.IsAuthenticated)
                             {
+
                                 @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
-                                <form method="post" asp-controller="Blogs" asp-action="AddComment">
+                                var user = await appUser.FindByNameAsync(User.Identity.Name);
+                                if (user.EmailConfirmed == true)
+                                {
+                                    <form method="post" asp-controller="Blogs" asp-action="AddComment">
 
-                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
-                                    <input type="hidden" name="BlogId" value="@Model.Id">
+                                        <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                        <input type="hidden" name="BlogId" value="@Model.Id">
 
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
-                                            <button type="submit">Yorum Yap</button>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
+                                                <button type="submit">Yorum Yap</button>
+                                            </div>
                                         </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <p>Lütfen mail kodunuzu doğrulayınız... :)</p>
+                                }
                             }
                             else
                             {

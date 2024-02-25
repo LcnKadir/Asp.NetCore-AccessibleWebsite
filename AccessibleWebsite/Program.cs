@@ -50,7 +50,6 @@ builder.Services.AddDbContext<AppDbContext>(x =>
 });
 
 
-
 builder.Services.AddMvc(config =>
 {
     var policy = new AuthorizationPolicyBuilder()
@@ -59,6 +58,9 @@ builder.Services.AddMvc(config =>
     config.Filters.Add(new AuthorizeFilter(policy));
 });
 
+builder.Services.ConfigureApplicationCookie(options => { //Çýkýþ yapma iþlemi gerçekleþtirilen kullanýcýi giriþ yapma
+    options.LoginPath = "/Login/SignIn";
+});
 
 var app = builder.Build();
 
