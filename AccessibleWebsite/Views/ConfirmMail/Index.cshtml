@@ -13,7 +13,7 @@
     var user = await UserManager.GetUserAsync(User);
     if (user.Id == null)
     {
-        <h2>Kullanıcı girişi yapmadan bu sayfaya erişemezsiniz. <a href="/Account/Login">Giriş Yap</a>|<a href="/Account/Register">Kaydol</a> </h2>
+        <h2>Kullanıcı girişi yapmadan bu sayfaya erişemezsiniz. <a href="/Login/SignIn/">Giriş Yap</a>|<a href="/Login/Register/">Kaydol</a> </h2>
     }
     if (user.EmailConfirmed == true)
     {
@@ -64,5 +64,5 @@
 }
 else
 {
-    <h2>Kullanıcı girişi yapmadan bu sayfaya erişemezsiniz. <a href="/Account/Login">Giriş Yap</a>|<a href="/Account/Register">Kaydol</a> </h2>
+    <h2>Kullanıcı girişi yapmadan bu sayfaya erişemezsiniz. <a href="/Login/SignIn/">Giriş Yap</a>|<a href="/Login/Register/">Kaydol</a> </h2>
 }

@@ -34,6 +34,7 @@ namespace AccessibleWebsite.Controllers
                 {
                     return View();
                 }
+
                 if (mailConfirmViewModel.ConfrimCode == user.ConfirmCode)
                 {
                     user.EmailConfirmed = true;

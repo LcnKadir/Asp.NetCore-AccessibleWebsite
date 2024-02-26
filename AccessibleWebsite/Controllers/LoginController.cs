@@ -78,7 +78,7 @@ namespace AccessibleWebsite.Controllers
                     client.Send(mimeMessage);
                     client.Disconnect(true);
 
-                    return RedirectToAction("SignIn", "Login");
+                    return RedirectToAction("Index", "ConfirmMail");
 
                 }
                 else

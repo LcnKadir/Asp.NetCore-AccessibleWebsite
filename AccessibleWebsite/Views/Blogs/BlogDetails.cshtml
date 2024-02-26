@@ -138,8 +138,8 @@
                                 @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
                                 var user = await appUser.FindByNameAsync(User.Identity.Name);
-                              @*   if (user.EmailConfirmed == true)
-                                { *@
+                              @if (user.EmailConfirmed == false && user.TrainerId !=null)
+                                { 
                                     <form method="post" asp-controller="Blogs" asp-action="AddComment">
 
                                         <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
@@ -152,11 +152,11 @@
                                             </div>
                                         </div>
                                     </form>
-                               @*  }
+                                }
                                 else
                                 {
                                     <p>Lütfen mail kodunuzu doğrulayınız... :)</p>
-                                } *@
+                                }
                             }
                             else
                             {
