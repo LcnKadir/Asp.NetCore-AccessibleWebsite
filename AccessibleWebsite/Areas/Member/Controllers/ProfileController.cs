@@ -16,25 +16,25 @@ namespace AccessibleWebsite.Areas.Member.Controllers
             _userManager = userManager;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Index(MemberEditViewModel memberEditViewModel)
+
+        public async Task<IActionResult> Index()
         {
-            var member = await _userManager.FindByNameAsync(User.Identity.Name);
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            MemberEditViewModel memberEditViewModel = new ();
 
-            memberEditViewModel.Name = member.Name;
-            memberEditViewModel.Surname = member.Surname;
-            memberEditViewModel.Gender = member.Gender;
-            memberEditViewModel.Email = member.Email;
-            memberEditViewModel.Age = member.Age;
+            memberEditViewModel.Name = user.Name;
+            memberEditViewModel.Surname = user.Surname;
+            memberEditViewModel.Email = user.Email;
 
-            var val = await _userManager.FindByNameAsync(User.Identity.Name);
-            ViewBag.memberName = val.Name + " " + val.Surname;
-            ViewBag.UserImage = val.ImageUrl;
-            ViewBag.userName = val.UserName;
+            var value = await _userManager.FindByNameAsync(User.Identity.Name);
+            ViewBag.memberName = value.Name + " " + value.Surname;
+            ViewBag.UserImage = value.ImageUrl;
+            ViewBag.userName = value.UserName;
 
 
             return View(memberEditViewModel);
         }
+
 
         [HttpPost]
         public async Task<IActionResult> Index(MemberEditViewModel memberModel)
@@ -46,15 +46,17 @@ namespace AccessibleWebsite.Areas.Member.Controllers
                 var resource = Directory.GetCurrentDirectory();
                 var extension = Path.GetExtension(memberModel.Image.FileName);
                 var imagename = Guid.NewGuid() + extension;
-                var savelocation = resource + "/wwwroot/MembersImages/" + imagename;
+                var savelocation = resource + "/wwwroot/MemberImages/" + imagename;
                 var stream = new FileStream(savelocation, FileMode.Create);
                 await memberModel.Image.CopyToAsync(stream);
                 members.ImageUrl = imagename;
             }
             members.Name = memberModel.Name;
             members.Surname = memberModel.Surname;
-            members.Description = memberModel.Gender;
-            members.Description = memberModel.Age;
+            members.Gender = memberModel.Gender;
+            members.Age = memberModel.Age;
+            members.Height = memberModel.Height;
+            members.Kilo = memberModel.Kilo;
             members.PasswordHash = _userManager.PasswordHasher.HashPassword(members, memberModel.Password);
             var result = await _userManager.UpdateAsync(members);
             if (result.Succeeded)

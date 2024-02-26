@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using System;
 using System.Collections.Generic;
@@ -11,13 +12,17 @@ namespace CoreLayer.Models
     public class AppUser : IdentityUser<int>
     {
 
-        public string Name { get; set; }
-        public string Surname { get; set; }
+        public string? Name { get; set; }
+        public string? Surname { get; set; }
         public string? Email { get; set; }
         public string? ImageUrl { get; set; }
+        public IFormFile? Image { get; set; }
+
         public bool? Status {  get; set; } //Kullanıcı erişilebilir sayfaya geçmesi durumunda, hesabı true olacak.
         public string? Gender { get; set; }
         public string? Age { get; set; }
+        public int Height { get; set; }
+        public int Kilo {  get; set; }       
         public int ConfirmCode { get; set; }
 
         //Trainerlar ile User tek bir tabloda birleştirildi.

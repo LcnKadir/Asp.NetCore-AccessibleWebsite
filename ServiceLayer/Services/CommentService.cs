@@ -2,6 +2,7 @@
 using CoreLayer.Repositories;
 using CoreLayer.Services;
 using CoreLayer.UnitOfWorks;
+using RepositoryLayer.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,28 @@ namespace ServiceLayer.Services
             await _repository.AddAsync(comment);
             await _unitOfWork.CommitAsync();
             return comment;
+        }
+
+        public async Task<Comment> GetByIdAsync(int id)
+        {
+            return await _repository.GetByIdAsync(id);
+        }
+
+        public async Task<List<Comment>> GetCommentWithBlogList(int id)
+        {
+            return await _repository.GetCommentWithBlogList(id);
+        }
+
+        public async Task RemoveAsync(Comment comment)
+        {
+            _repository.Remove(comment);
+            await _unitOfWork.CommitAsync();
+        }
+
+        public async Task UpdateAsync(Comment comment)
+        {
+            _repository.Update(comment);
+            await _unitOfWork.CommitAsync();
         }
     }
 }

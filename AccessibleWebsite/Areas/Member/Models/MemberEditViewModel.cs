@@ -10,5 +10,7 @@
         public IFormFile Image { get; set; }
         public string? Gender { get; set; }
         public string? Age { get; set; }
+        public int Height {  get; set; }
+        public int Kilo {  get; set; }
     }
 }

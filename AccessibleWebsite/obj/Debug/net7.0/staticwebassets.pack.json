@@ -709,6 +709,10 @@
       "PackagePath": "staticwebassets\\Gym\\readme.txt"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg",
+      "PackagePath": "staticwebassets\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\Trainer\\.gitattributes",
       "PackagePath": "staticwebassets\\Trainer\\.gitattributes"
     },

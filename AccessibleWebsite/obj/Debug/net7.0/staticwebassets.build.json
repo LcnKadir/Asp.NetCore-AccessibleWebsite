@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zlEDCoBkF4HdCwsgoKwWNlCZX0DOAULEPeOzSjJLMFE=",
+  "Hash": "BK1tavUi4jmjAfrx7eiwhweFcZtrHsOnBYw5NjsUAkI=",
   "Source": "AccessibleWebsite",
   "BasePath": "_content/AccessibleWebsite",
   "Mode": "Default",
@@ -6815,6 +6815,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\login-form\\Trainer\\webpack.config.js"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "MemberImages/c92ad5c1-ceb8-451c-8055-8184959d032c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\wwwroot\\register\\css\\style.css",
