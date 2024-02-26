@@ -3,6 +3,10 @@
     Layout = null;
 }
 
+@{
+    Layout = null;
+}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,12 +17,21 @@
     <link rel="stylesheet" href="~/register/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="~/register/css/style.css">
+    <style>
+        .image-holder {
+            text-align: center;
+        }
+
+        .image-holder img {
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
         <div class="inner">
             <div class="image-holder">
-                <img src="~/register/images/registration-form-1.jpg" alt="">
+                <img src="https://images.ctfassets.net/v6ivjcl8qjz2/6b5Q66MiftGxnJYNF85k3M/e41f0d3ea80c6d3226b3047a490b13c4/personal-services-environmental-only-gym-002-700x450-_2x.png?fit=scale&fm=webp" alt="">
             </div>
             <form asp-controller="Login" asp-action="Register" method="post">
                 <h3>Üye Kayıt Sayfası</h3>
@@ -59,3 +72,4 @@
     </div>
 </body>
 </html>
+

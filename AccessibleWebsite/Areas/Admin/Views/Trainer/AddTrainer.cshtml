@@ -17,11 +17,11 @@
 <body>
     <div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
         <div class="inner">
-            <div class="image-holder">
-                <img src="~/register/images/registration-form-1.jpg" alt="">
+            <div class="image-holder" style="center">
+                <img src="https://avatars.mds.yandex.net/i?id=ac7c3b66510426318534a65ce21d4e18f876f195-10576312-images-thumbs&n=13" alt="">
             </div>
             <form asp-controller="Trainer" asp-action="AddTrainer" method="post">
-                <h3>Üye Kayıt Sayfası</h3>
+                <h3>Trainer Kayıt Sayfası</h3>
                 <div class="form-group">
                     <input asp-for="Name" type="text" placeholder="Adınız" class="form-control">
                     <span asp-validation-for="Name" class="text-danger"></span>
@@ -51,9 +51,9 @@
                 </div>
                 <div class="form-group">
                     <input asp-for="Branch" type="text" placeholder="Branch" class="form-control">
-                    <small class="text-muted">Eğer takımın bir parçasıysan, branşını seçip giriş yapabilirsin.</small>
+                    <small class="text-muted"></small>
                 </div>
-                <button type="submit">Kayıt Ol</button>
+                <button type="submit">Kaydet</button>
             </form>
 
         </div>

@@ -1,0 +1,77 @@
+﻿@model List<Blog>
+@{
+    ViewData["Title"] = "AcccessibleBlogIndex";
+    Layout = "~/Views/Shared/IULayout.cshtml";
+}
+
+<body>
+    <section class="breadcrumb-section set-bg" data-setbg="~/Gym/img/breadcrumb/classes-breadcrumb.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>Blog</h2>
+                        <div class="breadcrumb-option">
+                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                            <span>Blog</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="row">
+        <div class="col-lg-12">
+
+            <ul class="gallery-controls">
+
+                <li class="active" data-filter="">Tüm Bloglar</li>
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <li data-filter=".category-@(category.Id)">@category.Name</li>
+
+                }
+            </ul>
+
+        </div>
+    </div>
+
+    <section class="blog-section spad">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-4 col-md-6 single-blog-item category-@(item.Category.Id)">
+                        <img src="/BlogImages/@item.CoverImage" alt="">
+                        <div class="blog-widget">
+                            <div class="bw-date">@item.CreateDate</div>
+                            <a href="/Blogs/@item.CategoryId" class="tag">#@item.Category.Name</a>
+                        </div>
+                        <h4><a href="/Blogs/BlogDetails/@item.Id">@item.LoginTitle</a></h4>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+</body>
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.gallery-controls li').on('click', function () {
+                var filter = $(this).data('filter');
+                if (filter === '') {
+                    $('.single-blog-item').show(); // Tüm blogları göster
+                    $('.gallery-controls li').removeClass('active'); // Tüm kategori başlıklarını pasif yap
+                    $(this).addClass('active'); // Seçilen kategori başlığını aktif yap
+                } else {
+                    $('.single-blog-item').hide();
+                    $(filter).show();
+                    $('.gallery-controls li').removeClass('active'); // Tüm kategori başlıklarını pasif yap
+                    $(this).addClass('active'); // Seçilen kategori başlığını aktif yap
+                }
+            });
+        });
+    </script>
+}

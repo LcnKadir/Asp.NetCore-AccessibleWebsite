@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kadir\OneDrive\Masaüstü\DENEME2\Asp.NetCore-BootcampProject-main\AccessibleWebsite
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Accessible/Views/Blogs/AcccessibleBlogDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzaWJsZVxWaWV3c1xCbG9nc1xBY2NjZXNzaWJsZUJsb2dEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Accessible/Views/Blogs/AcccessibleBlogIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzaWJsZVxWaWV3c1xCbG9nc1xBY2NjZXNzaWJsZUJsb2dJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Accessible/Views/Default/AccessibleMode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzaWJsZVxWaWV3c1xEZWZhdWx0XEFjY2Vzc2libGVNb2RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
