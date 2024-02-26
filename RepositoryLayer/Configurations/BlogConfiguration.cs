@@ -15,8 +15,14 @@ namespace RepositoryLayer.Configurations
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
-            builder.Property(x => x.Title).IsRequired().HasMaxLength(10);
-            builder.Property(x => x.Description).IsRequired().HasMaxLength(50);
+            builder.Property(x => x.Title).IsRequired().HasMaxLength(200);
+            builder.Property(x => x.TitleTwo).IsRequired().HasMaxLength(200);
+            builder.Property(x => x.LoginTitle).IsRequired().HasMaxLength(200);
+            builder.Property(x => x.Description).IsRequired().HasMaxLength(600);
+            builder.Property(x => x.DescriptionTwo).IsRequired().HasMaxLength(600);
+            builder.Property(x => x.DescriptionThree).IsRequired().HasMaxLength(600);
+            builder.Property(x => x.LoginDescription).IsRequired().HasMaxLength(600);
+            builder.Property(x => x.LoginDescriptionTwo).IsRequired().HasMaxLength(600);
             builder.Ignore(x => x.ImageUrl);
             builder.Ignore(x => x.CoverImageUrl); 
             builder.Ignore(x => x.ImageUrlTwo);

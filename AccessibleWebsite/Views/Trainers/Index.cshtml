@@ -15,31 +15,28 @@
         <div class="row">
             @foreach (var item in Model)
             {
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="single-trainer-item">
-                        <img src="img/trainer/about-trainer-1.jpg" alt="">
+                        <img src="/TrainersImages/@item.ImageUrl" alt="" class="trainer-img">
                         <div class="trainer-text">
                             @if (item.TrainerId != null)
                             {
                                 <h5>@item.Name @item.Surname</h5>
                                 <span>@item.Branch</span>
-                                <p>
-                                    @item.Description
-                                </p>
+                                <p class="trainer-description">@item.Description</p>
+                                <div class="trainer-social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                </div>
                             }
                             else
                             {
                                 <p>Henüz Antrenör Eklenmedi.</p>
                             }
-                            <div class="trainer-social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-pinterest"></i></a>
-                                <hr>
-                                <br>
-                                <a href="/Trainers/GetTraining/@item.Id" class="primary-btn membership-btn">İletişime Geç</a>
-                            </div>
+                            <hr>
+                            <a href="/Trainers/GetTraining/@item.Id" class="primary-btn membership-btn">İletişime Geç</a>
                         </div>
                     </div>
                 </div>
@@ -47,3 +44,4 @@
         </div>
     </div>
 </section>
+

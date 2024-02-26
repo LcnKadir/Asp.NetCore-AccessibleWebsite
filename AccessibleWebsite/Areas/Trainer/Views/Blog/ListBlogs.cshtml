@@ -5,42 +5,79 @@
     Layout = "~/Views/Shared/_TrainerLayout.cshtml";
 }
 
-<div class="row">
-    <div class="col-12">
-        <h5 style="font-weight: bold; color: black">Blog Detay Sayfası</h5>
+
+<style>
+    .form-control {
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+</style>
+
+<div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 justify-center">
+
+    <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
+        <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">
+            Ders Sayfası
+        </div>
+        <div class="p-3">
+
+            <table class="table-responsive w-full rounded">
+                <thead>
+                    <tr>
+                        <th class="border w-1/4 px-4 py-2 text-center">DersBaşlık</th>
+                        <th class="border w-1/4 px-4 py-2 text-center">Oluşturma Tarihi</th>
+                        <th class="border w-1/4 px-4 py-2 text-center">Kategori</th>
+                        <th class="border w-1/7 px-4 py-2 text-center">Bloğa Git</th>
+                        <th class="border w-1/7 px-4 py-2 text-center">Düzenle</th>
+                        <th class="border w-1/7 px-4 py-2 text-center">Sil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="form-control datetimepicker">
+                                @item.Title
+                            </td>
+                            <td class="form-control datetimepicker">
+                                @item.CreateDate.ToString("dd-MMMM-yyyy")
+                            </td>
+                            <td class="form-control datetimepicker">
+                                @item.Category.Name
+                            </td>
+                            <td class="form-control datetimepicker">
+                                <a href="/Trainer/Classes/EditClass/@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                    Düzenle
+                                </a>
+                            </td>
+                            <td class="form-control datetimepicker">
+                                <a href="/Blogs/BlogDetails/@item.Id" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
+                                    Git
+                                </a>
+                            </td>
+                            <td class="form-control datetimepicker">
+                                <a href="/Trainer/Blog/DeleteBlog/@item.Id" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-800 rounded">
+                                    Sil
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+        <div class="flex justify-between items-center mb-8">
+            <a href="/Trainer/Blog/AddBlog/" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-full ml-4">
+                Yeni Blog Ekle
+            </a>
+        </div>
     </div>
-    <br />
-    <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
-        <thead>
-            <tr>
-                <th>Başlık</th>
-                <th>Oluşturulma Tarihi</th>
-                <th>Kategori</th>
-                <th>Bloğa Git</th>
-                <th>Düzenle</th>
-                <th>Sil</th>
-               
-            </tr>
-        </thead>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td> @item.Title </td>
-                <td> @item.CreateDate.ToString("dd-MMMM-yyyy")</td>
-                <td> @item.Category.Name</td>
-                <td>
-                    <a href="/Blogs/BlogDetails/@item.Id" class="btn btn-outline-info">Sitede Gör</a>
-                </td>
-                <td>
-                    <a href="/Trainer/Blog/EditBlog/@item.Id" class="btn btn-outline-info">Düzenle</a>
-                </td>
-                <td>
-                    <a href="/Trainer/Blog/DeleteBlog/@item.Id" class="btn btn-outline-danger">Sil</a>
-                </td>
-            </tr>
-        }
-    </table>
 </div>
-
-<a href="/Trainer/Blog/AddBlog/" class="btn btn-outline-success">Yeni Blog Ekle</a>
-

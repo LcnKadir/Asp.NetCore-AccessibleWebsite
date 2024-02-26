@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jF/rmLbKwLPSHVuhNDN6dAlE5BN4xGjQit7u1b+lQs2d6ci2jjAfoR1I9KrpM396AwuttxgIdWPyrbxUtMrzBQ==",
+  "dgSpecHash": "SHrSg6FlQacg5wp9pvNnIKPzDSAOxCzOsUAUv259zrFNTgl54yjeQiguj8uI25z4nDs96xgSn89Hj7qQ61DzsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\RepositoryLayer\\RepositoryLayer.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\RepositoryLayer\\RepositoryLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

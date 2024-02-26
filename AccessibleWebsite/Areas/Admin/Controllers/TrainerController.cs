@@ -51,7 +51,7 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
                         appUser.TrainerId = appUser.Id;  // Eğer Branch "null" değilse, TrainerId ataması yap.
                         await _userManager.UpdateAsync(appUser);
                     }
-                    return RedirectToAction("Default", "Index");
+                    return RedirectToAction("SignIn", "Login");
                 }
                 else
                 {

@@ -12,5 +12,7 @@
         public string? Age { get; set; }
         public int Height {  get; set; }
         public int Kilo {  get; set; }
+        public string? Branch { get; set; }
+        public string? Description { get; set; }
     }
 }

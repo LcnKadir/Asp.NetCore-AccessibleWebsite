@@ -36,12 +36,12 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Member\Data\" />
     <Folder Include="Areas\Trainer\Data\" />
-    <Folder Include="Areas\Trainer\Models\" />
     <Folder Include="wwwroot\login-form\Trainer\.git\objects\info\" />
     <Folder Include="wwwroot\login-form\Trainer\.git\objects\pack\" />
     <Folder Include="wwwroot\login-form\Trainer\.git\refs\tags\" />
     <Folder Include="wwwroot\ClassImage\" />
     <Folder Include="wwwroot\MemberImages\" />
+    <Folder Include="wwwroot\TrainersImages\" />
     <Folder Include="wwwroot\Trainer\.git\objects\info\" />
     <Folder Include="wwwroot\Trainer\.git\objects\pack\" />
     <Folder Include="wwwroot\Trainer\.git\refs\tags\" />

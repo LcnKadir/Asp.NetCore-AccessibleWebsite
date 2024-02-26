@@ -12500,11 +12500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\AccessibleWebsite.csproj",
+      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\AccessibleWebsite.csproj",
       "projectName": "AccessibleWebsite",
-      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\AccessibleWebsite.csproj",
+      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\AccessibleWebsite.csproj",
       "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\",
+      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\AccessibleWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12521,14 +12521,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\CoreLayer\\CoreLayer.csproj"
             },
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\RepositoryLayer\\RepositoryLayer.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\RepositoryLayer\\RepositoryLayer.csproj"
             },
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\ServiceLayer\\ServiceLayer.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\DENEME2\\Asp.NetCore-BootcampProject-main\\ServiceLayer\\ServiceLayer.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Son\\Asp.NetCore-BootcampProject-main\\ServiceLayer\\ServiceLayer.csproj"
             }
           }
         }
