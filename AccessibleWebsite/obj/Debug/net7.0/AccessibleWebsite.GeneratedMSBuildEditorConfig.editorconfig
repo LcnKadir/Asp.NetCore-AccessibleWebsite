@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxBZGRUcmFpbmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Member/Views/Class/ListClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENsYXNzXExpc3RDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Masaüstü/DENEME2/Asp.NetCore-BootcampProject-main/AccessibleWebsite/Areas/Member/Views/Comment/EditComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENvbW1lbnRcRWRpdENvbW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -112,7 +112,6 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
         [HttpPost]
         public async Task<IActionResult> EditBlog(Blog blog)
         {
-            //ViewBag.Categories = await _categoryService.GetAllAsync();
 
             if (blog.ImageUrl != null)
             {

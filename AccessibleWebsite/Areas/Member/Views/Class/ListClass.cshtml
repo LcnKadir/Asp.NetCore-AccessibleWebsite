@@ -1,0 +1,31 @@
+﻿@model List<Class>
+@{
+    ViewData["Title"] = "ListClass";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h5 style="font-weight: bold; color: black">Blog Detay Sayfası</h5>
+    </div>
+    <br />
+    <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+        <thead>
+            <tr>
+                <th>Ders</th>
+                <th>Başlagıç Saati</th>
+                <th>Bitiş Saati</th>
+
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> @item.Name </td>
+                <td> @item.StartClass</td>
+                <td> @item.FinishClass</td>
+            </tr>
+        }
+    </table>
+</div>
+
