@@ -2,31 +2,102 @@
     Layout = null;
 }
 
+<!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .navbar {
+            background-color: #343a40;
+        }
 
-@await Html.PartialAsync("~/Views/MemberPartial/_HeadPartial.cshtml")
+        .navbar-brand img {
+            height: 30px;
+            margin-right: 10px;
+        }
 
+        .navbar-brand span {
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: white;
+        }
+
+ 
+        .avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+      
+        .son-bloglar-baslik {
+            font-size: 24px;
+            color: #007bff; 
+            margin-bottom: 10px;
+        }
+
+     
+        .son-bloglar-listesi {
+            list-style: none;
+            padding-left: 0;
+        }
+
+            .son-bloglar-listesi li {
+                margin-bottom: 5px;
+            }
+
+                .son-bloglar-listesi li a {
+                    color: #007bff; 
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                }
+
+                    .son-bloglar-listesi li a:hover {
+                        color: #0056b3; 
+                    }
+
+        /* Footer */
+        .footer {
+            background-color: #343a40; 
+            color: white; 
+            text-align: center; 
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0; 
+            width: 100%; 
+        }
+    </style>
+</head>
 <body>
-    <div class="mx-auto bg-grey-400">
-        <div class="min-h-screen flex flex-col">
 
-            @await Html.PartialAsync("~/Views/MemberPartial/_HeaderPartial.cshtml")
+    @await Html.PartialAsync("~/Views/MemberPartial/_NavbarPartial.cshtml")
 
-            <div class="flex flex-1">
+    <div class="container-fluid mt-4">
+        <div class="row">
 
+            <div class="col-md-3">
                 @await Html.PartialAsync("~/Views/MemberPartial/_SideBarPartial.cshtml")
-
-                <main class="bg-white-300 flex-1 p-3 overflow-hidden">
-                    @RenderBody()
-                </main>
-
             </div>
 
-            @await Html.PartialAsync("~/Views/MemberPartial/_FooterPartial.cshtml")
+            <div class="col-md-9">
+                @RenderBody()
+            </div>
 
         </div>
     </div>
-    <script src="~/Trainer/./main.js"></script>
-</body>
 
+    @await Html.PartialAsync("~/Views/MemberPartial/_FooterPartial.cshtml")
+
+    @await Html.PartialAsync("~/Views/MemberPartial/_ScriptPartial.cshtml")
+
+</body>
 </html>

@@ -5,81 +5,40 @@
 }
 
 
-<style>
-    .form-control {
-        width: 100%;
-        padding: .375rem .75rem;
-        font-size: 1rem;
-        line-height: 1.5;
-        color: #495057;
-        background-color: #fff;
-        background-clip: padding-box;
-        border: 1px solid #ced4da;
-        border-radius: .25rem;
-        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    }
-</style>
-
-<div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 justify-center">
-
-    <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
-        <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">
-            Ders Sayfası
-        </div>
-        <div class="p-3">
-
-            <table class="table-responsive w-full rounded">
-                <thead>
-                    <tr>
-                        <th class="border w-1/4 px-4 py-2 text-center">#</th>
-                        <th class="border w-1/4 px-4 py-2 text-center">Kullanıcı</th>
-                        <th class="border w-1/4 px-4 py-2 text-center">Blog</th>
-                        <th class="border w-1/7 px-4 py-2 text-center">Yorum</th>
-                        <th class="border w-1/7 px-4 py-2 text-center">Tarih</th>
-                        <th class="border w-1/7 px-4 py-2 text-center">Düzenle</th>
-                        <th class="border w-1/7 px-4 py-2 text-center">Sil</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-                            <td class="form-control datetimepicker">
-                                @item.AppUserId
-                            </td>
-                            <td class="form-control datetimepicker">
-                                @item.AppUser.Name @item.AppUser.Surname
-                            </td>
-                            <td class="form-control datetimepicker">
-                                <a href="/Blogs/BlogDetails/@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
-                                  Blog
-                                </a>
-                            </td>
-                            <td class="form-control datetimepicker">
-                                @item.CommentContent
-                            </td>
-                            <td class="form-control datetimepicker">
-                                @(((DateTime)item.CreateDate).ToString("dd-MMM-yyyy"))
-                            </td>
-                            <td class="form-control datetimepicker">
-                                <a href="/Member/Comment/EditComment/@item.CommentContent" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
-                                    Düzenle
-                                </a>
-                            </td>
-                            <td class="form-control datetimepicker">
-                                <a href="/Member/Comment/DeleteComment/@item.Id" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-800 rounded">
-                                    Sil
-                                </a>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
+<div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
+    <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">
+        <h5 style="font-weight: bold; color: black">Blog Yorumları</h5>
     </div>
-
+    <div class="p-3">
+        <table class="table table-bordered">
+            <thead style="text-align: center;">
+                <tr>
+                    <th style="display: none" >#</th>
+                    <th>Kullanıcı</th>
+                    <th>Yorum</th>
+                    <th>Tarih</th>
+                    <th>Blog</th>
+                    <th>Düzenle</th>
+                    <th>Sil</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="display: none">@item.AppUserId</td>
+                        <td>@item.AppUser.Name @item.AppUser.Surname</td>
+                        <td>@item.CommentContent</td>
+                        <td>@(((DateTime)item.CreateDate).ToString("dd-MMM-yyyy"))</td>
+                        <td><a href="/Blogs/BlogDetails/@item.Id" class="btn btn-primary">Gör</a></td>
+                        <td><a href="/Member/Comment/EditComment/@item.CommentContent" class="btn btn-warning">Düzenle</a></td>
+                        <td><a href="/Member/Comment/DeleteComment/@item.Id" class="btn btn-danger">Sil</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>
-
 
 
 

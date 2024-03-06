@@ -3,6 +3,6 @@
     public class ConfirmViewModel
     {
         public string Mail { get; set; }
-        public int ConfrimCode { get; set; }   
+        public int ConfirmCode { get; set; }   
     }
 }

@@ -28,14 +28,13 @@ namespace AccessibleWebsite.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
-                ViewBag.mail = user.Email;
-
+                
                 if (user.EmailConfirmed == true)
                 {
                     return View();
                 }
 
-                if (mailConfirmViewModel.ConfrimCode == user.ConfirmCode)
+                if (user.ConfirmCode == user.ConfirmCode)
                 {
                     user.EmailConfirmed = true;
                     await _userManager.UpdateAsync(user);

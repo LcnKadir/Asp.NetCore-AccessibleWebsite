@@ -6,26 +6,33 @@
 
 <div class="row">
     <div class="col-12">
-        <h5 style="font-weight: bold; color: black">Blog Detay Sayfası</h5>
+        <div class="table-responsive">
+            <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+                <thead>
+                    <tr>
+                        <th colspan="3" style="text-align: left; font-size: 20px">Kayıt Olunan Dersler</th>
+                    </tr>
+                    <tr>
+                        <th>Ders</th>
+                        <th>Gün</th>
+                        <th>Başlagıç Saati</th>
+                        <th>Bitiş Saati</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Day</td>
+                            <td>@item.StartClass</td>
+                            <td>@item.FinishClass</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
-    <br />
-    <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
-        <thead>
-            <tr>
-                <th>Ders</th>
-                <th>Başlagıç Saati</th>
-                <th>Bitiş Saati</th>
-
-            </tr>
-        </thead>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td> @item.Name </td>
-                <td> @item.StartClass</td>
-                <td> @item.FinishClass</td>
-            </tr>
-        }
-    </table>
 </div>
+
 
