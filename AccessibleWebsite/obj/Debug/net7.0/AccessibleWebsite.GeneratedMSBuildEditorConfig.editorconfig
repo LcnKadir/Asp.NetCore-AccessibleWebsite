@@ -9,273 +9,273 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AccessibleWebsite
 build_property.RootNamespace = AccessibleWebsite
-build_property.ProjectDir = C:\Users\kadir\OneDrive\Masaüstü\Yeni klasör (4)\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite\
+build_property.ProjectDir = C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kadir\OneDrive\Masaüstü\Yeni klasör (4)\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite
+build_property.MSBuildProjectDirectory = C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Accessible/Views/Blogs/AcccessibleBlogDetails.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Accessible/Views/Blogs/AcccessibleBlogDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzaWJsZVxWaWV3c1xCbG9nc1xBY2NjZXNzaWJsZUJsb2dEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Accessible/Views/Blogs/AcccessibleBlogIndex.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Accessible/Views/Blogs/AcccessibleBlogIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzaWJsZVxWaWV3c1xCbG9nc1xBY2NjZXNzaWJsZUJsb2dJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Accessible/Views/Default/AccessibleMode.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Accessible/Views/Default/AccessibleMode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzaWJsZVxWaWV3c1xEZWZhdWx0XEFjY2Vzc2libGVNb2RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Admin/Views/Trainer/AddTrainer.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Admin/Views/Trainer/AddTrainer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxBZGRUcmFpbmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Class/ListClass.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Class/ListClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENsYXNzXExpc3RDbGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Comment/EditComment.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Comment/EditComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENvbW1lbnRcRWRpdENvbW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Comment/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Comment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENvbW1lbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Dashboard/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Profile/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Blog/AddBlog.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Blog/AddBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xCbG9nXEFkZEJsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Blog/EditBlog.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Blog/EditBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xCbG9nXEVkaXRCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Blog/ListBlogs.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Blog/ListBlogs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xCbG9nXExpc3RCbG9ncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Classes/AddClass.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Classes/AddClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xDbGFzc2VzXEFkZENsYXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Classes/EditClass.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Classes/EditClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xDbGFzc2VzXEVkaXRDbGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Classes/ListClass.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Classes/ListClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xDbGFzc2VzXExpc3RDbGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Dashboard/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xEYXNoYm9hcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Profile/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Trainer/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVHJhaW5lclxWaWV3c1xQcm9maWxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/_ViewImports.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/About/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessAboutPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessAboutPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzaWJsZVBhcnRpYWxcX0FjY2Vzc0Fib3V0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessBannerPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessBannerPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzaWJsZVBhcnRpYWxcX0FjY2Vzc0Jhbm5lclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessFooterPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessFooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzaWJsZVBhcnRpYWxcX0FjY2Vzc0Zvb3RlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessServicePartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessServicePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzaWJsZVBhcnRpYWxcX0FjY2Vzc1NlcnZpY2VQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessTestimonialPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/AccessiblePartial/_AccessTestimonialPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzaWJsZVBhcnRpYWxcX0FjY2Vzc1Rlc3RpbW9uaWFsUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Blogs/BlogDetails.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Blogs/BlogDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQmxvZ0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Blogs/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Blogs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Classes/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Classes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/ConfirmMail/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/ConfirmMail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlybU1haWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Contact/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_AboutService.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_AboutService.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFBhcnRpYWxcX0Fib3V0U2VydmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_BannerPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_BannerPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFBhcnRpYWxcX0Jhbm5lclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_FooterPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFBhcnRpYWxcX0Zvb3RlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_ServicePartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_ServicePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFBhcnRpYWxcX1NlcnZpY2VQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_TestimonialPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/DefaultPartial/_TestimonialPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFBhcnRpYWxcX1Rlc3RpbW9uaWFsUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Default/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_FooterPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_HeaderPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfSGVhZGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_HeadPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_HeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfSGVhZFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_ScriptPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_ScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfU2NyaXB0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_SectionPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/LayoutPartial/_SectionPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfU2VjdGlvblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Login/Register.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Login/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Login/SignIn.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Login/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/MemberPartial/_FooterPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/MemberPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/MemberPartial/_NavbarPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/MemberPartial/_NavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfTmF2YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/MemberPartial/_ScriptPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/MemberPartial/_ScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfU2NyaXB0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/MemberPartial/_SideBarPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/MemberPartial/_SideBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyUGFydGlhbFxfU2lkZUJhclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_AccessibleBlogs/Default.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_AccessibleBlogs/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FjY2Vzc2libGVCbG9nc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_AccessibleClasses/Default.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_AccessibleClasses/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FjY2Vzc2libGVDbGFzc2VzXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_AccessibleTrainers/Default.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_AccessibleTrainers/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FjY2Vzc2libGVUcmFpbmVyc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_DefaultBlogs/Default.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_DefaultBlogs/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRCbG9nc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_DefaultClasses/Default.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_DefaultClasses/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRDbGFzc2VzXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_DefaultTrainers/Default.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_DefaultTrainers/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRUcmFpbmVyc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_LastBlogs/Default.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Components/_LastBlogs/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xhc3RCbG9nc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Error.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/IULayout.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/IULayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXElVTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/_MemberLayout.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/_MemberLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW1iZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/_TrainerLayout.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/_TrainerLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UcmFpbmVyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/TrainerPartial/_FooterPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/TrainerPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclBhcnRpYWxcX0Zvb3RlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/TrainerPartial/_HeaderPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/TrainerPartial/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclBhcnRpYWxcX0hlYWRlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/TrainerPartial/_HeadPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/TrainerPartial/_HeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclBhcnRpYWxcX0hlYWRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/TrainerPartial/_SideBarPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/TrainerPartial/_SideBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclBhcnRpYWxcX1NpZGVCYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Trainers/GetTraining.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Trainers/GetTraining.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lcnNcR2V0VHJhaW5pbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Trainers/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/Trainers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/_ViewImports.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/Yeni klasör (4)/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/_ViewStart.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

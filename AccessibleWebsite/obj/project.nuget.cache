@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Go86SIRij2JhlqeZAJL4hK8P/9FSYjyA/ws6p0qbF2P7LnKuegcal5idaOmwDoeY3XaXgsHIQlMU636AV/jeNQ==",
+  "dgSpecHash": "24/fi6XOQeQARDK1rn/L972tVUQ/oXr5Prq2qxuImlwuzg/YoN4s17oxOg8Y9VphiHWdUd9d8hAZqReRvOWAyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Yeni klasör (4)\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\AccessibleWebsite.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\AccessibleWebsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kadir\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\autofac.extensions.dependencyinjection\\9.0.0\\autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",

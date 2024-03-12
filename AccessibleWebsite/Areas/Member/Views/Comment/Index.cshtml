@@ -31,7 +31,7 @@
                         <td>@item.CommentContent</td>
                         <td>@(((DateTime)item.CreateDate).ToString("dd-MMM-yyyy"))</td>
                         <td><a href="/Blogs/BlogDetails/@item.Id" class="btn btn-primary">Gör</a></td>
-                        <td><a href="/Member/Comment/EditComment/@item.CommentContent" class="btn btn-warning">Düzenle</a></td>
+                        <td><a href="/Member/Comment/EditComment/@item.Id" class="btn btn-warning">Düzenle</a></td>
                         <td><a href="/Member/Comment/DeleteComment/@item.Id" class="btn btn-danger">Sil</a></td>
                     </tr>
                 }
