@@ -24,5 +24,10 @@ namespace RepositoryLayer.Repositories
         {
            await _DbSet.AddAsync(message);
         }
+
+        public async Task<List<Message>> GetwasPickClass(int id)
+        {
+            return await _context.Messages.Include(x => x.Class).Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();
+        }
     }
 }

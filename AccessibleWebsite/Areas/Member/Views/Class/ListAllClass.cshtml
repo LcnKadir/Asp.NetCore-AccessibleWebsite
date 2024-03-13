@@ -1,6 +1,6 @@
 ﻿@model List<Class>
 @{
-    ViewData["Title"] = "ListClass";
+    ViewData["Title"] = "GetAllClass";
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
 
@@ -10,7 +10,7 @@
             <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
                 <thead>
                     <tr>
-                        <th colspan="3" style="text-align: left; font-size: 20px">Kayıt Olunan Dersler</th>
+                        <th colspan="3" style="text-align: left; font-size: 20px">Haftanın Dersleri</th>
                     </tr>
                     <tr>
                         <th>Ders</th>
@@ -31,6 +31,11 @@
                     }
                 </tbody>
             </table>
+            <div class="container">
+                <div class="row justify-content-center" >
+                    <a class="btn btn-success" href="/Classes/Index">Ders Kaydı İçin Siteye Git</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

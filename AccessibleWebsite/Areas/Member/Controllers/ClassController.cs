@@ -8,16 +8,28 @@ namespace AccessibleWebsite.Areas.Member.Controllers
     [Area("Member")]
     public class ClassController : Controller
     {
-        private readonly UserManager<AppUser> _userManager;
         private readonly IClassService _classService;
+        private readonly UserManager<AppUser> _userManager;
+        private readonly IMessageService _messageService;
 
-        public ClassController(UserManager<AppUser> userManager, IClassService classService)
+        public ClassController(IClassService classService, UserManager<AppUser> userManager, IMessageService messageService)
         {
-            _userManager = userManager;
             _classService = classService;
+            _userManager = userManager;
+            _messageService = messageService;
         }
 
-        public async Task<IActionResult> ListClass()
+        [HttpGet]
+        public async Task<IActionResult> ListSelectedClass()
+        {
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var clases = await _messageService.GetwasPickClass(user.Id);
+            return View(clases);
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> ListAllClass()
         {
             return View(await _classService.GetAllAsync());
         }

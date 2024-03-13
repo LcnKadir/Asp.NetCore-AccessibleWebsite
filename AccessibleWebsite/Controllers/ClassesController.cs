@@ -26,17 +26,22 @@ namespace AccessibleWebsite.Controllers
         public async Task<IActionResult> Index()
         {
             var getclass = await _classService.GetClassWithTrainer(); //Derslerin sayfada listelenmesi.
+
             var classes = await _classService.GetAllAsync();
             var days = await _classService.GetAllAsync();
             ViewBag.Classes = classes;
             ViewBag.Days = days;
 
-            var values = await _userManager.FindByNameAsync(User.Identity.Name); //Kayıt olmayan kullanıcı dersleri göremeyecek.
-            if (values.EmailConfirmed == false && values.TrainerId != null)
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            if (values.EmailConfirmed == true)
             {
                 return View(getclass);
             }
-            if (values.EmailConfirmed == false || values.EmailConfirmed == null || values.Branch == null)
+            if (values.EmailConfirmed == false && values.TrainerId != null) 
+            {
+                return View(getclass);
+            }
+            if (values.EmailConfirmed == false || values.EmailConfirmed == null || values.Branch == null)//Kayıt olmayan kullanıcı dersleri göremeyecek.
             {
                 return RedirectToAction("Index", "ConfirmMail");
             }

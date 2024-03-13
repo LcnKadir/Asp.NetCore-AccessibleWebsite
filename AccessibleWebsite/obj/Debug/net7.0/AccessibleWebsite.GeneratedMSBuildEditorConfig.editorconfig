@@ -32,8 +32,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxBZGRUcmFpbmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Class/ListClass.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENsYXNzXExpc3RDbGFzcy5jc2h0bWw=
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Class/ListAllClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENsYXNzXExpc3RBbGxDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Class/ListSelectedClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENsYXNzXExpc3RTZWxlY3RlZENsYXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kadir/OneDrive/Masaüstü/WEBSİTE/Asp.NetCore-AccessibleWebsite-main/AccessibleWebsite/Areas/Member/Views/Comment/EditComment.cshtml]

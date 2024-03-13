@@ -27,5 +27,10 @@ namespace ServiceLayer.Services
             await _unitOfWork.CommitAsync();
             return message;
         }
+
+        public async Task<List<Message>> GetwasPickClass(int id)
+        {
+            return await _repository.GetwasPickClass(id);
+        }
     }
 }

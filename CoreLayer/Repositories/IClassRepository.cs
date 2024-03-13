@@ -22,5 +22,6 @@ namespace CoreLayer.Repositories
         Task<List<Class>> GetClassForTrainer(int id);
         Task<IEnumerable<Class>> GetClassIdAsync(int id);
         Task<List<Class>> GetLastClasses(int id);
+
     }
 }

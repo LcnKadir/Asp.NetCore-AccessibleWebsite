@@ -40,7 +40,6 @@
                             <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <!-- İlk dropdown listesi -->
                                         <div class="form-group">
                                             <select name="ClassId" class="form-control">
                                                 <option disabled selected>Lütfen Ders Seçiniz</option>
@@ -51,17 +50,21 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <!-- İkinci dropdown listesi -->
-                                        <div class="form-group">
-                                            <select name="Day" class="form-control">
-                                                <option disabled selected>Lütfen Gün Seçiniz</option>
-                                                @foreach (var day in ViewBag.Days)
+                                    <div class="form-group">
+                                        <select name="Day" class="form-control">
+                                            <option disabled selected>Lütfen Gün Seçiniz</option>
+                                            @{
+                                                HashSet<string> uniqueDays = new HashSet<string>(); // Tekrarlanan günleri saklamak için bir HashSet oluşturuldu.
+                                                foreach (var day in ViewBag.Days)
                                                 {
-                                                    <option value="@day.Id">@day.Day</option>
+                                                    if (!uniqueDays.Contains(day.Day))
+                                                    {
+                                                        <option value="@day.Id">@day.Day</option>
+                                                        uniqueDays.Add(day.Day);
+                                                    }
                                                 }
-                                            </select>
-                                        </div>
+                                            }
+                                        </select>
                                     </div>
                                 </div>
 

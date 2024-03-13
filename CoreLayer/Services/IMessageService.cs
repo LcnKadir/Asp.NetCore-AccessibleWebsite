@@ -10,5 +10,6 @@ namespace CoreLayer.Services
     public interface IMessageService
     {
         Task<Message> AddAsync(Message message);
+        Task<List<Message>> GetwasPickClass(int id);
     }
 }
