@@ -17,7 +17,7 @@
                         <img src="/BlogImages/@item.CoverImage" alt="">
                         <div class="blog-widget">
                             <div class="bw-date"></div>
-                         @*    <a href="/Blogs/@item.CategoryId" class="tag">#@item.Category.Name</a> *@
+                            <a asp-controller="Blogs" asp-action="Index" asp-route-id="@item.CategoryId" class="tag">#@item.Category.Name</a>
                         </div>
                         <h4><a href="/Blogs/BlogDetails/@item.Id">@item.LoginTitle</a></h4>
                     </div>
