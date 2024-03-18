@@ -2,7 +2,14 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
+
 }
 
+@await Component.InvokeAsync("_DashboardCard")
 
+<br />
+@await Component.InvokeAsync("_DashboardTrainers")
+
+@await Component.InvokeAsync("_DashboardBlogs")
+<br />
 

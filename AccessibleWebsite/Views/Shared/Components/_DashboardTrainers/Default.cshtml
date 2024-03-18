@@ -1,0 +1,40 @@
+﻿@model List<AppUser>
+
+<div class="card mb-3">
+    <div class="card-header">
+        <h5 class="mb-0 text-center">Antrenörler</h5>
+    </div>
+    <div class="card-body">
+        <table class="table table-borderless">
+            <thead style="text-align: center; border-bottom: 2px solid #dee2e6;">
+                <tr>
+                    <th style="text-align: center;"></th>
+                    <th style="text-align: center;">Antrenör</th>
+                    <th style="text-align: center;">Branş</th>
+                    <th style="text-align: center;">Hakkında</th>
+                    <th style="text-align: center;">Siteye Git</th>
+                    <th style="text-align: center;">İletişime Geç</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="text-align: center; vertical-align: middle;">
+                            <img src="~/TrainersImages/@item.ImageUrl" alt="" class="avatar rounded-circle" style="height: 80px; width: 80px;">
+                        </td>
+                        <td style="text-align: center; vertical-align: middle;">
+                            @item.Name @item.Surname
+                        </td>
+                        <td style="text-align: center; vertical-align: middle;">@item.Branch</td>
+                        <td style="text-align: center; vertical-align: middle;">@(item.Description.Length > 50 ? item.Description.Substring(0, 50) + "..." : item.Description)</td>
+                        <td style="text-align: center; vertical-align: middle;"><a asp-area="" asp-controller="Trainers" asp-action="Index" class="btn btn-primary">Tümünü Gör</a></td>
+                        <td style="text-align: center; vertical-align: middle;"><a asp-area="" asp-controller="Trainers" asp-action="GetTraining" asp-route-id="@item.Id" class="btn btn-warning">Mesaj At</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <hr />
+
+    </div>
+</div>

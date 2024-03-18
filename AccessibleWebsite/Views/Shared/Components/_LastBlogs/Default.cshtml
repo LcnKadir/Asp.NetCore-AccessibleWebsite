@@ -13,10 +13,12 @@
                     <div class="single-blog-item">
                         <img src="/BlogImages/@item.CoverImage" alt="">
                         <div class="blog-widget">
-                            <div class="bw-date"></div>
-                            @* <a href="/Blogs/@item.CategoryId" class="tag">#@item.Category.Name</a> *@
+                            <div class="bw-date">
+                                <a class="tag">#@item.Category.Name</a>
+                            </div>
                         </div>
-                        <h4><a href="/Blogs/BlogDetails/@item.Id">@item.LoginTitle</a></h4>
+                        
+                        <h4><a asp-controller="Blogs" asp-action="BlogDetails" asp-route-id="@item.Id">@item.LoginTitle</a></h4>
                     </div>
                 </div>
             }

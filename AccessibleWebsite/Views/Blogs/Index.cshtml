@@ -71,14 +71,14 @@
             $('.gallery-controls li').on('click', function () {
                 var filter = $(this).data('filter');
                 if (filter === '') {
-                    $('.single-blog-item').show(); // Tüm blogları göster
-                    $('.gallery-controls li').removeClass('active'); // Tüm kategori başlıklarını pasif yap
-                    $(this).addClass('active'); // Seçilen kategori başlığını aktif yap
+                    $('.single-blog-item').show(); 
+                    $('.gallery-controls li').removeClass('active'); 
+                    $(this).addClass('active'); 
                 } else {
                     $('.single-blog-item').hide();
                     $(filter).show();
-                    $('.gallery-controls li').removeClass('active'); // Tüm kategori başlıklarını pasif yap
-                    $(this).addClass('active'); // Seçilen kategori başlığını aktif yap
+                    $('.gallery-controls li').removeClass('active'); 
+                    $(this).addClass('active'); 
                 }
             });
         });

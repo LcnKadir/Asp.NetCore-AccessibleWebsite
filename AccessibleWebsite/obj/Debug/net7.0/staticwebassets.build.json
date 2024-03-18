@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tjR8kA34u5tHCDIwDHtUrZiga6NO365x3kZwf10Okk8=",
+  "Hash": "ducPRqMVQgfxb1/4u9ahypbY2QSUsyHTJC7h2nxWmk8=",
   "Source": "AccessibleWebsite",
   "BasePath": "_content/AccessibleWebsite",
   "Mode": "Default",
@@ -10625,6 +10625,23 @@
       "OriginalItemSpec": "wwwroot\\login-form\\scss\\style.scss"
     },
     {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\MemberImages\\367a8145-f11a-4d36-afca-c2e792d70671.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "MemberImages/367a8145-f11a-4d36-afca-c2e792d70671.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MemberImages\\367a8145-f11a-4d36-afca-c2e792d70671.jpg"
+    },
+    {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg",
       "SourceId": "AccessibleWebsite",
       "SourceType": "Discovered",
@@ -10640,6 +10657,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\MemberImages\\Dashboard.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "MemberImages/Dashboard.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MemberImages\\Dashboard.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\register\\css\\style.css",
@@ -10929,6 +10963,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\register\\readme.txt"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\TrainersImages\\01413369-a687-4d6a-9698-8e869af2c977.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "TrainersImages/01413369-a687-4d6a-9698-8e869af2c977.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TrainersImages\\01413369-a687-4d6a-9698-8e869af2c977.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\TrainersImages\\bf4db9b0-7da7-4f30-8637-8c87648bcf0f.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "TrainersImages/bf4db9b0-7da7-4f30-8637-8c87648bcf0f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TrainersImages\\bf4db9b0-7da7-4f30-8637-8c87648bcf0f.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\TrainersImages\\d0a02fd3-711f-45de-81ad-3525e0cf413c.jpg",

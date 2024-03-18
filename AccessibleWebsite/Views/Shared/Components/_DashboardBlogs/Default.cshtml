@@ -1,0 +1,30 @@
+﻿@model List<Blog>
+
+<div class="card mb-4 mt-3">
+    <div class="card-header">
+        <h5 class="mb-0 text-center">Son Bloglar</h5>
+    </div>
+    <br />
+    <div class="card-body text-center bg-light">
+        <p class="card-text">En Güncel ve bilgi verici  bloglara göz atarak, sevdiğiniz branş hakkında daha fazla bilgi edinin.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/BlogImages/@item.CoverImage" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <p asp-area="" asp-controller="Blog" asp-action="BlogDetails" asp-route-id="@item.Id" class="fw-bold">@item.LoginTitle</p>
+                    </div>
+                    <span class="badge text-bg-primary">@item.Category.Name</span>
+                    <div class="card-footer text-center">
+                        <hr>
+                        <a class="btn btn-success" asp-area="" asp-controller="Blogs" asp-action="BlogDetails" asp-route-id="@item.Id">Siteye Git</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <br />
+</div>

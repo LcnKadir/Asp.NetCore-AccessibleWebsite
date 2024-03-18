@@ -1,18 +1,17 @@
 ﻿using CoreLayer.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AccessibleWebsite.ViewComponents.Default
+namespace AccessibleWebsite.ViewComponents.Member
 {
-    public class _DefaultBlogs : ViewComponent
+    public class _DashboardBlogs : ViewComponent
     {
         private readonly IBlogService _blogService;
         private readonly ICategoryService _categoryService;
 
-        public _DefaultBlogs(IBlogService blogService, ICategoryService categoryService)
+        public _DashboardBlogs(IBlogService blogService, ICategoryService categoryService)
         {
             _blogService = blogService;
             _categoryService = categoryService;
-
         }
 
         [HttpGet]

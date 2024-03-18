@@ -1797,8 +1797,24 @@
       "PackagePath": "staticwebassets\\Gym\\readme.txt"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\MemberImages\\367a8145-f11a-4d36-afca-c2e792d70671.jpg",
+      "PackagePath": "staticwebassets\\MemberImages\\367a8145-f11a-4d36-afca-c2e792d70671.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\MemberImages\\Dashboard.jpg",
+      "PackagePath": "staticwebassets\\MemberImages\\Dashboard.jpg"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg",
       "PackagePath": "staticwebassets\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\TrainersImages\\01413369-a687-4d6a-9698-8e869af2c977.jpg",
+      "PackagePath": "staticwebassets\\TrainersImages\\01413369-a687-4d6a-9698-8e869af2c977.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\TrainersImages\\bf4db9b0-7da7-4f30-8637-8c87648bcf0f.jpg",
+      "PackagePath": "staticwebassets\\TrainersImages\\bf4db9b0-7da7-4f30-8637-8c87648bcf0f.jpg"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\WEBSİTE\\Asp.NetCore-AccessibleWebsite-main\\AccessibleWebsite\\wwwroot\\TrainersImages\\d0a02fd3-711f-45de-81ad-3525e0cf413c.jpg",
