@@ -16,10 +16,10 @@
             <div class="col-lg-8">
                 <div class="row">
                     <div class="col-lg-12 text-center" style="margin-top: 20px; margin-bottom: 20px;">
-                        <img src="~/Gym/img/trainer/about-trainer-1.jpg" alt="" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 10px;">
+                        <img src="/TrainersImages/@Model.ImageUrl" alt="" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 10px;">
                         <p style="display: none;" class="trainer-name">@Model.Id</p>
-                        <p class="trainer-name">@Model.Name @Model.Surname</p>
-                        <p class="trainer-name">@Model.Branch</p>
+                        <p class="trainer-name">@Model.Name @Model.Surname - @Model.Branch </p>
+                        <p class="">@Model.Description</p>
                     </div>
 
                     <div class="col-lg-12" style="margin-top: 20px;">

@@ -3,6 +3,7 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/IULayout.cshtml";
 }
+
 <section class="trainer-section about-trainer spad">
     <div class="container">
         <div class="row">
@@ -12,31 +13,39 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            @foreach (var item in Model)
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @if (Model.Any())
             {
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="single-trainer-item">
-                        <img src="/TrainersImages/@item.ImageUrl" alt="" class="trainer-img">
-                        <div class="trainer-text">
-                            @if (item.TrainerId != null)
-                            {
-                                <h5>@item.Name @item.Surname</h5>
-                                <span>@item.Branch</span>
-                                <p class="trainer-description">@item.Description</p>
-                                <div class="trainer-social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                @foreach (var item in Model)
+                {
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="/TrainersImages/@item.ImageUrl" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center" style="color: black;">@item.Name @item.Surname</h5>
+                                <p class="card-text text-center" style="color: #e67e22;">@item.Branch</p>
+                                <p class="card-text text-center">@item.Description</p>
+                                <div class="text-center mb-2">
+                                    <div class="trainer-social" style="margin-bottom: 10px;">
+                                        <a href="#" style="color: black; margin-right: 10px;"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" style="color: black; margin-right: 10px;"><i class="fa fa-instagram"></i></a>
+                                        <a href="#" style="color: black; margin-right: 10px;"><i class="fa fa-twitter"></i></a>
+                                        <a href="#" style="color: black;"><i class="fa fa-pinterest"></i></a>
+                                    </div>
+                                    <hr>
+                                    <a href="/Trainers/GetTraining/@item.Id" class="btn btn-primary" style="background-color: #e67e22;">İletişime Geç</a>
                                 </div>
-                            }
-                            else
-                            {
-                                <p>Henüz Antrenör Eklenmedi.</p>
-                            }
-                            <hr>
-                            <a href="/Trainers/GetTraining/@item.Id" class="primary-btn membership-btn">İletişime Geç</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-center">Henüz Antrenör Eklenmedi.</p>
                         </div>
                     </div>
                 </div>
@@ -44,4 +53,3 @@
         </div>
     </div>
 </section>
-
