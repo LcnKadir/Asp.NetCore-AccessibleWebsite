@@ -37,7 +37,7 @@ namespace AccessibleWebsite.Controllers
             {
                 return View(getclass);
             }
-            if (values.EmailConfirmed == false && values.TrainerId != null) 
+            if (values.EmailConfirmed == false && values.TrainerId != null)
             {
                 return View(getclass);
             }
@@ -53,8 +53,6 @@ namespace AccessibleWebsite.Controllers
         [HttpPost]
         public async Task<IActionResult> RegisterClass(Message msg, List<int> clasId) //Ders kaydı.
         {
-
-            await _messageService.AddAsync(msg);
             return RedirectToAction("Index", "Classes", new { id = clasId });
 
         }

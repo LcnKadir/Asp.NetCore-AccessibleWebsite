@@ -34,7 +34,6 @@
                         <br />
                         @if (User.Identity.IsAuthenticated)
                         {
-
                             @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
                             <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
@@ -75,12 +74,13 @@
                                 <button type="submit" class="register-btn">Kaydol</button>
                             </form>
 
+                        
                         }
                         else
                         {
-                            <div class="section-title">
-                                <p>Ders kaydı için lütfen giriş yapınız.</p>
-                            </div>
+                        <div class="section-title">
+                            <p>Ders kaydı için lütfen giriş yapınız.</p>
+                        </div>
                         }
 
                     </div>

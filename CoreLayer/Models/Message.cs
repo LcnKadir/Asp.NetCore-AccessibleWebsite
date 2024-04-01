@@ -10,6 +10,7 @@ namespace CoreLayer.Models
     {
         public int AppUserId { get; set; }
         public int ClassId { get; set; }
+        public bool ClassRegistering { get; set; } //Kullanıcı haftalık bir derse katılma hakkına sahip olacak. Derse katılmak istediğini bildirdiği zaman, eklenme durumu true dönecek.
         public AppUser AppUser { get; set; }
         public Class Class { get; set; }
     }

@@ -1970,7 +1970,6 @@ C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\A
 C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.AssemblyInfoInputs.cache
 C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.AssemblyInfo.cs
 C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.csproj.CoreCompileInputs.cache
-C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.RazorAssemblyInfo.cache
 C:\Users\kadir\OneDrive\Masaüstü\WEBSİTE\Asp.NetCore-AccessibleWebsite-main\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.RazorAssemblyInfo.cs
