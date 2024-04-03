@@ -10,10 +10,9 @@ namespace CoreLayer.Models
     public class Class : BaseEntity
     {
         public string Name { get; set; }
-
-        public bool AddStatus { get; set; } //Kullanıcı haftalık bir derse katılma hakkına sahip olacak. Derse katılmak istediğini bildirdiği zaman, eklenme durumu true dönecek.
+        public bool ClassesStatus { get; set; } //Antrenörler dersleri iptal edebilecekler.
         public string? Day { get; set; }
-        public string? Image {  get; set; }
+        public string? Image { get; set; }
         public IFormFile ImageUrl { get; set; }
         public DateTime StartClass { get; set; }
         public DateTime FinishClass { get; set; }
