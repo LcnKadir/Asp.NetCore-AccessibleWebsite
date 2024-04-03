@@ -53,6 +53,8 @@ namespace AccessibleWebsite.Controllers
         [HttpPost]
         public async Task<IActionResult> RegisterClass(Message msg, List<int> clasId) //Ders kaydı.
         {
+            msg.ClassRegistering = true;
+            await _messageService.AddAsync(msg);
             return RedirectToAction("Index", "Classes", new { id = clasId });
 
         }

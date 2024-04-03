@@ -11,6 +11,5 @@ namespace CoreLayer.Repositories
     {
         Task AddAsync(Message message);
         Task<List<Message>> GetwasPickClass(int id); //Kullanıcı haftalık katıldığı dersleri görebilecek.
-
     }
 }

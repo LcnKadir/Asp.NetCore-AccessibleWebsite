@@ -36,51 +36,61 @@
                         {
                             @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
-                            <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
-                                <div class="row">
-                                    <div class="col-lg-6">
+                            var user = await appUser.FindByNameAsync(User.Identity.Name);
+                            @if (user.Messages == null || user.Messages.ClassRegistering == true)
+                            {
+                                <div class="section-title">
+                                    <h4>Haftalık ders kaydınızı gerçekleştirdiniz.</h4>
+                                    <br>
+                                    <p>Kullanıcı panelinden ders durumunuzu kontrol edebilirsiniz. Sağlıklı kalmanız dileğiyle!</p>
+                                </div>
+                            }
+                            else
+                            {
+                                <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <select name="ClassId" class="form-control">
+                                                    <option disabled selected>Lütfen Ders Seçiniz</option>
+                                                    @foreach (var item in ViewBag.Classes)
+                                                    {
+                                                        <option value="@item.Id">@item.Name</option>
+                                                    }
+                                                </select>
+                                            </div>
+                                        </div>
                                         <div class="form-group">
-                                            <select name="ClassId" class="form-control">
-                                                <option disabled selected>Lütfen Ders Seçiniz</option>
-                                                @foreach (var item in ViewBag.Classes)
-                                                {
-                                                    <option value="@item.Id">@item.Name</option>
+                                            <select name="Day" class="form-control">
+                                                <option disabled selected>Lütfen Gün Seçiniz</option>
+                                                @{
+                                                    HashSet<string> uniqueDays = new HashSet<string>(); // Tekrarlanan günleri saklamak için bir HashSet oluşturuldu.
+                                                    foreach (var day in ViewBag.Days)
+                                                    {
+                                                        if (!uniqueDays.Contains(day.Day))
+                                                        {
+                                                            <option value="@day.Id">@day.Day</option>
+                                                            uniqueDays.Add(day.Day);
+                                                        }
+                                                    }
                                                 }
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <select name="Day" class="form-control">
-                                            <option disabled selected>Lütfen Gün Seçiniz</option>
-                                            @{
-                                                HashSet<string> uniqueDays = new HashSet<string>(); // Tekrarlanan günleri saklamak için bir HashSet oluşturuldu.
-                                                foreach (var day in ViewBag.Days)
-                                                {
-                                                    if (!uniqueDays.Contains(day.Day))
-                                                    {
-                                                        <option value="@day.Id">@day.Day</option>
-                                                        uniqueDays.Add(day.Day);
-                                                    }
-                                                }
-                                            }
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <br>
-                                <br>
-                                <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
-                                <br>
-                                <button type="submit" class="register-btn">Kaydol</button>
-                            </form>
-
-                        
+                                    <br>
+                                    <br>
+                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                    <br>
+                                    <button type="submit" class="register-btn">Kaydol</button>
+                                </form>
+                            }
                         }
+
                         else
                         {
-                        <div class="section-title">
-                            <p>Ders kaydı için lütfen giriş yapınız.</p>
-                        </div>
+                            <div class="section-title">
+                                <p>Ders kaydı için lütfen giriş yapınız.</p>
+                            </div>
                         }
 
                     </div>
