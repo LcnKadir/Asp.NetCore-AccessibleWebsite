@@ -37,7 +37,7 @@
                             @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
                             var user = await appUser.FindByNameAsync(User.Identity.Name);
-                            @if (user.Messages == null || user.Messages.ClassRegistering == true)
+                            @if (@* user.Messages == null ||  *@user.Messages.ClassRegistering == true)
                             {
                                 <div class="section-title">
                                     <h4>Haftalık ders kaydınızı gerçekleştirdiniz.</h4>

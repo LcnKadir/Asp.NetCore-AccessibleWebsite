@@ -54,17 +54,17 @@
                                 @item.Category.Name
                             </td>
                             <td class="form-control datetimepicker">
-                                <a href="/Trainer/Classes/EditClass/@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                <a asp-area="Trainer" asp-controller="Blog" asp-action="EditBlog" asp-route-id="@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
                                     Düzenle
                                 </a>
                             </td>
                             <td class="form-control datetimepicker">
-                                <a href="/Blogs/BlogDetails/@item.Id" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
+                                <a asp-area="" asp-controller="Blogs" asp-action="BlogDetails" asp-route-id="@item.Id" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
                                     Git
                                 </a>
                             </td>
                             <td class="form-control datetimepicker">
-                                <a href="/Trainer/Blog/DeleteBlog/@item.Id" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-800 rounded">
+                                <a asp-area="Trainer" asp-controller="Blog" asp-action="DeleteBlog" asp-route-id="@item.Id" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-800 rounded">
                                     Sil
                                 </a>
                             </td>
@@ -75,7 +75,7 @@
 
         </div>
         <div class="flex justify-between items-center mb-8">
-            <a href="/Trainer/Blog/AddBlog/" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-full ml-4">
+            <a asp-area="Trainer" asp-controller="Blog" asp-action="AddBlog"  class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-full ml-4">
                 Yeni Blog Ekle
             </a>
         </div>

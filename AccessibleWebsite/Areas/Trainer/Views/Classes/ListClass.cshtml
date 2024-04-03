@@ -52,17 +52,17 @@
                                 @item.FinishClass
                             </td>
                             <td class="form-control datetimepicker" >
-                                <a href="/Trainer/Classes/EditClass/@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                <a asp-area="Trainer" asp-controller="Classes" asp-action="EditClass" asp-route-id="@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
                                     Düzenle
                                 </a>
                             </td>
                             <td class="form-control datetimepicker" >
-                                <a href="/Trainer/Classes/ClassDetails/@item.Id" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
+                                <a asp-area="" asp-controller="Classes" asp-action="Index" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
                                   Git
                                 </a>
                             </td>
                             <td class="form-control datetimepicker" >
-                                <a href="/Trainer/Classes/DeleteClass/@item.Id" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-800 rounded">
+                                <a asp-area="Trainer" asp-controller="Classes" asp-action="DeleteClass" asp-route-id="@item.Id" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-800 rounded">
                                     Sil
                                 </a>
                             </td>
