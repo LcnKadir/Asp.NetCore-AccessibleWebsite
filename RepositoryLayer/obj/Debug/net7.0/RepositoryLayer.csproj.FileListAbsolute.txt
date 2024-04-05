@@ -162,9 +162,10 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLa
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.AssemblyInfoInputs.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.AssemblyInfo.cs
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.csproj.CoreCompileInputs.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.csproj.CopyComplete
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\refint\RepositoryLayer.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.pdb
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\ref\RepositoryLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\RepositoryLayer.sourcelink.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\RepositoryLayer\obj\Debug\net7.0\Reposito.A0A61804.Up2Date

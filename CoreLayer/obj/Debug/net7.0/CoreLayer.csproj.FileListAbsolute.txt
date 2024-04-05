@@ -138,3 +138,4 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\CoreLayer\ob
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\CoreLayer\obj\Debug\net7.0\CoreLayer.pdb
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\CoreLayer\obj\Debug\net7.0\CoreLayer.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\CoreLayer\obj\Debug\net7.0\ref\CoreLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\CoreLayer\obj\Debug\net7.0\CoreLayer.sourcelink.json

@@ -1409,10 +1409,6 @@
       "PackagePath": "staticwebassets\\ClassImage\\f9ab7c18-a0c3-42cd-8f47-af1787f7e6b9.webp"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Gym\\.DS_Store",
-      "PackagePath": "staticwebassets\\Gym\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Gym\\Source\\Magnific-Popup-master.zip",
       "PackagePath": "staticwebassets\\Gym\\Source\\Magnific-Popup-master.zip"
     },
@@ -2077,28 +2073,12 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\.DS_Store",
-      "PackagePath": "staticwebassets\\login-form\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\css\\.DS_Store",
-      "PackagePath": "staticwebassets\\login-form\\css\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\.DS_Store",
-      "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\_media.css",
       "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\_media.css"
-    },
-    {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\.DS_Store",
-      "PackagePath": "staticwebassets\\login-form\\css\\bootstrap\\mixins\\.DS_Store"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\css\\bootstrap\\mixins\\_border-radius.css",
@@ -2129,24 +2109,12 @@
       "PackagePath": "staticwebassets\\login-form\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\fonts\\.DS_Store",
-      "PackagePath": "staticwebassets\\login-form\\fonts\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\images\\.DS_Store",
-      "PackagePath": "staticwebassets\\login-form\\images\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\images\\bg.jpg",
       "PackagePath": "staticwebassets\\login-form\\images\\bg.jpg"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\index.html",
       "PackagePath": "staticwebassets\\login-form\\index.html"
-    },
-    {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\js\\.DS_Store",
-      "PackagePath": "staticwebassets\\login-form\\js\\.DS_Store"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\js\\bootstrap.min.js",
@@ -2167,14 +2135,6 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\main.html",
       "PackagePath": "staticwebassets\\login-form\\main.html"
-    },
-    {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\scss\\.DS_Store",
-      "PackagePath": "staticwebassets\\login-form\\scss\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\.DS_Store",
-      "PackagePath": "staticwebassets\\login-form\\scss\\bootstrap\\.DS_Store"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\scss\\bootstrap\\_alert.scss",

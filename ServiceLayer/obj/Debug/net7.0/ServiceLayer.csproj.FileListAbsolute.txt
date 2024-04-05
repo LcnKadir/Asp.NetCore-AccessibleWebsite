@@ -180,9 +180,10 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ServiceLayer.AssemblyInfoInputs.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ServiceLayer.AssemblyInfo.cs
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.CoreCompileInputs.cache
-C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ServiceLayer.csproj.CopyComplete
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ServiceLayer.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\refint\ServiceLayer.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ServiceLayer.pdb
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ServiceLayer.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ref\ServiceLayer.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ServiceLayer.sourcelink.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\ServiceLayer\obj\Debug\net7.0\ServiceL.3037F684.Up2Date

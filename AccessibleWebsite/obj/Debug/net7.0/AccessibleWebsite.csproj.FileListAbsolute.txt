@@ -2255,9 +2255,10 @@ C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWe
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\scopedcss\bundle\AccessibleWebsite.styles.css
-C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.csproj.CopyComplete
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\refint\AccessibleWebsite.dll
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.pdb
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\ref\AccessibleWebsite.dll
+C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\AccessibleWebsite.sourcelink.json
+C:\Users\kadir\OneDrive\Belgeler\GitHub\Asp.NetCore-BootcampProject\AccessibleWebsite\obj\Debug\net7.0\Accessib.044C8F8D.Up2Date
