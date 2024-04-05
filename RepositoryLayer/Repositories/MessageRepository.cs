@@ -25,6 +25,11 @@ namespace RepositoryLayer.Repositories
            await _DbSet.AddAsync(message);
         }
 
+        public async Task<IEnumerable<Message>> GetAllMessageAsync()
+        {
+            return await _DbSet.Include(x => x.AppUser).Include(x => x.Class).ToListAsync();
+        }
+
         public async Task<List<Message>> GetwasPickClass(int id)
         {
             return await _context.Messages.Include(x => x.Class).Include(x => x.AppUser).Where(x => x.AppUserId == id).ToListAsync();

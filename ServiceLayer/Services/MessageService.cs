@@ -28,6 +28,11 @@ namespace ServiceLayer.Services
             return message;
         }
 
+        public async Task<IEnumerable<Message>> GetAllMessageAsync()
+        {
+            return await _repository.GetAllMessageAsync();
+        }
+
         public async Task<List<Message>> GetwasPickClass(int id)
         {
             return await _repository.GetwasPickClass(id);

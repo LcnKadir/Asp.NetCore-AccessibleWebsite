@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4AC166D3-D944-43F6-ADD7-8C3098CF4B8F}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\servicelayer\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC166D3-D944-43F6-ADD7-8C3098CF4B8F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76BFC600-BFCB-4901-898F-3A4CDABB2EA8}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\repositorylayer\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76BFC600-BFCB-4901-898F-3A4CDABB2EA8}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\corelayer\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\corelayer\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76BFC600-BFCB-4901-898F-3A4CDABB2EA8}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\repositorylayer\\configurations\\messageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76BFC600-BFCB-4901-898F-3A4CDABB2EA8}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\configurations\\messageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,6 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\ServiceLayer\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\ServiceLayer\\Services\\MessageService.cs",
+              "RelativeToolTip": "ServiceLayer\\Services\\MessageService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T23:11:32.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\RepositoryLayer\\Repositories\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Repositories\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\RepositoryLayer\\Repositories\\MessageRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Repositories\\MessageRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T23:08:01.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IMessageService.cs",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\CoreLayer\\Services\\IMessageService.cs",
               "RelativeDocumentMoniker": "CoreLayer\\Services\\IMessageService.cs",
@@ -63,19 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MessageConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\RepositoryLayer\\Configurations\\MessageConfiguration.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Configurations\\MessageConfiguration.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\RepositoryLayer\\Configurations\\MessageConfiguration.cs",
-              "RelativeToolTip": "RepositoryLayer\\Configurations\\MessageConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T22:43:08.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IMessageRepository.cs",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\CoreLayer\\Repositories\\IMessageRepository.cs",
               "RelativeDocumentMoniker": "CoreLayer\\Repositories\\IMessageRepository.cs",
@@ -83,8 +101,7 @@
               "RelativeToolTip": "CoreLayer\\Repositories\\IMessageRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T22:42:58.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T22:42:58.746Z"
             }
           ]
         }
