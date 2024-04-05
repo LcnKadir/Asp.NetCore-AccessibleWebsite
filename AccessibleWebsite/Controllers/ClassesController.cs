@@ -29,6 +29,8 @@ namespace AccessibleWebsite.Controllers
 
             var classes = await _classService.GetAllAsync();
             var days = await _classService.GetAllAsync();
+            await _messageService.GetAllMessageAsync();
+
             ViewBag.Classes = classes;
             ViewBag.Days = days;
 

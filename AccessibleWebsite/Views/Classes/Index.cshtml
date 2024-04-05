@@ -34,10 +34,11 @@
                         <br />
                         @if (User.Identity.IsAuthenticated)
                         {
-                            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
+                        @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
                             var user = await appUser.FindByNameAsync(User.Identity.Name);
-                            @if (@* user.Messages == null ||  *@user.Messages.ClassRegistering == true)
+
+                            @if (user.Messages != null)
                             {
                                 <div class="section-title">
                                     <h4>Haftalık ders kaydınızı gerçekleştirdiniz.</h4>
@@ -45,7 +46,8 @@
                                     <p>Kullanıcı panelinden ders durumunuzu kontrol edebilirsiniz. Sağlıklı kalmanız dileğiyle!</p>
                                 </div>
                             }
-                            else
+
+                            @if (user.Messages == null)
                             {
                                 <form asp-controller="Classes" asp-action="RegisterClass" method="post" class="register-form">
                                     <div class="row">
