@@ -19,9 +19,10 @@ namespace RepositoryLayer.Configurations
 
 
             //Kullanıcı sadece haftalık derslerden birine katılabilecek.
-            builder.HasOne(c => c.AppUser).WithOne(u => u.Messages).HasForeignKey<Message>(c => c.AppUserId).OnDelete(DeleteBehavior.NoAction);
+            builder.HasOne(m => m.Class).WithMany(c => c.Messages).HasForeignKey(m => m.ClassId); 
 
-            
+
+
         }
     }
 }
