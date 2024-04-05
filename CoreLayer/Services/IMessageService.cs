@@ -11,5 +11,7 @@ namespace CoreLayer.Services
     {
         Task<Message> AddAsync(Message message);
         Task<List<Message>> GetwasPickClass(int id);
+
+        Task<IEnumerable<Message>> GetAllMessageAsync();
     }
 }
