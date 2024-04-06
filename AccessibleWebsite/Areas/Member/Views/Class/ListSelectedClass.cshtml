@@ -34,7 +34,15 @@
                             <td>@item.Class.Day</td>
                             <td>@item.Class.StartClass</td>
                             <td>@item.Class.FinishClass</td>
-                            <td>#</td>
+                            @if(item.Class.ClassesStatus == false)
+                            {
+                                <td style="color: green;">Aktif</td>
+
+                            }
+                            else
+                            {
+                                <td style="color: red;">İptal Edildi</td>
+                            }
                         </tr>
                     }
                 </tbody>
