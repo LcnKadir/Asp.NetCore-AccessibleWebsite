@@ -49,7 +49,6 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
         public async Task<IActionResult> ListClass()
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-
             if (user != null)
             {
                 var appUser = new AppUser
@@ -71,7 +70,6 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
         public async Task<IActionResult> EditClass(int id)
         {
             var value = await _classService.GetByIdAsync(id);
-
             return View(value);
         }
 
@@ -92,6 +90,13 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
             return RedirectToAction(nameof(ListClass));
         }
 
+        public async Task<IActionResult> CancelClass(int id,Class classes)
+        {
+            var values = await _classService.GetByIdAsync(id);
+            values.ClassesStatus = true;
+            await _classService.UpdateAsync(values);
+            return RedirectToAction(nameof(ListClass));
+        }
 
 
         public async Task<IActionResult> DeleteClass(int id)
