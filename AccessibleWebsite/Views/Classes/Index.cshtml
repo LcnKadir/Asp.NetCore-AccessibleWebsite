@@ -86,6 +86,7 @@
                                     <button type="submit" class="register-btn">Kaydol</button>
                                 </form>
                             }
+
                         }
 
                         else
@@ -97,6 +98,7 @@
 
                     </div>
                 </div>
+
                 <div class="col-lg-4">
                     <div class="register-pic" style="text-align: right; margin-top: 10px; margin-right: 10px;">
                         <img src="~/Gym/img/trainer/classpt.jpg" alt="" style="max-width: 100%; height: auto;">
@@ -106,6 +108,7 @@
         </div>
     </div>
 </section>
+
 <section class="classes-section classes-page spad">
     <div class="container">
         <div class="section-title">
@@ -116,14 +119,30 @@
             @foreach (var item in Model)
             {
                 <div class="col-lg-4 col-md-6">
-                    <div class="single-class-item set-bg" data-setbg="/ClassImage/@item.Image">
-                        <div class="si-text">
-                            <h4>@item.Name</h4>
-                            <span><i class="fa fa"></i>@item.Day | @(((DateTime)item.StartClass).ToString(" HH:mm"))-@(((DateTime)item.FinishClass).ToString("HH:mm"))</span>
-                            <br>
-                            <span><i class="fa fa-user"></i>@item.AppUser.Name @item.AppUser.Surname</span>
+                    @if (item.ClassesStatus == true)
+                    {
+                        <div class="single-class-item set-bg" data-setbg="/ClassImage/@item.Image" style="border: 2px solid red;">
+                            <div class="si-text">
+                                <h4>@item.Name</h4>
+                                <span><i class="fa fa"></i>@item.Day | @(((DateTime)item.StartClass).ToString(" HH:mm"))-@(((DateTime)item.FinishClass).ToString("HH:mm"))</span>
+                                <br>
+                                <span><i class="fa fa-user"></i>@item.AppUser.Name @item.AppUser.Surname</span>
+                            </div>
                         </div>
-                    </div>
+
+                    }
+                    else
+                    {
+                        <div class="single-class-item set-bg" data-setbg="/ClassImage/@item.Image" style="border: 3px solid green;">
+                            <div class="si-text">
+                                <h4>@item.Name</h4>
+                                <span><i class="fa fa"></i>@item.Day | @(((DateTime)item.StartClass).ToString(" HH:mm"))-@(((DateTime)item.FinishClass).ToString("HH:mm"))</span>
+                                <br>
+                                <span><i class="fa fa-user"></i>@item.AppUser.Name @item.AppUser.Surname</span>
+                            </div>
+                        </div>
+                    }
+
                 </div>
             }
         </div>
