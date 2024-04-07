@@ -5,7 +5,6 @@
     Layout = "~/Views/Shared/_TrainerLayout.cshtml";
 }
 
-
 <style>
     .form-control {
         width: 100%;
@@ -22,48 +21,40 @@
 </style>
 
 <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 justify-center">
-
-    <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
+    <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full max-w-full">
         <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">
-            Ders Sayfası
+            <h2 style="width: fit-content;">Blog Sayfası</h2>
         </div>
         <div class="p-3">
-
-            <table class="table-responsive w-full rounded">
+            <table class="w-full rounded">
                 <thead>
                     <tr>
-                        <th class="border w-1/4 px-4 py-2 text-center">DersBaşlık</th>
-                        <th class="border w-1/4 px-4 py-2 text-center">Oluşturma Tarihi</th>
-                        <th class="border w-1/4 px-4 py-2 text-center">Kategori</th>
-                        <th class="border w-1/7 px-4 py-2 text-center">Bloğa Git</th>
-                        <th class="border w-1/7 px-4 py-2 text-center">Düzenle</th>
-                        <th class="border w-1/7 px-4 py-2 text-center">Sil</th>
+                        <th class="border px-4 py-2 text-center">Blog</th>
+                        <th class="border px-4 py-2 text-center">Branş</th>
+                        <th class="border px-4 py-2 text-center">Oluşturulma Tarihi</th>
+                        <th class="border px-4 py-2 text-center">Blog</th>
+                        <th class="border px-4 py-2 text-center">Düzenle</th>
+                        <th class="border px-4 py-2 text-center">Sil</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
                         <tr>
-                            <td class="form-control datetimepicker">
-                                @item.Title
-                            </td>
-                            <td class="form-control datetimepicker">
-                                @item.CreateDate.ToString("dd-MMMM-yyyy")
-                            </td>
-                            <td class="form-control datetimepicker">
-                                @item.Category.Name
-                            </td>
-                            <td class="form-control datetimepicker">
-                                <a asp-area="Trainer" asp-controller="Blog" asp-action="EditBlog" asp-route-id="@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
-                                    Düzenle
-                                </a>
-                            </td>
-                            <td class="form-control datetimepicker">
+                            <td class="border px-4 py-2  text-center w-1/5">@item.LoginTitle</td>
+                            <td class="border px-4 py-2  text-center w-1/5">@item.Category.Name</td>
+                            <td class="border px-4 py-2  text-center w-1/5">@item.CreateDate</td>
+                            <td class="border px-4 py-2 text-center w-1/7">
                                 <a asp-area="" asp-controller="Blogs" asp-action="BlogDetails" asp-route-id="@item.Id" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
                                     Git
                                 </a>
                             </td>
-                            <td class="form-control datetimepicker">
+                            <td class="border px-4 py-2 text-center w-1/7">
+                                <a asp-area="Trainer" asp-controller="Blog" asp-action="EditBlog" asp-route-id="@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                    Düzenle
+                                </a>
+                            </td>
+                            <td class="border px-4 py-2 text-center w-1/7">
                                 <a asp-area="Trainer" asp-controller="Blog" asp-action="DeleteBlog" asp-route-id="@item.Id" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-800 rounded">
                                     Sil
                                 </a>
@@ -72,10 +63,9 @@
                     }
                 </tbody>
             </table>
-
         </div>
         <div class="flex justify-between items-center mb-8">
-            <a asp-area="Trainer" asp-controller="Blog" asp-action="AddBlog"  class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-full ml-4">
+            <a asp-area="Trainer" asp-controller="Blog" asp-action="AddBlog" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-full ml-4">
                 Yeni Blog Ekle
             </a>
         </div>
