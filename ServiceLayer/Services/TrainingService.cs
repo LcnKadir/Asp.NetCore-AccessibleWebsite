@@ -29,6 +29,11 @@ namespace ServiceLayer.Services
             return training;
         }
 
+        public async Task<IEnumerable<Training>> GetAllTrainingAsync()
+        {
+            return await _repository.GetAllTrainingAsync();
+        }
+
         public async Task<Training> GetTrainerForTraining(int id)
         {
             return await _repository.GetTrainerForTraining(id);
