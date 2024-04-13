@@ -10,6 +10,8 @@ namespace CoreLayer.Models
     {
         public string Description { get; set; }
         public int AppUserId { get; set; }
+        public int? TrainerId { get; set; }
+        public string? Branch { get; set; }
         public AppUser AppUser { get; set; }
 
 

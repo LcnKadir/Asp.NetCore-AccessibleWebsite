@@ -18,6 +18,7 @@
                     <div class="col-lg-12 text-center" style="margin-top: 20px; margin-bottom: 20px;">
                         <img src="/TrainersImages/@Model.ImageUrl" alt="" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 10px;">
                         <p style="display: none;" class="trainer-name">@Model.Id</p>
+                        <p style="" class="trainer-name">@Model.TrainerId</p>
                         <p class="trainer-name">@Model.Name @Model.Surname - @Model.Branch </p>
                         <p class="">@Model.Description</p>
                     </div>
@@ -30,6 +31,8 @@
                                     @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
                                     <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                    <input type="hidden" name="TrainerId" value="@Model.TrainerId">
+                                    <input type="hidden" name="Branch" value="@Model.Branch">
 
                                     <div class="col-lg-12">
                                         <textarea name="Description" rows="4" style="width: 100%; margin-top: 10px;" placeholder="Antrenör'ün sizi daha iyi tanıması için kendinizden kısaca bahsedin..:)"></textarea>
