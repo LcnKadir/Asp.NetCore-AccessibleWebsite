@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\accessiblewebsite\\views\\trainerpartial\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\views\\trainerpartial\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -28,8 +33,17 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_SideBarPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Views\\TrainerPartial\\_SideBarPartial.cshtml",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Views\\TrainerPartial\\_SideBarPartial.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Views\\TrainerPartial\\_SideBarPartial.cshtml",
+              "RelativeToolTip": "AccessibleWebsite\\Views\\TrainerPartial\\_SideBarPartial.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T12:02:03.712Z",
+              "EditorCaption": ""
             }
           ]
         }

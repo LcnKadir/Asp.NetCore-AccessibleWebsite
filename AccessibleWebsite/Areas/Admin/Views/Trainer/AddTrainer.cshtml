@@ -2,7 +2,6 @@
 @{
     Layout = null;
 }
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,11 +12,24 @@
     <link rel="stylesheet" href="~/register/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="~/register/css/style.css">
+    <style>
+        /* Eklediğimiz CSS kodu */
+        .image-holder {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px; /* Fotoğraf ile form arasındaki boşluğu ayarlamak için */
+        }
+
+            .image-holder img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+    </style>
 </head>
 <body>
     <div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
         <div class="inner">
-            <div class="image-holder" style="center">
+            <div class="image-holder">
                 <img src="https://avatars.mds.yandex.net/i?id=ac7c3b66510426318534a65ce21d4e18f876f195-10576312-images-thumbs&n=13" alt="">
             </div>
             <form asp-controller="Trainer" asp-action="AddTrainer" method="post">

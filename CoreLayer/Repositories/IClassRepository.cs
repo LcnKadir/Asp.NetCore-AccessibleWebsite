@@ -15,8 +15,6 @@ namespace CoreLayer.Repositories
         void RemoveRange(IQueryable<Class> entities);
         Task<Class> GetByIdAsync(int id);
         Task<IEnumerable<Class>> GetAllAsync();
-
-
         Task<Class> GetClassAsync();
         Task<List<Class>> GetClassWithTrainer();
         Task<List<Class>> GetClassForTrainer(int id);
