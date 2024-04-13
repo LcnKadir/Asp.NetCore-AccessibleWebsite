@@ -1,12 +1,23 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CoreLayer.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Trainer.Controllers
 {
+    [Area("Trainer")]
+
     public class TrainingController : Controller
     {
-        public IActionResult Index()
+       private readonly ITrainingService _trainingService;
+
+        public TrainingController(ITrainingService trainingService)
         {
-            return View();
+            _trainingService = trainingService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+
+            return View( await _trainingService.GetAllTrainingAsync());
         }
     }
 }

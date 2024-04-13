@@ -27,7 +27,7 @@ namespace RepositoryLayer.Repositories
 
         public async Task<IEnumerable<Training>> GetAllTrainingAsync()
         {
-            return await _DbSet.ToListAsync();
+            return await _context.Trainings.Include(x=> x.AppUser).ToListAsync();
         }
 
         public async Task<Training> GetTrainerForTraining(int id)

@@ -9,9 +9,8 @@ namespace CoreLayer.Models
     public class Training : BaseEntity
     {
         public string Description { get; set; }
-
         public int AppUserId { get; set; }
-        public AppUser AppUser { get; set; } 
+        public AppUser AppUser { get; set; }
 
 
     }
