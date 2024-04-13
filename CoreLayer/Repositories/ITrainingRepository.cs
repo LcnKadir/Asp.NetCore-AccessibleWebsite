@@ -10,8 +10,9 @@ namespace CoreLayer.Repositories
     public interface ITrainingRepository
     {
         Task AddTrainingAsync(Training training);
-
         Task<Training> GetTrainerForTraining(int id);
+        Task<IEnumerable<Training>> GetAllTrainingAsync();
+
 
     }
 }
