@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\corelayer\\repositories\\itrainingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\repositories\\itrainingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\corelayer\\services\\itrainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\services\\itrainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\corelayer\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{239354E4-33F9-4905-AFBD-A8D05E5AAAB9}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +46,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\CoreLayer\\Services\\IMessageService.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Services\\IMessageService.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\CoreLayer\\Services\\IMessageService.cs",
+              "RelativeToolTip": "CoreLayer\\Services\\IMessageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T11:25:34.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ITrainingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\CoreLayer\\Repositories\\ITrainingRepository.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Repositories\\ITrainingRepository.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\CoreLayer\\Repositories\\ITrainingRepository.cs",
+              "RelativeToolTip": "CoreLayer\\Repositories\\ITrainingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T11:25:31.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ITrainingService.cs",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\CoreLayer\\Services\\ITrainingService.cs",
               "RelativeDocumentMoniker": "CoreLayer\\Services\\ITrainingService.cs",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\CoreLayer\\Services\\ITrainingService.cs",
               "RelativeToolTip": "CoreLayer\\Services\\ITrainingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T11:03:40.976Z",
               "EditorCaption": ""
