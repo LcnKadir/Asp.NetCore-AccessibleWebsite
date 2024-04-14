@@ -14,12 +14,11 @@ namespace CoreLayer.Services
         Task UpdateAsync(Class clas);
         Task<Class> GetByIdAsync(int id);
         Task<IEnumerable<Class>> GetAllAsync();
-
         Task<Class> GetClassAsync();
         Task<List<Class>> GetClassWithTrainer();
         Task<List<Class>> GetClassForTrainer(int id);
         Task<IEnumerable<Class>> GetClassIdAsync(int id);
         Task<List<Class>> GetLastClasses(int id);
-        
+
     }
 }

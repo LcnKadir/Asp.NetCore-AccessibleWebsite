@@ -90,7 +90,7 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
             return RedirectToAction(nameof(ListClass));
         }
 
-        public async Task<IActionResult> CancelClass(int id,Class classes)
+        public async Task<IActionResult> CancelClass(int id)
         {
             var values = await _classService.GetByIdAsync(id);
             values.ClassesStatus = true;

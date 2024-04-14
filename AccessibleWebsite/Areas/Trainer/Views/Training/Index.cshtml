@@ -36,7 +36,7 @@
                         <th class="border px-4 py-2 text-center">Branş</th>
                         <th class="border px-4 py-2 text-center">Kullanıcı Bilgileri</th>
                         <th class="border px-4 py-2 text-center">Seçenekler</th>
-                        <th class="border px-4 py-2 text-center">Antreman Durumu</th>
+                        <th class="border px-4 py-2 text-center">Durum</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -69,18 +69,15 @@
                                     Kabul Et
                                 </a>
                             </td>
-                            <td class="border px-4 py-2 text-center w-1/8">
-                                ---
-                                @*                                 @if ()
+                            @if (item.Status == true)
                             {
-                            <td style="color: green;">Aktif</td>
+                                <td class="border px-4 py-2 text-center w-1/8" style="color: green;">Aktif</td>
 
                             }
                             else
                             {
-                            <td style="color: red;">Pasif</td>
-                            } *@
-                            </td>
+                                <td class="border px-4 py-2 text-center w-1/8" style="color: red;">Pasif</td>
+                            }
                         </tr>
                     }
                 </tbody>

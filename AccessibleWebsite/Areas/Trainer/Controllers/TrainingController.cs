@@ -1,5 +1,8 @@
-﻿using CoreLayer.Services;
+﻿using CoreLayer.Models;
+using CoreLayer.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
+using ServiceLayer.Services;
 
 namespace AccessibleWebsite.Areas.Trainer.Controllers
 {
@@ -19,5 +22,7 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
 
             return View( await _trainingService.GetAllTrainingAsync());
         }
+
+
     }
 }
