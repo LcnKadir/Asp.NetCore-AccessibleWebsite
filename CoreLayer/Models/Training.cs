@@ -12,6 +12,7 @@ namespace CoreLayer.Models
         public int AppUserId { get; set; }
         public int? TrainerId { get; set; }
         public string? Branch { get; set; }
+        public bool Status { get; set; } //Antreman istek listesinde üyelerin durumu belirtilecek.
         public AppUser AppUser { get; set; }
 
 
