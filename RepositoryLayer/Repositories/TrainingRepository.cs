@@ -36,6 +36,11 @@ namespace RepositoryLayer.Repositories
             return await _context.Trainings.Include(x => x.AppUser).Where(x => x.Id == id).FirstOrDefaultAsync();
         }
 
+        public async Task<List<Training>> GetTrainingForTrainerAsync(int id)
+        {
+            return await _context.Trainings.Include(x=> x.AppUser).Where(x=> x.Id == id).ToListAsync(); 
+        }
+
         public async Task UpdateAsync(Training training)
         {
             _DbSet.Update(training);
