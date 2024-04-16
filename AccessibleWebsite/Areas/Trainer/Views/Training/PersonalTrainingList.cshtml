@@ -1,0 +1,82 @@
+﻿@model List<Training>
+@{
+    ViewData["Title"] = "PersonalTrainingList";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+<style>
+    .form-control {
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+    .table-responsive {
+        min-width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 justify-center">
+    <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full max-w-full overflow-x-auto">
+        <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">
+            <h2 style="width: fit-content;">Kişisel Antreman Sayfası</h2>
+        </div>
+        <div class="p-3">
+            <div class="table-responsive">
+                <table class="rounded">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-2  text-center">Üye</th>
+                            <th class="px-4 py-2  text-center">Kullanıcı Bilgileri</th>
+                            <th class="px-4 py-2  text-center">Seçenekler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="px-4 py-2  text-center">@item.AppUser.Name @item.AppUser.Surname</td>
+                                <td class="px-4 py-2  text-center">
+                                    <a asp-area="" asp-controller="" asp-action="" class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-10 border border-blue-800 rounded">
+                                        Gör
+                                    </a>
+                                </td>
+                                <td class="px-4 py-2 text-center">
+                                    @if (item.Status == true)
+                                    {
+                                        <a asp-area="Trainer" asp-controller="Training" asp-action="" asp-route-id="@item.Id" class="bg-red-700 hover:bg-red-700 text-white font-bold py-2 px-5 border border-red-800 rounded">
+                                            İptal Et
+                                        </a>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

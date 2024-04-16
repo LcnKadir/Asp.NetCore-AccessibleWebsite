@@ -13,7 +13,6 @@ namespace CoreLayer.Repositories
         Task<Training> GetTrainerForTraining(int id);
         Task<IEnumerable<Training>> GetAllTrainingAsync();
         Task UpdateAsync(Training training);
-        Task<List<Training>> GetTrainingForTrainerAsync(int id);
-
+        Task<List<Training>>GetTrainingForTrainerAsync(int id);
     }
 }
