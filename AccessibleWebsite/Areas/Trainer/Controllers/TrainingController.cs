@@ -52,5 +52,13 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
+        public async Task<IActionResult> PersonalTraining(int id)
+        {
+            var trainer = await _trainingService.GetTrainerForTraining(id);
+
+            return View(trainer);
+        }
+
     }
 }
