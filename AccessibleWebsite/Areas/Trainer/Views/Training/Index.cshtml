@@ -57,7 +57,14 @@
                                     }
                                 }
                             </td>
-                            <td class="border px-4 py-2  text-center w-1/5">@item.TrainerId</td>
+                            <td class="border px-4 py-2 text-center w-1/5">
+                                @foreach (var trainer in ViewBag.Trainers)
+                                {
+                                    @if (item.TrainerId == trainer.TrainerId)
+                                    {
+                                        <span>@trainer.Name @trainer.Surname</span>
+                                    }
+                                }
                             <td class="border px-4 py-2  text-center w-1/5">@item.Branch</td>
                             <td class="border px-4 py-2 text-center w-1/7">
                                 <a asp-area="" asp-controller="" asp-action="" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
@@ -65,9 +72,18 @@
                                 </a>
                             </td>
                             <td class="border px-4 py-2 text-center w-1/5">
-                                <a asp-area="Trainer" asp-controller="Training" asp-action="SelectTrainingStatus" asp-route-id="@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
-                                    Kabul Et
-                                </a>
+                                @if (item.Status == false)
+                                {
+                                    <a asp-area="Trainer" asp-controller="Training" asp-action="SelectTrainingStatus" asp-route-id="@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                        Kabul Et
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                        Kabul Et
+                                    </a>
+                                }
                             </td>
                             @if (item.Status == true)
                             {

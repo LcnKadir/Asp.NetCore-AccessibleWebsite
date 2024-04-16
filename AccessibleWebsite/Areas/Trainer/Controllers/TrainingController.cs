@@ -25,6 +25,7 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+            ViewBag.Trainers = await _appuserService.GetAllAsync(); //Tablo'da Antrenörlerin listelenmesi sağlanacak.
 
             return View(await _trainingService.GetAllTrainingAsync());
         }
