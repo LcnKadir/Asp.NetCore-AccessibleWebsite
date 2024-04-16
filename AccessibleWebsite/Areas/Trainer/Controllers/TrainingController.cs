@@ -60,5 +60,17 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
             var value = await _trainingService.GetTrainingForTrainerAsync(user.Id);
             return View(value);
         }
+
+        public async Task<IActionResult> TrainingCanceled(int id)
+        {
+            var oldtrainer = await _trainingService.GetTrainerForTraining(id);
+            
+            oldtrainer.Status = false; //Kişisel antremanın iptal edilmesi gerçekleşecek ve kullanıcı tekrardan ana sayfada aktif olacak.
+
+            await _trainingService.UpdateAsync(oldtrainer);
+
+            return RedirectToAction(nameof(PersonalTrainingList));
+
+        }
     }
 }

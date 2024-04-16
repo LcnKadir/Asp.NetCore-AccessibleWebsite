@@ -57,22 +57,33 @@
                     <tbody>
                         @foreach (var item in Model)
                         {
-                            <tr>
-                                <td class="px-4 py-2  text-center">@item.AppUser.Name @item.AppUser.Surname</td>
-                                <td class="px-4 py-2  text-center">
-                                    <a asp-area="" asp-controller="" asp-action="" class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-10 border border-blue-800 rounded">
-                                        Gör
-                                    </a>
-                                </td>
-                                <td class="px-4 py-2 text-center">
-                                    @if (item.Status == true)
-                                    {
-                                        <a asp-area="Trainer" asp-controller="Training" asp-action="" asp-route-id="@item.Id" class="bg-red-700 hover:bg-red-700 text-white font-bold py-2 px-5 border border-red-800 rounded">
-                                            İptal Et
+                            @if (item.Status == true)
+                            {
+                                <tr>
+                                    <td class="px-4 py-2  text-center">@item.AppUser.Name @item.AppUser.Surname</td>
+                                    <td class="px-4 py-2  text-center">
+                                        <a asp-area="" asp-controller="" asp-action="" class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-10 border border-blue-800 rounded">
+                                            Gör
                                         </a>
-                                    }
-                                </td>
-                            </tr>
+                                    </td>
+                                    <td class="px-4 py-2 text-center">
+                                        @if (item.Status == true)
+                                        {
+                                            <a asp-area="Trainer" asp-controller="Training" asp-action="TrainingCanceled" asp-route-id="@item.Id" class="bg-red-700 hover:bg-red-700 text-white font-bold py-2 px-5 border border-red-800 rounded">
+                                                İptal Et
+                                            </a>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4" class="px-4 py-5 text-center" style="color: red;">
+                                        Antreman dersiniz bulunmamaktadır.
+                                    </td>
+                                </tr>
+                            }
                         }
                     </tbody>
                 </table>
