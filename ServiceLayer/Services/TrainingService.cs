@@ -34,11 +34,6 @@ namespace ServiceLayer.Services
             return await _repository.GetAllTrainingAsync();
         }
 
-        public async Task<Training> GetByNewTrainerAsync(int id)
-        {
-            return await _repository.GetByNewTrainerAsync(id);
-        }
-
         public async Task<Training> GetTrainerForTraining(int id)
         {
             return await _repository.GetTrainerForTraining(id);
@@ -46,7 +41,7 @@ namespace ServiceLayer.Services
 
         public async Task UpdateAsync(Training training)
         {
-            await _repository.UpdateAsync(training);
+            _repository.UpdateAsync(training);
             await _unitOfWork.CommitAsync();
         }
     }

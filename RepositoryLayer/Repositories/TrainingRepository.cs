@@ -31,11 +31,6 @@ namespace RepositoryLayer.Repositories
             return await _context.Trainings.Include(x=> x.AppUser).ToListAsync();
         }
 
-        public async Task<Training> GetByNewTrainerAsync(int id)
-        {
-            return await _context.Trainings.Include(x => x.AppUser).FirstOrDefaultAsync(x => x.Id == id);
-        }
-
         public async Task<Training> GetTrainerForTraining(int id)
         {
             return await _context.Trainings.Include(x => x.AppUser).Where(x => x.Id == id).FirstOrDefaultAsync();

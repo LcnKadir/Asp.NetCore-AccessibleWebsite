@@ -1,16 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC166D3-D944-43F6-ADD7-8C3098CF4B8F}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\servicelayer\\services\\trainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC166D3-D944-43F6-ADD7-8C3098CF4B8F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\services\\trainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76BFC600-BFCB-4901-898F-3A4CDABB2EA8}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\kadir\\onedrive\\masa\u00FCst\u00FC\\yeni klas\u00F6r\\asp.netcore-bootcampproject\\repositorylayer\\repositories\\trainingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76BFC600-BFCB-4901-898F-3A4CDABB2EA8}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repositories\\trainingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Asp.NetCore-AccessibleWebsite-main\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,21 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TrainingService.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\ServiceLayer\\Services\\TrainingService.cs",
-              "RelativeDocumentMoniker": "ServiceLayer\\Services\\TrainingService.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\ServiceLayer\\Services\\TrainingService.cs",
-              "RelativeToolTip": "ServiceLayer\\Services\\TrainingService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCsAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T11:30:49.776Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
@@ -48,23 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TrainingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\RepositoryLayer\\Repositories\\TrainingRepository.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Repositories\\TrainingRepository.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Masa\u00FCst\u00FC\\Yeni klas\u00F6r\\Asp.NetCore-BootcampProject\\RepositoryLayer\\Repositories\\TrainingRepository.cs",
-              "RelativeToolTip": "RepositoryLayer\\Repositories\\TrainingRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAowCMAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T11:28:16.66Z",
-              "EditorCaption": ""
             }
           ]
         }
