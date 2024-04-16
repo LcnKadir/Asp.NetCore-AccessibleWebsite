@@ -53,12 +53,12 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
         }
 
 
-        public async Task<IActionResult> PersonalTraining(int id)
+        public async Task<IActionResult> PersonalTraining()
         {
             var trainer = await _trainingService.GetTrainerForTraining(id);
 
             return View(trainer);
-        }
 
+        }
     }
 }
