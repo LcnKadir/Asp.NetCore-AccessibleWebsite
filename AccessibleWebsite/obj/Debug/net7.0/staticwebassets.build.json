@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xXEpLgIJNPyO9PEV8bbj4AKQ3wy2vSYfGIJN+za8LXg=",
+  "Hash": "oWx682VFas5HTtb9eo/3v1E82amk94iLklTkZlvAulA=",
   "Source": "AccessibleWebsite",
   "BasePath": "_content/AccessibleWebsite",
   "Mode": "Default",
@@ -11776,6 +11776,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\MemberImages\\367a8145-f11a-4d36-afca-c2e792d70671.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\MemberImages\\8c91ea10-243d-407e-abb7-ec04396d7bfb.jpg",
+      "SourceId": "AccessibleWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\",
+      "BasePath": "_content/AccessibleWebsite",
+      "RelativePath": "MemberImages/8c91ea10-243d-407e-abb7-ec04396d7bfb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MemberImages\\8c91ea10-243d-407e-abb7-ec04396d7bfb.jpg"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg",

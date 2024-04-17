@@ -61,6 +61,7 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
             return View(value);
         }
 
+
         public async Task<IActionResult> TrainingCanceled(int id)
         {
             var oldtrainer = await _trainingService.GetTrainerForTraining(id);
@@ -72,5 +73,15 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
             return RedirectToAction(nameof(PersonalTrainingList));
 
         }
+
+
+        [HttpGet]
+        public async Task<IActionResult> GetUsers(int id)
+        {
+            await _trainingService.GetAllTrainingAsync();
+            var users = await _appuserService.GetByIdAsync(id);
+            return View(users);
+        }
+
     }
 }

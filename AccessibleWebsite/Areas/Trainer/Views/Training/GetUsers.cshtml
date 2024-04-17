@@ -1,0 +1,88 @@
+﻿@model AppUser
+@{
+    ViewData["Title"] = "GetUsers";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+<style>
+    .user-image {
+        width: 200px; 
+        height: 200px; 
+        border: 2px solid #ddd; 
+        border-radius: 50%; 
+        display: block; 
+        margin: 0 auto; 
+        margin-bottom: 20px; 
+    }
+
+ 
+    .table td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .hidden-text {
+        color: transparent; 
+    }
+</style>
+
+
+<div class="container-fluid">
+    <div class="row justify-content-center align-items-center mb-3">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-light text-dark text-center" style="font-size: 24px;"> Üye Bilgi Sayfası</div>
+                <br />
+                <hr>
+                <br />
+                <div class="card-body">
+                    <div class="row justify-content-center align-items-center mb-3">
+                        <div class="col-md-3 text-center">
+                            <!-- Resim -->
+                            <img src="/MemberImages/@Model.ImageUrl" alt="Kullanıcı Görseli" class="user-image mb-3">
+                        </div>
+                        <div class="col-md-9">
+                            <!-- Tablo -->
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+
+                                        <th scope="row">Ad Soyad</th>
+                                        <td>@Model.Name @Model.Surname</td>
+                                        <td class="hidden-text">anrrtenör</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Cinsiyet</th>
+                                        <td>@Model.Gender</td>
+                                        <td class="hidden-text">anrrtenör</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Yaş</th>
+                                        <td>@Model.Age</td>
+                                        <td class="hidden-text">anrrtenör</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Kilo</th>
+                                        <td>@Model.Kilo</td>
+                                        <td class="hidden-text">anrrtenör</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Boy</th>
+                                        <td>@Model.Height</td>
+                                        <td class="hidden-text">anrrtenör</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Hakkında</th>
+                                        <td>@Model.Trainings.Description</td>
+                                        <td class="hidden-text">anrrtenör</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

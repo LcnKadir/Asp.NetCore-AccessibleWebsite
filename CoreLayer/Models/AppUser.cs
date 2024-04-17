@@ -35,7 +35,7 @@ namespace CoreLayer.Models
         public ICollection<Blog> Blogs { get; set; }
         public ICollection<Comment> Comments { get; set; } = new List<Comment>();
         public Message Messages { get; set; }
-        public Training Trainings { get; set; } //Bire bir ilişki kurularak, kullanıcının sadece seçtiği tek bir Trainer ile çalışması sağlanacak.
+        public Training Trainings { get; set; }  //Bire bir ilişki kurularak, kullanıcının sadece seçtiği tek bir Trainer ile çalışması sağlanacak.
 
     }
 }
