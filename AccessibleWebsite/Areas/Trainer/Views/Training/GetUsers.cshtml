@@ -6,23 +6,23 @@
 
 <style>
     .user-image {
-        width: 200px; 
-        height: 200px; 
-        border: 2px solid #ddd; 
-        border-radius: 50%; 
-        display: block; 
-        margin: 0 auto; 
-        margin-bottom: 20px; 
+        width: 200px;
+        height: 200px;
+        border: 2px solid #ddd;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
- 
+
     .table td {
         text-align: center;
         vertical-align: middle;
     }
 
     .hidden-text {
-        color: transparent; 
+        color: transparent;
     }
 </style>
 
@@ -38,15 +38,12 @@
                 <div class="card-body">
                     <div class="row justify-content-center align-items-center mb-3">
                         <div class="col-md-3 text-center">
-                            <!-- Resim -->
                             <img src="/MemberImages/@Model.ImageUrl" alt="Kullanıcı Görseli" class="user-image mb-3">
                         </div>
                         <div class="col-md-9">
-                            <!-- Tablo -->
                             <table class="table">
                                 <tbody>
                                     <tr>
-
                                         <th scope="row">Ad Soyad</th>
                                         <td>@Model.Name @Model.Surname</td>
                                         <td class="hidden-text">anrrtenör</td>
