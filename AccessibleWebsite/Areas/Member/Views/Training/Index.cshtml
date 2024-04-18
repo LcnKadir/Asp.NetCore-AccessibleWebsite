@@ -1,8 +1,57 @@
-﻿
+﻿@model List<Training>
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
 }
 
-<h1>Index</h1>
+
+<div class="row">
+    <div class="col-12">
+        <div class="table-responsive">
+            <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+                <thead>
+                    <tr>
+                        <th colspan="3" style="text-align: left; font-size: 20px">Kişisel Antreman Kaydı</th>
+                    </tr>
+                    <tr>
+                        <th style="display: none">Id</th>
+                        <th>Antrenör</th>
+                        <th>Branş</th>
+                        <th>İstek Tarihi</th>
+                        <th>Durum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td style="display: none">@item.Id</td>
+                            @foreach (var trainer in ViewBag.Trainers)
+                            {
+                                @if (item.TrainerId == trainer.TrainerId)
+                                {
+                                    <td>@trainer.Name @trainer.Surname</td>
+                                }
+                            }
+                            <td>@item.Branch</td>
+                            <td>@item.CreateDate</td>
+                            @if (item.Status == true)
+                            {
+                                <td style="color: green;">Kabul Edildi</td>
+
+                            }
+                            else
+                            {
+                                <td style="color: red;">İptal Edildi</td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
 
