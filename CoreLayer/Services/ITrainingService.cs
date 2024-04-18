@@ -14,6 +14,7 @@ namespace CoreLayer.Services
         Task<IEnumerable<Training>> GetAllTrainingAsync();
         Task UpdateAsync(Training training);
         Task<List<Training>> GetTrainingForTrainerAsync(int id);
+        Task<List<Training>> GetwasPickTraining(int id);
 
     }
 }
