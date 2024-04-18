@@ -20,18 +20,13 @@ namespace AccessibleWebsite.Areas.Member.Controllers
         public async Task<IActionResult> Index()
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
             MemberEditViewModel memberEditViewModel = new ();
 
             memberEditViewModel.Name = user.Name;
             memberEditViewModel.Surname = user.Surname;
             memberEditViewModel.Email = user.Email;
-
-            var value = await _userManager.FindByNameAsync(User.Identity.Name);
-            ViewBag.memberName = value.Name + " " + value.Surname;
-            ViewBag.UserImage = value.ImageUrl;
-            ViewBag.userName = value.UserName;
-
-
+            memberEditViewModel.ImageUrl = user.ImageUrl;
             return View(memberEditViewModel);
         }
 

@@ -8,6 +8,7 @@
         public string Confirmpassword { get; set; }
         public string? Email { get; set; }
         public IFormFile Image { get; set; }
+        public string? ImageUrl { get; set; }
         public string? Gender { get; set; }
         public string? Age { get; set; }
         public int Height {  get; set; }
