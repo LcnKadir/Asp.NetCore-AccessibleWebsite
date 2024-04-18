@@ -33,6 +33,7 @@ namespace AccessibleWebsite.Controllers
         [HttpGet]
         public async Task<IActionResult> GetTraining(int id) //Antreman yapmak istenilen Trainer'a gidilecek.
         {
+            await _trainingService.GetAllTrainingAsync();
             var trainer = await _userManager.Users.Where(x => x.TrainerId == id).FirstOrDefaultAsync();
             return View(trainer);
         }
