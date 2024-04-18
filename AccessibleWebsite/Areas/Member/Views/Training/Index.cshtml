@@ -35,7 +35,7 @@
                                 }
                             }
                             <td>@item.Branch</td>
-                            <td>@item.CreateDate</td>
+                            <td>@item.CreateDate.ToString("dd.MM.yyyy")</td>
                             @if (item.Status == true)
                             {
                                 <td style="color: green;">Kabul Edildi</td>
@@ -52,6 +52,15 @@
         </div>
     </div>
 </div>
-
-
-
+<br />
+<br />
+<div class="card mb-3">
+    <div class="card-body">
+        <h5 class="card-title">Antremanlar Hakkında</h5>
+        <hr>
+        <p class="text-success">Antreman kabul edildikten sonra mutlaka antrenör ile iletişime geçiniz.</p>
+        <p class="text-danger">Antreman iptal edilmesi durumunda seçtiğiniz branşa ait başka bir antrenör sizinle ilgilenecektir.</p>
+        <p class="text-body">Eğer herhangi bir sebepten dolayı antremana katılamayacaksanız, mümkün olan en kısa sürede antrenöre bilgi verin.</p>
+        <p class="card-text"><strong><small class="text-body-secondary">Lütfen ders başlamadan kısa süre önce orada olmaya özen gösterin.</small></strong></p>
+    </div>
+</div>
