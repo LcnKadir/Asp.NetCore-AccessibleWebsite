@@ -44,6 +44,11 @@ namespace ServiceLayer.Services
             return await _repository.GetTrainingForTrainerAsync(id);
         }
 
+        public async Task<List<Training>> GetwasPickTraining(int id)
+        {
+            return await _repository.GetwasPickTraining(id);
+        }
+
         public async Task UpdateAsync(Training training)
         {
             _repository.UpdateAsync(training);
