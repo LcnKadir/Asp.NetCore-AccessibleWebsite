@@ -1,0 +1,34 @@
+﻿@model List<AppUser>
+<br />
+<div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2">
+    <div class="rounded overflow-hidden shadow bg-white mx-2 w-full">
+        <div class="px-6 py-2 border-b border-light-grey">
+            <div class="font-bold text-xl">Takım Arkadaşlarınız</div>
+        </div>
+        <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 p-1 mt-2 mx-auto lg:mx-2 md:mx-2 justify-between">
+            @foreach (var item in Model)
+            {
+                <div class="rounded overflow-hidden shadow max-w-xs my-3">
+                    <img src="https://assets.entrepreneur.com/content/3x2/2000/20190620131326-Example-of-Personal-Trainer-Business-Ideas-Bigstock-4000pxW-X-2670pxH-copy.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380" alt="" class="w-full" />
+                    <div class="flex justify-center -mt-8">
+                        <img src="/TrainersImages/@item.ImageUrl" alt="" class="rounded-full border-solid border-white border-2 -mt-3" style="width: 100px; height: 100px;">
+                    </div>
+                    <div class="text-center px-3 pb-6 pt-2">
+                        <h3 class="text-black text-sm font-bold font-sans">@item.Name @item.Surname</h3>
+                        <p class="mt-2 font-sans font-light text-grey-700">
+                            @(item.Description.Length > 50 ? item.Description.Substring(0, 50) + "..." : item.Description)
+                        </p>
+                    </div>
+                    <div class="flex justify-center pb-3 text-grey-dark">
+                        <div class="text-center mr-3 border-r pr-3">
+                        </div>
+                        <div class="text-center mr-3 border-r pr-3">
+                            <h2>@item.Branch</h2>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
