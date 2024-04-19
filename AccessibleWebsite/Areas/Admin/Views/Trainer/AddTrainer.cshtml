@@ -6,53 +6,50 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Trainer Kayıt Sayfası</title>
+    <title>Antrenör Kayıt Sayfası</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- MATERIAL DESIGN ICONIC FONT -->
     <link rel="stylesheet" href="~/register/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
-    <!-- STYLE CSS -->
     <link rel="stylesheet" href="~/register/css/style.css">
+
     <style>
-        /* Eklediğimiz CSS kodu */
         .image-holder {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px; /* Fotoğraf ile form arasındaki boşluğu ayarlamak için */
+            text-align: center;
+            margin-top: 110px;
         }
 
             .image-holder img {
-                max-width: 100%;
-                max-height: 100%;
+                display: inline-block;
             }
     </style>
 </head>
+
 <body>
-    <div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
+    <div class="wrapper" style="">
         <div class="inner">
             <div class="image-holder">
                 <img src="https://avatars.mds.yandex.net/i?id=ac7c3b66510426318534a65ce21d4e18f876f195-10576312-images-thumbs&n=13" alt="">
             </div>
             <form asp-controller="Trainer" asp-action="AddTrainer" method="post">
-                <h3>Trainer Kayıt Sayfası</h3>
+                <h3>Antrenör Kayıt Sayfası</h3>
                 <div class="form-group">
-                    <input asp-for="Name" type="text" placeholder="Adınız" class="form-control">
+                    <input asp-for="Name" type="text" placeholder="Ad" class="form-control">
                     <span asp-validation-for="Name" class="text-danger"></span>
 
-                    <input asp-for="Surname" type="text" placeholder="SoyAdınız" class="form-control">
+                    <input asp-for="Surname" type="text" placeholder="Soyad" class="form-control">
                     <span asp-validation-for="Surname" class="text-danger"></span>
                 </div>
                 <div class="form-wrapper">
-                    <input asp-for="UserName" type="text" placeholder="Kullanıcı Adınız" class="form-control">
+                    <input asp-for="UserName" type="text" placeholder="Kullanıcı Adı" class="form-control">
                     <span asp-validation-for="UserName" class="text-danger"></span>
                     <i class="zmdi zmdi-account"></i>
                 </div>
                 <div class="form-wrapper">
-                    <input asp-for="Email" type="text" placeholder="Email Adresiniz" class="form-control">
+                    <input asp-for="Email" type="text" placeholder="Email Adresi" class="form-control">
                     <span asp-validation-for="Email" class="text-danger"></span>
                     <i class="zmdi zmdi-email"></i>
                 </div>
                 <div class="form-wrapper">
-                    <input asp-for="Password" type="password" placeholder="Şifreniz" class="form-control">
+                    <input asp-for="Password" type="password" placeholder="Şifre" class="form-control">
                     <span asp-validation-for="Password" class="text-danger"></span>
                     <i class="zmdi zmdi-lock"></i>
                 </div>
@@ -62,7 +59,7 @@
                     <i class="zmdi zmdi-lock"></i>
                 </div>
                 <div class="form-group">
-                    <input asp-for="Branch" type="text" placeholder="Branch" class="form-control">
+                    <input asp-for="Branch" type="text" placeholder="Branş" class="form-control">
                     <small class="text-muted"></small>
                 </div>
                 <button type="submit">Kaydet</button>
