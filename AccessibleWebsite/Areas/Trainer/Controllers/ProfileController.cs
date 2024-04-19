@@ -24,6 +24,7 @@ namespace AccessibleWebsite.Areas.Trainer.Controllers
             userEditViewModel.Name = values.Name;
             userEditViewModel.Surname = values.Surname;
             userEditViewModel.Email = values.Email;
+            userEditViewModel.Description = values.Description;
             return View(userEditViewModel);
         }
 

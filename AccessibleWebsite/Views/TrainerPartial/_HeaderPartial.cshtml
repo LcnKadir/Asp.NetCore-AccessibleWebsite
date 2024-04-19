@@ -13,7 +13,7 @@
 
                 <img onclick="profileToggle()" class="inline-block h-8 w-8 rounded-full" src="/TrainersImages/@user.ImageUrl" alt="">
                 <p></p>
-                <a href="#" onclick="profileToggle()" class="text-white p-2 no-underline hidden md:block lg:block">@user.Name @user.Surname</a>
+                <a asp-area="Trainer" asp-controller="Profile" asp-action="Index" onclick="profileToggle()" class="text-white p-2 no-underline hidden md:block lg:block">@user.Name @user.Surname</a>
             }
         </div>
     </div>
