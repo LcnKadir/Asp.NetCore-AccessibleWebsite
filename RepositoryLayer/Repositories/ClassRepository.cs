@@ -62,6 +62,12 @@ namespace RepositoryLayer.Repositories
             return await _context.Classes.Include(x=> x.AppUser).OrderByDescending(x => x.Id).Take(12).ToListAsync();
         }
 
+        public async Task<List<Class>> GetLastClassesForDashboard(int id)
+        {
+            return await _context.Classes.Include(x => x.AppUser).OrderByDescending(x => x.Id).Take(4).ToListAsync();
+
+        }
+
         public void Remove(Class clas)
         {
             _DbSet.Remove(clas);
