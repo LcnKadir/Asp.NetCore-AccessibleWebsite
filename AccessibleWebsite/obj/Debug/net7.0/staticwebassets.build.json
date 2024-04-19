@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oWx682VFas5HTtb9eo/3v1E82amk94iLklTkZlvAulA=",
+  "Hash": "3+b/pybYkcYSzPwwoKzb/h3g5U1UMSg/cTTYDwY7/VQ=",
   "Source": "AccessibleWebsite",
   "BasePath": "_content/AccessibleWebsite",
   "Mode": "Default",
@@ -9916,12 +9916,12 @@
       "OriginalItemSpec": "wwwroot\\login-form\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\images\\bg.jpg",
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\images\\LoginImage.png",
       "SourceId": "AccessibleWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\",
       "BasePath": "_content/AccessibleWebsite",
-      "RelativePath": "login-form/images/bg.jpg",
+      "RelativePath": "login-form/images/LoginImage.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -9932,7 +9932,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\login-form\\images\\bg.jpg"
+      "OriginalItemSpec": "wwwroot\\login-form\\images\\LoginImage.png"
     },
     {
       "Identity": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\index.html",

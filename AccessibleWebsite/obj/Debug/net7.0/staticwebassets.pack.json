@@ -2113,8 +2113,8 @@
       "PackagePath": "staticwebassets\\login-form\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\images\\bg.jpg",
-      "PackagePath": "staticwebassets\\login-form\\images\\bg.jpg"
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\images\\LoginImage.png",
+      "PackagePath": "staticwebassets\\login-form\\images\\LoginImage.png"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\login-form\\index.html",
