@@ -2,11 +2,19 @@
     <div class="flex justify-between">
         <div class="p-1 mx-3 inline-flex items-center">
             <i class="fas fa-bars pr-2 text-white" onclick="sidebarToggle()"></i>
-            <h1 class="text-white p-2">Logo</h1>
+            <h1 class="text-white p-2">Antrenör Paneli</h1>
         </div>
         <div class="p-1 flex flex-row items-center">
-            <img onclick="profileToggle()" class="inline-block h-8 w-8 rounded-full" src="https://avatars0.githubusercontent.com/u/4323180?s=460&v=4" alt="">
-            <a href="#" onclick="profileToggle()" class="text-white p-2 no-underline hidden md:block lg:block">Adam Wathan</a>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                var user = await appUser.FindByNameAsync(User.Identity.Name);
+
+                <img onclick="profileToggle()" class="inline-block h-8 w-8 rounded-full" src="/TrainersImages/@user.ImageUrl" alt="">
+                <p></p>
+                <a href="#" onclick="profileToggle()" class="text-white p-2 no-underline hidden md:block lg:block">@user.Name @user.Surname</a>
+            }
         </div>
     </div>
 </header>
