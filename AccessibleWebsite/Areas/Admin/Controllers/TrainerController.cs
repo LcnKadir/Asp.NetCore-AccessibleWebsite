@@ -1,5 +1,6 @@
 ﻿using AccessibleWebsite.Models;
 using CoreLayer.Models;
+using CoreLayer.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -10,13 +11,14 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
     [AllowAnonymous]
     public class TrainerController : Controller
     {
-        
 
+        private readonly IAppUserService _userService;
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
 
-        public TrainerController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        public TrainerController(IAppUserService userService, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
         {
+            _userService = userService;
             _userManager = userManager;
             _signInManager = signInManager;
         }
@@ -48,7 +50,7 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
                     if (ap.Branch != null)
                     {
 
-                        appUser.TrainerId = appUser.Id;  // Eğer Branch "null" değilse, TrainerId ataması yap.
+                        appUser.TrainerId = appUser.Id;  // Eğer Branch "null" değilse, TrainerId ataması yapılacak.
                         await _userManager.UpdateAsync(appUser);
                     }
                     return RedirectToAction("SignIn", "Login");
@@ -63,6 +65,15 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
 
             }
             return View(ap);
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> ListTrainers()
+        {
+            var trainer = await _userService.GetTrainers();
+
+            return View(trainer);
         }
     }
 }
