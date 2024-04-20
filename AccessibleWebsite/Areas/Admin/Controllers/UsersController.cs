@@ -1,5 +1,7 @@
 ﻿using CoreLayer.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
+using ServiceLayer.Services;
 
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
@@ -25,6 +27,15 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
             await _appUserService.RemoveAsync(user);
             return RedirectToAction(nameof(ListUsers));
         }
+
         public async Task<IActionResult> RestrictUser(int id)
+        {
+            var user = await _appUserService.GetByIdAsync(id);
+            user.Restriction = true;
+            await _appUserService.UpdateAsync(user);
+
+            return RedirectToAction(nameof(ListUsers));
+        }
+
     }
 }
