@@ -4,7 +4,6 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-
 <div class="row">
     <div class="col-12">
         <div class="table-responsive">
@@ -34,7 +33,7 @@
                             <td>@item.UserName</td>
                             <td>@item.Email</td>
                             <td class="border px-4 py-2 text-center w-1/7">
-                                <a asp-area="Trainer" asp-controller="Training" asp-action="TrainingCanceled" asp-route-id="" class="btn btn-danger">
+                                <a asp-area="Admin" asp-controller="Trainer" asp-action="DeleteTrainer" asp-route-id="@item.TrainerId" class="btn btn-danger">
                                     Kaydı Sil
                                 </a>
                             </td>

@@ -75,5 +75,13 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
 
             return View(trainer);
         }
+
+
+        public async Task<IActionResult> DeleteTrainer(int id)
+        {
+            var trainer = await _userService.GetByIdAsync(id);
+            await _userService.RemoveAsync(trainer);
+            return RedirectToAction(nameof(ListTrainers));
+        }
     }
 }
