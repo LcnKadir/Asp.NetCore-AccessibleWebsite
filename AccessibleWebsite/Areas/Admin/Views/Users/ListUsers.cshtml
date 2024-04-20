@@ -1,7 +1,50 @@
-﻿@{
+﻿@model List<AppUser>
+@{
     ViewData["Title"] = "ListUsers";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-
-
+<div class="row">
+    <div class="col-12">
+        <div class="table-responsive">
+            <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+                <thead>
+                    <tr>
+                        <th colspan="6" style="text-align: center; font-size: 25px">Üye Listesi</th>
+                    </tr>
+                    <tr>
+                        <th style="width: 50px">#</th>
+                        <th>Üye</th>
+                        <th>Kullanıcı İsmi</th>
+                        <th>Mail</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        var count = 1;
+                    }
+                    @foreach (var item in Model)
+                    {
+                        if (item.TrainerId == null)
+                        {
+                            <tr>
+                                <td>@count</td>
+                                <td style="display: none">@item.Id</td>
+                                <td>@item.Name @item.Surname</td>
+                                <td>@item.UserName</td>
+                                <td>@item.Email</td>
+                                <td class="border px-4 py-2 text-center w-1/7">
+                                    <a asp-area="Admin" asp-controller="" asp-action="" asp-route-id="@item.Id" class="btn btn-danger">
+                                        Kısıtla
+                                    </a>
+                                </td>
+                            </tr>
+                            count++;
+                        }
+                    }
+                </tbody>
+            </table>s
+        </div>
+    </div>
+</div>

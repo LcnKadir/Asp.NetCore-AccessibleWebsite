@@ -16,7 +16,7 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> ListUsers()
         {
-            return View();
+            return View(await _appUserService.GetAllAsync());
         }
     }
 }
