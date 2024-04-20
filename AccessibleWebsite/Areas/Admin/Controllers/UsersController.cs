@@ -18,5 +18,12 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
         {
             return View(await _appUserService.GetAllAsync());
         }
+
+        public async Task<IActionResult> DeleteUser(int id)
+        {
+            var user = await _appUserService.GetByIdAsync(id);
+            await _appUserService.RemoveAsync(user);
+            return RedirectToAction(nameof(ListUsers));
+        }
     }
 }
