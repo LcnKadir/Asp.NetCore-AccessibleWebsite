@@ -1,12 +1,26 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CoreLayer.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class ClassesController : Controller
     {
-        public IActionResult ListClasses()
+        private readonly IClassService _classService;
+        private readonly IAppUserService _appUserService;
+
+        public ClassesController(IClassService classService, IAppUserService appUserService)
         {
-            return View();
+            _classService = classService;
+            _appUserService = appUserService;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ListClasses()
+        {
+            var classes = await _classService.GetAllAsync();
+            ViewBag.Trainers = await _appUserService.GetTrainers();
+            return View(classes);
         }
     }
 }

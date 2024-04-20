@@ -1,8 +1,64 @@
-﻿
+﻿@model List<Class>
 @{
     ViewData["Title"] = "ListClasses";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>ListClasses</h1>
+<div class="row">
+    <div class="col-12">
+        <div class="table-responsive">
+            <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+                <thead>
+                    <tr>
+                        <th colspan="6" style="text-align: center; font-size: 25px">Haftanın Dersleri</th>
+                    </tr>
+                    <tr>
+                        <th>Ders</th>
+                        <th>Antrenör</th>
+                        <th>Gün</th>
+                        <th>Başlagıç Saati</th>
+                        <th>Bitiş Saati</th>
+                        <th>Durum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+
+                            @foreach (var trainers in ViewBag.Trainers)
+                            {
+                                @if (trainers.TrainerId == item.AppUserId)
+                                {
+                                    <td>@trainers.Name @trainers.Surname</td>
+                                }
+                            }
+                            <td>@item.Day</td>
+                            <td>@item.StartClass</td>
+                            <td>@item.FinishClass</td>
+                            @if (item.ClassesStatus == false)
+                            {
+                                <td style="color: green;">Aktif</td>
+
+                            }
+                            else
+                            {
+                                <td style="color: red;">İptal Edildi</td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <a class="btn btn-success" asp-area="" asp-controller="Classes" asp-action="Index">Sitede Gör</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
