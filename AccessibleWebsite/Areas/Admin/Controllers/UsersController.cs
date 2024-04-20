@@ -25,5 +25,6 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
             await _appUserService.RemoveAsync(user);
             return RedirectToAction(nameof(ListUsers));
         }
+        public async Task<IActionResult> RestrictUser(int id)
     }
 }
