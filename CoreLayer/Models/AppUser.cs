@@ -19,6 +19,7 @@ namespace CoreLayer.Models
         public IFormFile? Image { get; set; }
 
         public bool? Status {  get; set; } //Kullanıcı erişilebilir sayfaya geçmesi durumunda, hesabı true olacak.
+        public bool? Restriction {  get; set; } //Kötü niyetli kullanıcıların bloglara yorum yapması admin tarafından kısıtlanacak.
         public string? Gender { get; set; }
         public string? Age { get; set; }
         public int Height { get; set; }
