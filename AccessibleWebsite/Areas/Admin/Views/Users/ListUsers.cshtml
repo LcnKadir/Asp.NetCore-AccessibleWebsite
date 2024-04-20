@@ -35,10 +35,19 @@
                                 <td>@item.UserName</td>
                                 <td>@item.Email</td>
                                 <td class="border px-4 py-2 text-center w-1/7">
-                                    <a asp-area="Admin" asp-controller="Users" asp-action="RestrictUser" asp-route-id="@item.Id" class="btn btn-warning">
-                                        Kısıtla
-                                    </a>
-                                    <a asp-area="Admin" asp-controller="Users" asp-action="DeleteUser" asp-route-id="@item.Id" class="btn btn-danger">
+                                    @if (item.Restriction == false || item.Restriction == null)
+                                    {
+                                        <a asp-area="Admin" asp-controller="Users" asp-action="RestrictUser" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
+                                            Kısıtla
+                                        </a>
+                                    }
+                                    @if (item.Restriction == true)
+                                    {
+                                        <a asp-area="Admin" asp-controller="Users" asp-action="RemoveRestriction" asp-route-id="@item.Id" class="btn btn-success btn-sm">
+                                            Kaldır
+                                        </a>
+                                    }
+                                    <a asp-area="Admin" asp-controller="Users" asp-action="DeleteUser" asp-route-id="@item.Id" class="btn btn-danger btn-sm">
                                         Kaydı Sil
                                     </a>
                                 </td>

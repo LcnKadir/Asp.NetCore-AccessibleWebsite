@@ -33,7 +33,14 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
             var user = await _appUserService.GetByIdAsync(id);
             user.Restriction = true;
             await _appUserService.UpdateAsync(user);
+            return RedirectToAction(nameof(ListUsers));
+        }
 
+        public async Task<IActionResult> RemoveRestriction(int id)
+        {
+            var user = await _appUserService.GetByIdAsync(id);
+            user.Restriction = false;
+            await _appUserService.UpdateAsync(user);
             return RedirectToAction(nameof(ListUsers));
         }
 
