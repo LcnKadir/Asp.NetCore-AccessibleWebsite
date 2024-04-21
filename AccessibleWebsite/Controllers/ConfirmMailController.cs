@@ -34,7 +34,7 @@ namespace AccessibleWebsite.Controllers
                     return View();
                 }
 
-                if (user.ConfirmCode == user.ConfirmCode)
+                if (mailConfirmViewModel.ConfirmCode == user.ConfirmCode)
                 {
                     user.EmailConfirmed = true;
                     await _userManager.UpdateAsync(user);
@@ -46,13 +46,9 @@ namespace AccessibleWebsite.Controllers
                 }
 
             }
-            return RedirectToAction("Index", "Default");
-
-
+            return RedirectToAction("SignIn", "Login");
 
         }
-
-
 
     }
 }

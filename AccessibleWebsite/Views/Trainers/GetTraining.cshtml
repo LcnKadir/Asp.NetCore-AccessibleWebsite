@@ -26,6 +26,7 @@
                     <div class="col-lg-12" style="margin-top: 20px;">
                         <div class="contact-form">
                             <form method="post" asp-controller="Trainers" asp-action="AddTraining">
+
                                 @if (User.Identity.IsAuthenticated)
                                 {
 
@@ -36,27 +37,38 @@
                                     <input type="hidden" name="TrainerId" value="@Model.TrainerId">
                                     <input type="hidden" name="Branch" value="@Model.Branch">
 
-
-                                    @if (user.Trainings == null)
+                                    @if (user.EmailConfirmed == true)
                                     {
-                                        <div class="col-lg-12">
-                                            <textarea name="Description" rows="4" style="width: 100%; margin-top: 10px;" placeholder="Antrenör'ün sizi daha iyi tanıması için kendinizden kısaca bahsedin..:)"></textarea>
-                                            <button class="col-lg-12 text-center" type="submit" style="margin-top: 20px; margin-bottom: 40px;">Gönder</button>
+                                        @if (user.Trainings == null)
+                                        {
+                                            <div class="col-lg-12">
+                                                <textarea name="Description" rows="4" style="width: 100%; margin-top: 10px;" placeholder="Antrenör'ün sizi daha iyi tanıması için kendinizden kısaca bahsedin..:)"></textarea>
+                                                <button class="col-lg-12 text-center" type="submit" style="margin-top: 20px; margin-bottom: 40px;">Gönder</button>
+                                            </div>
+                                        }
+
+                                        @if (user.Trainings != null)
+                                        {
+                                            <div class="section-title">
+                                                <hr />
+                                                <h7 class="text-danger">Antrenör ve branş seçimini gerçekleştirdiniz. </h7>
+                                                <br />
+                                                <br />
+                                                <h7 class="text-info">Kullanıcı panelinden antreman talep durumunu kontrol edebilirsiniz.</h7>
+                                                <hr />
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <div style="text-align: center;">
+                                            <hr />
+                                            <p class="text-danger">Antreman isteği için mail kodunuzu doğrulayınız... :)</p>
+                                            <p class="text-danger">Mailinizi doğrulamak için  <a asp-controller="ConfirmMail" asp-action="Index">linke tıklayınız.</a></p>
+                                            <hr />
+                                            <p></p>
                                         </div>
                                     }
-
-                                    @if (user.Trainings != null)
-                                    {
-                                        <div class="section-title">
-                                            <hr />
-                                            <h7 class="text-danger">Antrenör ve branş seçimini gerçekleştirdiniz. </h7>
-                                            <br />
-                                            <br />
-                                            <h7 class="text-info">Kullanıcı panelinden antreman talep durumunu kontrol edebilirsiniz.</h7>
-                                            <hr />
-                                        </div>
-                                    }
-
                                 }
                                 else
                                 {
@@ -64,7 +76,9 @@
                                         <p>Antrenör ile çalışmak için lütfen giriş yapınız.</p>
                                     </div>
                                 }
+
                             </form>
+
                         </div>
                     </div>
                 </div>

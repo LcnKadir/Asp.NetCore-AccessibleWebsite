@@ -5,7 +5,6 @@
 }
 
 <body>
-    <!-- Blog Details Hero Section Begin -->
     <section id="Blog" class="blog-details-hero set-bg" data-setbg="/BlogImages/@Model.CoverImage">
         <div class="container">
             <div class="row">
@@ -17,8 +16,6 @@
             </div>
         </div>
     </section>
-    <!-- Blog Details Hero Section End -->
-    <!-- Blog Details Section Begin -->
     <section class="blog-details spad">
         <div class="container">
             <div class="row">
@@ -135,33 +132,58 @@
                             @if (User.Identity.IsAuthenticated)
                             {
 
-                                @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
 
                                 var user = await appUser.FindByNameAsync(User.Identity.Name);
-                              @if (user.EmailConfirmed == false && user.TrainerId !=null)
-                                { 
-                                    <form method="post" asp-controller="Blogs" asp-action="AddComment">
 
-                                        <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
-                                        <input type="hidden" name="BlogId" value="@Model.Id">
 
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
-                                                <button type="submit">Yorum Yap</button>
+                                <form method="post" asp-controller="Blogs" asp-action="AddComment">
+
+                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                    <input type="hidden" name="BlogId" value="@Model.Id">
+
+                                    @if (user.EmailConfirmed == true)
+                                    {
+                                        @if (user.Restriction == false || user.Restriction == null)
+                                        {
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
+                                                    <button type="submit">Yorum Yap</button>
+                                                </div>
                                             </div>
+                                        }
+                                        else
+                                        {
+                                            <div style="text-align: center;">
+                                                <hr />
+                                                <p class="text-danger">Son yaptığınız<a asp-area="Member" asp-controller="Comment" asp-action="Index"> yorumlar </a>nedeniyle hesabınıza geçici bir kısıtlama getirilmiştir.</p>
+                                                <hr />
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <div style="text-align: center;">
+                                            <hr />
+                                            <p class="text-danger">Yorum yapabilmek için mail kodunuzu doğrulayınız... :)</p>
+                                            <p class="text-danger">Mailinizi doğrulamak için  <a asp-controller="ConfirmMail" asp-action="Index">linke tıklayınız.</a></p>
+                                            <hr />
+                                            <p></p>
                                         </div>
-                                    </form>
-                                }
-                                else
-                                {
-                                    <p>Lütfen mail kodunuzu doğrulayınız... :)</p>
-                                }
+
+                                    }
+
+                                </form>
+
                             }
                             else
                             {
-                                <h3>Lütfen Yorum Yapabilmek için kayıt olunuz...:)</h3>
+                                <hr />
+                                <p class="text-black">Lütfen yorum yapabilmek için kayıt olunuz.</p>
+                                <hr />
                             }
+
                         </div>
                     </div>
                 </div>

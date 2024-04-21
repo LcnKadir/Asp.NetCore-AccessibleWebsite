@@ -4,18 +4,17 @@
 }
 
 
-
-
 @if (User.Identity.IsAuthenticated)
 {
     @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
 
     var user = await UserManager.GetUserAsync(User);
-    if (user.Id == null)
+
+    @if (user.Id == null)
     {
         <h2>Kullanıcı girişi yapmadan bu sayfaya erişemezsiniz. <a href="/Login/SignIn/">Giriş Yap</a>|<a href="/Login/Register/">Kaydol</a> </h2>
     }
-    if (user.EmailConfirmed == true)
+    @if (user.EmailConfirmed == true)
     {
         <h2>Mail doğrulama işleminiz tamamlandı. <a href="/Default/Index">Ana Sayfaya Dön</a> </h2>
     }
@@ -50,16 +49,29 @@
             }
         </style>
         <div class="container">
-            <h2>Lütfen mail adresinize gelen doğrulama kodunu girin:</h2>
-            <div class="email-input">
-                <label for="confirmationCode">Doğrulama Kodu:</label>
-                <input type="text" class="form-control" id="confirmationCode" asp-for="ConfirmCode" />
-            </div>
+            <p class="text-black" style="font-weight: bold; font-size: 20px;">
+             Mail adresinize gelen doğrulama kodunu giriniz:
+            </p>
             <form method="post">
-                <button type="submit" class="btn btn-primary">Hesabı Aktifleştir</button>
+                <div class="email-input">
+                    <label for="confirmationCode">Doğrulama Kodu:</label>
+                    <input type="text" class="form-control" id="confirmationCode" asp-for="ConfirmCode" />
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <button type="submit" class="btn btn-primary">Hesabı Aktifleştir</button>
+                </div>
             </form>
-            <p class="footer-text">Sağlıkla kalın!</p>
+            <br />
+            <p class="text-success" style="font-weight: bold;">
+                | Sağlıkla kalın! |
+            </p>
+            <br />
+            <br />
+            <div class="col-md-12  text-center">
+                <p style="font-size: 12px; font-weight: bold; color: darkorange;">&copy; 2024 ACESGYM  Tüm hakları saklıdır.</p>
+            </div>
         </div>
+
     }
 }
 else
