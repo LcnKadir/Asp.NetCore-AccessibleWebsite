@@ -46,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Areas/Admin/Views/Role/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxVcGRhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Areas/Admin/Views/Role/UsersList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxVc2Vyc0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Areas/Admin/Views/Trainer/AddTrainer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxBZGRUcmFpbmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

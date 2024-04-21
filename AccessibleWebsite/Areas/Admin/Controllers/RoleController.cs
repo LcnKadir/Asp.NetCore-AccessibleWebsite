@@ -9,10 +9,12 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
     public class RoleController : Controller
     {
         private readonly RoleManager<AppRole> _roleManager;
+        private readonly UserManager<AppUser> _userManager;
 
-        public RoleController(RoleManager<AppRole> roleManager)
+        public RoleController(RoleManager<AppRole> roleManager, UserManager<AppUser> userManager)
         {
             _roleManager = roleManager;
+            _userManager = userManager;
         }
 
 
@@ -54,6 +56,34 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
             var value = _roleManager.Roles.FirstOrDefault(x => x.Id == id);
             await _roleManager.DeleteAsync(value);
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public IActionResult UpdateRole(int id)
+        {
+            var value = _roleManager.Roles.FirstOrDefault(x => x.Id == id);
+            UpdateRoleViewModel updateRoleViewModel = new UpdateRoleViewModel()
+            {
+                RoleId = value.Id,
+                RoleName = value.Name
+            };
+            return View(updateRoleViewModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateRole(UpdateRoleViewModel updateRoleViewModel)
+        {
+            var value = _roleManager.Roles.FirstOrDefault(x => x.Id == updateRoleViewModel.RoleId);
+            value.Name = updateRoleViewModel.RoleName;
+            await _roleManager.UpdateAsync(value);
+            return RedirectToAction(nameof(Index));
+
+        }
+
+        public IActionResult UsersList()
+        {
+            var values = _userManager.Users.ToList();
+            return View(values);
         }
     }
 }

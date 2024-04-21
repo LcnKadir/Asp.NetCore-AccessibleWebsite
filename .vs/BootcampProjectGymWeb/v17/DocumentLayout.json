@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\admin\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\admin\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\admin\\views\\role\\userslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\admin\\views\\role\\userslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\admin\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\admin\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\admin\\views\\role\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\admin\\views\\role\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\admin\\models\\updateroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\admin\\models\\updateroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\admin\\views\\role\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\admin\\views\\role\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\admin\\models\\createroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\admin\\models\\createroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\admin\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\admin\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +38,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersList.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\UsersList.cshtml",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\UsersList.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\UsersList.cshtml",
+              "RelativeToolTip": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\UsersList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T22:32:29.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateRoleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Models\\UpdateRoleViewModel.cs",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Admin\\Models\\UpdateRoleViewModel.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Models\\UpdateRoleViewModel.cs",
+              "RelativeToolTip": "AccessibleWebsite\\Areas\\Admin\\Models\\UpdateRoleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T22:06:01.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\CreateRole.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\CreateRole.cshtml",
+              "RelativeToolTip": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\CreateRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T21:42:36.604Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -58,41 +109,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateRole.cshtml",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\CreateRole.cshtml",
-              "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\CreateRole.cshtml",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\CreateRole.cshtml",
-              "RelativeToolTip": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\CreateRole.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T20:28:18.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateRoleViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Models\\CreateRoleViewModel.cs",
-              "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Admin\\Models\\CreateRoleViewModel.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Models\\CreateRoleViewModel.cs",
-              "RelativeToolTip": "AccessibleWebsite\\Areas\\Admin\\Models\\CreateRoleViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Program.cs",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Program.cs",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Program.cs",
+              "RelativeToolTip": "AccessibleWebsite\\Program.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:20:23.412Z",
+              "WhenOpened": "2024-04-21T22:01:54.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\Index.cshtml",
               "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\Index.cshtml",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\Index.cshtml",
               "RelativeToolTip": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\Index.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACMAAABkAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T19:59:38.805Z",
+              "WhenOpened": "2024-04-21T21:45:37.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\UpdateRole.cshtml",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\UpdateRole.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Views\\Role\\UpdateRole.cshtml",
+              "RelativeToolTip": "AccessibleWebsite\\Areas\\Admin\\Views\\Role\\UpdateRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T21:41:47.321Z",
               "EditorCaption": ""
             },
             {
@@ -103,7 +154,7 @@
               "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Admin\\Controllers\\RoleController.cs",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Admin\\Controllers\\RoleController.cs",
               "RelativeToolTip": "AccessibleWebsite\\Areas\\Admin\\Controllers\\RoleController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAAfAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwFIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T19:53:46.028Z",
               "EditorCaption": ""

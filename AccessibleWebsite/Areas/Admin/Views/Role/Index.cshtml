@@ -14,13 +14,13 @@
                 <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
                     <thead>
                         <tr>
-                            <th colspan="6" style="text-align: center; font-size: 25px">Üye Listesi</th>
+                            <th colspan="6" style="text-align: center; font-size: 23px">Rol Listesi</th>
                         </tr>
                         <tr>
                             <th style="width: 50px">#</th>
-                            <th>Rol Adı</th>
-                            <th>Rolu Sil</th>
-                            <th>Rolu Güncelle</th>
+                            <th>Ad</th>
+                            <th>Güncelle</th>
+                            <th>Sil</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -33,7 +33,7 @@
                                 <td>@item.Name</td>
 
                                 <td>
-                                    <a asp-area="Admin" asp-controller="Users" asp-action="RemoveRestriction" asp-route-id="@item.Id" class="btn btn-success btn-sm">
+                                    <a asp-area="Admin" asp-controller="Role" asp-action="UpdateRole" asp-route-id="@item.Id" class="btn btn-success btn-sm">
                                         Güncelle
                                     </a>
                                 </td>
