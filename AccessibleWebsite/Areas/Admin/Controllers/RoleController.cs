@@ -48,5 +48,12 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
 
             }
         }
+
+        public async Task<IActionResult> DeleteRole(int id)
+        {
+            var value = _roleManager.Roles.FirstOrDefault(x => x.Id == id);
+            await _roleManager.DeleteAsync(value);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
