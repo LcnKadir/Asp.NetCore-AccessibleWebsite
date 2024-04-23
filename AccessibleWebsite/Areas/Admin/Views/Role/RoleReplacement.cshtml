@@ -1,0 +1,31 @@
+﻿@model List<RoleReplacementViewModel>
+@{
+    ViewData["Title"] = "RoleReplacement";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="table-responsive">
+    <table class="table table-bordered" style="text-align: center; vertical-align: middle;">
+        <thead>
+            <tr>
+                <th colspan="6" style="text-align: center; font-size: 23px"> Hesap Detayı</th>
+            </tr>
+        </thead>
+    </table>
+    <tbody>
+        <form method="post" asp-controller="Role" asp-action="RoleReplacement">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <div class="form-check" style="margin-left: 30px;" >
+                    <input type="hidden" asp-for="@Model[i].RoleId" />
+                    <input type="hidden" asp-for="@Model[i].RoleName" />
+                    <input type="checkbox" asp-for="@Model[i].RoleExist" class="form-check-input" />
+                    <label class="form-check-label" for="@Model[i].RoleExist">@Model[i].RoleName</label>
+                    <hr />
+                </div>
+                <br />
+            }
+            <button class="btn btn-primary" style="margin-left: 50px;">Kaydet</button>
+
+        </form>
+    </tbody>
+</div>
