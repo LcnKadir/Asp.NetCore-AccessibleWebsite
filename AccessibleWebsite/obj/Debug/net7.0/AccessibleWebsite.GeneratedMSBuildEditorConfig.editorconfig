@@ -174,6 +174,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzaWJsZVBhcnRpYWxcX0FjY2Vzc1Rlc3RpbW9uaWFsUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Views/AdminPartial/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Views/AdminPartial/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Views/AdminPartial/_SideBarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYXJ0aWFsXF9TaWRlQmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Views/Blogs/BlogDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQmxvZ0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
