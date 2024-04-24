@@ -13,63 +13,13 @@
         </div>
     </div>
 
+    <br />
     @await Component.InvokeAsync("_LastTrainerDashboard")
 
+    <br />
 
-    <section>
-        <h2>Dersler</h2>
-        <div class="table-responsive">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Ders Adı</th>
-                        <th>Öğrenci Sayısı</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Matematik</td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Fizik</td>
-                        <td>15</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
+    @await Component.InvokeAsync("_LastClassesDashboard")
 
-    <section>
-        <h2>Antrenmanlar</h2>
-        <div class="table-responsive">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Antrenman Adı</th>
-                        <th>Tarih</th>
-                        <th>Süre</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Kardiyo</td>
-                        <td>2024-04-24</td>
-                        <td>45 dakika</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Kuvvet Antrenmanı</td>
-                        <td>2024-04-25</td>
-                        <td>1 saat</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
+    <br />
+    
 </main>

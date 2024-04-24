@@ -1,0 +1,34 @@
+﻿@model List<Class>
+<section>
+    <h2>Dersler</h2>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="text-center">#</th>
+                    <th class="text-center">Ders</th>
+                    <th class="text-center">Antrenör</th>
+                    <th class="text-center">Başlangıç Saati</th>
+                    <th class="text-center">Bitiş Saati</th>
+                </tr>
+            </thead>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tbody>
+                    <tr>
+                        <td class="text-center">@(i + 1)</td>
+                        <td class ="text-center">@Model[i].Name</td>
+                        <td class="text-center">@Model[i].AppUser.Name @Model[i].AppUser.Surname</td>
+                        <td class="text-center">@Model[i].StartClass</td>
+                        <td class ="text-center">@Model[i].FinishClass</td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+    <div class="flex justify-center mb-4">
+        <a asp-area="Admin" asp-controller="Classes" asp-action="ListClasses" class="btn btn-outline-primary">
+            Tüm Dersleri Gör
+        </a>
+    </div>
+</section>
