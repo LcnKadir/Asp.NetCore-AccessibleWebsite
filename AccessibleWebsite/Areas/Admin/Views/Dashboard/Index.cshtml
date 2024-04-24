@@ -1,60 +1,75 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
 <main class="container py-4">
-    <!-- Antrenör Tablosu -->
-    <section>
-        <h2>Antrenörler</h2>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Ad</th>
-                    <th>Soyad</th>
-                    <th>E-posta</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Antrenörlerin Listesi Buraya Gelecek -->
-            </tbody>
-        </table>
-    </section>
 
-    <!-- Dersler Tablosu -->
+
+    <div class="card mb-4">
+        <div class="card-body d-flex align-items-center">
+            <img src="path_to_your_image.jpg" class="mr-3" alt="Logo" style="max-width: 100px;">
+            <h2 class="card-title">ACCESSGYM</h2>
+        </div>
+    </div>
+
+    @await Component.InvokeAsync("_LastTrainerDashboard")
+
+
     <section>
         <h2>Dersler</h2>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Ders Adı</th>
-                    <th>Öğrenci Sayısı</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Derslerin Listesi Buraya Gelecek -->
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Ders Adı</th>
+                        <th>Öğrenci Sayısı</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Matematik</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Fizik</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 
-    <!-- Antrenmanlar Tablosu -->
     <section>
         <h2>Antrenmanlar</h2>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Antrenman Adı</th>
-                    <th>Tarih</th>
-                    <th>Süre</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Antrenmanların Listesi Buraya Gelecek -->
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Antrenman Adı</th>
+                        <th>Tarih</th>
+                        <th>Süre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kardiyo</td>
+                        <td>2024-04-24</td>
+                        <td>45 dakika</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kuvvet Antrenmanı</td>
+                        <td>2024-04-25</td>
+                        <td>1 saat</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 </main>

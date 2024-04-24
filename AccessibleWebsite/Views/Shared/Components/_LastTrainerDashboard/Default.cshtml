@@ -1,0 +1,36 @@
+﻿@model List<AppUser>
+
+<section>
+    <h2>Antrenörler</h2>
+    <hr />
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Ad Soyad</th>
+                    <th>E-posta</th>
+                    <th>Kullanıcı Adı</th>
+                    <th>Branş</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        <td>@(i + 1)</td>
+                        <td>@Model[i].Name @Model[i].Surname</td>
+                        <td>@Model[i].Email</td>
+                        <td>@Model[i].UserName</td>
+                        <td>@Model[i].Branch</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="flex justify-center mb-4">
+            <a asp-area="Admin" asp-controller="Trainer" asp-action="ListTrainers" class="btn btn-outline-primary">
+                Tüm Antrenörleri Gör
+            </a>
+        </div>
+    </div>
+</section>
