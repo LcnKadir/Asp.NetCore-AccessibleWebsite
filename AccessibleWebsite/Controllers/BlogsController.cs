@@ -37,8 +37,9 @@ namespace AccessibleWebsite.Controllers
         [HttpGet]
         public async Task<ActionResult> BlogDetails(int id)
         {
-            var blog = await _blogService.GetDetailsBlogAsync(id);
-            return View(blog);
+            var blog = await _blogService.GetByIdAsync(id);
+            var blogdetail = await _blogService.GetDetailsBlogAsync(blog.Id);
+            return View(blogdetail);
         }
 
 

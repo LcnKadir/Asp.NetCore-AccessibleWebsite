@@ -35,7 +35,7 @@
                                 <td>@item.UserName</td>
                                 <td>@item.Email</td>
                                 <td class="border px-4 py-2 text-center w-1/7">
-                                    <a asp-area="Admin" asp-controller="Comment" asp-action="GetUsersComment" asp-route-id="@item.Id" class="btn btn-danger btn-sm">
+                                    <a asp-area="Admin" asp-controller="UserHistory" asp-action="GetUsersComment" asp-route-userId="@item.Id" class="btn btn-primary btn-sm">
                                        Hareket Geçmişi
                                     </a>
 

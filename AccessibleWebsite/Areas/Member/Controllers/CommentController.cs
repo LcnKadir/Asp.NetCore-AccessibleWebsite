@@ -10,13 +10,11 @@ namespace AccessibleWebsite.Areas.Member.Controllers
 	{
 		private readonly ICommentService _commentService;
 		private readonly UserManager<AppUser> _userService;
-		private readonly IBlogService _blogService;
 
-		public CommentController(ICommentService commentService, UserManager<AppUser> userService, IBlogService blogService)
+		public CommentController(ICommentService commentService, UserManager<AppUser> userService)
 		{
 			_commentService = commentService;
 			_userService = userService;
-			_blogService = blogService;
 		}
 
 		[HttpGet]

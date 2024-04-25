@@ -70,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5pbmdzXExpc3RUcmFpbmluZ3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Areas/Admin/Views/UserHistory/GetUsersComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlckhpc3RvcnlcR2V0VXNlcnNDb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Areas/Admin/Views/Users/ListUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcTGlzdFVzZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

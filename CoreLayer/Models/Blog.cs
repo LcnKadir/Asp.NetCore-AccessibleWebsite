@@ -22,7 +22,7 @@ namespace CoreLayer.Models
         public string ImageTwo { get; set; }
         public IFormFile ImageUrl { get; set; } 
         public IFormFile ImageUrlTwo { get; set; }
-        public string CoverImage { get; set; }
+        public string? CoverImage { get; set; }
         public IFormFile CoverImageUrl { get; set; }
 
         public int? CategoryId { get; set; }

@@ -1,7 +1,7 @@
 ﻿@model List<Comment>
 @{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+    ViewData["Title"] = "GetUsersComment";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
 
@@ -18,8 +18,7 @@
                     <th>Yorum</th>
                     <th>Tarih</th>
                     <th>Blog</th>
-                    <th>Düzenle</th>
-                    <th>Sil</th>
+                    <th>Site</th>
                 </tr>
             </thead>
             @if (Model != null && Model.Any())
@@ -29,12 +28,12 @@
                     {
                         <tr>
                             <td style="display: none">@item.AppUserId</td>
-                            <td>@item.AppUser.Name @item.AppUser.Surname</td>
-                            <td>@item.CommentContent</td>
-                            <td>@(((DateTime)item.CreateDate).ToString("dd-MMM-yyyy"))</td>
-                            <td><a href="/Blogs/BlogDetails/@item.BlogId" class="btn btn-primary">Gör</a></td>
-                            <td><a href="/Member/Comment/EditComment/@item.Id" class="btn btn-warning">Düzenle</a></td>
-                            <td><a href="/Member/Comment/DeleteComment/@item.Id" class="btn btn-danger">Sil</a></td>
+                            <td style="text-align: center;">@item.AppUser.Name @item.AppUser.Surname</td>
+                            <td style="text-align: center;">@item.CommentContent</td>
+                            <td style="text-align: center;">@(((DateTime)item.CreateDate).ToString("dd-MMM-yyyy"))</td>
+                            <td style="text-align: center;">@item.Blog.LoginTitle</td>
+                            <td style="text-align: center;"><a href="/Blogs/BlogDetails/@item.BlogId" class="btn btn-primary">Gör</a></td>
+
                         </tr>
                     }
                 </tbody>
@@ -45,16 +44,13 @@
                     <tr>
                         <td colspan="7">
                             <div style="text-align: center;" class="section-title">
-                                <h5 class="text-danger">Yorumunuz bulunamadı.</h5>
+                                <h5 class="text-danger">Kullanıcının yorumu bulunamadı.</h5>
                             </div>
                         </td>
                     </tr>
                 </tbody>
             }
-
         </table>
     </div>
 </div>
-
-
 

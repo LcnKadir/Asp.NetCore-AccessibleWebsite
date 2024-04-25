@@ -51,7 +51,11 @@ namespace RepositoryLayer.Repositories
 
         public async Task<Blog> GetDetailsBlogAsync(int id)
         {
-            return await _context.Blogs.Include(x => x.AppUser).Include(x => x.Comments).ThenInclude(x=> x.AppUser).Where(x => x.Id == id).FirstOrDefaultAsync();
+            return await _context.Blogs
+                         .Include(x => x.AppUser)
+                         .Include(x => x.Comments)
+                            .ThenInclude(c => c.AppUser)
+                         .FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task<List<Blog>> GetLastBlogAsync(int id)
