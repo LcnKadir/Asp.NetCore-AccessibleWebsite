@@ -35,6 +35,10 @@
                                 <td>@item.UserName</td>
                                 <td>@item.Email</td>
                                 <td class="border px-4 py-2 text-center w-1/7">
+                                    <a asp-area="Admin" asp-controller="Comment" asp-action="GetUsersComment" asp-route-id="@item.Id" class="btn btn-danger btn-sm">
+                                       Hareket Geçmişi
+                                    </a>
+
                                     @if (item.Restriction == false || item.Restriction == null)
                                     {
                                         <a asp-area="Admin" asp-controller="Users" asp-action="RestrictUser" asp-route-id="@item.Id" class="btn btn-warning btn-sm">

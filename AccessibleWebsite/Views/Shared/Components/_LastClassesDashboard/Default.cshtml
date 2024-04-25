@@ -9,8 +9,8 @@
                     <th class="text-center">#</th>
                     <th class="text-center">Ders</th>
                     <th class="text-center">Antrenör</th>
-                    <th class="text-center">Başlangıç Saati</th>
-                    <th class="text-center">Bitiş Saati</th>
+                    <th class="text-center">Başlangıç</th>
+                    <th class="text-center">Bitiş</th>
                 </tr>
             </thead>
             @for (int i = 0; i < Model.Count; i++)
@@ -18,10 +18,10 @@
                 <tbody>
                     <tr>
                         <td class="text-center">@(i + 1)</td>
-                        <td class ="text-center">@Model[i].Name</td>
+                        <td class="text-center">@Model[i].Name</td>
                         <td class="text-center">@Model[i].AppUser.Name @Model[i].AppUser.Surname</td>
                         <td class="text-center">@Model[i].StartClass</td>
-                        <td class ="text-center">@Model[i].FinishClass</td>
+                        <td class="text-center">@Model[i].FinishClass</td>
                     </tr>
                 </tbody>
             }

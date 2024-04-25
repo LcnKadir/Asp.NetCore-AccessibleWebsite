@@ -36,7 +36,7 @@ namespace AccessibleWebsite.Areas.Member.Controllers
 
 
 		[HttpPost]
-		public async Task<IActionResult> EditComment(Comment comment, int id)
+		public async Task<IActionResult> EditComment(Comment comment)
 		{
 			await _commentService.UpdateAsync(comment);
 			return RedirectToAction(nameof(Index));
