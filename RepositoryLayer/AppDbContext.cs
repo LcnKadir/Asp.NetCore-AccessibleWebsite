@@ -26,6 +26,7 @@ namespace RepositoryLayer
         public DbSet<Message> Messages { get; set; }
         public DbSet<Training> Trainings { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Story> Stories { get; set; }
 
         //Configuration ile eklediğimiz tüm Assembly'lerimizi EfCore'a bildirdik.
         protected override void OnModelCreating(ModelBuilder modelBuilder)

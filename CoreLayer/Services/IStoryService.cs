@@ -9,7 +9,7 @@ namespace CoreLayer.Services
 {
     public interface IStoryService
     {
-        Task AddStoryAsync(Story story);
+        Task<Story> AddStoryAsync(Story story);
         Task<IEnumerable<Story>> GetAllStoryAsync();
         Task UpdateAsync(Story story);
         Task RemoveAsync(Story story);
