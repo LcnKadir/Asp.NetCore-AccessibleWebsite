@@ -20,5 +20,6 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
             var values = await _categoryService.GetAllAsync();
             return View(values);
         }
+
     }
 }
