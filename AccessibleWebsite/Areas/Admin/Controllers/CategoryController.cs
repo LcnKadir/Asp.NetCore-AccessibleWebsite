@@ -38,5 +38,12 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public async Task<IActionResult> DeleteBranch(int id)
+        {
+            var branch = await _categoryService.GetByIdAsync(id);
+            await _categoryService.RemoveAsync(branch);
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }
