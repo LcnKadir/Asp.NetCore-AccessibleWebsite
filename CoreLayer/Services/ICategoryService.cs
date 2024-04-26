@@ -10,6 +10,7 @@ namespace CoreLayer.Services
     public interface ICategoryService
     {
         Task<Category> AddAsync(Category category);
+        Task RemoveAsync(Category category);
         Task<IEnumerable<Category>> GetAllAsync();
         Task<Category> GetCategoryDetailsAsync(int id);
         Task<Category> GetByIdAsync(int id);

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -38,6 +39,11 @@ namespace RepositoryLayer.Repositories
         public async Task<Category> GetCategoryDetailsAsync(int id)
         {
             return await _context.Categories.Where(x => x.Id == id).Select(c => new Category{Id = c.Id,Name = c.Name,Blogs = c.Blogs.Select(b => new Blog { Id = b.Id}).ToList()}).FirstOrDefaultAsync();
+        }
+
+        public void RemoveAsync(Category category)
+        {
+            _DbSet.Remove(category);
         }
     }
 }

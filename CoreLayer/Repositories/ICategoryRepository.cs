@@ -10,6 +10,7 @@ namespace CoreLayer.Repositories
     public interface ICategoryRepository
     {
         Task AddAsync(Category category);
+        void RemoveAsync(Category category);
         Task<IEnumerable<Category>> GetAllAsync();
         Task<Category> GetCategoryDetailsAsync(int id);
         Task<Category> GetByIdAsync(int id);

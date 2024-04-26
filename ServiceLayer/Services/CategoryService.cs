@@ -44,5 +44,11 @@ namespace ServiceLayer.Services
         {
             return await _repository.GetCategoryDetailsAsync(id);
         }
+
+        public async Task RemoveAsync(Category category)
+        {
+            _repository.RemoveAsync(category);
+            await _unitOfWork.CommitAsync();
+        }
     }
 }
