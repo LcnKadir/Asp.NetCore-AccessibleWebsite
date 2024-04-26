@@ -1,0 +1,69 @@
+﻿@model List<Message>
+
+<div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
+    <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">
+        <h5 style="font-weight: bold; color: black">Haftalık Ders Kaydı</h5>
+    </div>
+    <div class="p-3">
+        <table class="table table-bordered">
+            <thead style="text-align: center;">
+                <tr>
+                    <th style="display: none">Id</th>
+                    <th style="display: none">KullanıcıId</th>
+                    <th>Ders</th>
+                    <th style="display: none">DersId</th>
+                    <th>Gün</th>
+                    <th>Başlagıç Saati</th>
+                    <th>Bitiş Saati</th>
+                    <th>Ders Durumu</th>
+                </tr>
+            </thead>
+            @if (Model != null && Model.Any())
+            {
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td style="display: none">@item.Id</td>
+                            <td style="display: none">@item.AppUser.Id</td>
+                            <td style="text-align: center;">@item.Class.Name</td>
+                            <td style="display: none">@item.Class.Id</td>
+                            <td style="text-align: center;"> @item.Class.Day</td>
+                            <td style="text-align: center;">@item.Class.StartClass</td>
+                            <td style="text-align: center;">@item.Class.FinishClass</td>
+                            @if (item.Class.ClassesStatus == false)
+                            {
+                                <td style="color: green; text-align: center;">Aktif</td>
+
+                            }
+                            else
+                            {
+                                <td style="color: red; text-align: center;">İptal Edildi</td>
+                            }
+                        </tr>
+
+                    }
+                </tbody>
+
+            }
+            else
+            {
+                <tbody>
+
+                    <tr>
+                        <td colspan="7">
+                            <div style="text-align: center;" class="section-title">
+                                <h5 class="text-danger">Kullanıcının ders kaydı bulunamadı.</h5>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+<br />
+<div class="mb-4" style="text-align: left;">
+    <a asp-area="Admin" asp-action="ListUsers" asp-controller="Users" class="btn btn-outline-success" style="margin-left: 10px;">Geri</a>
+</div>
