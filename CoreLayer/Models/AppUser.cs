@@ -38,5 +38,7 @@ namespace CoreLayer.Models
         public Message Messages { get; set; } 
         public Training Trainings { get; set; }  //Bire bir ilişki kurularak, kullanıcının sadece seçtiği tek bir Trainer ile çalışması sağlanacak.
 
+        public ICollection<Story> Stories { get; set; } //Üyeler başarı hikayelerini paylaşacak.
+
     }
 }
