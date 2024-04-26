@@ -1,4 +1,5 @@
-﻿
+﻿@model Story
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/IULayout.cshtml";
@@ -22,16 +23,13 @@
         </div>
     </section>
     <!-- Breadcrumb Section End -->
-
     <!-- Map Section Begin -->
     <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24112.92132811736!2d-74.20651812810036!3d40.93514309648714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fda38587e887%3A0xf03207815e338a0d!2sHaledon%2C%20NJ%2007508%2C%20USA!5e0!3m2!1sen!2sbd!4v1578120776078!5m2!1sen!2sbd"
-            height="612" style="border:0;" allowfullscreen=""></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24112.92132811736!2d-74.20651812810036!3d40.93514309648714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fda38587e887%3A0xf03207815e338a0d!2sHaledon%2C%20NJ%2007508%2C%20USA!5e0!3m2!1sen!2sbd!4v1578120776078!5m2!1sen!2sbd"
+                height="612" style="border:0;" allowfullscreen=""></iframe>
         <img src="~/Gym/img/icon/location.png" alt="">
     </div>
     <!-- Map Section End -->
-
     <!-- Contact Section Begin -->
     <section class="contact-section spad">
         <div class="container">
@@ -60,16 +58,17 @@
                             </div>
                             <div class="ca-widget">
                                 <div class="cw-icon">
-                                    <img src="~/Gym/img/icon/icon-3.png"  alt="">
+                                    <img src="~/Gym/img/icon/icon-3.png" alt="">
                                 </div>
                                 <div class="cw-text">
                                     <h5>Mail</h5>
-                                    <p>acesgym@gmail.com</p>
+                                    <p>acesgymm@gmail.com</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-8">
                     <div class="contact-form">
                         <h4 style="text-align: center;">Hikayenizi Paylaşın</h4>
@@ -77,28 +76,45 @@
                             <h6>Sayfamızda dolaşan spor tutkunlarına ilham olmak için başarı hikayenizi kısaca yazın</h6>
                         </div>
                         <br />
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <input type="text" placeholder="İsminiz">
+                        <form asp-action="Index" asp-controller="Contact">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                                var user = await appUser.FindByNameAsync(User.Identity.Name);
+                                @if (user.EmailConfirmed == true)
+                                {
+                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <textarea name="Description"></textarea>
+                                            <button type="submit">Gönder</button>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div style="text-align: center;">
+                                        <hr />
+                                        <p class="text-danger">Hikayenizi bizimle paylaşmadan önce mail kodunuzu doğrulayınız... :)</p>
+                                        <p class="text-danger">Mailinizi doğrulamak için <a asp-controller="ConfirmMail" asp-action="Index">linke tıklayınız.</a></p>
+                                        <hr />
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <div class="section-title">
+                                    <p>Hikayenizi paylaşmadan önce lütfen giriş yapınız.</p>
                                 </div>
-                                <div class="col-lg-6">
-                                    <input type="text" placeholder="Mail Adresiniz">
-                                </div>
-                                <br />
-                                <div class="col-lg-12">
-                                    <textarea placeholder="Your messages"></textarea>
-                                    <button type="submit">Send Message</button>
-                                </div>
-                            </div>
+                            }
                         </form>
                     </div>
                 </div>
 
-        </div>
+
+            </div>
     </section>
 
-    <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
