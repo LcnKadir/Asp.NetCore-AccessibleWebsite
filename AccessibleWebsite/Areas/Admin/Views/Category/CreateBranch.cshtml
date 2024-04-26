@@ -1,0 +1,38 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "CreateBranch";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 justify-center">
+    <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
+        <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b text-center">
+            <h4>Branş Ekleme Sayfası</h4>
+            <hr />
+        </div>
+        <form method="post" asp-controller="Category" asp-action="CreateBranch" enctype="multipart/form-data">
+            <div class="p-3 d-flex justify-content-center">
+                <table class="table table-sm table-responsive-sm w-full rounded text-center" style="max-width: 600px;">
+                    <thead>
+                        <tr>
+                            <th class="border px-4 py-2" style="max-width: 150px;">Branş Adı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="text" asp-for="Name" class="form-control text-center" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="container mt-3 text-center">
+                <div class="row justify-content-center">
+                    <button type="submit" class="btn btn-outline-success">Ekle</button>
+                </div>
+            </div>
+            <br />
+        </form>
+    </div>
+</div>
