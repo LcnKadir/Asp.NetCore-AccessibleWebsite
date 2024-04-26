@@ -1,13 +1,23 @@
 ﻿@model List<Comment>
 @{
-    ViewData["Title"] = "GetUsersComment";
+    ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
 <div class="mb-4">
-    <hr />
-    <h4 class="text-center">Üye Hareket Geçmişi</h4>
-    <hr />
+
+    @foreach (var user in ViewBag.UserName)
+    {
+        @if (user.Id == ViewBag.User)
+        {
+            <hr />
+            <h1 style="display: none">@user.Id</h1>
+            <h4 class="text-center">
+                @user.Name @user.Surname, hareket geçmişi...
+            </h4>
+            <hr>
+        }
+    }
     <br />
     <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
         <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">

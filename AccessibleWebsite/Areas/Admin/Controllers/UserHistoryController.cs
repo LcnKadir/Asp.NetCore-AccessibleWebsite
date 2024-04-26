@@ -10,7 +10,6 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
     {
         private readonly ICommentService _commentService;
         private readonly IAppUserService _appUserService;
-        private readonly IMessageService _messageService;
 
 
         public UserHistoryController(ICommentService commentService, IAppUserService appUserService)
@@ -19,12 +18,14 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
             _appUserService = appUserService;
         }
 
-        public async Task<IActionResult> GetUsersComment(int userId)
+        public async Task<IActionResult> Index(int userId)
         {
             var user = await _appUserService.GetByIdAsync(userId);
             var comments = await _commentService.GetCommentWithBlogList(user.Id);
 
             ViewBag.User = userId; //Kullanıcının seçtiği haftalık dersi listelenmek için Id'si alındı.
+
+            ViewBag.UserName = await _appUserService.GetAllAsync(); //Hareket geçmişinde kullanıcı bilgilerin listelendi.
 
             return View(comments);
         }
