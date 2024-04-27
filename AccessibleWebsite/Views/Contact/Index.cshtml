@@ -72,13 +72,17 @@
                 <div class="col-lg-8">
                     <div class="contact-form">
                         <h4 style="text-align: center;">Hikayenizi Paylaşın</h4>
+                        <hr style="margin-top: -40px; margin-bottom: 20px;" />
+                        <br>
                         <div style="text-align: center;">
-                            <h6>Sayfamızda dolaşan spor tutkunlarına ilham olmak için başarı hikayenizi kısaca yazın</h6>
+                            <h6>Sayfamızda dolaşan spor tutkunlarına ilham olmak için, başarı hikayenizden kısaca bahsedin!</h6>
                         </div>
+                        <br />
                         <br />
                         <form asp-action="Index" asp-controller="Contact">
                             @if (User.Identity.IsAuthenticated)
                             {
+
                             @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
                                 var user = await appUser.FindByNameAsync(User.Identity.Name);
                                 @if (user.EmailConfirmed == true)
@@ -87,7 +91,9 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <textarea name="Description"></textarea>
-                                            <button type="submit">Gönder</button>
+                                            <div style="text-align: center;">
+                                                <button class="col-lg-12 text-center" type="submit" style="margin-top: -50px; margin-bottom: 40px;">Gönder</button>
+                                            </div>
                                         </div>
                                     </div>
                                 }
