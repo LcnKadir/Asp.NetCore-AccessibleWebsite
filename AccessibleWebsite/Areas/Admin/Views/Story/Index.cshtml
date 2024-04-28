@@ -12,56 +12,57 @@
             <hr />
         </div>
         <div class="p-3">
-            <table class="table table-bordered">
-                <thead style="text-align: center;">
-                    <tr>
-                        <th style="display: none">#</th>
-                        <th>Üye</th>
-                        <th>Hikaye</th>
-                        <th>Tarih</th>
-                        <th>İşlemler</th>
-                    </tr>
-                </thead>
-                @if (Model != null && Model.Any())
-                {
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
+            <div style="overflow-x: auto;">
+                <table class="table table-bordered">
+                    <thead style="text-align: center;">
+                        <tr>
+                            <th style="display: none">#</th>
+                            <th>Üye</th>
+                            <th style="min-width: 200px;">Hikaye</th> 
+                            <th>Tarih</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    @if (Model != null && Model.Any())
+                    {
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td style="display: none">@item.AppUserId</td>
+                                    <td style="text-align: center; vertical-align: middle;">@item.AppUser.Name @item.AppUser.Surname</td>
+                                    <td style="min-width: 200px; max-width: 400px; overflow-wrap: break-word; text-align: center; vertical-align: middle;">@item.Description</td>
+                                    <td style="text-align: center; vertical-align: middle;">@(((DateTime)item.CreateDate).ToString("dd-MMM"))</td>
+                                    <td class="border px-4 py-2 text-center w-1/7" style="vertical-align: middle;">
+                                        @if (item.Published == false)
+                                        {
+                                            <a asp-area="Admin" asp-controller="Story" asp-action="GetPublish" asp-route-id="@item.Id" class="btn btn-success btn-sm">Yayınla</a>
+                                        }
+                                        @if (item.Published == true)
+                                        {
+                                            <a asp-area="Admin" asp-controller="Story" asp-action="PullPublish" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Yayınlandı</a>
+                                        }
+                                        <a asp-area="Admin" asp-controller="Story" asp-action="DeleteStory" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Sil</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    }
+                    else
+                    {
+                        <tbody>
                             <tr>
-                                <td style="display: none">@item.AppUserId</td>
-                                <td style="text-align: center;">@item.AppUser.Name @item.AppUser.Surname</td>
-                                <td style="text-align: center;">@item.Description</td>
-                                <td style="text-align: center;">@(((DateTime)item.CreateDate).ToString("dd-MMM"))</td>
-                                <td class="border px-4 py-2 text-center w-1/7">
-                                    @if (item.Published == false)
-                                    {
-                                        <a asp-area="Admin" asp-controller="Story" asp-action="GetPublish" asp-route-id="@item.Id" class="btn btn-success btn-sm">Yayınla</a>
-
-
-                                    }
-                                    @if (item.Published == true)
-                                    {
-                                        <a asp-area="Admin" asp-controller="Story" asp-action="PullPublish" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Yayınlandı</a>
-                                    }
-                                    <a asp-area="Admin" asp-controller="Story" asp-action="DeleteStory" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Kaydı Sil</a>
+                                <td colspan="5">
+                                    <div style="text-align: center;" class="section-title">
+                                        <h5 class="text-danger">Henüz hiçbir üye hikayesinden bahsetmedi.</h5>
+                                    </div>
                                 </td>
                             </tr>
-                        }
-                    </tbody>
-                }
-                else
-                {
-                    <tbody>
-                        <tr>
-                            <td colspan="6">
-                                <div style="text-align: center;" class="section-title">
-                                    <h5 class="text-danger">Henüz hiç bir üye hikayesinden bahsetmedi.</h5>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                }
-            </table>
+                        </tbody>
+                    }
+                </table>
+            </div>
         </div>
     </div>
 </div>
+
