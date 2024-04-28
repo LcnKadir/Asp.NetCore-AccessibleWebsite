@@ -42,7 +42,8 @@ namespace RepositoryLayer.Repositories
 
         public async Task<List<Story>> SelectedStories(int id)
         {
-            return await _context.Stories.Include(x => x.Published == true).OrderByDescending(x => x.Id).Take(5).ToListAsync();
+            //Tablo'da yer alan hikayelerden sadece "true" olanlar listelenecek.
+            return await _context.Stories.Include(x=> x.AppUser).Where(x=> x.Published == true).OrderByDescending(x => x.Id).Take(5).ToListAsync(); 
         }
 
         public void UpdateAsync(Story story)

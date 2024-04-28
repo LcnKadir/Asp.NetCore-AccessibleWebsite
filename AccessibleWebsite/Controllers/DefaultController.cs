@@ -1,4 +1,5 @@
 ﻿using CoreLayer.Models;
+using CoreLayer.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -8,15 +9,18 @@ namespace AccessibleWebsite.Controllers
     public class DefaultController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
+        private readonly IStoryService _storyService;
 
-        public DefaultController(UserManager<AppUser> userManager)
+        public DefaultController(UserManager<AppUser> userManager, IStoryService storyService)
         {
             _userManager = userManager;
+            _storyService = storyService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index(int id)
         {
-            return View();
+            var stories = await _storyService.SelectedStories(id);
+            return View(stories);
         }
 
         public async Task<IActionResult> AccessibleMode()
