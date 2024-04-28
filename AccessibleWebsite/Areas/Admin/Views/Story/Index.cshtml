@@ -1,8 +1,61 @@
-﻿
+﻿@model List<Story>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Index</h1>
-
+<div class="mb-4">
+    <br />
+    <div class="mb-2 border-solid border-gray-300 rounded border shadow-sm w-full">
+        <div class="bg-gray-200 px-2 py-3 border-solid border-gray-200 border-b">
+            <h4 style="text-align: center; font-weight: bold; color: black">Üyelerin Başarı Hikayeleri</h4>
+            <hr />
+        </div>
+        <div class="p-3">
+            <table class="table table-bordered">
+                <thead style="text-align: center;">
+                    <tr>
+                        <th style="display: none">#</th>
+                        <th>Üye</th>
+                        <th>Hikaye</th>
+                        <th>Tarih</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                @if (Model != null && Model.Any())
+                {
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td style="display: none">@item.AppUserId</td>
+                                <td style="text-align: center;">@item.AppUser.Name @item.AppUser.Surname</td>
+                                <td style="text-align: center;">@item.Description</td>
+                                <td style="text-align: center;">@(((DateTime)item.CreateDate).ToString("dd-MMM"))</td>
+                                @if (item.Published == false)
+                                {
+                                    <td style="text-align: center;"><a asp-area="Admin" asp-controller="" asp-action="" class="btn btn-success">Yayınla</a></td>
+                                }
+                                @if (item.Published == true)
+                                {
+                                    <td style="text-align: center;"><a asp-area="Admin" asp-controller="" asp-action="" class="btn btn-success">Yayınlandı</a></td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                }
+                else
+                {
+                    <tbody>
+                        <tr>
+                            <td colspan="6">
+                                <div style="text-align: center;" class="section-title">
+                                    <h5 class="text-danger">Henüz hiç bir üye hikayesinden bahsetmedi.</h5>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                }
+            </table>
+        </div>
+    </div>
