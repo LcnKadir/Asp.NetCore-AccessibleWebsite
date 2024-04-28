@@ -44,5 +44,12 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        public async Task<IActionResult> DeleteStory(int id)
+        {
+            var story = await _storyService.GetByIdAsync(id);
+            await _storyService.RemoveAsync(story);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
