@@ -23,7 +23,7 @@
 
                     @foreach (var item in Model)
                     {
-                       
+
                         @if (item.TrainerId == null)
                         {
                             count++;
@@ -34,9 +34,8 @@
                                 <td class="border px-4 py-2 text-center w-1/7">
 
                                     <a asp-area="Admin" asp-controller="Role" asp-action="RoleReplacement" asp-route-id="@item.Id" class="btn btn-warning btn-sm">
-                                        Hesabı Askıya Al
+                                        Hesap
                                     </a>
-
                                 </td>
                             </tr>
                         }

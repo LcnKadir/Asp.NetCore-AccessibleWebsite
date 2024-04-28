@@ -10,14 +10,10 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
     public class StoryController : Controller
     {
         private readonly IStoryService _storyService;
-        private readonly IAppUserService _userService;
-        private readonly UserManager<AppUser> _userManager;
 
-        public StoryController(IStoryService storyService, IAppUserService userService, UserManager<AppUser> userManager)
+        public StoryController(IStoryService storyService)
         {
             _storyService = storyService;
-            _userService = userService;
-            _userManager = userManager;
         }
 
         [HttpGet]

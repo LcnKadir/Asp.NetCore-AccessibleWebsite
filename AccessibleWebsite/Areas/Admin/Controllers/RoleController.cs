@@ -1,5 +1,6 @@
 ﻿using AccessibleWebsite.Areas.Admin.Models;
 using CoreLayer.Models;
+using CoreLayer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,13 +11,14 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
     {
         private readonly RoleManager<AppRole> _roleManager;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IAppUserService _appUserService;
 
-        public RoleController(RoleManager<AppRole> roleManager, UserManager<AppUser> userManager)
+        public RoleController(RoleManager<AppRole> roleManager, UserManager<AppUser> userManager, IAppUserService appUserService)
         {
             _roleManager = roleManager;
             _userManager = userManager;
+            _appUserService = appUserService;
         }
-
 
         public IActionResult Index()
         {
@@ -81,10 +83,11 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
         }
 
 
-        public IActionResult UsersList()
+        public async Task<IActionResult> UsersList()
         {
-            var values = _userManager.Users.ToList();
-            return View(values);
+            var users = await _appUserService.GetAllAsync();
+            ViewBag.Roles = _userManager.Users.ToList();
+            return View(users);
         }
 
 
