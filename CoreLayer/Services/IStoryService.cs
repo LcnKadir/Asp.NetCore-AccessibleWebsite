@@ -13,5 +13,6 @@ namespace CoreLayer.Services
         Task<IEnumerable<Story>> GetAllStoryAsync();
         Task UpdateAsync(Story story);
         Task RemoveAsync(Story story);
+        Task<Story> GetByIdAsync(int id);
     }
 }

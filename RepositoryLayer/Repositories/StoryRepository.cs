@@ -30,6 +30,11 @@ namespace RepositoryLayer.Repositories
             return await _context.Stories.Include(x => x.AppUser).ToListAsync();
         }
 
+        public async Task<Story> GetByIdAsync(int id)
+        {
+            return await _DbSet.FindAsync(id);
+        }
+
         public void RemoveAsync(Story story)
         {
             _DbSet.Remove(story);

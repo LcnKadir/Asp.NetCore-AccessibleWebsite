@@ -34,11 +34,11 @@
                                 <td style="text-align: center;">@(((DateTime)item.CreateDate).ToString("dd-MMM"))</td>
                                 @if (item.Published == false)
                                 {
-                                    <td style="text-align: center;"><a asp-area="Admin" asp-controller="" asp-action="" class="btn btn-success">Yayınla</a></td>
+                                    <td style="text-align: center;"><a asp-area="Admin" asp-controller="Story" asp-action="GetPublish" asp-route-id="@item.Id" class="btn btn-success">Yayınla</a></td>
                                 }
                                 @if (item.Published == true)
                                 {
-                                    <td style="text-align: center;"><a asp-area="Admin" asp-controller="" asp-action="" class="btn btn-success">Yayınlandı</a></td>
+                                    <td style="text-align: center;"><a asp-area="Admin" asp-controller="Story" asp-action="PullPublish" asp-route-id="@item.Id" class="btn btn-warning">Yayınlandı</a></td>
                                 }
                             </tr>
                         }
@@ -59,3 +59,4 @@
             </table>
         </div>
     </div>
+</div>

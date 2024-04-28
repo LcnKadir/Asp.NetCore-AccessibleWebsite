@@ -34,6 +34,11 @@ namespace ServiceLayer.Services
            return await _repository.GetAllStoryAsync();
         }
 
+        public async Task<Story> GetByIdAsync(int id)
+        {
+            return await _repository.GetByIdAsync(id);
+        }
+
         public async Task RemoveAsync(Story story)
         {
             _repository.RemoveAsync(story);

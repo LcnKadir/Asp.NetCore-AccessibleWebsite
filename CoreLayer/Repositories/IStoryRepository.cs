@@ -13,5 +13,6 @@ namespace CoreLayer.Repositories
         Task<IEnumerable<Story>> GetAllStoryAsync();
         void UpdateAsync(Story story);
         void RemoveAsync(Story story);
+        Task<Story> GetByIdAsync(int id);
     }
 }

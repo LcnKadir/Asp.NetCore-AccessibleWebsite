@@ -8,7 +8,7 @@ namespace CoreLayer.Models
 {
     public class Story: BaseEntity
     {
-        public string Description { get; set; } 
+        public string? Description { get; set; } 
         public bool Published { get; set; }
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
