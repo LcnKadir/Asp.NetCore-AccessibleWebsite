@@ -45,6 +45,11 @@ namespace ServiceLayer.Services
             await _unitOfWork.CommitAsync();
         }
 
+        public async Task<List<Story>> SelectedStories(int id)
+        {
+           return await _repository.SelectedStories(id);
+        }
+
         public async Task UpdateAsync(Story story)
         {
             _repository.UpdateAsync(story);

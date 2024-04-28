@@ -40,6 +40,11 @@ namespace RepositoryLayer.Repositories
             _DbSet.Remove(story);
         }
 
+        public async Task<List<Story>> SelectedStories(int id)
+        {
+            return await _context.Stories.Include(x => x.Published == true).OrderByDescending(x => x.Id).Take(5).ToListAsync();
+        }
+
         public void UpdateAsync(Story story)
         {
             _DbSet.Update(story);

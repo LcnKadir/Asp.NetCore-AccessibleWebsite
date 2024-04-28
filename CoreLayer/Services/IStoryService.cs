@@ -14,5 +14,6 @@ namespace CoreLayer.Services
         Task UpdateAsync(Story story);
         Task RemoveAsync(Story story);
         Task<Story> GetByIdAsync(int id);
+        Task<List<Story>> SelectedStories(int id); //Admin tarafından seçilen hikayeler anasayfada listelenecek.
     }
 }
