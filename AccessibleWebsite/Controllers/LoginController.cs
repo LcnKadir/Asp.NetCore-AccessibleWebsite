@@ -95,16 +95,29 @@ namespace AccessibleWebsite.Controllers
         [HttpGet]
         public async Task<IActionResult> SignIn()
         {
+
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> SignIn(UserSignInViewModel user)
         {
+            // Kullanıcı "Askıya Al" rolünde ise giriş yapmasını engellenecek.
+            var users = await _userManager.FindByNameAsync(user.UserName);
+            var isInRole = await _userManager.IsInRoleAsync(users, "Askıya Al");
+
+            if (isInRole)
+            {
+                TempData["ShowAlert"] = true; // Kullanıcı SweetAlert'e yönlendirilecek.
+                return View();
+            }
+
 
             if (ModelState.IsValid)
             {
+
                 var result = await _signInManager.PasswordSignInAsync(user.UserName, user.Password, true, true); // ilk "true" ile kullanıcı sistemde hatırlanacak, ikinci "t" ile de şifre beş defa yanlış girildiği taktirde kullanıcı bloklanacak.
+
 
                 if (result.Succeeded)
                 {
