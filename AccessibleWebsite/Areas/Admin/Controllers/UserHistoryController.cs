@@ -25,7 +25,7 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
 
             ViewBag.User = userId; //Kullanıcının seçtiği haftalık dersi listelenmek için Id'si alındı.
 
-            ViewBag.UserName = await _appUserService.GetAllAsync(); //Hareket geçmişinde kullanıcı bilgilerin listelendi.
+            ViewBag.UserName = await _appUserService.GetAllAsync(); //Hareket geçmişinde kullanıcı bilgileri listelendi.
 
             return View(comments);
         }
