@@ -1,4 +1,5 @@
 ﻿using CoreLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using ServiceLayer.Services;
@@ -6,6 +7,8 @@ using ServiceLayer.Services;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
     public class UsersController : Controller
     {
         private readonly IAppUserService _appUserService;

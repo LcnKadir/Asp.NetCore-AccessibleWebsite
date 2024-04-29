@@ -1,11 +1,14 @@
 ﻿using AccessibleWebsite.Areas.Member.Models;
 using CoreLayer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Member.Controllers
 {
     [Area("Member")]
+    [Authorize]
+
     public class ProfileController : Controller
     {  
 

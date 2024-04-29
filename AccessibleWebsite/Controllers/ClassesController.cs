@@ -43,7 +43,7 @@ namespace AccessibleWebsite.Controllers
             {
                 return View(getclass);
             }
-            if (values.EmailConfirmed == false || values.EmailConfirmed == null || values.Branch == null)//Kayıt olmayan kullanıcı dersleri göremeyecek.
+            if (values.EmailConfirmed == false || values.EmailConfirmed == null || values.Branch == null)//Mail adresini doğrulamayan üye dersleri göremeyecek.
             {
                 return RedirectToAction("Index", "ConfirmMail");
             }

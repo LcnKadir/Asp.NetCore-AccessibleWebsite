@@ -1,5 +1,6 @@
 ﻿using CoreLayer.Models;
 using CoreLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,6 +24,7 @@ namespace AccessibleWebsite.Controllers
             return View();
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Index(Story story)
         {

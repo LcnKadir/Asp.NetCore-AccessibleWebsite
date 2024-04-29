@@ -60,5 +60,6 @@ namespace ServiceLayer.Services
             _repository.Update(appUser);
             await _unitOfWork.CommitAsync();
         }
+
     }
 }

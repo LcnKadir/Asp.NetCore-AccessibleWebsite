@@ -1,11 +1,14 @@
 ﻿using CoreLayer.Models;
 using CoreLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Member.Controllers
 {
     [Area("Member")]
+    [Authorize]
+
     public class ClassController : Controller
     {
         private readonly IClassService _classService;

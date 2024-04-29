@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [AllowAnonymous]
+    [Authorize]
     public class TrainerController : Controller
     {
 

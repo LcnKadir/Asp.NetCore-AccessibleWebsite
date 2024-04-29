@@ -1,13 +1,15 @@
 ﻿using AccessibleWebsite.Areas.Admin.Models;
 using CoreLayer.Models;
 using CoreLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class RoleController : Controller
+    [Authorize]
+        public class RoleController : Controller
     {
         private readonly RoleManager<AppRole> _roleManager;
         private readonly UserManager<AppUser> _userManager;

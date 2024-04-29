@@ -1,11 +1,14 @@
 ﻿using CoreLayer.Models;
 using CoreLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
     public class UserHistoryController : Controller
     {
         private readonly ICommentService _commentService;

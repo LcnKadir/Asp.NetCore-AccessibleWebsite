@@ -1,9 +1,12 @@
 ﻿using CoreLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
     public class ClassesController : Controller
     {
         private readonly IClassService _classService;

@@ -1,10 +1,13 @@
 ﻿using CoreLayer.Models;
 using CoreLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
+
     public class TrainingsController : Controller
     {
         private readonly ITrainingService _trainingService;

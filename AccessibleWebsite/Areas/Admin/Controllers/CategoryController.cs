@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [AllowAnonymous]
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -18,6 +18,7 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
+          
             var values = await _categoryService.GetAllAsync();
             return View(values);
         }
@@ -26,13 +27,14 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> CreateBranch()
         {
-
+           
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateBranch(Category category)
         {
+           
             await _categoryService.AddAsync(category);
 
             return RedirectToAction(nameof(Index));
@@ -40,6 +42,7 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
 
         public async Task<IActionResult> DeleteBranch(int id)
         {
+            
             var branch = await _categoryService.GetByIdAsync(id);
             await _categoryService.RemoveAsync(branch);
             return RedirectToAction(nameof(Index));
