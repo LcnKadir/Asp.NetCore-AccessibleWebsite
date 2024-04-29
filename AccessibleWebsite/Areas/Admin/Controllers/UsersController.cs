@@ -7,8 +7,7 @@ using ServiceLayer.Services;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-
+    [Authorize(Roles = "Admin")]
     public class UsersController : Controller
     {
         private readonly IAppUserService _appUserService;

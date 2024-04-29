@@ -8,8 +8,7 @@ using ServiceLayer.Services;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-
+    [Authorize(Roles = "Admin")]
     public class StoryController : Controller
     {
         private readonly IStoryService _storyService;

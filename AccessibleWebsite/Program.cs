@@ -60,7 +60,7 @@ builder.Services.AddMvc(config =>
     config.Filters.Add(new AuthorizeFilter(policy));
 });
 
-builder.Services.ConfigureApplicationCookie(options => { //Çýkýþ yapma iþlemi gerçekleþtirilen kullanýcýi giriþ yapma
+builder.Services.ConfigureApplicationCookie(options => { //Çýkýþ yapma iþlemi gerçekleþtirilen kullanýcýnýn giriþ yapmasý istenecek.
     options.LoginPath = "/Login/SignIn";
 });
 

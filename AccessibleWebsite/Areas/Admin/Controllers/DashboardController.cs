@@ -4,17 +4,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
 
     public class DashboardController : Controller
     {
         public IActionResult Index()
         {
-            if (!User.IsInRole("Admin"))
-            {
-                return NotFound();
-            }
-
             return View();
         }
     }

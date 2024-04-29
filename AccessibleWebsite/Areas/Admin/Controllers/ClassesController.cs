@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
 
     public class ClassesController : Controller
     {
@@ -21,6 +21,8 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> ListClasses()
         {
+
+
             var classes = await _classService.GetAllAsync();
             ViewBag.Trainers = await _appUserService.GetTrainers();
             return View(classes);

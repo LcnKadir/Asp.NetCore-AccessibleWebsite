@@ -7,8 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-
+    [Authorize(Roles = "Admin")]
     public class UserHistoryController : Controller
     {
         private readonly ICommentService _commentService;

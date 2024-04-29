@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class TrainerController : Controller
     {
 
@@ -72,8 +72,7 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
         public async Task<IActionResult> ListTrainers()
         {
             var trainer = await _userService.GetTrainers();
-
-            return View(trainer);
+                        return View(trainer);
         }
 
 

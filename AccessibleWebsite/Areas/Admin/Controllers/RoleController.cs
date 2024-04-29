@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace AccessibleWebsite.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-        public class RoleController : Controller
+    [Authorize(Roles = "Admin")]
+    public class RoleController : Controller
     {
         private readonly RoleManager<AppRole> _roleManager;
         private readonly UserManager<AppUser> _userManager;
@@ -81,7 +81,6 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
             value.Name = updateRoleViewModel.RoleName;
             await _roleManager.UpdateAsync(value);
             return RedirectToAction(nameof(Index));
-
         }
 
 
