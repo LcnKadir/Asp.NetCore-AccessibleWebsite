@@ -1409,6 +1409,22 @@
       "PackagePath": "staticwebassets\\ClassImage\\f9ab7c18-a0c3-42cd-8f47-af1787f7e6b9.webp"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Error\\css\\style.css",
+      "PackagePath": "staticwebassets\\Error\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Error\\img\\emoji.png",
+      "PackagePath": "staticwebassets\\Error\\img\\emoji.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Error\\index.html",
+      "PackagePath": "staticwebassets\\Error\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Error\\readme.txt",
+      "PackagePath": "staticwebassets\\Error\\readme.txt"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Gym\\Source\\Magnific-Popup-master.zip",
       "PackagePath": "staticwebassets\\Gym\\Source\\Magnific-Popup-master.zip"
     },
