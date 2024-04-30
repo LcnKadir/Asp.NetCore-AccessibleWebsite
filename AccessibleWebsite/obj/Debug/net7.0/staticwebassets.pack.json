@@ -1841,6 +1841,198 @@
       "PackagePath": "staticwebassets\\MemberImages\\c92ad5c1-ceb8-451c-8055-8184959d032c.jpg"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\.gitattributes",
+      "PackagePath": "staticwebassets\\Trainer\\.gitattributes"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\.gitignore",
+      "PackagePath": "staticwebassets\\Trainer\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\404.html",
+      "PackagePath": "staticwebassets\\Trainer\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\CODE_OF_CONDUCT.md",
+      "PackagePath": "staticwebassets\\Trainer\\CODE_OF_CONDUCT.md"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\CONTRIBUTING.md",
+      "PackagePath": "staticwebassets\\Trainer\\CONTRIBUTING.md"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\LICENSE",
+      "PackagePath": "staticwebassets\\Trainer"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\README.md",
+      "PackagePath": "staticwebassets\\Trainer\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\buttons.html",
+      "PackagePath": "staticwebassets\\Trainer\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\all.css",
+      "PackagePath": "staticwebassets\\Trainer\\dist\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\dashboard.png",
+      "PackagePath": "staticwebassets\\Trainer\\dist\\images\\dashboard.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\login-new.jpeg",
+      "PackagePath": "staticwebassets\\Trainer\\dist\\images\\login-new.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\login.jpeg",
+      "PackagePath": "staticwebassets\\Trainer\\dist\\images\\login.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\images\\login.png",
+      "PackagePath": "staticwebassets\\Trainer\\dist\\images\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\dist\\styles.css",
+      "PackagePath": "staticwebassets\\Trainer\\dist\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\forms.html",
+      "PackagePath": "staticwebassets\\Trainer\\forms.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\index.html",
+      "PackagePath": "staticwebassets\\Trainer\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\index.js",
+      "PackagePath": "staticwebassets\\Trainer\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\login.html",
+      "PackagePath": "staticwebassets\\Trainer\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\main.js",
+      "PackagePath": "staticwebassets\\Trainer\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\modals.html",
+      "PackagePath": "staticwebassets\\Trainer\\modals.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\package-lock.json",
+      "PackagePath": "staticwebassets\\Trainer\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\package.json",
+      "PackagePath": "staticwebassets\\Trainer\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\postcss.config.js",
+      "PackagePath": "staticwebassets\\Trainer\\postcss.config.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\register.html",
+      "PackagePath": "staticwebassets\\Trainer\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\src\\chart.js",
+      "PackagePath": "staticwebassets\\Trainer\\src\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\src\\graph.js",
+      "PackagePath": "staticwebassets\\Trainer\\src\\graph.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\src\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Trainer\\src\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\src\\styles.css",
+      "PackagePath": "staticwebassets\\Trainer\\src\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\tables.html",
+      "PackagePath": "staticwebassets\\Trainer\\tables.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\tailwind.config.js",
+      "PackagePath": "staticwebassets\\Trainer\\tailwind.config.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\theme.js",
+      "PackagePath": "staticwebassets\\Trainer\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\ui.html",
+      "PackagePath": "staticwebassets\\Trainer\\ui.html"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Trainer\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Trainer\\webpack.config.js",
+      "PackagePath": "staticwebassets\\Trainer\\webpack.config.js"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\TrainersImages\\01413369-a687-4d6a-9698-8e869af2c977.jpg",
       "PackagePath": "staticwebassets\\TrainersImages\\01413369-a687-4d6a-9698-8e869af2c977.jpg"
     },

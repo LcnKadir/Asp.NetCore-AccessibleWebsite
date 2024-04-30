@@ -134,6 +134,8 @@
     <None Include="wwwroot\login-form\Trainer\.git\objects\f8\7426b4391c92f16e1615ffa021f0a8b1f8e7a5" />
     <None Include="wwwroot\login-form\Trainer\.git\refs\heads\main" />
     <None Include="wwwroot\login-form\Trainer\.git\refs\remotes\origin\main" />
+    <None Include="wwwroot\Trainer\.gitattributes" />
+    <None Include="wwwroot\Trainer\.gitignore" />
     <None Include="wwwroot\Trainer\.git\COMMIT_EDITMSG" />
     <None Include="wwwroot\Trainer\.git\config" />
     <None Include="wwwroot\Trainer\.git\description" />
@@ -221,6 +223,25 @@
     <None Include="wwwroot\Trainer\.git\objects\f8\7426b4391c92f16e1615ffa021f0a8b1f8e7a5" />
     <None Include="wwwroot\Trainer\.git\refs\heads\main" />
     <None Include="wwwroot\Trainer\.git\refs\remotes\origin\main" />
+    <None Include="wwwroot\Trainer\CODE_OF_CONDUCT.md" />
+    <None Include="wwwroot\Trainer\CONTRIBUTING.md" />
+    <None Include="wwwroot\Trainer\index.js" />
+    <None Include="wwwroot\Trainer\LICENSE" />
+    <None Include="wwwroot\Trainer\main.js" />
+    <None Include="wwwroot\Trainer\postcss.config.js" />
+    <None Include="wwwroot\Trainer\README.md" />
+    <None Include="wwwroot\Trainer\src\chart.js" />
+    <None Include="wwwroot\Trainer\src\graph.js" />
+    <None Include="wwwroot\Trainer\src\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\Trainer\tailwind.config.js" />
+    <None Include="wwwroot\Trainer\theme.js" />
+    <None Include="wwwroot\Trainer\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\Trainer\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\Trainer\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\Trainer\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\Trainer\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\Trainer\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\Trainer\webpack.config.js" />
   </ItemGroup>
 
 </Project>

@@ -12,6 +12,7 @@ using RepositoryLayer.Repositories;
 using RepositoryLayer.UnitOfWorks;
 using ServiceLayer.Services;
 using System.Reflection;
+using ServiceLayer.Container;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,23 +23,9 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
 
-builder.Services.AddScoped<IAppUserRepository, AppUserRepository>();
-builder.Services.AddScoped<IAppUserService, AppUserService>();
-builder.Services.AddScoped<IBlogRepository, BlogRepository>();
-builder.Services.AddScoped<IBlogService, BlogService>();
-builder.Services.AddScoped<ICommentRepository, CommentRepository>();
-builder.Services.AddScoped<ICommentService, CommentService>();
-builder.Services.AddScoped<IClassRepository, ClassRepository>();
-builder.Services.AddScoped<IClassService, ClassService>();
-builder.Services.AddScoped<IMessageRepository, MessageRepository>();
-builder.Services.AddScoped<IMessageService, MessageService>();
-builder.Services.AddScoped<ITrainingRepository, TrainingRepository>();
-builder.Services.AddScoped<ITrainingService, TrainingService>();
-builder.Services.AddScoped<IStoryRepository, StoryRepository>();
-builder.Services.AddScoped<IStoryService, StoryService>();
 
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-builder.Services.AddScoped<ICategoryService, CategoryService>();
+//Scoped iþlemleri taþýnarak container temiz tutuldu.
+builder.Services.ContainerScoped();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
@@ -60,32 +47,6 @@ builder.Services.AddMvc(config =>
     .Build();
     config.Filters.Add(new AuthorizeFilter(policy));
 });
-
-// Startup.cs içinde ConfigureServices metodu
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("MemberAuthorize", policy =>
-    {
-        policy.RequireAuthenticatedUser(); // Yetkilendirilmiþ kullanýcý olmalý
-
-        // Diðer gereksinimler buraya eklenebilir
-        policy.RequireAssertion(context =>
-        {
-            // Yetkilendirilmiþ kullanýcýyý alýn
-            var user = context.User;
-
-            // Kullanýcýnýn TrainerId ve Branch claim'lerini alýn
-            var trainerIdClaim = user.FindFirst(c => c.Type == "TrainerId")?.Value;
-            var branchClaim = user.FindFirst(c => c.Type == "Branch")?.Value;
-
-            // TrainerId veya Branch claim'lerinden herhangi biri null deðilse, yetkilendirme baþarýsýz olur
-            return string.IsNullOrEmpty(trainerIdClaim) && string.IsNullOrEmpty(branchClaim);
-        });
-    });
-});
-
-
-
 
 
 builder.Services.ConfigureApplicationCookie(options => { //Çýkýþ yapma iþlemi gerçekleþtirilen kullanýcýnýn giriþ yapmasý istenecek.
