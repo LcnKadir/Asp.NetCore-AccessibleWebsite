@@ -49,11 +49,13 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
                 {
                     if (ap.Branch != null)
                     {
+                        //Branş null değil ise Rol atamasını "Antrenör" yapılacak.
+                        await _userManager.AddToRoleAsync(appUser, "Antrenör");
 
                         appUser.TrainerId = appUser.Id;  // Eğer Branch "null" değilse, TrainerId ataması yapılacak.
                         await _userManager.UpdateAsync(appUser);
                     }
-                    return RedirectToAction("SignIn", "Login");
+                    return RedirectToAction(nameof(ListTrainers));
                 }
                 else
                 {
@@ -72,7 +74,7 @@ namespace AccessibleWebsite.Areas.Admin.Controllers
         public async Task<IActionResult> ListTrainers()
         {
             var trainer = await _userService.GetTrainers();
-                        return View(trainer);
+            return View(trainer);
         }
 
 

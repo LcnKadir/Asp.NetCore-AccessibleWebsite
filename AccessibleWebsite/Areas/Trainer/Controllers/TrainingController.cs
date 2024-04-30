@@ -1,5 +1,6 @@
 ﻿using CoreLayer.Models;
 using CoreLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
@@ -8,6 +9,7 @@ using ServiceLayer.Services;
 namespace AccessibleWebsite.Areas.Trainer.Controllers
 {
     [Area("Trainer")]
+    [Authorize(Roles = "Antrenör")]
 
     public class TrainingController : Controller
     {

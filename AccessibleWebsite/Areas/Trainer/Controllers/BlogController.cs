@@ -10,6 +10,8 @@ using System.Reflection.Metadata;
 namespace AccessibleWebsite.Areas.Trainer.Controllers
 {
     [Area("Trainer")]
+    [Authorize(Roles = "Antrenör")]
+
     public class BlogController : Controller
     {
         private readonly IBlogService _blogService;

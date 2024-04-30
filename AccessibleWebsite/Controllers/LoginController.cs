@@ -56,9 +56,17 @@ namespace AccessibleWebsite.Controllers
                 {
                     if (ap.Branch != null)  // Eğer Branch "null" değilse, TrainerId ataması yap.
                     {
+
                         appUser.TrainerId = appUser.Id; //TrainerId ile AppUserId eşittir.
                         await _userManager.UpdateAsync(appUser);
                     }
+                    else
+                    {
+                        // Branch değeri null ise, üye rolü ataması yap
+                        await _userManager.AddToRoleAsync(appUser, "Üye");
+                    }
+
+                   
                     MimeMessage mimeMessage = new MimeMessage();
                     MailboxAddress mailboxAddressFrom = new MailboxAddress("Acesgym Admin", "projemail7@gmail.com");
                     MailboxAddress mailboxAddressTo = new MailboxAddress("User", appUser.Email);
@@ -78,7 +86,7 @@ namespace AccessibleWebsite.Controllers
                     client.Send(mimeMessage);
                     client.Disconnect(true);
 
-                    return RedirectToAction("I", "Login");
+                    return RedirectToAction("SignIn", "Login");
 
                 }
                 else

@@ -16,7 +16,7 @@
                     <div class="text-center px-3 pb-6 pt-2">
                         <h3 class="text-black text-sm font-bold font-sans">@item.Name @item.Surname</h3>
                         <p class="mt-2 font-sans font-light text-grey-700">
-                            @(item.Description.Length > 50 ? item.Description.Substring(0, 50) + "..." : item.Description)
+                            @(item.Description?.Length > 50 ? item.Description.Substring(0, 50) + "..." : item.Description)
                         </p>
                     </div>
                     <div class="flex justify-center pb-3 text-grey-dark">

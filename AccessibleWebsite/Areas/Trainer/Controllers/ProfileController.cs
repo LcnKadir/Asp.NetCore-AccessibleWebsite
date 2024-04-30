@@ -1,12 +1,15 @@
 ﻿using AccessibleWebsite.Areas.Member.Models;
 using AccessibleWebsite.Areas.Trainer.Models;
 using CoreLayer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessibleWebsite.Areas.Trainer.Controllers
 {
     [Area("Trainer")]
+    [Authorize(Roles = "Antrenör")]
+
     public class ProfileController : Controller
     {
          private readonly UserManager<AppUser> _userManager;
