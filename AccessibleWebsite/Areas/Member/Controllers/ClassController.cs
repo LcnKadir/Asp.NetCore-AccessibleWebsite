@@ -7,13 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 namespace AccessibleWebsite.Areas.Member.Controllers
 {
     [Area("Member")]
-    [Authorize]
-
+    [Authorize(Roles = "Üye")]
     public class ClassController : Controller
     {
         private readonly IClassService _classService;
         private readonly UserManager<AppUser> _userManager;
         private readonly IMessageService _messageService;
+
         public ClassController(IClassService classService, UserManager<AppUser> userManager, IMessageService messageService)
         {
             _classService = classService;

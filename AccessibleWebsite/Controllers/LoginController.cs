@@ -102,9 +102,9 @@ namespace AccessibleWebsite.Controllers
         [HttpPost]
         public async Task<IActionResult> SignIn(UserSignInViewModel user)
         {
-            // Kullanıcı "Askıya Al" rolünde ise giriş yapmasını engellenecek.
+            // Kullanıcı "Hesabı Askıya Al" rolünde ise giriş yapmasını engellenecek.
             var users = await _userManager.FindByNameAsync(user.UserName);
-            var isInRole = await _userManager.IsInRoleAsync(users, "Askıya Al");
+            var isInRole = await _userManager.IsInRoleAsync(users, "Hesabı Askıya Al");
 
             if (isInRole)
             {

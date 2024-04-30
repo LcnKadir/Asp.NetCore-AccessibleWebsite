@@ -1,3 +1,4 @@
+using Autofac.Core;
 using CoreLayer.Models;
 using CoreLayer.Repositories;
 using CoreLayer.Services;
@@ -59,6 +60,33 @@ builder.Services.AddMvc(config =>
     .Build();
     config.Filters.Add(new AuthorizeFilter(policy));
 });
+
+// Startup.cs içinde ConfigureServices metodu
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("MemberAuthorize", policy =>
+    {
+        policy.RequireAuthenticatedUser(); // Yetkilendirilmiþ kullanýcý olmalý
+
+        // Diðer gereksinimler buraya eklenebilir
+        policy.RequireAssertion(context =>
+        {
+            // Yetkilendirilmiþ kullanýcýyý alýn
+            var user = context.User;
+
+            // Kullanýcýnýn TrainerId ve Branch claim'lerini alýn
+            var trainerIdClaim = user.FindFirst(c => c.Type == "TrainerId")?.Value;
+            var branchClaim = user.FindFirst(c => c.Type == "Branch")?.Value;
+
+            // TrainerId veya Branch claim'lerinden herhangi biri null deðilse, yetkilendirme baþarýsýz olur
+            return string.IsNullOrEmpty(trainerIdClaim) && string.IsNullOrEmpty(branchClaim);
+        });
+    });
+});
+
+
+
+
 
 builder.Services.ConfigureApplicationCookie(options => { //Çýkýþ yapma iþlemi gerçekleþtirilen kullanýcýnýn giriþ yapmasý istenecek.
     options.LoginPath = "/Login/SignIn";

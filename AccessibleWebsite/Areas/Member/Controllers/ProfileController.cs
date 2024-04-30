@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AccessibleWebsite.Areas.Member.Controllers
 {
     [Area("Member")]
-    [Authorize]
+    [Authorize(Roles = "Üye")]
 
     public class ProfileController : Controller
     {  

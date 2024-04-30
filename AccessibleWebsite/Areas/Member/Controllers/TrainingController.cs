@@ -8,7 +8,7 @@ using ServiceLayer.Services;
 namespace AccessibleWebsite.Areas.Member.Controllers
 {
     [Area("Member")]
-    [Authorize]
+    [Authorize(Roles = "Üye")]
 
     public class TrainingController : Controller
     {
@@ -27,7 +27,7 @@ namespace AccessibleWebsite.Areas.Member.Controllers
         public async Task<IActionResult> Index()
         {
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            
+
             var training = await _trainingService.GetwasPickTraining(user.Id);
 
             ViewBag.Trainers = await _appUserService.GetAllAsync();
