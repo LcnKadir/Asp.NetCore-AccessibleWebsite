@@ -1,13 +1,22 @@
-﻿<section class="hero-section set-bg" data-setbg="https://sportishka.com/uploads/posts/2022-03/1648498603_35-sportishka-com-p-probezhka-v-osennem-lesu-sport-krasivie-fo-52.jpg">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="hero-text">
-                    <span>ACESGYM</span>
-                    <h1>Yeni Başlangıçlar İçin Hazır Mısınız?</h1>
-                    <p>Başarıya giden yolda size eşlik etmek için buradayız.</p>
+﻿@{
+    var isHomePage = ViewContext.HttpContext.Request.Path == "/Default/Index";
+}
+
+@* --- SectionPartial sadece ana sayfaya sabitlendi --- *@
+
+@if (isHomePage)
+{
+    <section class="hero-section set-bg" data-setbg="https://sportishka.com/uploads/posts/2022-03/1648498603_35-sportishka-com-p-probezhka-v-osennem-lesu-sport-krasivie-fo-52.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="hero-text">
+                        <span>ACESGYMM</span>
+                        <h1>Yeni Başlangıçlar İçin Hazır Mısınız?</h1>
+                        <p>Başarıya giden yolda size eşlik etmek için buradayız.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+}

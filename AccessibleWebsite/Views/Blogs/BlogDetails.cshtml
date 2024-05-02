@@ -84,15 +84,15 @@
                         </div>
                         <div class="blog-author">
                             <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="ba-pic">
+                                        <img src="/TrainersImages/@Model.AppUser.ImageUrl" alt="">
+                                    </div>
+                                </div>
                                 <div class="col-lg-9">
                                     <div class="ba-text">
                                         <h5>@Model.AppUser.Name @Model.AppUser.Surname</h5>
-                                        <p>
-                                            <span style="display: none;">@Model.AppUserId</span>
-                                        </p>
-                                        <p>
-                                            @Model.AppUser.Description
-                                        </p>
+                                        <p>@Model.AppUser.Description</p>
                                         <div class="bt-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
                                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -102,31 +102,32 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <hr />
                         <div class="blog-author">
                             <h3>Yorumlar</h3>
+                            <br />
                             @foreach (var item in Model.Comments)
                             {
-
                                 <div class="row">
                                     <div class="col-lg-3">
                                         <div class="ba-pic">
-                                            <img src="img/blog/blog-posted.jpg" alt="">
+                                            <img src="/MemberImages/@item.AppUser.ImageUrl" alt="">
                                         </div>
                                     </div>
+
                                     <div class="col-lg-9">
-                                        <div class="ba-text">
+                                        <div class="ba-text" style="margin-left: 20px;">
                                             <h5>@item.AppUser.Name @item.AppUser.Surname</h5>
                                             <h5>@(((DateTime)item.CreateDate).ToString("dd-MMM-yyyy"))</h5>
                                             <p>@item.CommentContent</p>
                                         </div>
                                     </div>
                                 </div>
-                                <hr />
                             }
+                            <hr />
                         </div>
-
                         <div class="leave-comment">
 
                             @if (User.Identity.IsAuthenticated)

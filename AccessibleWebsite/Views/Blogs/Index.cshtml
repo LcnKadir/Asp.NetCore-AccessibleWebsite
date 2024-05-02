@@ -12,24 +12,24 @@
         }
     </style>
 </head>
-
-<body>
-    <section class="breadcrumb-section set-bg" data-setbg="~/Gym/img/breadcrumb/classes-breadcrumb.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-text">
-                        <h2>Blog</h2>
-                        <div class="breadcrumb-option">
-                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
-                            <span>Blog</span>
-                        </div>
+<section class="breadcrumb-section set-bg" data-setbg="https://anthropo-logiques.org/wp-content/uploads/2020/11/banner-autheur.jpg" style="background-size: auto; background-position: center top; height: 600px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-text" style="margin-top: 160px;">
+                    <h2>Bloglar</h2>
+                    <div class="breadcrumb-option">
+                        <a href="./index.html"><i class="fa fa-home"></i>Ana Sayfa</a>
+                        <span>Bloglar</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="row">
+    </div>
+</section>
+
+<body>
+    <div class="row" style="margin-top: 70px;">
         <div class="col-lg-12">
 
             <ul class="gallery-controls">
@@ -40,8 +40,9 @@
                     <li data-filter=".category-@(category.Id)">@category.Name</li>
 
                 }
-            </ul>
+                <hr style="width: 650px; margin-top: 10px; margin-bottom: 20px; border-color: #000000;">
 
+            </ul>
         </div>
     </div>
 
@@ -71,14 +72,14 @@
             $('.gallery-controls li').on('click', function () {
                 var filter = $(this).data('filter');
                 if (filter === '') {
-                    $('.single-blog-item').show(); 
-                    $('.gallery-controls li').removeClass('active'); 
-                    $(this).addClass('active'); 
+                    $('.single-blog-item').show();
+                    $('.gallery-controls li').removeClass('active');
+                    $(this).addClass('active');
                 } else {
                     $('.single-blog-item').hide();
                     $(filter).show();
-                    $('.gallery-controls li').removeClass('active'); 
-                    $(this).addClass('active'); 
+                    $('.gallery-controls li').removeClass('active');
+                    $(this).addClass('active');
                 }
             });
         });
