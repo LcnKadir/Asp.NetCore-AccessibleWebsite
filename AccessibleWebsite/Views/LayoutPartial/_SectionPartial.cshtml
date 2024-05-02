@@ -1,5 +1,6 @@
 ﻿@{
-    var isHomePage = ViewContext.HttpContext.Request.Path == "/Default/Index";
+    var isHomePage = ViewContext.HttpContext.Request.Path == "/Default/Index";  
+    var isAccessibleHomePage = ViewContext.HttpContext.Request.Path == "/Accessible/Default/AccessibleMode";
 }
 
 @* --- SectionPartial sadece ana sayfaya sabitlendi --- *@
@@ -20,3 +21,20 @@
         </div>
     </section>
 }
+@if (isAccessibleHomePage)
+{
+    <section class="hero-section set-bg" data-setbg="https://sportishka.com/uploads/posts/2022-03/1648498603_35-sportishka-com-p-probezhka-v-osennem-lesu-sport-krasivie-fo-52.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="hero-text">
+                        <span>ACESGYMM</span>
+                        <h1>Yeni Başlangıçlar İçin Hazır Mısınız?</h1>
+                        <p>Başarıya giden yolda size eşlik etmek için buradayız.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+

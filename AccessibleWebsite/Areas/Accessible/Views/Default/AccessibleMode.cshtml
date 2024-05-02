@@ -14,7 +14,7 @@
 
 @await Html.PartialAsync("~/Views/AccessiblePartial/_AccessBannerPartial.cshtml")
 
-@await Html.PartialAsync("~/Views/AccessiblePartial/_AccessTestimonialPartial.cshtml")
+@await Component.InvokeAsync("_AccessTestimonial")
 
 @await Component.InvokeAsync("_AccessibleBlogs")
 
