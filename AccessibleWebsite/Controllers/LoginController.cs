@@ -66,7 +66,7 @@ namespace AccessibleWebsite.Controllers
                         await _userManager.AddToRoleAsync(appUser, "Üye");
                     }
 
-                   
+
                     MimeMessage mimeMessage = new MimeMessage();
                     MailboxAddress mailboxAddressFrom = new MailboxAddress("Acesgym Admin", "projemail7@gmail.com");
                     MailboxAddress mailboxAddressTo = new MailboxAddress("User", appUser.Email);
@@ -129,6 +129,11 @@ namespace AccessibleWebsite.Controllers
 
                 if (result.Succeeded)
                 {
+                    // Kullanıcı giriş yaptığında sadece bir kez erişilebilir modu için öneride bulunulacak.
+                    if (!TempData.ContainsKey("ShowAccessSweetAlert"))
+                    {
+                        TempData["ShowAccessSweetAlert"] = true;
+                    }
 
                     return RedirectToAction("Index", "Default");
                 }

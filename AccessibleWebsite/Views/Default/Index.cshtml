@@ -3,6 +3,7 @@
     Layout = "~/Views/Shared/IULayout.cshtml";
 }
 
+
 @await Html.PartialAsync("~/Views/DefaultPartial/_AboutService.cshtml")
 
 @await Html.PartialAsync("~/Views/DefaultPartial/_ServicePartial.cshtml")
@@ -18,3 +19,36 @@
 @await Component.InvokeAsync("_DefaultBlogs")
 
 @await Html.PartialAsync("~/Views/DefaultPartial/_FooterPartial.cshtml")
+
+
+@*--Erişilebilir mod için "Sweetalert" ile bir öneri görseli çıkacak.--- *@
+@if (ViewData["ShowAccessSweetAlert"] != null && (bool)ViewData["ShowAccessSweetAlert"])
+{
+    <style>
+        /* SweetAlert modal container */
+        .swal2-popup {
+            max-width: none; /* Modalın maksimum genişliğini sınırlamayın */
+        }
+
+        /* Resmin tam ekran olacak şekilde genişletilmesi */
+        .swal2-image {
+            width: 100%; /* Resmi modal genişliği kadar genişlet */
+            height: auto; /* Yüksekliği otomatik olarak ayarla */
+            max-height: calc(100vh - 150px); /* Modalın yüksekliğine göre maksimum yükseklik belirle (istenirse) */
+            object-fit: cover; /* Resmi kaplamak için object-fit kullan */
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            Swal.fire({
+                text: 'Kartı kapatmak için "Anladım" butonuna tıklaman yeterli!',
+                imageUrl: '/Gym/img/Accessiblemodphoto.png',
+                imageWidth: 650,
+                imageHeight: 450,
+                confirmButtonText: 'Anladım'
+            });
+        });
+    </script>
+}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

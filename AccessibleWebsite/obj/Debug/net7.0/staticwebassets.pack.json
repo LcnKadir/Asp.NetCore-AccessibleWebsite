@@ -1525,6 +1525,14 @@
       "PackagePath": "staticwebassets\\Gym\\gallery.html"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Gym\\img\\Accessiblemodphoto.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\Accessiblemodphoto.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Gym\\img\\Accessiblephoto.png",
+      "PackagePath": "staticwebassets\\Gym\\img\\Accessiblephoto.png"
+    },
+    {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Gym\\img\\about-pic.jpg",
       "PackagePath": "staticwebassets\\Gym\\img\\about-pic.jpg"
     },
@@ -1707,6 +1715,10 @@
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Gym\\img\\logo.png",
       "PackagePath": "staticwebassets\\Gym\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Gym\\img\\mvc.mp4",
+      "PackagePath": "staticwebassets\\Gym\\img\\mvc.mp4"
     },
     {
       "Id": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\wwwroot\\Gym\\img\\play.png",
