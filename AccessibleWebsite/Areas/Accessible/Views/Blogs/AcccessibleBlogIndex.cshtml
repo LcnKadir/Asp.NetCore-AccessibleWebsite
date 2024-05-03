@@ -1,26 +1,89 @@
 ﻿@model List<Blog>
 @{
-    ViewData["Title"] = "AcccessibleBlogIndex";
+    ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/IULayout.cshtml";
 }
 
-<body>
-    <section class="breadcrumb-section set-bg" data-setbg="~/Gym/img/breadcrumb/classes-breadcrumb.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-text">
-                        <h2>Blog</h2>
-                        <div class="breadcrumb-option">
-                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
-                            <span>Blog</span>
-                        </div>
+<head>
+    <style>
+        .single-blog-item img {
+            width: 200%;
+            height: auto; 
+            display: block;
+            max-width: 200%;
+            transition: transform 0.3s ease; 
+        }
+
+        .single-blog-item {
+            transition: transform 0.3s ease; 
+        }
+
+            .single-blog-item:hover {
+                transform: scale(1.05); /
+            }
+    </style>
+    <style>
+        .info-card {
+            background-color: #f5f5f5; 
+            border-radius: 10px; 
+            padding: 20px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            text-align: center;
+            max-width: 300px; 
+            margin: 0 auto; 
+        }
+
+        .info-text {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333; 
+        }
+    </style>
+    <style>
+        .blog-image-container {
+            position: relative;
+            overflow: hidden; 
+            border-radius: 10px; 
+        }
+
+            .blog-image-container img {
+                width: 100%; 
+                height: auto; 
+                display: block; 
+                transition: transform 0.3s ease; 
+            }
+
+        .blog-sticker {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+    </style>
+
+</head>
+<section class="breadcrumb-section set-bg" data-setbg="https://anthropo-logiques.org/wp-content/uploads/2020/11/banner-autheur.jpg" style="background-size: auto; background-position: center top; height: 600px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-text" style="margin-top: 160px;">
+                    <h2>Bloglar</h2>
+                    <div class="breadcrumb-option">
+                        <a href="./index.html"><i class="fa fa-home"></i>Ana Sayfa</a>
+                        <span>Bloglar</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="row">
+    </div>
+</section>
+
+<body>
+    <div class="row" style="margin-top: 70px;">
         <div class="col-lg-12">
 
             <ul class="gallery-controls">
@@ -31,25 +94,37 @@
                     <li data-filter=".category-@(category.Id)">@category.Name</li>
 
                 }
-            </ul>
+                <hr style="width: 650px; margin-top: 10px; margin-bottom: 20px; border-color: #000000;">
 
+            </ul>
+            <div class="card" style="width: 950px; margin: 0 auto; border-radius: 15px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);">
+                <div class="card-body text-center">
+                    <h5 class="card-title" style="font-weight: bold; font-size: 32px;">☝🏻😊</h5>
+                    <p class="card-text" style="font-size: 20px;">
+                        Sevdiğin spor türünün yazısını okumak istiyorsan, yukarıdaki isme tıklaman yeterli. Şimdiden keyifli okumalar!
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-
     <section class="blog-section spad">
         <div class="container">
             <div class="row">
-                @foreach (var item in Model)
-                {
-                    <div class="col-lg-4 col-md-6 single-blog-item category-@(item.Category.Id)">
-                        <img src="/BlogImages/@item.CoverImage" alt="">
-                        <div class="blog-widget">
-                            <div class="bw-date">@item.CreateDate</div>
-                            <a href="/Blogs/@item.CategoryId" class="tag">#@item.Category.Name</a>
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-4 col-md-6 single-blog-item category-@(item.Category.Id)">
+                            <div class="blog-image-container">
+                                <img src="/BlogImages/@item.CoverImage" alt="" width="800" />
+                                <div class="blog-sticker" style="font-size: 30px;">Okumak için tıkla</div>
+                            </div>
+                            <div class="blog-widget">
+                                <div class="bw-date" style="font-size: 19px;">@item.CreateDate</div>
+                                <a href="/Blogs/@item.CategoryId" class="tag" style="font-size: 30px;">#@item.Category.Name</a>
+                            </div>
+                            <h4><a asp-area="Accessible" asp-action="AcccessibleBlogDetails" asp-controller="Blogs" asp-route-id="@item.Id" style="font-size: 30px;">@item.LoginTitle</a></h4>
                         </div>
-                        <h4><a href="/Blogs/BlogDetails/@item.Id">@item.LoginTitle</a></h4>
-                    </div>
-                }
+                    }
+                </div>
             </div>
         </div>
     </section>
@@ -62,14 +137,14 @@
             $('.gallery-controls li').on('click', function () {
                 var filter = $(this).data('filter');
                 if (filter === '') {
-                    $('.single-blog-item').show(); // Tüm blogları göster
-                    $('.gallery-controls li').removeClass('active'); // Tüm kategori başlıklarını pasif yap
-                    $(this).addClass('active'); // Seçilen kategori başlığını aktif yap
+                    $('.single-blog-item').show();
+                    $('.gallery-controls li').removeClass('active');
+                    $(this).addClass('active');
                 } else {
                     $('.single-blog-item').hide();
                     $(filter).show();
-                    $('.gallery-controls li').removeClass('active'); // Tüm kategori başlıklarını pasif yap
-                    $(this).addClass('active'); // Seçilen kategori başlığını aktif yap
+                    $('.gallery-controls li').removeClass('active');
+                    $(this).addClass('active');
                 }
             });
         });

@@ -46,7 +46,7 @@ namespace AccessibleWebsite.Areas.Accessible.Controllers
         {
             comment.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             await _commentService.AddAsync(comment);
-            return RedirectToAction("BlogDetails", "Blogs", new { id = blogId });
+            return RedirectToAction("AcccessibleBlogDetails", "Blogs", new { id = blogId });
         }
 
     }
