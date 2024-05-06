@@ -30,7 +30,14 @@
                         {
                             <li><a href="/Blogs/Index/">Bloglar</a></li>
                         }
-                        <li><a href="/Trainers/Index/">Antrenörler</a></li>
+                        @if (user.Status == true)
+                        {
+                            <li><a asp-area="Accessible" asp-controller="Trainers" asp-action="AccessibleTrainersIndex">Antrenörler</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="/Trainers/Index/">Antrenörler</a></li>
+                        }
                         <li><a href="/About/Index/">Hakkımızda</a></li>
                         <li><a href="/Contact/Index/">İletişim</a></li>
                     </ul>
