@@ -1288,7 +1288,7 @@ ul, ol {
 /*----------------------------
   Blog Details Hero Section
 ----------------------------*/
-
+/*
 .blog-details {
 	padding-top: 50px;
 }
@@ -1345,7 +1345,7 @@ ul, ol {
 .bd-text .bd-more-text .bm-item p {
 	font-size: 17px;
 	line-height: 30px;
-}
+}*/
 .bd-text .bd-quote {
 	background: -webkit-gradient(linear, left top, right top, from(#eb3c5a), to(#f67831));
 	background: -o-linear-gradient(left, #eb3c5a, #f67831);

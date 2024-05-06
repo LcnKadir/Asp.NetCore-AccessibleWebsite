@@ -6,16 +6,36 @@
             </a>
         </div>
         <div class="nav-menu">
-            <nav class="mainmenu mobile-menu">
-                <ul>
-                    <li class="active"><a href="/Default/Index">Ana Sayfa</a></li>
-                    <li><a href="/Classes/Index/">Dersler</a></li>
-                    <li><a href="/Blogs/Index/">Bloglar</a></li>
-                    <li><a href="/Trainers/Index/">Antrenörler</a></li>
-                    <li><a href="/About/Index/">Hakkımızda</a></li>
-                    <li><a href="/Contact/Index/">İletişim</a></li>
-                </ul>
-            </nav>
+            @if (User.Identity.IsAuthenticated)
+            {
+            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                var user = await appUser.FindByNameAsync(User.Identity.Name);
+
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        @if (user.Status == true)
+                        {
+                            <li><a asp-area="Accessible" asp-controller="Default" asp-action="AccessibleMode">Ana Sayfa</a></li>
+                        }
+                        else
+                        {
+                            <li class="active"><a href="/Default/Index">Ana Sayfa</a></li>
+                        }
+                        <li><a href="/Classes/Index/">Dersler</a></li>
+                        @if (user.Status == true)
+                        {
+                            <li><a asp-area="Accessible" asp-controller="Blogs" asp-action="AcccessibleBlogIndex">Bloglar</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="/Blogs/Index/">Bloglar</a></li>
+                        }
+                        <li><a href="/Trainers/Index/">Antrenörler</a></li>
+                        <li><a href="/About/Index/">Hakkımızda</a></li>
+                        <li><a href="/Contact/Index/">İletişim</a></li>
+                    </ul>
+                </nav>
+            }
             <nav class="mainmenu mobile-menu">
                 <ul>
                     <li>

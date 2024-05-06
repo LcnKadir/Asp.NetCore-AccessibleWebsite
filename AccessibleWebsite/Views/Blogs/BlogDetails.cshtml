@@ -5,31 +5,32 @@
 }
 
 <body>
-    <section id="Blog" class="blog-details-hero set-bg" data-setbg="/BlogImages/@Model.CoverImage">
+    <section class="breadcrumb-section set-bg" data-setbg="/BlogImages/@Model.CoverImage" style="background-size: auto; background-position: center; height: 600px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="bd-hero-text">
-                        <h2><br />@Model.LoginTitle</h2>
+                    <div class="breadcrumb-text">
+                        <h2>@Model.LoginTitle</h2>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="blog-details spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="bd-text">
-                        <div class="bd-title">
-                            <p>
-                                @Model.LoginDescription
-                            </p>
-                            <p>
-                                @Model.LoginDescriptionTwo
-                            </p>
+                        <div class="bd-title" style="margin-bottom: 50px;">
+                            <!-- Aşağıdaki boşluğu azaltmak için -->
+                            <p>@Model.LoginDescription</p>
+                            <p>@Model.LoginDescriptionTwo</p>
                         </div>
-                        <div class="bd-pic">
+
+                        <div style="margin-bottom: 20px;"></div> <!-- Boşluk eklemek için -->
+
+                        <div class="bd-pic" style="margin-bottom: 20px;"> <!-- Fotoğraflar arasına boşluk eklemek için -->
                             <div class="row">
                                 <div class="col-lg-6">
                                     <img src="/BlogImages/@Model.Image" alt="">
@@ -39,34 +40,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bd-more-text">
+
+                        <div class="bd-more-text" style="margin-bottom: 20px;"> <!-- Metinler arasına boşluk eklemek için -->
                             <div class="bm-item">
                                 <h4>@Model.Title</h4>
-                                <p>
-                                    @Model.Description
-                                </p>
-                                <p>
-                                    @Model.DescriptionTwo
-                                </p>
+                                <br />
+                                <p>@Model.Description</p>
+                                <p>@Model.DescriptionTwo</p>
                             </div>
-                            <div class="bm-item">
+                            <div class="bm-item" style="margin-top: 20px;">
                                 <h4>@Model.TitleTwo</h4>
-                                <p>
-                                    @Model.DescriptionThree
-                                </p>
+                                <br />
+                                <p>@Model.DescriptionThree</p>
                             </div>
                         </div>
+
                         <div class="bd-quote">
                             <samp>"</samp>
-                            <p>
-                                “İnsanları zorluklarla karşılaşmaktan korkutan şey inanç eksikliği ve ben hep kendime inandım.”
-                            </p>
+                            <p>“İnsanları zorluklarla karşılaşmaktan korkutan şey inanç eksikliği ve ben hep kendime inandım.”</p>
                             <div class="quote-author">
                                 <h5>-Muhammed Ali</h5>
                             </div>
                         </div>
-                        <div class="bd-last-para">
-                        </div>
+
+                        <div class="bd-last-para"></div>
+
                         <div class="tag-share">
                             <div class="tags">
                                 <a href="#">Sağlık</a>
@@ -82,7 +80,8 @@
                                 <a href="#"><i class="fa fa-youtube-play"></i></a>
                             </div>
                         </div>
-                        <div class="blog-author">
+
+                        <div class="blog-author" style="margin-top: 20px;">
                             <div class="row">
                                 <div class="col-lg-3">
                                     <div class="ba-pic">
@@ -102,21 +101,22 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
+
                         <hr />
-                        <div class="blog-author">
+
+                        <div class="blog-author" style="margin-top: 20px;">
                             <h3>Yorumlar</h3>
                             <br />
+
                             @foreach (var item in Model.Comments)
                             {
-                                <div class="row">
+                                <div class="row" style="margin-bottom: 20px;">
                                     <div class="col-lg-3">
                                         <div class="ba-pic">
                                             <img src="/MemberImages/@item.AppUser.ImageUrl" alt="">
                                         </div>
                                     </div>
-
                                     <div class="col-lg-9">
                                         <div class="ba-text" style="margin-left: 20px;">
                                             <h5>@item.AppUser.Name @item.AppUser.Surname</h5>
@@ -126,70 +126,63 @@
                                     </div>
                                 </div>
                             }
+
                             <hr />
-                        </div>
-                        <div class="leave-comment">
 
-                            @if (User.Identity.IsAuthenticated)
-                            {
+                            <div class="leave-comment" style="margin-top: 20px;">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                                    var user = await appUser.FindByNameAsync(User.Identity.Name);
 
-                            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                                    <form method="post" asp-controller="Blogs" asp-action="AddComment">
+                                        <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                        <input type="hidden" name="BlogId" value="@Model.Id">
 
-                                var user = await appUser.FindByNameAsync(User.Identity.Name);
-
-
-                                <form method="post" asp-controller="Blogs" asp-action="AddComment">
-
-                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
-                                    <input type="hidden" name="BlogId" value="@Model.Id">
-
-                                    @if (user.EmailConfirmed == true)
-                                    {
-                                        @if (user.Restriction == false || user.Restriction == null)
+                                        @if (user.EmailConfirmed == true)
                                         {
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
-                                                    <button type="submit">Yorum Yap</button>
+                                            @if (user.Restriction == false || user.Restriction == null)
+                                            {
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
+                                                        <button type="submit">Yorum Yap</button>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            }
+                                            else
+                                            {
+                                                <div style="text-align: center;">
+                                                    <hr />
+                                                    <p class="text-danger">Son yaptığınız<a asp-area="Member" asp-controller="Comment" asp-action="Index"> yorumlar </a>nedeniyle hesabınıza geçici bir kısıtlama getirilmiştir.</p>
+                                                    <hr />
+                                                </div>
+                                            }
                                         }
                                         else
                                         {
                                             <div style="text-align: center;">
                                                 <hr />
-                                                <p class="text-danger">Son yaptığınız<a asp-area="Member" asp-controller="Comment" asp-action="Index"> yorumlar </a>nedeniyle hesabınıza geçici bir kısıtlama getirilmiştir.</p>
+                                                <p class="text-danger">Yorum yapabilmek için mail kodunuzu doğrulayınız... :)</p>
+                                                <p class="text-danger">Mailinizi doğrulamak için <a asp-controller="ConfirmMail" asp-action="Index">linke tıklayınız.</a></p>
                                                 <hr />
                                             </div>
                                         }
-                                    }
-                                    else
-                                    {
-                                        <div style="text-align: center;">
-                                            <hr />
-                                            <p class="text-danger">Yorum yapabilmek için mail kodunuzu doğrulayınız... :)</p>
-                                            <p class="text-danger">Mailinizi doğrulamak için  <a asp-controller="ConfirmMail" asp-action="Index">linke tıklayınız.</a></p>
-                                            <hr />
-                                            <p></p>
-                                        </div>
-
-                                    }
-
-                                </form>
-
-                            }
-                            else
-                            {
-                                <hr />
-                                <p class="text-black">Lütfen yorum yapabilmek için kayıt olunuz.</p>
-                                <hr />
-                            }
-
+                                    </form>
+                                }
+                                else
+                                {
+                                    <hr />
+                                    <p class="text-black">Lütfen yorum yapabilmek için kayıt olunuz.</p>
+                                    <hr />
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     @await Component.InvokeAsync("_LastBlogs")
 </body>

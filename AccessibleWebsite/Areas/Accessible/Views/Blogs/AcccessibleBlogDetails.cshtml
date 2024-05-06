@@ -1,39 +1,68 @@
-﻿@model Blog 
+﻿@model Blog
 @{
     ViewData["Title"] = "BlogDetails";
     Layout = "~/Views/Shared/IULayout.cshtml";
 }
+<head>
+    <style>
+        .bd-hero-text h2 {
+            font-size: 46px !important;
+        }
 
+        .bd-pic img {
+            max-width: 100% !important; 
+            height: auto !important; 
+            margin-bottom: 20px; 
+        }
+
+        .bd-title p {
+            font-size: 21.50px !important; 
+        }
+
+        .bd-more-text p {
+            font-size: 21.50px !important;
+        }
+
+        .bd-more-text h4 {
+            font-size: 30px !important;
+        }
+
+        .ba-text h5 {
+            font-size: 30px !important; 
+        }
+
+        .ba-text p {
+            font-size: 19px !important; 
+        }
+    </style>
+</head>
 
 <body>
-    <!-- Blog Details Hero Section Begin -->
-    <section id="Blog" class="blog-details-hero set-bg" data-setbg="/BlogImages/@Model.CoverImage">
+    <section class="breadcrumb-section set-bg" data-setbg="/BlogImages/@Model.CoverImage" style="background-size: auto; background-position: center; height: 600px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="bd-hero-text">
-                        <h2><br />@Model.LoginTitle</h2>
+                    <div class="breadcrumb-text">
+                        <h2>@Model.LoginTitle</h2>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Blog Details Hero Section End -->
-    <!-- Blog Details Section Begin -->
+
     <section class="blog-details spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="bd-text">
-                        <div class="bd-title">
-                            <p>
-                                @Model.LoginDescription
-                            </p>
-                            <p>
-                                @Model.LoginDescriptionTwo
-                            </p>
+                        <div class="bd-title" style="margin-bottom: 50px;">
+                            <p>@Model.LoginDescription</p>
+                            <p>@Model.LoginDescriptionTwo</p>
                         </div>
-                        <div class="bd-pic">
+
+                        <div style="margin-bottom: 20px;"></div> 
+
+                        <div class="bd-pic" style="margin-bottom: 20px;">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <img src="/BlogImages/@Model.Image" alt="">
@@ -43,34 +72,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="bd-more-text">
+
+                        <div class="bd-more-text" style="margin-bottom: 20px;">
                             <div class="bm-item">
                                 <h4>@Model.Title</h4>
-                                <p>
-                                    @Model.Description
-                                </p>
-                                <p>
-                                    @Model.DescriptionTwo
-                                </p>
+                                <br />
+                                <p>@Model.Description</p>
+                                <p>@Model.DescriptionTwo</p>
                             </div>
-                            <div class="bm-item">
+                            <div class="bm-item" style="margin-top: 20px;">
                                 <h4>@Model.TitleTwo</h4>
-                                <p>
-                                    @Model.DescriptionThree
-                                </p>
+                                <br />
+                                <p>@Model.DescriptionThree</p>
                             </div>
                         </div>
+
                         <div class="bd-quote">
                             <samp>"</samp>
-                            <p>
-                                “İnsanları zorluklarla karşılaşmaktan korkutan şey inanç eksikliği ve ben hep kendime inandım.”
-                            </p>
+                            <p>“İnsanları zorluklarla karşılaşmaktan korkutan şey inanç eksikliği ve ben hep kendime inandım.”</p>
                             <div class="quote-author">
                                 <h5>-Muhammed Ali</h5>
                             </div>
                         </div>
-                        <div class="bd-last-para">
-                        </div>
+
+                        <div class="bd-last-para"></div>
+
                         <div class="tag-share">
                             <div class="tags">
                                 <a href="#">Sağlık</a>
@@ -86,17 +112,18 @@
                                 <a href="#"><i class="fa fa-youtube-play"></i></a>
                             </div>
                         </div>
-                        <div class="blog-author">
+
+                        <div class="blog-author" style="margin-top: 20px;">
                             <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="ba-pic">
+                                        <img src="/TrainersImages/@Model.AppUser.ImageUrl" alt="">
+                                    </div>
+                                </div>
                                 <div class="col-lg-9">
                                     <div class="ba-text">
                                         <h5>@Model.AppUser.Name @Model.AppUser.Surname</h5>
-                                        <p>
-                                            <span style="display: none;">@Model.AppUserId</span>
-                                        </p>
-                                        <p>
-                                            @Model.AppUser.Description
-                                        </p>
+                                        <p>@Model.AppUser.Description</p>
                                         <div class="bt-social">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
                                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -107,67 +134,87 @@
                                 </div>
                             </div>
                         </div>
+
                         <hr />
-                        <div class="blog-author">
+
+                        <div class="blog-author" style="margin-top: 20px;">
                             <h3>Yorumlar</h3>
+                            <br />
+
                             @foreach (var item in Model.Comments)
                             {
-
-                                <div class="row">
+                                <div class="row" style="margin-bottom: 20px;">
                                     <div class="col-lg-3">
                                         <div class="ba-pic">
-                                            <img src="img/blog/blog-posted.jpg" alt="">
+                                            <img src="/MemberImages/@item.AppUser.ImageUrl" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-9">
-                                        <div class="ba-text">
+                                        <div class="ba-text" style="margin-left: 20px;">
                                             <h5>@item.AppUser.Name @item.AppUser.Surname</h5>
                                             <h5>@(((DateTime)item.CreateDate).ToString("dd-MMM-yyyy"))</h5>
                                             <p>@item.CommentContent</p>
                                         </div>
                                     </div>
                                 </div>
-                                <hr />
                             }
-                        </div>
 
-                        <div class="leave-comment">
+                            <hr />
 
-                            @if (User.Identity.IsAuthenticated)
-                            {
-
+                            <div class="leave-comment" style="margin-top: 20px;">
+                                @if (User.Identity.IsAuthenticated)
+                                {
                                 @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                                    var user = await appUser.FindByNameAsync(User.Identity.Name);
 
-                                var user = await appUser.FindByNameAsync(User.Identity.Name);
-                                @*   if (user.EmailConfirmed == true)
-                            { *@
-                                <form method="post" asp-controller="Blogs" asp-action="AddComment">
+                                    <form method="post" asp-controller="Blogs" asp-action="AddComment">
+                                        <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                        <input type="hidden" name="BlogId" value="@Model.Id">
 
-                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
-                                    <input type="hidden" name="BlogId" value="@Model.Id">
-
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
-                                            <button type="submit">Yorum Yap</button>
-                                        </div>
-                                    </div>
-                                </form>
-                                @*  }
-                            else
-                            {
-                            <p>Lütfen mail kodunuzu doğrulayınız... :)</p>
-                            } *@
-                            }
-                            else
-                            {
-                                <h3>Lütfen Yorum Yapabilmek için kayıt olunuz...:)</h3>
-                            }
+                                        @if (user.EmailConfirmed == true)
+                                        {
+                                            @if (user.Restriction == false || user.Restriction == null)
+                                            {
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <textarea name="CommentContent" placeholder="Yorumunuz..."></textarea>
+                                                        <button type="submit">Yorum Yap</button>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div style="text-align: center;">
+                                                    <hr />
+                                                    <p class="text-danger">Son yaptığınız<a asp-area="Member" asp-controller="Comment" asp-action="Index"> yorumlar </a>nedeniyle hesabınıza geçici bir kısıtlama getirilmiştir.</p>
+                                                    <hr />
+                                                </div>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <div style="text-align: center;">
+                                                <hr />
+                                                <p class="text-danger">Yorum yapabilmek için mail kodunuzu doğrulayınız... :)</p>
+                                                <p class="text-danger">Mailinizi doğrulamak için <a asp-controller="ConfirmMail" asp-action="Index">linke tıklayınız.</a></p>
+                                                <hr />
+                                            </div>
+                                        }
+                                    </form>
+                                }
+                                else
+                                {
+                                    <hr />
+                                    <p class="text-black">Lütfen yorum yapabilmek için kayıt olunuz.</p>
+                                    <hr />
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    @await Component.InvokeAsync("_LastBlogs")
+
+    @await Component.InvokeAsync("_AccessibleBlogs")
 </body>
