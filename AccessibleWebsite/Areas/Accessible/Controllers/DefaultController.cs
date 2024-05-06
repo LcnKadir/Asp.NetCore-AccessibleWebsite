@@ -19,7 +19,7 @@ namespace AccessibleWebsite.Areas.Accessible.Controllers
         {
 
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            if (user != null)
+            if (user.Status == null)
             {
                 user.Status = true; // Kullanıcının statüsünü true olarak güncellenecek ve erişilebilir sayfaya yönlendirilecek.
                 await _userManager.UpdateAsync(user);
