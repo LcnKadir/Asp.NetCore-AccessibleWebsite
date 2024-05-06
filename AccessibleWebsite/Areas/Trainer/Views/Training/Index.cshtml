@@ -42,59 +42,118 @@
                 <tbody>
                     @foreach (var item in Model)
                     {
-                        <tr>
-                            <td class="border px-4 py-2  text-center w-1/5">@item.AppUser.Name @item.AppUser.Surname</td>
-                            <td class="border px-4 py-2 text-center w-1/5">
-                                @if (!string.IsNullOrEmpty(item.Description))
-                                {
-                                    @if (item.Description.Length > 10)
+                        @if (item.AppUser.Status == false)
+                        {
+                            <tr>
+                                <td class="border px-4 py-2  text-center w-1/5">@item.AppUser.Name @item.AppUser.Surname</td>
+                                <td class="border px-4 py-2 text-center w-1/5">
+                                    @if (!string.IsNullOrEmpty(item.Description))
                                     {
-                                        @(item.Description.Substring(0, 10) + "...")
+                                        @if (item.Description.Length > 10)
+                                        {
+                                            @(item.Description.Substring(0, 10) + "...")
+                                        }
+                                        else
+                                        {
+                                            @item.Description
+                                        }
+                                    }
+                                </td>
+                                <td class="border px-4 py-2 text-center w-1/5">
+                                    @foreach (var trainer in ViewBag.Trainers)
+                                    {
+                                        @if (item.TrainerId == trainer.TrainerId)
+                                        {
+                                            <span>@trainer.Name @trainer.Surname</span>
+                                        }
+                                    }
+                                <td class="border px-4 py-2  text-center w-1/5">@item.Branch</td>
+                                <td class="border px-4 py-2 text-center w-1/7">
+                                    <a asp-area="Trainer" asp-controller="Training" asp-action="GetUsers" asp-route-id="@item.AppUserId" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
+                                        Git
+                                    </a>
+                                </td>
+                                <td class="border px-4 py-2 text-center w-1/5">
+                                        @if (item.Status == false)
+                                        {
+                                        <a asp-area="Trainer" asp-controller="Training" asp-action="SelectTrainingStatus" asp-route-id="@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                            Kabul Et
+                                        </a>
+                                        }
+                                        else
+                                        {
+                                        <a class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                            Kabul Et
+                                        </a>
+                                        }
+                                </td>
+                                    @if (item.Status == true)
+                                    {
+                                    <td class="border px-4 py-2 text-center w-1/8" style="color: green;">Aktif</td>
+
                                     }
                                     else
                                     {
-                                        @item.Description
+                                    <td class="border px-4 py-2 text-center w-1/8" style="color: red;">Pasif</td>
                                     }
-                                }
-                            </td>
-                            <td class="border px-4 py-2 text-center w-1/5">
-                                @foreach (var trainer in ViewBag.Trainers)
-                                {
-                                    @if (item.TrainerId == trainer.TrainerId)
+                            </tr>
+                        }
+                        @if (item.AppUser.Status == true)
+                        {
+                            <tr style="border: 2px solid green;">
+                                <td class="border px-4 py-2  text-center w-1/5">@item.AppUser.Name @item.AppUser.Surname</td>
+                                <td class="border px-4 py-2 text-center w-1/5">
+                                    @if (!string.IsNullOrEmpty(item.Description))
                                     {
-                                        <span>@trainer.Name @trainer.Surname</span>
+                                        @if (item.Description.Length > 10)
+                                        {
+                                            @(item.Description.Substring(0, 10) + "...")
+                                        }
+                                        else
+                                        {
+                                            @item.Description
+                                        }
                                     }
-                                }
-                            <td class="border px-4 py-2  text-center w-1/5">@item.Branch</td>
-                            <td class="border px-4 py-2 text-center w-1/7">
-                                <a asp-area="Trainer" asp-controller="Training" asp-action="GetUsers" asp-route-id="@item.AppUserId" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
-                                    Git
-                                </a>
-                            </td>
-                            <td class="border px-4 py-2 text-center w-1/5">
-                                @if (item.Status == false)
-                                {
-                                    <a asp-area="Trainer" asp-controller="Training" asp-action="SelectTrainingStatus" asp-route-id="@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
-                                        Kabul Et
+                                </td>
+                                <td class="border px-4 py-2 text-center w-1/5">
+                                    @foreach (var trainer in ViewBag.Trainers)
+                                    {
+                                        @if (item.TrainerId == trainer.TrainerId)
+                                        {
+                                            <span>@trainer.Name @trainer.Surname</span>
+                                        }
+                                    }
+                                <td class="border px-4 py-2  text-center w-1/5">@item.Branch</td>
+                                <td class="border px-4 py-2 text-center w-1/7">
+                                    <a asp-area="Trainer" asp-controller="Training" asp-action="GetUsers" asp-route-id="@item.AppUserId" class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 border border-blue-800 rounded">
+                                        Git
                                     </a>
-                                }
-                                else
-                                {
-                                    <a class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-green-800 rounded">
-                                        Kabul Et
-                                    </a>
-                                }
-                            </td>
-                            @if (item.Status == true)
-                            {
-                                <td class="border px-4 py-2 text-center w-1/8" style="color: green;">Aktif</td>
+                                </td>
+                                <td class="border px-4 py-2 text-center w-1/5">
+                                        @if (item.Status == false)
+                                        {
+                                        <a asp-area="Trainer" asp-controller="Training" asp-action="SelectTrainingStatus" asp-route-id="@item.Id" class="bg-green-500 hover:bg-green-800 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                            Kabul Et
+                                        </a>
+                                        }
+                                        else
+                                        {
+                                        <a class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-green-800 rounded">
+                                            Kabul Et
+                                        </a>
+                                        }
+                                </td>
+                                    @if (item.Status == true)
+                                    {
+                                    <td class="border px-4 py-2 text-center w-1/8" style="color: green;">Aktif</td>
 
-                            }
-                            else
-                            {
-                                <td class="border px-4 py-2 text-center w-1/8" style="color: red;">Pasif</td>
-                            }
-                        </tr>
+                                    }
+                                    else
+                                    {
+                                    <td class="border px-4 py-2 text-center w-1/8" style="color: red;">Pasif</td>
+                                    }
+                            </tr>
+                        }
                     }
                 </tbody>
             </table>
