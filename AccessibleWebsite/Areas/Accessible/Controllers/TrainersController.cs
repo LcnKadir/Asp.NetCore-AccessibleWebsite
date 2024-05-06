@@ -43,7 +43,7 @@ namespace AccessibleWebsite.Areas.Accessible.Controllers
         {
             training.CreateDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             await _trainingService.AddTrainingAsync(training);
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(AccessibleTrainersIndex));
         }
     }
 }

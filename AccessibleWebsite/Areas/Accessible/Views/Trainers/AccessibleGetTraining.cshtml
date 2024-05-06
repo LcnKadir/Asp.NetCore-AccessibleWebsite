@@ -1,0 +1,100 @@
+﻿@model AppUser
+
+@{
+    ViewData["Title"] = "AccessibleGetTraining";
+    Layout = "~/Views/Shared/IULayout.cshtml";
+}
+
+
+<section class="breadcrumb-section set-bg" data-setbg="https://www.switchboxingclub.com/wp-content/uploads/2020/12/pt_featured_01-scaled.jpg" style="background-size: cover; background-position: center ; height: 600px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    .trainer-name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+</style>
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-12 text-center" style="margin-top: 20px; margin-bottom: 20px;">
+                        <img src="/TrainersImages/@Model.ImageUrl" alt="" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 10px;">
+                        <p style="display: none;" class="trainer-name">@Model.Id</p>
+                        <p style="display: none;" class="trainer-name">@Model.TrainerId</p>
+                        <p class="trainer-name">@Model.Name @Model.Surname - @Model.Branch </p>
+                        <p class="">@Model.Description</p>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 20px;">
+                        <div class="contact-form">
+                            <form method="post" asp-area="Accessible" asp-controller="Trainers" asp-action="AccessibleAddTraining">
+
+                                @if (User.Identity.IsAuthenticated)
+                                {
+
+                                @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> appUser
+                                    var user = await appUser.FindByNameAsync(User.Identity.Name);
+
+                                    <input type="hidden" name="AppUserId" value="@appUser.GetUserId(User)">
+                                    <input type="hidden" name="TrainerId" value="@Model.TrainerId">
+                                    <input type="hidden" name="Branch" value="@Model.Branch">
+
+                                    @if (user.EmailConfirmed == true)
+                                    {
+                                        @if (user.Trainings == null)
+                                        {
+                                            <div class="col-lg-12">
+                                                <textarea name="Description" rows="4" style="width: 100%; margin-top: 10px;" placeholder="Antrenör'ün sizi daha iyi tanıması için kendinizden kısaca bahsedin..:)"></textarea>
+                                                <button class="col-lg-12 text-center" type="submit" style="margin-top: 20px; margin-bottom: 40px;">Gönder</button>
+                                            </div>
+                                        }
+
+                                        @if (user.Trainings != null)
+                                        {
+                                            <div class="section-title">
+                                                <hr />
+                                                <h7 class="text-danger">Antrenör ve branş seçimini gerçekleştirdiniz. </h7>
+                                                <br />
+                                                <br />
+                                                <h7 class="text-info">Kullanıcı panelinden antreman talep durumunu kontrol edebilirsiniz.</h7>
+                                                <hr />
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <div style="text-align: center;">
+                                            <hr />
+                                            <p class="text-danger">Antreman isteği için mail kodunuzu doğrulayınız... :)</p>
+                                            <p class="text-danger">Mailinizi doğrulamak için  <a asp-area="" asp-controller="ConfirmMail" asp-action="Index">linke tıklayınız.</a></p>
+                                            <hr />
+                                            <p></p>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <div class="section-title">
+                                        <p>Antrenör ile çalışmak için lütfen giriş yapınız.</p>
+                                    </div>
+                                }
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

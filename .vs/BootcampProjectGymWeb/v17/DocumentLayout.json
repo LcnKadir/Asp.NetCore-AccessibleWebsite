@@ -11,8 +11,24 @@
       "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\accessible\\controllers\\trainerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\accessible\\views\\trainers\\accessiblegettraining.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\accessible\\views\\trainers\\accessiblegettraining.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\accessible\\views\\blogs\\acccessibleblogindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\accessible\\views\\blogs\\acccessibleblogindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\areas\\accessible\\views\\blogs\\acccessibleblogdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\areas\\accessible\\views\\blogs\\acccessibleblogdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\views\\layoutpartial\\_headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\views\\layoutpartial\\_headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|c:\\users\\kadir\\onedrive\\belgeler\\github\\asp.netcore-bootcampproject\\accessiblewebsite\\views\\trainers\\gettraining.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD9FA3D-2D12-41E7-BC88-1EAB58597C1D}|AccessibleWebsite\\AccessibleWebsite.csproj|solutionrelative:accessiblewebsite\\views\\trainers\\gettraining.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +38,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AcccessibleBlogIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Views\\Blogs\\AcccessibleBlogIndex.cshtml",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Accessible\\Views\\Blogs\\AcccessibleBlogIndex.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Views\\Blogs\\AcccessibleBlogIndex.cshtml",
+              "RelativeToolTip": "AccessibleWebsite\\Areas\\Accessible\\Views\\Blogs\\AcccessibleBlogIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T12:09:30.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AcccessibleBlogDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Views\\Blogs\\AcccessibleBlogDetails.cshtml",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Accessible\\Views\\Blogs\\AcccessibleBlogDetails.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Views\\Blogs\\AcccessibleBlogDetails.cshtml",
+              "RelativeToolTip": "AccessibleWebsite\\Areas\\Accessible\\Views\\Blogs\\AcccessibleBlogDetails.cshtml",
+              "ViewState": "AQIAALkAAAAAAAAAAAAAANAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T12:04:19.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetTraining.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Views\\Trainers\\GetTraining.cshtml",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Views\\Trainers\\GetTraining.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Views\\Trainers\\GetTraining.cshtml",
+              "RelativeToolTip": "AccessibleWebsite\\Views\\Trainers\\GetTraining.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T11:58:54.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccessibleGetTraining.cshtml",
+              "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Views\\Trainers\\AccessibleGetTraining.cshtml",
+              "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Accessible\\Views\\Trainers\\AccessibleGetTraining.cshtml",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Views\\Trainers\\AccessibleGetTraining.cshtml",
+              "RelativeToolTip": "AccessibleWebsite\\Areas\\Accessible\\Views\\Trainers\\AccessibleGetTraining.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAE0AAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T11:58:35.74Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TrainersController.cs",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Controllers\\TrainersController.cs",
               "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Accessible\\Controllers\\TrainersController.cs",
-              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Controllers\\TrainersController.cs",
-              "RelativeToolTip": "AccessibleWebsite\\Areas\\Accessible\\Controllers\\TrainersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
+              "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Controllers\\TrainersController.cs*",
+              "RelativeToolTip": "AccessibleWebsite\\Areas\\Accessible\\Controllers\\TrainersController.cs*",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T11:19:04.335Z",
               "EditorCaption": ""
@@ -45,20 +113,20 @@
               "RelativeDocumentMoniker": "AccessibleWebsite\\Areas\\Accessible\\Views\\Trainers\\AccessibleTrainersIndex.cshtml",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Areas\\Accessible\\Views\\Trainers\\AccessibleTrainersIndex.cshtml",
               "RelativeToolTip": "AccessibleWebsite\\Areas\\Accessible\\Views\\Trainers\\AccessibleTrainersIndex.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-06T11:18:11.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_HeaderPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Views\\LayoutPartial\\_HeaderPartial.cshtml",
               "RelativeDocumentMoniker": "AccessibleWebsite\\Views\\LayoutPartial\\_HeaderPartial.cshtml",
               "ToolTip": "C:\\Users\\kadir\\OneDrive\\Belgeler\\GitHub\\Asp.NetCore-BootcampProject\\AccessibleWebsite\\Views\\LayoutPartial\\_HeaderPartial.cshtml",
               "RelativeToolTip": "AccessibleWebsite\\Views\\LayoutPartial\\_HeaderPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-06T10:58:16.563Z",
               "EditorCaption": ""
