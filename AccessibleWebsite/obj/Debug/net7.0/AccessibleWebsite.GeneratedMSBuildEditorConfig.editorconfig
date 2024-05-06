@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzaWJsZVxWaWV3c1xEZWZhdWx0XEFjY2Vzc2libGVNb2RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Areas/Accessible/Views/Trainers/AccessibleTrainersIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzaWJsZVxWaWV3c1xUcmFpbmVyc1xBY2Nlc3NpYmxlVHJhaW5lcnNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kadir/OneDrive/Belgeler/GitHub/Asp.NetCore-BootcampProject/AccessibleWebsite/Areas/Admin/Views/Category/CreateBranch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQnJhbmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

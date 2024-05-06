@@ -1,0 +1,81 @@
+﻿@model List<AppUser>
+
+@{
+    ViewData["Title"] = "AccessibleTrainersIndex";
+    Layout = "~/Views/Shared/IULayout.cshtml";
+}
+
+<section class="breadcrumb-section set-bg" data-setbg="https://www.stridefitness.com/hubfs/ER2I3265lev.jpg" style="background-size: cover; background-position: center top; height: 600px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-text" style="margin-top: -110px;">
+                    <h2>Antrenörler</h2>
+                    <div class="breadcrumb-option">
+                        <a href="./index.html"><i class="fa fa-home"></i>Ana Sayfa</a>
+                        <span>Antrenörler</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br />
+<div class="card" style="width: 950px; margin: 0 auto; border-radius: 15px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);">
+    <div class="card-body text-center">
+        <p class="card-text" style="font-size: 20px;">
+            İstediğin antrenör ile ilgilendiğin sporu çalışabilirsin. İletişime Geç'e tıklaman yeterli.
+        </p>
+        <h5 class="card-title" style="font-weight: bold; font-size: 32px;">👇🏻😊</h5>
+    </div>
+</div>
+<section class="trainer-section about-trainer spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>ANTRENÖRLER</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @if (Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="/TrainersImages/@item.ImageUrl" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center" style="color: black;">@item.Name @item.Surname</h5>
+                                <p class="card-text text-center" style="color: #e67e22;">@item.Branch</p>
+                                <p class="card-text text-center">@item.Description</p>
+                                <div class="text-center mb-2">
+                                    <div class="trainer-social" style="margin-bottom: 10px;">
+                                        <a href="#" style="color: black; margin-right: 10px;"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" style="color: black; margin-right: 10px;"><i class="fa fa-instagram"></i></a>
+                                        <a href="#" style="color: black; margin-right: 10px;"><i class="fa fa-twitter"></i></a>
+                                        <a href="#" style="color: black;"><i class="fa fa-pinterest"></i></a>
+                                    </div>
+                                    <hr>
+                                    <a href="/Trainers/GetTraining/@item.Id" class="btn btn-primary" style="background-color: #e67e22;">İletişime Geç</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-center">Henüz Antrenör Eklenmedi.</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
