@@ -23,14 +23,13 @@
                 <div class="col-lg-10 offset-lg-1">
                     <div class="bd-text">
                         <div class="bd-title" style="margin-bottom: 50px;">
-                            <!-- Aşağıdaki boşluğu azaltmak için -->
                             <p>@Model.LoginDescription</p>
                             <p>@Model.LoginDescriptionTwo</p>
                         </div>
 
-                        <div style="margin-bottom: 20px;"></div> <!-- Boşluk eklemek için -->
+                        <div style="margin-bottom: 20px;"></div> 
 
-                        <div class="bd-pic" style="margin-bottom: 20px;"> <!-- Fotoğraflar arasına boşluk eklemek için -->
+                        <div class="bd-pic" style="margin-bottom: 20px;"> 
                             <div class="row">
                                 <div class="col-lg-6">
                                     <img src="/BlogImages/@Model.Image" alt="">
@@ -41,7 +40,7 @@
                             </div>
                         </div>
 
-                        <div class="bd-more-text" style="margin-bottom: 20px;"> <!-- Metinler arasına boşluk eklemek için -->
+                        <div class="bd-more-text" style="margin-bottom: 20px;">
                             <div class="bm-item">
                                 <h4>@Model.Title</h4>
                                 <br />
@@ -125,9 +124,9 @@
                                         </div>
                                     </div>
                                 </div>
+                                <hr />
                             }
 
-                            <hr />
 
                             <div class="leave-comment" style="margin-top: 20px;">
                                 @if (User.Identity.IsAuthenticated)

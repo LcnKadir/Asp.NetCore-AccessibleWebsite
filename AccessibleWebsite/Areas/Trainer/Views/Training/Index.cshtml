@@ -42,7 +42,7 @@
                 <tbody>
                     @foreach (var item in Model)
                     {
-                        @if (item.AppUser.Status == false)
+                        @if (item.AppUser.Status == false || item.AppUser.Status == null )
                         {
                             <tr>
                                 <td class="border px-4 py-2  text-center w-1/5">@item.AppUser.Name @item.AppUser.Surname</td>
