@@ -8,7 +8,7 @@
 
 https://github.com/LcnKadir/Asp.NetCore-AccessibleWebsite/assets/144541247/6844adcd-a864-4b40-84d9-959e427ec6ce
 
->#### ->Admin, üyelerin hareket geçmişini ögrebilir. Kötü yorumda bulunan üyenin hesabına yorum kısıtlaması getirebilir.
+>#### ->Admin, üyelerin hareket geçmişini görebilir. Kötü yorumda bulunan üyenin hesabına yorum kısıtlaması getirebilir.
 
 
 
@@ -67,7 +67,7 @@ https://github.com/LcnKadir/Asp.NetCore-AccessibleWebsite/assets/144541247/2c840
 ----
 >### ERİŞİLEBİLİR MOD KULLANAN ÜYE
 
->#### ->Giriş yapan üye, site içeriğini Down sendromlu bireylerin rahat kullanabilmesi için erişilebilir moda yönlendirilir. Bu mod sayesinde site içeriği daha kısa, büyük ve anlaşılır cümlelerle özetlenmiş olur. Erişilebilir mod ile birlikte; üyenin yorum yapması, ders kaydı yapması ve antrenman talep etmesi yardımcı içeriklerle kolaylaştırır.
+>#### ->Down sendromlu bireyler erişilebilir moda yönlendirilir. Bu mod sayesinde site içeriği daha kısa, büyük ve anlaşılır cümlelerle özetlenmiş olur. Erişilebilir mod ile birlikte; üyenin yorum yapması, ders kaydı yapması ve antrenman talep etmesi yardımcı içeriklerle kolaylaştırır.
 
 https://github.com/LcnKadir/Asp.NetCore-AccessibleWebsite/assets/144541247/f112e687-882b-47cf-a322-da5d81746955
 
@@ -85,7 +85,7 @@ https://github.com/LcnKadir/Asp.NetCore-AccessibleWebsite/assets/144541247/06674
 https://github.com/LcnKadir/Asp.NetCore-AccessibleWebsite/assets/144541247/06fd2a53-0bd5-4e92-b574-04559f03b100
 
 
->#### ->İki derslik ücretsiz antrenman isteği gönderen üyenin talebi bir havuza düşmektedir. Antrenör, branşına göre kabul edilmeyen üyelerin ders isteklerini değerlendirebilir. Böylelikle üye istediği branşta ders alabilir ve antrenörün durumuna göre başka bir antrenör dersi devralabilir. *Yeşil çerçeveli üyeler, erişilebilir mod ile istek göndermiş üyeleri temsil etmektedir. Antrenör, yaklaşımını buna göre belirlemesi kolaylaşacaktır.
+>#### ->İki derslik ücretsiz antrenman isteği gönderen üyenin talebi bir havuza düşmektedir. İsteği kabul edilmeyen veya askıda kalan üyelerin ders isteklerini aynı branşa sahip başka antrenör alabilir. Böylelikle üye açıkta kalmayarak istediği branşta ders alma imkanına sahip olur. *Yeşil çerçeveli üyeler, erişilebilir mod ile istek göndermiş üyeleri temsil etmektedir. Antrenör, yaklaşımını buna göre belirlemesi kolaylaşacaktır.
 
 
 
