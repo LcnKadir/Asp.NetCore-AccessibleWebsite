@@ -18,12 +18,12 @@ namespace CoreLayer.Models
         public string Description { get; set; }
         public string DescriptionTwo { get; set; }
         public string DescriptionThree { get; set; }
-        public string Image { get; set; }
-        public string ImageTwo { get; set; }
-        public IFormFile ImageUrl { get; set; } 
-        public IFormFile ImageUrlTwo { get; set; }
+        public string? Image { get; set; }
+        public string? ImageTwo { get; set; }
+        public IFormFile? ImageUrl { get; set; } 
+        public IFormFile? ImageUrlTwo { get; set; }
         public string? CoverImage { get; set; }
-        public IFormFile CoverImageUrl { get; set; }
+        public IFormFile? CoverImageUrl { get; set; }
 
         public int? CategoryId { get; set; }
         public Category Category { get; set; }
