@@ -1,6 +1,8 @@
 # Site İçeriği
 
 >Erişilebilir Web Sitesi projesi sadece spor salonu hizmetleri sunan bir salonun web sitesi değil, aynı zamanda özel gerkesinimi olan bireylerin erişilebilirliğine de odaklanmaktadır. Bu projedeki amacım, web sitesini Down sendromlu bireyler için erişilebilir hale getirmektir.
+
+>Site içeriğini daha detaylıca incelemek isterseniz dosyayı [ buradan indirebilirsiniz.](https://github.com/LcnKadir/Asp.NetCore-AccessibleWebsite/blob/main/AccessibleWebsite/AccessibleWebsite(Kadir%20Li%C3%A7ina).docx "# Link To Word") 
 ----
 
 
