@@ -3,6 +3,17 @@
     ViewData["Title"] = "EditBlog";
     Layout = "~/Views/Shared/IULayout.cshtml";
 }
+<section class="breadcrumb-section set-bg" data-setbg="https://anthropo-logiques.org/wp-content/uploads/2020/11/banner-autheur.jpg" style="background-size: auto; background-position: center top; height: 600px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-text" style="margin-top: 60px;">
+                    <h2>Blog Düzenleme sayfası</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <div class="container">
     <div class="row justify-content-center">
@@ -94,7 +105,7 @@
                         </div>
                         <hr>
                         <div class="container">
-                            <input type="text" asp-for="AppUserId" value="@ViewBag.userId " />
+                            <input type="hidden" asp-for="AppUserId" value="@ViewBag.userId " />
                             <div class="row justify-content-center">
                                 <button class="btn btn-primary">Paylaş</button>
                             </div>

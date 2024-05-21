@@ -43,14 +43,14 @@
             {
                 @foreach (var item in Model)
                 {
-                    <div class="col mb-4">
+                    <div class="col mb-4 d-flex align-items-stretch">
                         <div class="card">
                             <img src="/TrainersImages/@item.ImageUrl" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column">
                                 <h5 class="card-title text-center" style="color: black;">@item.Name @item.Surname</h5>
                                 <p class="card-text text-center" style="color: #e67e22;">@item.Branch</p>
-                                <p class="card-text text-center">@item.Description</p>
-                                <div class="text-center mb-2">
+                                <p class="card-text text-center flex-grow-1">@item.Description</p>
+                                <div class="text-center mt-auto">
                                     <div class="trainer-social" style="margin-bottom: 10px;">
                                         <a href="#" style="color: black; margin-right: 10px;"><i class="fa fa-facebook"></i></a>
                                         <a href="#" style="color: black; margin-right: 10px;"><i class="fa fa-instagram"></i></a>
@@ -79,3 +79,25 @@
     </div>
 </section>
 
+<style>
+    .trainer-section .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .trainer-section .card-img-top {
+        object-fit: cover;
+        height: 300px;
+    }
+
+    .trainer-section .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trainer-section .card-text {
+        flex-grow: 1;
+    }
+</style>
